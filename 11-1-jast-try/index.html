@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{margin: 0;padding: 0;}
+        body{
+            -webkit-font-smoothing: antialiased;
+            font-size: 14px;
+            color: #454545;
+            background: #ffffff;
+        }
+        ul li{
+            list-style: none;
+        }
+        #head{
+            height: 30px;
+            width: 100%;
+            background: #fafafa;
+        }
+        #center{
+            width: 1200px;
+            height: 30px;
+            margin: 0 auto;
+        }
+        #head-left{
+            width: 290px;
+            height: 30px;
+            float: left;
+            /*background: #6fb5ae;*/
+        }
+        #head-right{
+            /*width: 290px;*/
+            height: 30px;
+            float: right;
+            /*background: #35aeff;*/
+        }
+        a{
+            text-decoration: none;
+            color: #454545;
+            display: inline-block;
+        }
+        #ul .li{
+            float: left;
+            list-style: none;
+            padding: 0 10px 0 10px;
+            line-height: 30px;
+            font-size: 14px;
+            position: relative;
+            z-index: 999;
+        }
+        #city{
+            width: 350px;
+            border: 1px solid #e0e0e0;
+            background: #fafafa;
+            position: absolute;
+            top: 30px;left: 0px;
+            display: none;
+        }
+        #small-city{
+            width: 93px;
+            height: 1px;
+            background: #fafafa;
+            position: absolute;
+            top: -1px;left: 0;
+        }
+
+        #city li {
+            float: left;
+            list-style: none;
+        }
+        #city a{
+            /*display: inline-block;*/
+            width: 42px;
+            height: 30px;
+            line-height: 30px;
+            padding: 4px 8px;
+        }
+        .li-toCity:hover{
+            background: #fafafa;
+            color: red;
+        }
+        .li-toCity:hover #city{
+            display: block;
+        }
+        #photo-top{
+            display: inline-block;
+            width: 100%;
+            height: 64px;
+            margin: 0 auto;
+        }
+        .head-photo{
+            height: 64px;
+        }
+        #head-right-ul .ul-li{
+            float: left;
+            padding:0 8px 0 8px;
+            position: relative;
+            z-index: 900;
+            line-height: 30px;
+
+        }
+        #head-right-ul a{
+            line-height: 30px;
+        }
+        #get-up,#set-in{
+            color:red;
+        }
+        #my-leta-ul{
+            position: absolute;
+            top:30px;
+            left: -234px;
+            width:300px;
+            background: #ffffff;
+            border:1px solid #e0e0e0;
+            padding: 5px;
+            display: none;
+        }
+
+        .leta-ul a:hover{
+            color:#d10042;
+        }
+        .leta-ul:hover{
+            background: #ffffff;
+
+            border:1px solid #e0e0e0;
+        }
+
+        .leta-ul:hover #my-leta-ul{
+            display: block;
+        }
+        #my-leta-left{
+            width: 50%;
+            float: left;
+        }
+        #my-leta-right{
+            width: 50%;
+            float: right;
+        }
+        .my-leta-ul-ul {
+            border-right: 1px solid #454545;
+           margin: 2px;
+        }
+        .my-leta-ul-ul li{
+            text-align: center;
+        }
+        .my-leta-ul-ula li{
+            text-align: center;
+        }
+        #message{
+            background: #ffffff;
+            width: 128px;
+            border: 1px solid #f1f1f1;
+            position: absolute;
+            padding: 8px 0 0 0;
+            top:30px;
+            left:8px;
+            display: none;
+        }
+
+        .li-list:hover #message{
+            display: block;
+        }
+        .li-list a:hover{
+            color:#d10042;
+        }
+        .li-list:hover{
+            background: #ffffff;
+        }
+
+        #message li{
+            text-align: center;
+            padding:4px 8px;
+        }
+        #head-fixed{
+            background: #252935;
+            height: 100%;
+            width: 35px;
+            position: fixed;
+            top: 0%;right: 0%;
+            z-index: 10000;
+        }
+        #top-center-find{
+            width: 100%;
+            background: #ffffff;
+            /*position: relative;*/
+            /*clear: both;*/
+            z-index: 900;
+        }
+        #center-auto{
+            width: 1200px;
+            height: 90px;
+            position: relative;
+            clear: both;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+        #logo{
+            float: left;
+            margin-left:20px;
+            margin-top: 22px;
+        }
+        #find-input{
+            float: left;
+        }
+        #find{
+            border: 3px solid #e22421;
+            width: 480px;
+            height: 30px;
+            position: relative;
+            margin-top: 22px;
+            margin-left: 60px;
+
+        }
+        #input{
+            width: 100%;
+            height: 30px;
+            display: inline-block;
+            float: left;
+            border: 0px;
+            outline: none;
+        }
+        #btn{
+            border: 3px solid #e22421;
+            float: right;
+            height: 30px;
+            width: 88px;
+            position: absolute;
+            left: 395px;
+            top:0;
+            background: #e22421;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        #bottomText{
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+        #bottomText a{
+            padding: 0 5px 0 0;
+        }
+        #center-right{
+            float: left;
+            margin-top: 22px;
+            font-size: 12px;
+            height: 30px;
+            color: #999;
+            margin-left: 30px;
+        }
+        .a-s{
+            margin: 0 10px 5px 0;
+        }
+        #head-bottom{
+            width: 100%;
+            height: 40px;
+            background: #024693;
+        }
+        #auto-bottom{
+            width: 1200px;
+            height: 40px;
+            margin: 0 auto;
+        }
+        .span-bg1{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background:url("image/small.png")no-repeat -5px -87px;
+        }
+        .span-bg2{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background:url("image/small.png")no-repeat -42px -87px;
+        }
+        .span-bg3{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background:url("image/small.png")no-repeat -79px -87px;
+        }
+        #all-list{
+            height: 40px;
+            background: #e22421;
+            width: 200px;
+            float: left;
+            line-height: 40px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            position: relative;
+            z-index: 800;
+        }
+        #list{
+            position: absolute;
+            top: 40px;
+            left: -1px;
+            width: 201px;
+            height: auto;
+            background: #f0f0f0;
+        }
+        #small-list1{
+            width: 24px;
+            height: 18px;
+            display: inline-block;
+            background:url("image/small.png")no-repeat -45px -60px;
+        }
+        #small-list2{
+            width: 24px;
+            height: 18px;
+            display: inline-block;
+            background:url("image/small.png")no-repeat -80px -60px;
+        }
+        #small-list3{
+            width: 24px;
+            height: 18px;
+            display: inline-block;
+            background:url("image/small.png")no-repeat -118px -60px;
+        }
+        .list-li{
+            position: relative;
+            margin-top: 20px;
+            color: #454545;
+        }
+        .list-li-ul{
+            width: 199px;
+            height: 64px;
+            padding: 19px 0 10px 0;
+        }
+        .list-ul-li{
+            float: left;
+            width: 58px;
+            padding: 5px 0 0 5px;
+            font-size: 12px;
+        }
+        #banner{
+            /*width: 800px;*/
+            height: 40px;
+
+
+        }
+        .clear:after{
+            clear: both;
+            display: block;
+            content: "";
+        }
+        #banner .li{
+            position: relative;
+            z-index: 800;
+            float: left;
+            width: 144px;
+            height: 40px;
+
+        }
+        #banner .li-a{
+            width: 100%;
+            height: 40px;
+            color: #ffffff;
+            font-size: 16px;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        #background{
+            width: 100%;
+            height: 475px;
+            background: #9ab7ff;;
+            position: relative;
+
+        }
+
+        #backgroundView {
+            width: 1200px;
+            height: 475px;
+            background: #ff695f;
+            margin: 0 auto;
+            /*position: absolute;*/
+            /*top:0;left: 0;*/
+        }
+        #content{
+            width: 1200px;
+            height: 475px;
+            /*background: #ff695f;*/
+            /*margin: 0 auto;*/
+            position: absolute;
+            top:0;left: 0;
+        }
+        #backgroundView img{
+            width: 1200px;
+            height: 475px;
+            margin: 0 auto;
+            position: absolute;
+            top:0;left: 76px;
+        }
+        /*#content{*/
+            /*position: absolute;*/
+        /*}*/
+        #num-ul{
+            position: absolute;
+            bottom:5%;left: 45%;
+            cursor:pointer;
+        }
+        #num-ul li{
+            color: #fff7f9;
+            text-align:center;
+            line-height: 30px;
+            width: 30px;
+            height: 30px;
+            background: #040404;
+            border:1px solid #040404;
+            border-radius: 50%;
+            margin-left: 20px;
+            float: left;
+        }
+        #list-right{
+            background: #ffffff;
+            width: 188px;
+            height: 475px;
+            position: absolute;
+            top: 40px;
+            left: 90px;
+            border:1px solid #cccccc;
+        }
+        #title{
+            width: 169px;
+            height: 30px;
+            line-height: 30px;
+            border-right: 1px solid #ccc;
+            padding-left: 20px;
+            float: left;
+            color: #4c4c4c;
+
+        }
+        #list-right-ul{
+            width: 190px;
+            float: left;
+            border-top: 1px solid #cccccc;
+        }
+        .right-a{
+            height: 31px;
+            width: 140px;
+            line-height: 30px;
+            margin-left: 10px;
+        }
+        .span-vip1{
+            width: 36px;
+            height: 36px;
+            display: inline-block;
+            background:url("image/small.png") no-repeat -112px -86px;
+        }
+        .span-vip2{
+            width: 36px;
+            height: 36px;
+            margin-left: 3px;
+            display: inline-block;
+            background:url("image/small.png") no-repeat -149px -86px;
+        }
+        .span-vip3{
+            width: 36px;
+            height: 36px;
+            display: inline-block;
+            background:url("image/small.png") no-repeat -187px -86px;
+        }
+        .vip-a{
+            width: 42px;
+            height: 56px;
+            margin: 8px 10px 0 10px;
+        }
+        .vip{
+            width: 42px;
+            height: 18px;
+            display: inline-block;
+            text-align: center;
+            line-height: 20px;
+        }
+        .vip-li{
+            float: left;
+            border-top: 1px solid #cccccc;
+            /*clear: both;*/
+        }
+        #shoes{
+            width: 188px;
+            height: 210px;
+            margin-top: 78px;
+            border-top:1px solid #cccccc;
+        }
+        /*#tbody{*/
+            /*width: 1200px;*/
+        /*}*/
+        #tbody{
+            width: 100%;
+        }
+        .null{
+            width: 100%;
+            height: 20px;
+        }
+        #tbody-title{
+            width: 1200px;
+            height: 36px;
+            margin: 0 auto;
+        }
+        #tilte-ul{
+            clear: both;
+        }
+        .title:after{
+            display: block;
+            clear: both;
+            content: "";
+
+        }
+        .title-li{
+            height: 36px;
+            width: 104px;
+            float: left;
+            color: #999;
+            background: #f5f5f5;
+            text-align: center;
+            line-height: 36px;
+            font-size: 18px;
+            border: 1px solid #e0e0e0;
+        }
+        #contentView{
+            width: 1200px;
+            border:1px solid #333333;
+        }
+        .content-li{
+            float: left;
+            margin-left: 28px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .tbody-title-2{
+            width: 100%;
+        }
+       .title-all{
+            width: 1200px;
+            height: 36px;
+            margin: 0 auto;
+            border-bottom: 1px solid #f88640;
+        }
+
+       #title-all-3{
+           border-bottom: 1px solid #e22421;
+       }
+        #title-all-5{
+            border-bottom: 1px solid #7dc13a;
+        }
+        #title-all-4{
+            border-bottom: 1px solid #3598dc;
+        }
+        #title-all-6{
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .small-left{
+            width: 5px;
+            height: 14px;
+            display: inline-block;
+            background: #f88640;
+
+        }
+        #small-left-3{
+            background: #e22421;
+        }
+        #small-left-6{
+            background: #e22421;
+        }
+
+        #small-left-4{
+            background: #3598dc;
+        }
+        #small-left-5{
+            background: #7dc13a;
+        }
+        .title-left{
+            font-size: 24px;
+            float:left;
+            font-weight: bold;
+        }
+        .title-p{
+            display: inline;
+            font-size: 16px;
+            color: #808080;
+        }
+        .title-right-ul{
+            float: right;
+
+        }
+        .right-li {
+            height: 36px;
+            width: 104px;
+            float: left;
+            color: #999;
+            background: #f5f5f5;
+            text-align: center;
+            line-height: 36px;
+            font-size: 18px;
+            border: 1px solid #e0e0e0;
+        }
+        .right-li-a{
+            float: left;
+            color: #333;
+            margin-left: 15px;
+            font-size: 12px;
+            font-weight: bold;
+
+
+
+        }
+
+        .title-right2-li{
+            border: 1px solid #e0e0e0;
+            border-bottom:1px solid #e22421;
+        }
+
+
+
+
+        .shoes-ul-li img{
+            width: 246px;
+            height: 267px;
+        }
+        #shoes-f{
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hot-li{
+            float: left;
+            margin:10px 0 10px 10px;
+            border: 1px solid #e0e0e0;
+        }
+        .hot-logo{
+            margin: 0 auto;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="head-fixed"></div>
+<div id="head">
+    <div id="center">
+        <div id="head-left">
+            <ul id="ul">
+                <li class="li li-toCity"><a href="#">送至：
+                    <span>上海</span></a>
+
+                    <ul id="city">
+                        <div id="small-city"></div>
+                        <li class="city-li"><a href="#" class="city-a">北京</a></li>
+                        <li class="city-li"><a href="#" class="city-a">上海</a></li>
+                        <li class="city-li"><a href="#" class="city-a">天津</a></li>
+                        <li class="city-li"><a href="#" class="city-a">河北</a></li>
+                        <li class="city-li"><a href="#" class="city-a">山西</a></li>
+                        <li class="city-li"><a href="#" class="city-a">河南</a></li>
+                        <li class="city-li"><a href="#" class="city-a">辽宁</a></li>
+                        <li class="city-li"><a href="#" class="city-a">黑龙江</a></li>
+                        <li class="city-li"><a href="#" class="city-a">内蒙古</a></li>
+                        <li class="city-li"><a href="#" class="city-a">江苏</a></li>
+                        <li class="city-li"><a href="#" class="city-a">山东</a></li>
+                        <li class="city-li"><a href="#" class="city-a">安徽</a></li>
+                        <li class="city-li"><a href="#" class="city-a">浙江</a></li>
+                        <li class="city-li"><a href="#" class="city-a">福建</a></li>
+                        <li class="city-li"><a href="#" class="city-a">湖北</a></li>
+                        <li class="city-li"><a href="#" class="city-a">湖南</a></li>
+                        <li class="city-li"><a href="#" class="city-a">广东</a></li>
+                        <li class="city-li"><a href="#" class="city-a">广西</a></li>
+                        <li class="city-li"><a href="#" class="city-a">江西</a></li>
+                        <li class="city-li"><a href="#" class="city-a">四川</a></li>
+                        <li class="city-li"><a href="#" class="city-a">海南</a></li>
+                        <li class="city-li"><a href="#" class="city-a">贵州</a></li>
+                        <li class="city-li"><a href="#" class="city-a">云南</a></li>
+                        <li class="city-li"><a href="#" class="city-a">西藏</a></li>
+                        <li class="city-li"><a href="#" class="city-a">陕西</a></li>
+                        <li class="city-li"><a href="#" class="city-a">甘肃</a></li>
+                        <li class="city-li"><a href="#" class="city-a">青海</a></li>
+                        <li class="city-li"><a href="#" class="city-a">宁夏</a></li>
+                        <li class="city-li"><a href="#" class="city-a">新疆</a></li>
+                        <li class="city-li"><a href="#" class="city-a">台湾</a></li>
+                        <li class="city-li"><a href="#" class="city-a">香港</a></li>
+                        <li class="city-li"><a href="#" class="city-a">澳门</a></li>
+                    </ul>
+
+                </li>
+                <li class="li"><span>|</span></li>
+                <li class="li"><a href="#"><span>&nbsp;收藏&nbsp;</span></a></li>
+                <li class="li"><span>|</span></li>
+                <li class="li"><a href="#"><span>关注</span></a></li>
+            </ul>
+        </div>
+        <div id="head-right">
+
+            <ul id="head-right-ul">
+                <li class="ul-li"><a href="sign-in.html" id="get-up">请登录</a></li>
+                <li class="ul-li"><span>|</span></li>
+                <li class="ul-li"><a href="#" id="set-in">免费注册</a></li>
+                <li class="ul-li"><span>|</span></li>
+                <li class="ul-li leta-ul">
+                    <a href="#" id="my-leta" style="padding: 0 2px 0 2px">我的乐淘</a>
+                    <ul id="my-leta-ul">
+                        <li id="my-leta-left">
+                            <ul class="my-leta-ul-ul">
+                                <li><a href="#">我的订单</a></li>
+                                <li><a href="#">商品评价</a></li>
+                                <li><a href="#">咨询回复</a></li>
+                                <li><a href="#">我的优惠卷</a></li>
+                            </ul>
+                        </li>
+                        <li id="my-leta-right">
+                            <ul class="my-leta-ul-ula">
+                                <li><a href="#">申请售后服务</a></li>
+                                <li><a href="#">修改密码</a></li>
+                                <li><a href="#">收货地址</a></li>
+                                <li><a href="#">鞋码转换</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="ul-li"><span>|</span></li>
+                <li class="ul-li"><a href="#">购物车</a></li>
+                <li class="ul-li"><span>|</span></li>
+                <li class="ul-li li-list"><a href="#">&nbsp;消息&nbsp;</a>
+                    <ul id="message">
+                        <li><a href="#">最新公告（<span>0</span>）</a></li>
+                        <li><a href="#">订单提醒（<span>0</span>）</a></li>
+                        <li><a href="#">评价提醒（<span>0</span>）</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</div>
+<a href="#" id="photo-top">
+    <img src="image/banner20160822.png" class="head-photo">
+</a>
+<div id="top-center-find">
+    <div id="center-auto">
+        <div id="logo">
+            <a href="#"><img src="image/Logo.png" class="logo-img"></a>
+        </div>
+
+        <div id="find-input">
+            <div id="find">
+                <input type="text" id="input" placeholder="请输入相关内容">
+                <button id="btn">搜 索</button>
+            </div>
+            <div id="bottomText">
+                <span>热门搜索：</span>
+                <a href="#">休闲鞋</a>
+                <a href="#">运动鞋</a>
+                <a href="#">商务鞋</a>
+                <a href="#">户外鞋</a>
+                <a href="#">帆布鞋</a>
+            </div>
+        </div>
+
+        <div id="center-right">
+            <a href="#" class="a-span">
+                <a class="span-bg1"></a>
+                <a class="a-s">
+                    <span>厂家直销</span><br/>
+                    <span>正品保证</span>
+                </a>
+            </a>
+            <a href="#" class="a-span">
+                <a class="span-bg2"></a>
+                <a class="a-s">
+                    <span>7天退换货</span><br/>
+                    <span>购物有保证</span>
+                </a>
+            </a>
+            <a href="#" class="a-span">
+                <a class="span-bg3"></a>
+                <a class="a-s">
+                     <span>满149包邮</span><br/>
+                    <span>闪电发货</span>
+                </a>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="head-bottom" class="clent">
+    <div id="auto-bottom" class="clear">
+        <div  id="all-list">
+            <span>所有商品分类</span>
+            <div id="list">
+                <ul >
+                    <li class="list-li">
+                        <span id="small-list1"></span>
+                        <span>女鞋</span>
+                        <ul class="list-li-ul">
+                            <li class="list-ul-li"><a href="#">单鞋</a></li>
+                            <li class="list-ul-li"><a href="#">皮鞋</a></li>
+                            <li class="list-ul-li"><a href="#">马丁鞋</a></li>
+                            <li class="list-ul-li"><a href="#">长靴</a></li>
+                            <li class="list-ul-li"><a href="#">凉拖</a></li>
+                            <li class="list-ul-li"><a href="#">凉鞋</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="list-li">
+                        <span id="small-list2"></span>
+                        <span>女鞋</span>
+                        <ul class="list-li-ul">
+                            <li class="list-ul-li"><a href="#">商务休闲</a></li>
+                            <li class="list-ul-li"><a href="#">商务正装</a></li>
+                            <li class="list-ul-li"><a href="#">休闲皮鞋</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="list-li">
+                        <span id="small-list3"></span>
+                        <span>运动休闲</span>
+                        <ul class="list-li-ul">
+                            <li class="list-ul-li"><a href="#">跑步鞋</a></li>
+                            <li class="list-ul-li"><a href="#">潮流板鞋</a></li>
+                            <li class="list-ul-li"><a href="#">户外鞋</a></li>
+                            <li class="list-ul-li"><a href="#">篮球鞋</a></li>
+                            <li class="list-ul-li"><a href="#">足球鞋</a></li>
+                            <li class="list-ul-li"><a href="#">常青款</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <ul id="banner" class="clear">
+            <li class="li"><a href="index.html" class="li-a">首页</a></li>
+            <li class="li"><a href="model.index.html" class="li-a">电商模特大赛</a></li>
+            <li class="li"><a href="#" class="li-a">女鞋</a></li>
+            <li class="li"><a href="#" class="li-a">男鞋</a></li>
+            <li class="li"><a href="#" class="li-a">运动休闲鞋</a></li>
+            <li class="li">
+                <a href="#" class="li-a">B2B分销</a>
+                <div id="list-right">
+                    <div id="title">公告</div>
+                    <ul id="list-right-ul" class="clear">
+                        <li><a href="#" class="right-a">.买多少 送多少</a></li>
+                        <li><a href="#" class="right-a">.买多少 送多少</a></li>
+                        <li><a href="#" class="right-a">.买多少 送多少</a></li>
+                        <li><a href="#" class="right-a">.买多少 送多少</a></li>
+                        <li><a href="#" class="right-a">.买多少 送多少</a></li>
+                        <li id="list-vip">
+                            <ul id="vip-ul">
+                                <li class="vip-li">
+                                    <a href="#" class="vip-a">
+                                        <span class="span-vip1"></span><br/>
+                                        <span class="vip">抽奖</span>
+                                    </a>
+                                </li>
+                                <li class="vip-li">
+                                    <a href="#" class="vip-a">
+                                        <span class="span-vip2"></span><br/>
+                                        <span class="vip">会员</span>
+                                    </a>
+                                </li>
+                                <li class="vip-li">
+                                    <a href="#" class="vip-a">
+                                        <span class="span-vip3"></span><br/>
+                                        <span class="vip">优惠卷</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li id="shoes">
+                            <a href="#">
+                                <img src="image/zyt_54.png" class="shoes-img-head"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+<div id="background">
+    <div id="backgroundView" >
+        <div id="content"></div>
+        <ul id="num-ul"></ul>
+    </div>
+</div>
+<div  id="tBody" class="clear">
+    <div class="null"></div>
+    <div id="tbody-title">
+        <ul id="tilte-ul" class="title">
+            <li class="title-li">热门推荐</li>
+            <li class="title-li">时尚百搭</li>
+            <li class="title-li">猜你喜欢</li>
+        </ul>
+        <div id="contentView" class="title">
+            <ul class="content-ul" id="content-ul-1">
+                <li class="content-li">
+                    <a href="#"><img src="image/419339805774.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/621091095289.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/830730514980.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/944245343218.jpg" class="li-img"></a>
+                </li>
+
+            </ul>
+            <ul class="content-ul" id="content-ul-2">
+                <li class="content-li">
+                    <a href="#"><img src="image/419339805774.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/621091095289.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/944245343218.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/830730514980.jpg" class="li-img"></a>
+                </li>
+
+            </ul>
+            <ul class="content-ul" id="content-ul-3">
+                <li class="content-li">
+                    <a href="#"><img src="image/419339805774.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/944245343218.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/830730514980.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/621091095289.jpg" class="li-img"></a>
+                </li>
+
+            </ul>
+            <ul class="content-ul" id="content-ul-4">
+                <li class="content-li">
+                    <a href="#"><img src="image/944245343218.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/621091095289.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/830730514980.jpg" class="li-img"></a>
+                </li>
+                <li class="content-li">
+                    <a href="#"><img src="image/944245343218.jpg" class="li-img"></a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div class="null"></div>
+        <div id="title-all-2" class="title-all">
+            <div id="title-left-2" class="title-left">
+                <s id="small-left-2" class="small-left"></s>
+                运动休闲
+                <p class="title-p"><span>|</span>sports leisure</p>
+            </div>
+            <div id="title-right-2" class="title-right">
+                <ul id="title-right-ul-2" class="title-right-ul">
+                    <li class="title-right-li right-li">高跟鞋</li>
+                    <li class="title-right-li right-li">短靴</li>
+                    <li class="title-right-li right-li">平板鞋</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="shoes-a"  class="clear">
+
+
+            <ul class="shoes-ul">
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+                <li class="shoes-li"></li>
+            </ul>
+
+
+            <ul class="shoes-ul">
+                <li class="shoes-li shoes-li-k" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+                <li class="shoes-li shoes-li-k"></li>
+            </ul>
+
+
+            <ul class="shoes-ul">
+                <li class="shoes-li shoes-li-g" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+                <li class="shoes-li shoes-li-g"></li>
+            </ul>
+        </div>
+
+
+        <div class="null"></div>
+        <div id="title-all-3" class="title-all">
+            <div id="title-left-3" class="title-left">
+                <s id="small-left-3" class="small-left"></s>
+                女鞋
+                <p class="title-p"><span>|</span>sports leisure</p>
+            </div>
+            <div id="title-right-3" class="title-right">
+                <ul id="title-right-ul-3" class="title-right-ul">
+                    <li class="title-right2-li right-li">高跟鞋</li>
+                    <li class="title-right2-li right-li">短靴</li>
+                    <li class="title-right2-li right-li">平板鞋</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="shoes-b" class="clear">
+            <ul class="shoes-ul-3">
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+                <li class="shoes-li shoes-li-p"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-3">
+                <li class="shoes-li shoes-li-d" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+                <li class="shoes-li shoes-li-d"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-3">
+                <li class="shoes-li shoes-li-f" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+                <li class="shoes-li shoes-li-f"></li>
+            </ul>
+        </div>
+
+
+
+        <div class="null"></div>
+        <div id="title-all-4" class="title-all">
+            <div id="title-left-4" class="title-left">
+                <s id="small-left-4" class="small-left"></s>
+                男鞋
+                <p class="title-p"><span>|</span>sports leisure</p>
+            </div>
+            <div id="title-right-4" class="title-right">
+                <ul id="title-right-ul-4" class="title-right-ul">
+                    <li class="title-right3-li right-li">高跟鞋</li>
+                    <li class="title-right3-li right-li">短靴</li>
+                    <li class="title-right3-li right-li">平板鞋</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="shoes-c"  class="clear">
+            <ul class="shoes-ul-4">
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+                <li class="shoes-li shoes-li-x"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-4">
+                <li class="shoes-li shoes-li-m" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+                <li class="shoes-li shoes-li-m"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-4">
+                <li class="shoes-li shoes-li-n" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+                <li class="shoes-li shoes-li-n"></li>
+            </ul>
+        </div>
+
+
+        <div class="null"></div>
+        <div id="title-all-5" class="title-all">
+            <div id="title-left-5" class="title-left">
+                <s id="small-left-5" class="small-left"></s>
+                帆布鞋
+                <p class="title-p"><span>|</span>sports leisure</p>
+            </div>
+            <div id="title-right-5" class="title-right">
+                <ul id="title-right-ul-5" class="title-right-ul">
+                    <li class="title-right4-li right-li">高跟鞋</li>
+                    <li class="title-right4-li right-li">短靴</li>
+                    <li class="title-right4-li right-li">平板鞋</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="shoes-d"  class="clear">
+            <ul class="shoes-ul-5">
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+                <li class="shoes-li shoes-li-r"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-5">
+                <li class="shoes-li shoes-li-w" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+                <li class="shoes-li shoes-li-w"></li>
+            </ul>
+
+
+            <ul class="shoes-ul-5">
+                <li class="shoes-li shoes-li-t" style="height: 269px;"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+                <li class="shoes-li shoes-li-t"></li>
+            </ul>
+        </div>
+
+
+        <div class="null"></div>
+        <div id="title-all-6" class="title-all">
+            <div id="title-left-6" class="title-left">
+                <s id="small-left-6" class="small-left"></s>
+                热门品牌
+                <p class="title-p"><span>|</span>sports leisure</p>
+            </div>
+            <div id="title-right-6" class="title-right">
+                <ul id="title-right-ul-6" class="title-right-ul">
+                    <li class="title-right5-li right-li-a">
+                        <a href="#">耐克</a>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <span>|</span>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <a href="#">阿迪</a>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <span>|</span>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <a href="#">匡威</a>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <span>|</span>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <a href="#">李宁</a>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <span>|</span>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <a href="#">更多</a>
+                    </li>
+                    <li class="title-right5-li right-li-a">
+                        <span>></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="shoes-f">
+            <ul class="hot-shoes">
+                <li class="hot-li">
+                    <a href="#">
+                        <img src="image/434957506234.jpg">
+                    </a>
+                </li>
+                <li class="hot-li">
+                    <a href="#">
+                        <img src="image/445454528810.jpg">
+                    </a>
+                </li>
+                <li class="hot-li">
+                    <a href="#">
+                        <img src="image/801074206892.jpg">
+                    </a>
+                </li>
+                <li class="hot-li">
+                    <a href="#">
+                        <img src="image/931823562032.jpg">
+                    </a>
+                </li>
+                <li class="hot-li">
+                    <a href="#">
+                        <img src="image/529959369437.jpg">
+                    </a>
+                </li>
+            </ul>
+            <ul class="hot-logo" id="hot-logo"></ul>
+        </div>
+
+    </div>
+</div>
+
+<div class="footer">
+    <div class="nulldiv"></div>
+    <div class="footer-center clear">
+        <div class="footer-ul">
+            <ul class="footer-ul1">
+                <li class="footer-li"><h3>新手帮助</h3></li>
+                <li class="footer-li"><a href="#">正品保证</a></li>
+                <li class="footer-li"><a href="#">玩转乐淘</a></li>
+                <li class="footer-li"><a href="#">常见问题</a></li>
+                <li class="footer-li"><a href="#">优惠指南</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-ul">
+            <ul class="footer-ul1">
+                <li class="footer-li"><h3>购物指南</h3></li>
+                <li class="footer-li"><a href="#">尺码选择</a></li>
+                <li class="footer-li"><a href="#">发货事件</a></li>
+                <li class="footer-li"><a href="#">配送运费</a></li>
+                <li class="footer-li"><a href="#">签收/验货</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-ul">
+
+            <ul class="footer-ul1">
+                <li class="footer-li"><h3>支付/配送</h3></li>
+                <li class="footer-li"><a href="#">货到付款</a></li>
+                <li class="footer-li"><a href="#">网上支付</a></li>
+                <li class="footer-li"><a href="#">配送时间</a></li>
+                <li class="footer-li"><a href="#">配送查询</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-ul">
+            <ul class="footer-ul1">
+                <li class="footer-li"><h3>售后服务</h3></li>
+                <li class="footer-li"><a href="#">退换货政策</a></li>
+                <li class="footer-li"><a href="#">退换货办理</a></li>
+                <li class="footer-li"><a href="#">退款说明</a></li>
+            </ul>
+        </div>
+        <div class="footer-ul">
+            <ul class="footer-ul1">
+                <li class="footer-li"><h3>会员服务</h3></li>
+                <li class="footer-li"><a href="#">建议反馈</a></li>
+                <li class="footer-li"><a href="#">CEO邮箱</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-ul2">
+            <ul class="footer-ul-ul">
+                <li class="footer-li">7*12小时电话</li>
+                <li class="phone footer-li">400-0022-188</li>
+                <li class="footer-li"><a href="#" class="btn-a">
+                    <span class="phone-small"></span>
+                    <span class="btn-text">联系乐淘</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--<div class="null"></div>-->
+</div>
+<div class="bottom">
+    <div class="bottom-center">
+        <div class="bottom-list">
+            <a href="#" class="bottom-a">了解乐淘</a><span>|</span>
+            <a href="#" class="bottom-a">联系乐淘</a><span>|</span>
+            <a href="#" class="bottom-a">媒体报道</a><span>|</span>
+            <a href="#" class="bottom-a">版权声明</a><span>|</span>
+            <a href="#" class="bottom-a">友情链接</a><span>|</span>
+            <a href="#" class="bottom-a">加入乐淘</a><span>|</span>
+            <a href="#" class="bottom-a">网站联盟</a><span>|</span>
+            <a href="#" class="bottom-a">商务合作</a><span>|</span>
+            <a href="#" class="bottom-a">分类大全</a><span>|</span>
+            <a href="#" class="bottom-a">网站联盟</a><span>|</span>
+            <a href="#" class="bottom-a">问题大全</a>
+        </div>
+        <p>Copyright  2008 - 2015 Letao Inc. 乐淘网  版权所有    买鞋子  上乐淘</p>
+    </div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
