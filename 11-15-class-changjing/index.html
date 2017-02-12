@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>招商</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate.min.js"></script>
+
+<!--<link rel="stylesheet" href="/dist/css/swiper.min.css">
+<link rel="stylesheet" href="/dist/css/animate.min.css">
+<script src="/dist/js/swiper.min.js"></script>
+<script src="/dist/js/swiper.animate.min.js"></script>-->
+
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+body{
+	font-family:"microsoft yahei";
+}
+#btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top:5px;
+    right: 5px;
+    z-index: 20;
+    /*-webkit-animation: around 3s infinite;*/
+    /*-moz-animation: around 3s infinite;*/
+    /*animation: around 3s infinite;*/
+
+}
+#btn img{
+    width: 50px;
+    height: 50px;
+}
+.swiper-container {
+  /*  width: 320px;
+    height: 480px;*/
+	width: 100%;
+    height: 100%;
+	background:#000;
+
+  
+}  
+
+.swiper-slide{
+	width:100%;
+	height:100%;
+	background:url(upload/bg.jpg) no-repeat left top;
+	background-size:100% 100%;
+
+}
+img{
+	display:block;
+}
+.swiper-pagination-bullet {
+width: 6px;
+height: 6px;
+background: #fff;
+opacity: .4;
+}
+.swiper-pagination-bullet-active {
+opacity: 1;
+}
+@-webkit-keyframes start {
+	0%,30% {opacity: 0;-webkit-transform: translate(0,10px);}
+	60% {opacity: 1;-webkit-transform: translate(0,0);}
+	100% {opacity: 0;-webkit-transform: translate(0,-8px);}
+}
+@-moz-keyframes start {
+	0%,30% {opacity: 0;-moz-transform: translate(0,10px);}
+	60% {opacity: 1;-moz-transform: translate(0,0);}
+	100% {opacity: 0;-moz-transform: translate(0,-8px);}
+}
+@keyframes start {
+	0%,30% {opacity: 0;transform: translate(0,10px);}
+	60% {opacity: 1;transform: translate(0,0);}
+	100% {opacity: 0;transform: translate(0,-8px);}
+}
+
+@-webkit-keyframes around {
+    0%{-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes around {
+    0%{-moz-transform: rotate(0deg);}
+    100% {-moz-transform: rotate(360deg);}
+}
+@keyframes around {
+    0%{transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+#div,#div1,#div3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;left:0;
+}
+.ani{
+	position:absolute;
+	}
+.txt{
+	position:absolute;
+}
+#array{
+	position:absolute;z-index:999;-webkit-animation: start 1.5s infinite ease-in-out;
+}
+.swiper-slide1 img:nth-child(1){
+    width: 100%;
+    height: 70%;
+    left:0;
+    top:5%;
+    z-index:3;
+}
+.swiper-slide1 img:nth-child(2){
+    width: 100%;
+    height: 20%;
+    left:0;
+    top:80%;
+    z-index:3
+}
+.swiper-slide1 img:nth-child(3){
+    width: 60%;
+    height: 20%;
+    left:23%;
+    top:10%;
+    z-index:3
+}
+.swiper-slide1 img:nth-child(4){
+    width: 15%;
+    height: 11%;
+    left:14%;
+    top:12%;
+    z-index:3
+}
+.swiper-slide1 img:nth-child(5){
+    width: 85%;
+    height: 26%;
+    left:8%;
+    top:37%;
+    z-index:2;
+   /*left:30px;top:175px;*/
+
+}
+.swiper-slide1 img:nth-child(6){
+    width: 100%;
+    height: 90%;
+    left:0%;
+    top:10%;
+    z-index:3;
+    /*left:30px;top:175px;*/
+
+}
+.swiper-slide1 img:nth-child(7){
+    width: 100%;
+    height: 90%;
+    left:0%;
+    top:0%;
+    z-index:1;
+}
+
+.swiper-slide2 img:nth-child(1){
+    width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+    z-index:3;
+}
+.swiper-slide2 img:nth-child(2){
+    width: 100%;
+    height: 80%;
+    left:0%;
+    top:0%;
+    opacity:0.5;
+    z-index:3;
+}
+.swiper-slide2 img:nth-child(3){
+    width: 65%;
+    height: 8%;
+    left:20%;
+    top:40%;
+    z-index:3;
+}
+.swiper-slide2 img:nth-child(4){
+     width: 65%;
+     height: 8%;
+     left:20%;
+     top:54%;
+     z-index:3;
+ }
+#div img:nth-child(1){
+      width: 100%;
+      height: 68%;
+      left:0%;
+      top:0%;
+      z-index:4;
+
+  }
+.swiper-slide3{
+    background: #02162e;
+}
+#div1 img:nth-child(1){
+    width: 100%;
+    height: 80%;
+    left:0%;
+    top:20%;
+    z-index:5;
+}
+#div1 img:nth-child(2){
+    width: 30%;
+    height: 6%;
+    left:0%;
+    top:10%;
+    z-index:5;
+}
+.resize4{
+    width: 40%;
+    height: 6%;
+    left:0%;
+    top:10%;
+    z-index:5;
+}
+.resize2{
+    width: 100%;
+    height: 68%;
+    left:0%;
+    top:34%;
+    z-index:5;
+}
+.resize1{
+     width: 70%;
+     height: 26%;
+    position: absolute;
+    opacity: 1;
+     left:0%;
+     top:70%;
+     z-index:6;
+ }
+.resize3{
+    width: 35%;
+    height: 18%;
+    left:66%;
+    top:75%;
+    z-index:5;
+}
+.resize5{
+    width: 100%;
+    height: 100%;
+    left:0%;
+    top:0%;
+    z-index:5;
+}
+.resize6{
+    width: 30%;
+    height: 60%;
+    right:0%;
+    top:40%;
+    z-index:5;
+}
+.resize7{
+    width: 30%;
+    height: 20%;
+    right:9%;
+    top:25%;
+    z-index:5;
+}
+.resize11{
+    width: 13%;
+    height: 3%;
+    left:13%;
+    top:35%;
+    z-index:5;
+}
+.resize8{
+    width: 20%;
+    height: 5%;
+    left:13%;
+    top:39%;
+    z-index:5;
+}
+.resize9{
+    width: 20%;
+    height: 5%;
+    left:13%;
+    top:45%;
+    z-index:5;
+}
+.resize10{
+    width: 20%;
+    height: 5%;
+    left:13%;
+    top:51%;
+    z-index:5;
+}
+.resize12{
+    width: 45%;
+    height: 9%;
+    left:25%;
+    top:80%;
+    z-index:5;
+}
+.swiper-slide7{
+    background: #0dffc9;
+}
+.swiper-slide8{
+    background: #caecff;
+}
+</style>
+</head>
+
+<body>
+
+<audio autoplay="autoplay" id="audio">
+    <source src="img/music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<div id="btn">
+    <img src="img/musicBtn.png">
+</div>
+
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+    <!-------------slide1----------------->
+        <section class="swiper-slide swiper-slide1">
+        <img src="img/endCloudys.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s"  >
+        <img src="img/indexBuilding.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+        <img src="img/indexTxt.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+        <img src="img/indexFlowers01.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+        <img src="img/endAvatar.png" class="ani resize" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"   >
+        <img src="img/indexElements.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s"  >
+        <img src="img/indexStars.png" class="ani resize" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="4s"  >
+
+        </section>
+     <!---------------slide2-------------->   
+        <section class="swiper-slide swiper-slide2">
+        <img src="img/wasBg.jpg" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"  >
+        <img src="img/wasStar.png" class="ani resize" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1s"  >
+        <img src="img/wasIT.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+        <img src="img/wasFarm.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"  >
+
+        </section>
+     <!----------------slide3-------------->
+        <section class="swiper-slide swiper-slide3">
+        
+        <div id="div" class="ani"  swiper-animate-effect="fadeOut" swiper-animate-duration="0.5s" swiper-animate-delay="10s" >
+            <img src="img/earlyBg.jpg" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.2s"  >
+        </div>
+        <div id="div1" class="ani"  swiper-animate-effect="fadeOut" swiper-animate-duration="0.8s" swiper-animate-delay="3s" >
+            <img src="img/earlyBuilding.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"  >
+            <img src="img/earlyTitle.png" class="ani resize" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"  >
+        </div>
+        <div id="div3" class="ani"  swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="3.1s" >
+            <img src="img/lastBusTitle.png" class="ani resize4" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"  >
+            <img src="img/lastBusStation.png" class="ani resize2" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"  >
+            <img src="img/bus.png" class="ani resize1" swiper-animate-effect="fadeOutLeft" swiper-animate-duration="0.5s" swiper-animate-delay="4s"   >
+            <img src="img/lastBusAvatar.png" class="ani resize3" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s" swiper-animate-delay="4s"   >
+        </div>
+            <img src="img/myTeamBg.jpg" class="ani resize5" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s"   >
+            <img src="img/myTeamWall.png" class="ani resize6" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="5s"   >
+            <img src="img/myTeamAvatar.png" class="ani resize7" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s"   >
+            <img src="img/myTeamTxt.png" class="ani resize11" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5s"   >
+            <img src="img/myTeamTxt01.png" class="ani resize8" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="6s"   >
+            <img src="img/myTeamTxt02.png" class="ani resize9" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="7s"   >
+            <img src="img/myTeamTxt03.png" class="ani resize10" swiper-animate-effect="fadeIn" swiper-animate-duration="0.6s" swiper-animate-delay="8s"   >
+            <img src="img/myteamWhereTxt.png" class="ani resize12" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="9s"   >
+        </section>
+        <!-------------slide4----------------->
+        <section class="swiper-slide swiper-slide4">
+        <img id="background" src="img/lightOffBg.jpg" class="ani" style="width:100%;height:100%;left:0;top:0;z-index:2;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="wall" src="img/cornerWall.png" class="ani" style="width:25%;height:92%;right:0;top:8%;z-index:2;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="text" src="img/cornerTitle.png" class="ani" style="width:50%;height:8%;right:0;top:8%;z-index:2;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="light" src="img/lightOff.png" class="ani" style="width:25%;height:90%;left:7%;top:10%;z-index:3;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="clickGuide" src="img/clickGuide.png" class="ani" style="width:53%;height:3%;left:24%;top:23%;z-index:2;" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="clickText" src="img/weKnowYou.png" class="ani" style="width:60%;height:11%;left:20%;top:30%;z-index:3;display:none" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0s"   >
+        <img id="lightOnBg" src="img/lightOnBg.jpg" class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2; display:none" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+        <img id="flower" src="img/lightFlowers.png" class="ani" style="width:20%;height:15%;left:70%;top:88%;z-index:3;display: none" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+
+        </section>
+        <section class="swiper-slide swiper-slide5">
+            <img src="img/aboutBg.jpg" class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"   >
+            <img src="img/footCity.jpg" class="ani" style="width:100%;height:30%;opacity:0.6;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s"   >
+            <img src="img/footAvatar.png" class="ani" style="width:58%;height:25%;left:30%;top:22%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1s"   >
+            <div class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeOutRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"   >
+                <img src="img/footTa.png" class="ani" style="width:80%;height:20%;left:10%;top:50%;z-index:2;" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s"   >
+            </div>
+            <img src="img/footTx.png" class="ani" style="width:60%;height:12%;left:26%;top:57%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+        </section>
+
+        <section class="swiper-slide swiper-slide6">
+            <img src="img/runBg.jpg" class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"   >
+            <img src="img/runAvatar.png" class="ani" style="width:35%;height:30%;left:5%;top:15%;z-index:2;" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+            <div class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeOutRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"   >
+                <img src="img/runTa.png" class="ani" style="width:80%;height:20%;left:6%;top:50%;z-index:2;" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s"   >
+            </div>
+            <img src="img/runTxt.png" class="ani" style="width:60%;height:12%;left:20%;top:57%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+        </section>
+        <section class="swiper-slide swiper-slide7">
+            <img src="img/salaryBg.png" class="ani" style="width:85%;height:50%;left:13%;top:3%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"   >
+            <img src="img/salaryAvatar.png" class="ani" style="width:40%;height:35%;left:29%;top:4%;z-index:2;" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+            <div class="ani" style="width:100%;height:100%;left:0%;top:0%;z-index:2;" swiper-animate-effect="fadeOutRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"   >
+                <img src="img/salaryTa.png" class="ani" style="width:80%;height:20%;left:6%;top:50%;z-index:2;" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.5s"   >
+            </div>
+            <img src="img/salaryTxt.png" class="ani" style="width:60%;height:12%;left:20%;top:57%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+        </section>
+
+        <section class="swiper-slide swiper-slide8">
+            <img src="img/introCloudy.png" class="ani" style="width:100%;height:62%;left:0%;top:12%;z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"   >
+            <img src="img/introFlowers.png" class="ani" style="width:20%;height:12%;left:5%;top:6%;z-index:1;" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+            <div class="ani" style="width:90%;height:70%;background:#ff5039;border-radius:3%;color:#FFFFFF;left:5%;top:14%;z-index:2;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s"   >
+                    <div style="width: 100%;height: 13%"></div>
+                   <p style="text-indent: 2em">招商银行，是中国第一家完全由企业法人持股的股份制商业银行，简称招行，
+                成于1987年4月8日，由香港招商局集团有限公司创办，是中国内地规模第六大的银行、
+                香港中资金融股的八行五保之一。</p><p style="text-indent: 2em">总行设在深圳市福田区，2002年4月9日，
+                招商银行A股在上海证券交易所挂牌上市。2006年9月8日，招商银行开始在香港公开招股，
+                发行约22亿股H股，集资200亿港元，并在9月22日于港交所上市。资本净额超过2900亿、
+                资产总额超过4.4万亿。</p>
+
+            </div>
+            <img src="img/introLogo.png" class="ani" style="width:54%;height:8%;left:24%;top:10%;z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"   >
+            <img src="img/introStar.png" class="ani" style="width:13%;height:8%;left:60%;top:70%;z-index:3;" swiper-animate-effect="flash" swiper-animate-duration="1s" swiper-animate-delay="0.5s"   >
+            <img src="img/introAvatar.png" class="ani" style="width:33%;height:25%;left:66%;top:70%;z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0s"   >
+        </section>
+
+        <section class="swiper-slide swiper-slide9">
+            <img src="img/endCloudys.png" class="ani " style="width: 100%;height: 70%;left:0;top:15%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s"  >
+            <img src="img/endLogo.png" class="ani " style="width: 60%;height: 6%;left:23%;top:10%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+            <img src="img/endTxt.png" class="ani " style="width: 60%;height: 10%;left:23%;top:20%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+            <img src="img/endMail.png" class="ani " style="width: 60%;height: 4%;left:23%;top:34%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+            <img src="img/endClickGuide.png" class="ani " style="width: 40%;height: 3%;left:30%;top:45%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.5s"  >
+            <img src="img/endAvatar.png" class="ani " style="width: 60%;height: 20%;left:20%;top:55%; z-index:3;" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"   >
+            <img src="img/endBottomTxt.png" class="ani " style="width: 50%;height: 4%;left:25%;top:95%; z-index:3;" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"   >
+            <img src="img/endBg.png" class="ani" style="width: 100%;height: 100%;left:0;top:0%; z-index:3;" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="2.5s"  >
+
+        </section>
+
+
+    </div>
+    
+   <img src="images/arrow.png" style="width:20px;height:15px; top:460px; left:150px;" id="array" class="resize"> 
+  <div class="swiper-pagination"></div>  
+</div>
+
+
+<script>  
+
+scaleW=window.innerWidth/320;
+scaleH=window.innerHeight/480;
+var resizes = document.querySelectorAll('.resize');
+          for (var j=0; j<resizes.length; j++) {
+           resizes[j].style.width=parseInt(resizes[j].style.width)*scaleW+'px';
+		   resizes[j].style.height=parseInt(resizes[j].style.height)*scaleH+'px';
+		   resizes[j].style.top=parseInt(resizes[j].style.top)*scaleH+'px';
+		   resizes[j].style.left=parseInt(resizes[j].style.left)*scaleW+'px'; 
+          }
+		  
+  var mySwiper = new Swiper ('.swiper-container', {
+   direction : 'vertical',
+   pagination: '.swiper-pagination',
+  //virtualTranslate : true,
+   mousewheelControl : true,
+   onInit: function(swiper){
+   swiperAnimateCache(swiper);
+   swiperAnimate(swiper);
+	  },
+   onSlideChangeEnd: function(swiper){
+	swiperAnimate(swiper);
+    },
+	onTransitionEnd: function(swiper){
+	swiperAnimate(swiper);
+    },
+	
+	
+	watchSlidesProgress: true,
+
+      onProgress: function(swiper){
+        for (var i = 0; i < swiper.slides.length; i++){
+          var slide = swiper.slides[i];
+          var progress = slide.progress;
+          var translate = progress*swiper.height/4;  
+		  scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+          var opacity = 1 - Math.min(Math.abs(progress/2),0.5);
+          slide.style.opacity = opacity;
+		  es = slide.style;
+		  es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,'+translate+'px,-'+translate+'px) scaleY(' + scale + ')';
+
+        }
+      },
+	
+	   onSetTransition: function(swiper, speed) {
+        for (var i = 0; i < swiper.slides.length; i++){
+          es = swiper.slides[i].style;
+		  es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+        }
+      },
+
+	   });
+    var audio=document.getElementById("audio");
+    var btn=document.getElementById("btn");
+    var btnImg=btn.getElementsByTagName("img")[0];
+
+    btn.onclick=function(){
+
+        if(audio.paused){
+            btn.style.webkitAnimation="around 3s infinite";
+            btnImg.src="img/musicBtn.png";
+            audio.play();
+
+
+        }else {
+            btnImg.src="img/musicBtnOff.png";
+            audio.pause();
+            btn.style.webkitAnimation="";
+            btn.style.mozAnimation="";
+            btn.style.animation="";
+        }
+    }
+
+    var background=document.getElementById("background");
+    var wall=document.getElementById("wall");
+    var light=document.getElementById("light");
+    var clickGuide=document.getElementById("clickGuide");
+    var lightOnBg=document.getElementById("lightOnBg");
+    var flower=document.getElementById("flower");
+    var clickText=document.getElementById("clickText");
+
+    light.onclick=function(){
+        this.src="img/lightOn.png";
+        wall.style.display="none";
+        background.style.display="none";
+        clickGuide.style.display="none";
+        lightOnBg.style.display="block";
+        flower.style.display="block";
+        clickText.style.display="block";
+    }
+
+
+  </script>
+</body>
+</html>
