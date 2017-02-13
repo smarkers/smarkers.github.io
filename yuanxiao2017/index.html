@@ -8,40 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<script>
-    window.onload=function () {
-       /* var hi=document.documentElement.clientHeight||document.body.clientHeight;
-        var oDiv=document.getElementById("main-img");
-        oDiv.style.height=hi+"px";*/
-
-
-        var hi=document.documentElement.clientHeight||document.body.clientHeight;
-        var wi=document.documentElement.clientWidth||document.body.clientWidth;
-        var oDiv=document.getElementById("main-img");
-        oDiv.style.height=hi+"px";
-        var miDiv = document.getElementById('img-center');
-        miDiv.style.height = (wi*0.86*360/600)+'px';
-        console.log(wi);
-
-
-
-        var input=document.getElementById("inputView");
-        var inputText=document.getElementById("input-text");
-        input.onfocus=function () {
-            inputText.style.display="none";
-        };
-        var button=document.getElementById("button-text");
-        var inputButton=document.getElementById("input-button");
-        function touchstar() {
-            alert("答案是"+input.value);
-            input.value=" ";
-        }
-        button.addEventListener("click",touchstar);
-        inputButton.addEventListener("click",touchstar);
-
-    };
-
-</script>
+<script src="main.js"></script>
 <!--主界面-->
 <div id="main-img">
     <div id="img-center">
@@ -51,7 +18,7 @@
         <div class="img-text-b"></div>
     </div>
     <div id="input-img">
-        <input type="text" class="input" id="inputView">
+        <input type="text" class="input" id="inputView" required="required">
     </div>
     <div id="input-text"></div>
     <div id="input-button"></div>
@@ -70,15 +37,10 @@
     <div id="text-buttom-b"></div>
     <div class="bottom-left"></div>
     <div class="bottom-right"></div>
+    <div class="answer" id="button-answer">
+        <div class="button-answer" id="answers">确定</div>
+    </div>
 </div>
-
-
-
-
-
-
-
-
 <!--主界面-->
 </body>
 </html>

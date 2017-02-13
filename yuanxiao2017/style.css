@@ -53,7 +53,7 @@ body{
  }*/
 .img-text-b{
     width: 90%;
-    height: 85%;
+    height: 83%;
     background: url(image/text_a.png) no-repeat -20px -14px;
     /* -webkit-background-size: cover; */
     /* background-size: cover; */
@@ -99,7 +99,7 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
-    bottom: 21%;
+    bottom: 20%;
     left: -2%;
 }
 .fire-flower-h{
@@ -109,12 +109,12 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
-    bottom: 26%;
+    bottom: 24%;
     left: 63%;
 }
 #input-img{
     width: 60%;
-    height: 6%;
+    height: 5%;
     background: url(image/input_img.png) repeat-y 0 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -133,19 +133,18 @@ body{
     bottom: 20%;
 }
 .input{
-    /* margin-left: -27%; */
     width: 84%;
-    height: 71%;
+    height: 86%;
     position: absolute;
     left: 8%;
-    bottom: 28%;
+    bottom: 14%;
     border: 0;
     outline: 0;
 }
 #input-button{
     background: url(image/button_button.png) repeat-y 0 0;
     width: 60%;
-    height: 6%;
+    height: 5%;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -160,7 +159,7 @@ body{
     background-size: cover;
     position: absolute;
     left: 37%;
-    bottom: 14%;
+    bottom: 13%;
 }
 .star{
     width: 30%;
@@ -200,7 +199,7 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
-    bottom: 10%;
+    bottom: 9%;
     left: 31%;
 
 }
@@ -211,7 +210,7 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
-    bottom: 10%;
+    bottom: 9%;
     right: 31%;
 }
 #text-buttom-a{
@@ -278,3 +277,29 @@ body{
     top: 55%;
     z-index: 99;
 }
+.answer{
+    width: 70%;
+    height: 24%;
+    display: none;
+    border: 1px solid #5eebff;
+    border-radius: 10%;
+    background-color: #ebff81;
+    position: absolute;
+    top: 44%;
+    left: 15%;
+    z-index: 999;
+}
+.button-answer{
+    width: 24%;
+    height: 14%;
+    border: 1px solid #000000;
+    border-radius: 16%;
+    color: #5eebff;
+    text-align: center;
+    line-height: inherit;
+    position: absolute;
+    top: 79%;
+    left: 38%;
+
+}
+
