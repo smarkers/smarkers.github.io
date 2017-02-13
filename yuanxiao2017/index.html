@@ -13,6 +13,19 @@
         var hi=document.documentElement.clientHeight||document.body.clientHeight;
         var oDiv=document.getElementById("main-img");
         oDiv.style.height=hi+"px";
+        var input=document.getElementById("inputView");
+        var inputText=document.getElementById("input-text");
+        input.onfocus=function () {
+            inputText.style.display="none";
+        };
+        var button=document.getElementById("button-text");
+        var inputButton=document.getElementById("input-button");
+        function touchstar() {
+            alert("答案是"+input.value);
+            input.value=" ";
+        }
+        button.addEventListener("click",touchstar);
+        inputButton.addEventListener("click",touchstar);
 
     };
 
@@ -26,11 +39,11 @@
         <div class="img-text-b"></div>
     </div>
     <div id="input-img">
-        <input type="text" class="input">
+        <input type="text" class="input" id="inputView">
     </div>
     <div id="input-text"></div>
     <div id="input-button"></div>
-    <div class="button-text"></div>
+    <div class="button-text" id="button-text"></div>
     <div class="fire-flower"></div>
     <div class="fire-flower-r"></div>
     <div class="fire-flower-d"></div>

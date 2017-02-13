@@ -221,7 +221,7 @@ body{
     background: url(image/bottom_a.png) no-repeat;
     /* -webkit-background-size: cover; */
     background-size: cover;
-    bottom: 2%;
+    bottom: 4%;
     left: 23%;
 }
 #text-buttom-b{
@@ -231,7 +231,7 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
-    bottom: 2%;
+    bottom: 4%;
     right: 23%;
 }
 .bottom-left{
