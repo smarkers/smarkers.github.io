@@ -2,7 +2,7 @@
 *{padding: 0;margin: 0}
 #main-img{
     width: 100%;
-    background:url("image/主界面_0000_闹元宵-拷贝.png") no-repeat;
+    background:url("image/body_001.png") no-repeat;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -18,7 +18,7 @@ body{
 #img-center{
     width: 86%;
     height: 28%;
-    background: url(image/主界面_0000s_0000s_0006_边框.png);
+    background: url(image/blond_center.png);
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -29,7 +29,7 @@ body{
 .img-text{
     width: 88%;
     height: 86%;
-    background: url(image/主界面_0000s_0000s_0005_矩形-1.png);
+    background: url(image/juxing_center.png);
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
@@ -215,14 +215,14 @@ body{
     right: 31%;
 }
 #text-buttom-a{
-    width: 13%;
+    width: 10%;
     height: 2%;
     position: absolute;
     background: url(image/bottom_a.png) no-repeat;
     /* -webkit-background-size: cover; */
     background-size: cover;
     bottom: 2%;
-    left: 21%;
+    left: 23%;
 }
 #text-buttom-b{
     width: 39%;
