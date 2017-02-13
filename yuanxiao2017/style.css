@@ -268,8 +268,8 @@ body{
     z-index: 99;
 }
 .text-img-b{
-    width: 44%;
-    height: 60%;
+    width: 43%;
+    height: 30%;
     background: url(image/text_id.png) no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
