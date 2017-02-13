@@ -10,9 +10,21 @@
 <body>
 <script>
     window.onload=function () {
+       /* var hi=document.documentElement.clientHeight||document.body.clientHeight;
+        var oDiv=document.getElementById("main-img");
+        oDiv.style.height=hi+"px";*/
+
+
         var hi=document.documentElement.clientHeight||document.body.clientHeight;
+        var wi=document.documentElement.clientWidth||document.body.clientWidth;
         var oDiv=document.getElementById("main-img");
         oDiv.style.height=hi+"px";
+        var miDiv = document.getElementById('img-center');
+        miDiv.style.height = (wi*0.86*360/600)+'px';
+        console.log(wi);
+
+
+
         var input=document.getElementById("inputView");
         var inputText=document.getElementById("input-text");
         input.onfocus=function () {
