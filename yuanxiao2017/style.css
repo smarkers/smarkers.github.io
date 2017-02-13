@@ -114,13 +114,13 @@ body{
 }
 #input-img{
     width: 60%;
-    height: 5%;
+    height: 6%;
     background: url(image/input_img.png) repeat-y 0 0;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
     left: 20%;
-    bottom: 19%;
+    bottom: 18%;
 }
 #input-text{
     width: 29%;
@@ -130,7 +130,7 @@ body{
     background-size: cover;
     position: absolute;
     left: 35%;
-    bottom: 20%;
+    bottom: 19%;
 }
 .input{
     width: 84%;
@@ -144,12 +144,12 @@ body{
 #input-button{
     background: url(image/button_button.png) repeat-y 0 0;
     width: 60%;
-    height: 5%;
+    height: 6%;
     -webkit-background-size: cover;
     background-size: cover;
     position: absolute;
     left: 20%;
-    bottom: 13%;
+    bottom: 12%;
 }
 .button-text{
     background: url(image/button_text.png) repeat-y 0 0;

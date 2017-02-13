@@ -18,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
+            <state relative-caret-position="345">
+              <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
               <folding>
                 <element signature="e#713#949#0" expanded="false" />
               </folding>
@@ -115,9 +115,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -256,15 +256,15 @@
       <updated>1486871985140</updated>
       <workItem from="1486871986768" duration="33674000" />
       <workItem from="1486950603819" duration="16705000" />
-      <workItem from="1486970927747" duration="9255000" />
+      <workItem from="1486970927747" duration="9778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59634000" />
+    <option name="totallyTimeSpent" value="60157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1369" height="744" extended-state="1" />
+    <frame x="-8" y="0" width="1369" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25093913" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -462,16 +462,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
-          <folding>
-            <element signature="e#713#949#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1947">
@@ -487,6 +477,16 @@
         <state relative-caret-position="330">
           <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="132" column="16" lean-forward="true" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+          <folding>
+            <element signature="e#713#949#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
