@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>滑稽</title>
+		<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.a,.b,.c,.d{
+			width: 200px;
+			height: 200px;
+			float:left;
+			
+		}
+		.boox{
+			width: 800px;
+			height: 200px;
+			/*margin: 0 auto;
+			overflow: hidden;*/
+			/*margin-left: -600px;*/
+			/*动画，重复,反复*/
+			animation:goto 5s infinite alternate;
+		}
+		@keyframes goto{
+			0%{margin-left: 0;}
+			20%{margin-left: 0;}
+			
+			25%{margin-left:-200px;}
+			45%{margin-left:-200px;}
+			
+			50%{margin-left:-400px;}
+			70%{margin-left:-400px;}
+			
+			75%{margin-left:-600px;}
+			100%{margin-left:-600px;}
+		}
+		.aa{
+				font-weight: bold;
+				/*transform-origin:center;*/
+				animation: aa 1s infinite linear;
+				
+				
+			}
+			 @keyframes aa{
+			 	from{transform: rotate(0deg);}
+			 	to{transform: rotate(-360deg);}
+			 }
+		.box{
+			width: 200px;
+			height: 200px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+			.a{
+				/*background: pink;*/
+				/*margin-left: -200px;*/
+			}
+			.b{
+				/*background: blue;*/
+				/*margin-left: -200px;*/
+			}
+			.c{
+				/*background: yellow;*/
+				/*margin-left: -200px;*/
+			}
+			.d{
+
+				/*background: red;*/
+				/*margin-left: -200px;*/
+				/*margin-left: 100px;*/
+			}
+			a{
+				width: 100%;
+				font-size: 40px;
+			 	font-family: "幼圆";
+			 	display: block;
+			 	color: greenyellow;
+			 	text-align: center;
+			 	text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "box">
+				<div class = "boox">
+					<div class = "a"><img src="img/s1.png" class = "aa"></div>
+					<div class = "b"><img src="img/s2.png" class = "aa"></div>
+					<div class = "c"><img src="img/s3.png" class = "aa"></div>
+					<div class = "d"><img src="img/s4.png" class = "aa"></div>
+				</div>
+		</div>
+		<a href="new_file.html">戳我</a>
+	</body>
+</html>

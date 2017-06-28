@@ -9,10 +9,12 @@ function createElements () {
 		numbers.className = 'number';
 		numbers.innerHTML = table[i].num;
 		elements.appendChild(numbers);
+
 		var symbols= document.createElement('div');
 		symbols.className = 'symbol';
 		symbols.innerHTML = table[i].mark;
 		elements.appendChild(symbols);
+
 		var details= document.createElement('div');
 		details.className = 'details';
 		details.innerHTML = table[i].name + '<br>' + table[i].mass;
