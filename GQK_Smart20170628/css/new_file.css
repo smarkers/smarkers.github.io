@@ -1,0 +1,242 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.a{
+	width:80px;	
+	height:120px;
+	background-color:white;
+}
+.aa{
+	width:50px;
+	height:63px;
+	margin: 0px auto 0;
+	background-image:url(../img/ico.png);
+	background-position:-9px -29px;
+}
+span{
+	display: block;
+	width:80px;
+	text-align: center;
+	font-size: 10px;
+	color: red;
+}
+.a:hover .aa{
+	background-position: -9px -148px;
+}
+.a:hover span{
+	color: gray;
+}
+.qq{
+	text-align: center;
+	font-size: 10px;
+	color:gray;
+}
+.a:hover .qq{
+	color:gray;
+}
+
+.b{
+	width:80px;
+	height:120px;
+	background-color:white;
+}
+.bb{
+	width:37px;
+	height:63px;
+	margin: 0px auto 0;
+	background-image:url(../img/ico.png); 
+	background-position: -155px -29px;
+}
+span{
+	display: block;
+	width:80px;
+	text-align: center;
+	font-size: 10px;
+	color: forestgreen;
+}
+ .bb:hover{
+	background-position: -155px -148px;
+}
+.b:hover span{
+	color: gray;
+}
+.ww{
+	text-align: center;
+	font-size: 12px;
+	color:gray;
+}
+.b:hover .ww{
+	color:gray;
+}
+
+.c{
+	width:80px;
+	height:120px;
+	background-color:white;
+}
+.cc{
+	width:75px;
+	height:69px;
+	margin: 0px auto 0px;
+	background-image: url(../img/ico.png);
+	background-position:-282px -28px;
+}
+span{
+	display: block;
+	width:80px;
+	text-align: center;
+	font-size: 6px;
+	color: forestgreen;
+}
+ .cc:hover{
+	background-position: -282px -148px;
+}
+.c:hover span{
+	color: gray;
+}
+.cc{
+	text-align: center;
+	font-size: 8px;
+	color:white;
+}
+.c:hover .cb{
+	color:gray;
+}
+
+.d{
+	width:80px;
+	height:120px;
+	background-color:white ;
+}
+.dd{
+    width:73px;
+    height:58px;
+    margin:0px auto 0px;
+    background-image: url(../img/ico.png);
+    background-position: -427px -30px;
+}
+span{display: white;
+     width:80px;
+     text-align: center;
+    font-size: 10px;
+    color:palegreen;
+}
+.dd:hover {
+	background-position: -427px -149px;
+}
+.d:hover span{
+	color: gray;
+}
+.dd{
+	text-align: center;
+	font-size: 8px;
+	color:gray;
+}
+.d:hover .sb{
+	color:gray;
+}
+
+.e{
+	width:80px;
+	height:120px;
+	background-color: white;
+}
+.ee{
+	width:74px;
+	height:57px;
+	background-image: url(../img/ico.png);
+	background-position: -565px -28px;
+}
+span{display: white;
+     width:80px;
+     text-align: center;
+    font-size: 10px;
+    color:gray;
+}
+.ee:hover {
+	background-position: -565px -148px;
+	}
+	.e:hover span{
+	color: gray;
+}
+.ee{
+	text-align: center;
+	font-size: 8px;
+	color:gray;
+}
+.e:hover .ed{
+	color:gray;
+	}
+
+.f{
+	width:80px;
+	height:120px;
+	background-color:white;
+}
+.ff{
+	width:74px;
+	height:59px;
+	background-image: url(../img/ico.png);
+	background-position: -705px -29px;
+}
+span{display: white;
+     width:80px;
+     text-align: center;
+    font-size: 10px;
+    color:gray;
+}
+.ff:hover {
+	background-position: -705px -149px;
+	}
+	.f:hover span{
+	color: gray;
+}
+.ff{
+	text-align: center;
+	font-size: 8px;
+	color:gray;
+}
+.f:hover .cf{
+	color:gray;
+	}
+	.a,.b,.c,.d,.e,.f,.g{
+		margin-top: 10px;
+		float:left;
+		margin-left:10px;
+		font-size:10px;
+		
+	}
+.g{
+	width:80px;
+	height:120px;
+	background-color:white;
+}
+.gg{
+	width:46px;
+	height:69px;
+	background-image:url(../img/ico.png);
+	background-position: -861px -30px;
+}
+span{display: white;
+     width:80px;
+     text-align: center;
+    font-size: 10px;
+    color:gray;
+}
+.gg:hover {
+	background-position: -862px -148px;
+	}
+	.g:hover span{
+	color: gray;
+}
+.gg{
+	text-align: center;
+	font-size: 8px;
+	color:red;
+	margin:0 auto;
+}
+.g:hover .gh{
+	color:gray;
+	}
+	
