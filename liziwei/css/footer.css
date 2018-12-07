@@ -1,0 +1,145 @@
+.foot{
+	width:1000px;
+	margin:20px auto;
+	height:550px;
+}
+.foot-h2{
+	height:30px;
+	width:980px;
+	margin-left:5px;
+	padding-left:5px;
+	border-bottom:1px solid #ccc;
+	font-size:15px;
+	font-weight:normal;
+	line-height:30px;
+}
+.box1{
+	width:1000px;
+	margin-left:5px;
+}
+.box1>dl{
+	width:330px;
+	height:78px;
+	float:left;
+	margin-top:40px;
+
+	position:relative;
+}
+dt{
+	display:block;
+	width:74px;
+	height:74px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:url("../img/bbs-index-bg.png");
+	background-color:#9ad6ff;
+	z-index:1
+}
+dt:hover{
+	background-color:#3ca6ee;
+}
+.box1-1>dt{
+	background-position:0 0;
+	}
+dd{
+	position:absolute;
+	left:100px;
+	top:0px;
+	
+}
+dd>h3{
+	font-size:16px;
+	margin-bottom:10px;
+}
+dd>p{
+	font-size:14px;
+	margin-top:5px;
+}
+.foot a:hover{
+	color:red;
+}
+.box1-2>dt{
+	background-position:0 -222px;
+	}
+.box1-3>dt{
+	background-position:0 -148px;
+}
+.box1-4>dt{
+	background-position:0 -74px;
+}
+.box1-5>dt{
+	background-position:0 -296px;
+}
+.box1-6>dt{
+	background-position:0 -370px;
+}
+.box1-7>dt{
+	background-position:0 -444px;
+}
+.box1-8>dt{
+	background-position:0 -518px;
+}
+.box1-9>dt{
+	background-position:0 -592px;
+}
+.box2{
+	height:125px;
+	width:1000px;
+	margin-top:40px;
+	border:1px solid #dddddd;
+	padding-top:5px;
+}
+.box2>h2{
+	font-weight:normal;
+	height:38px;
+	width:990px;
+	border-bottom:1px solid #eef6ff;
+	font-size:16px;
+	line-height:38px;
+	margin-left:5px;
+}
+.box2-div{
+	width:998px;
+	height:78px;
+	margin:15px 8px;
+}
+.box2-div a{
+	display:inline-block;
+	font-size:12px;
+	line-height:35px;
+	margin-right:25px;
+	color:blue;
+}
+.box3{
+	width:100%;
+	height:40px;
+	background:#333;
+	margin-top:40px;
+}
+.box3-1{
+	margin-left:175px;
+	float:left;
+	line-height:40px;
+}
+.box3-2{
+	margin-left:100px;
+	float:left;
+	height:14px;
+	margin-top:13px;
+	line-height:14px;
+
+}
+.box3-2 a{
+	display:inline-block;
+	width:63px;
+	color:#ccc;
+	border-right:1px solid #666;
+	text-align:center;
+}
+.box3-2 a:hover{
+	text-decoration:underline;
+}
+.box3-2 .last{
+	border:none;
+}
