@@ -1,0 +1,124 @@
+/* 底部样式 */
+.bottom-style {
+			width:100%;
+			margin:0 auto;
+			background:white;
+}
+.bottom_style {
+			width:1070px;
+			height:449px;
+			margin:0 auto;
+			/* background:blue; */
+			position:relative;
+}
+.bottom_style .pic1 {
+			border-bottom:1px solid #ccc; 
+}
+.bottom_style .textc{
+					width:100%;
+					margin:0 auto;
+}
+.bottom_style .textb{
+				width:1070px;
+				height:192px;
+				/* background:red; */
+				margin:0 auto;
+}
+.bottom_style .text {
+				width:780px;
+				height:152px;
+				/* background:red; */
+				padding-left:15px;
+				float:left;
+				padding-top:15px;
+}
+.unorder {
+			width:195px;
+			height:152px;
+			/* background:skyblue; */
+			float:left;
+}
+.unorder1 {
+			width:195px;
+			height:128px;
+			/* background:pink; */
+			float:left;
+}
+.unorder2 {
+			width:195px;
+			height:80px;
+			/* background:yellow; */
+			float:left;
+}
+.unorder3 {
+			width:195px;
+			height:80px;
+			/* background:orange; */
+			float:left;
+}
+.text dt {
+			height:32px;
+			padding:0 8px;
+			font-size:14px;
+			font-weight:bold;
+			color:#666;
+}
+.text dd {
+			height:24px;
+			padding:0 0;
+			line-height:24px;
+			margin-left:8px;
+}
+.bottom_style .text a:hover {
+		color:red;
+}
+.QR-code {
+		width:280px;
+		height:122px;
+		/* background:yellow; */
+		float:left;
+		margin-right:-50px;
+		padding-top:10px;
+}
+.QR-code1  {
+			float:left;
+			margin-right:50px;
+			line-height:32px;
+			font-size:14px;
+			font-weight:bold;
+			color:#666;
+}
+.footer-link {
+			margin:0 auto;
+			width:100%;
+}
+.footer_link {
+			width:1070px;
+			/* background:yellow; */
+			position:absolute;
+			top:319px;
+			left:0;
+			text-align:center;
+}
+.footer_link a {
+				line-height:12px;
+				height:12px;
+				margin:0 3px;
+}
+.footer_link a:hover {
+			color:red;
+}
+.bottom_style .look{
+				width:1070px;
+				position:absolute;
+				top:345px;
+				left:0;
+				text-align:center;
+				/* background:skyblue; */
+}
+.bottom_style .pic5{
+				position:absolute;
+				top:385px;
+				left:0;
+}
+/* 底部样式end */

@@ -1,0 +1,243 @@
+/* 头部样式 */
+.zuida {
+		background-color:#f5f5f5;
+}
+#head {
+	width:100%;
+	margin:0 auto;
+}
+.top {
+	width:100%;
+	margin:0 auto;
+	background:#f4f4f4;
+	border-bottom:1px solid #ccc;
+}
+.topCenter{
+		width:1070px;
+		height:30px;
+		background:#f4f4f4;
+		margin:0 auto;
+		line-height:30px;
+}
+.Cright li {
+		float:right;
+}
+.Cleft li {
+		float:left;
+		margin-right:30px;
+}
+.Cleft img {
+		padding:0px 5px 0 0;
+}
+.Cleft li:hover .one {
+		color:red;
+}
+.Cleft li:hover .two {
+		color:red;
+}
+.Cright .nine {
+		 color:red;
+}
+.Cright li {
+			margin-right:18px;
+}
+.Cright img {
+			padding-right:3px;
+}
+.Cright .four{
+			color:#ccc;
+}
+.Cright li:hover a {
+		color:red;
+}
+.bottom{
+		width:100%;
+		margin:0 auto;
+		background:white;
+}
+.bCenter{
+		width:1070px;
+		height:180px;
+		margin:0 auto;
+}
+.L-box {
+		width:300px;
+		height:140px;
+		float:left;
+}
+.L-box .one {
+			width:140px;
+			height:140px;
+			background:white;
+			float:left;
+}
+.L-box .two {
+			width:160px;
+			height:90px;
+			background:white;
+			float:left;
+			margin-top:30px;
+}
+.R-box {
+		width:650px;
+		height:117px;
+		float:right;
+		position:relative;
+}
+.R-box .kuang {
+			width:470px;
+			height:42px;
+			margin-top:45px;
+			border-radius:45px;
+			background:#fcfcfc;
+			padding-left:35px;
+			float:left;
+			border:1px solid #e2e2e2;
+}
+.R-box a:hover .kuang {
+			border: 1px solid red;
+}
+.R-box .kuang1 {
+			width:77px;
+			height:40px;
+			margin-top:45px;
+			border-radius:45px;
+			padding-left:40px;
+			float:right;
+			border:1px solid #e2e2e2;
+}
+.R-box .kuang1:hover{
+			background:#fcfcfc;
+}
+.R-box .one {
+			position:absolute;
+			bottom:40px;
+			right:165px;
+			width:20px;
+			height:20px;
+}
+.R-box .two {
+			position:absolute;
+			bottom:44px;
+			right:85px;
+}
+.R-box .sousuo{
+				width:650px;
+				height:27px;
+				position:absolute;
+				left:0;
+				bottom:0;
+}
+.sousuo li a {
+			float:left;
+			padding-top:8px;
+			padding-left:32px;
+			color:#ccc;
+}
+.sousuo li:hover a {
+			color:black;
+}
+.B-nav {
+		width:1070px;
+		height:38px;
+		float:left;
+}
+.left {
+			width:140px;
+			height:38px;
+			float:left;
+			background:#ff4040;
+			position:relative;
+}
+.left  img {
+			width:16px;
+			height:10px;
+			padding-left:10px;
+			margin-top:-4px;
+	}
+/* .left  .text {
+			font-size:15px;
+			padding-left:42px;
+			line-height:38px;
+} */
+.left .one {
+			line-height:44px;
+			font-size:16px;
+			padding-left:15px;
+			color:white;
+}
+.list {
+		width:1068px;
+		height:410px;
+		background:blue;
+		position:absolute;
+		top:38px;
+		left:0px;
+		border-top:2px solid #ff4040;
+		border-left:1px solid #ff4040;
+		border-right:1px solid #ff4040;
+		border-bottom:1px solid #ff4040;
+		display:none;
+		z-index:10;
+}
+.left:hover .list{
+				display:block;
+}
+.list li {
+			width:177px;
+			height:410px;
+			border-right:1px solid #e9e9e9;
+			background:white;
+			float:left;
+}
+ .list p:hover{
+				color:red;
+ }
+ .list a:hover {
+			color:red;
+ }
+.list .listseven {
+			border-right:none;
+}
+.list .listBox {
+				width:177px;
+				height:205px;
+				/* background:red; */
+				/* padding-top:28px; */
+}
+.list .listBox .two {
+				/* display:block; */
+				margin-left:22px;
+				margin-bottom:10px;
+				margin-top:28px;
+}
+.list .listBox .six {
+				margin-left:22px;
+				margin-bottom:10px;
+				margin-top:-15px;
+}
+.list .listBox span {
+				display:inline-block;
+				width:88.5px;
+				float:left;
+}
+.list .listBox .three {
+				font-size:11px;
+				line-height:24px;
+				padding-left:21px;
+}
+.right {
+		width:930px;
+		height:38px;
+		float:left;
+}
+.right li {
+			font-size:15px;
+			float:left;
+			line-height:38px;
+			margin-left:29px;
+}
+.right li:hover a{
+				color:red;
+}
+/* 头部样式end */

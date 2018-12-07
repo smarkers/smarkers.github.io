@@ -1,0 +1,1491 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>小米商城</title>
+  <link type="text/css" href="css/header.css" rel="stylesheet">
+ </head>
+ <body>
+		<!-- 头部 -->
+	<div class="nav clear"id="one">
+		<div class="content">
+			<ul class="list">
+				<li>小米商城</li>
+				<span>|</span>
+				<li>MlUl</li>
+				<span>|</span>
+				<li>LOT</li>
+				<span>|</span>
+				<li>云服务</li>
+				<span>|</span>
+				<li>金融</li>
+				<span>|</span>
+				<li>有品</li>
+				<span>|</span>
+				<li>小米开放平台</li>
+				<span>|</span>
+				<li>政企服务</li>
+				<span>|</span>
+				<li>下载APP
+					<div class="app">
+						<i></i>
+						<img src="img/weweima.png" alt="" />
+						<span class="xz-app">小米商城APP</span>
+					</div>
+				</li>
+				<span>|</span>
+				<li>Select Region</li>
+			</ul>
+			<ul class="list1">
+			<li>登录</li>
+			<span>|</span>	
+			<li>注册</li>
+			<span>|</span>
+			<li>消息通知</li>
+			<span>|</span>
+			</ul>
+		</div>
+	</div>
+	<div class="nav2">
+		<div class="content">
+				<div class="logo">
+					<a href="#">
+					<img src="img/1.jpg" alt="" title="小米官网" />
+					</a>
+				</div>
+				<div class="smallNav">
+					<ul class="list">
+						<li>
+							小米手机
+							<div class="shopNav clear">
+								<div class="shop clear">
+									<div class="box box1">
+										<div class="bk">爆款</div>
+										<img src="img/300.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+									<div class="box box2">
+										<div class="bk">爆款</div>
+										<img src="img/301.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+									<div class="box box3">
+										<div class="bk">爆款</div>
+										<img src="img/302.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+									<div class="box box4">
+										<div class="xp">新品</div>
+										<img src="img/303.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+									<div class="box box5">
+										<div class="xp">新品</div>
+										<img src="img/300.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+									<div class="box box6">
+										<div class="xp">新品</div>
+										<img src="img/301.png" alt="" />
+										<a href="">小米MIX 3</a>
+										<p>3200元起</p>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							红米
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							小米电视
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							笔记本
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							空调
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							新品
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							路由器
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							智能硬件
+							<div class="shopNav">
+								<img src="img/666.jpg" alt="" />
+							</div>
+						</li>
+						<li>
+							服务
+							<div class="shopNav"></div>
+						</li>
+						<li>
+							社区
+							<div class="shopNav"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="search">
+					<div class="search-1">
+						<input type="text" name="user_name" placeholder="小米8"/>
+					</div>
+					<img class="bg1" src="img/fangdajing.jpg" alt="" />
+					<img class="bg2" src="img/fangda.jpg" alt="" />
+				</div>
+		</div>
+	</div>
+		<div class="banner clear">
+			<div class="content">
+				<ul class="left">
+					<li class="hhh">
+						<span>手机</span>
+						<span>电话卡</span>
+						<div class="twoNav clear">
+							<ul class="list">
+								<li>
+									<a href="">
+										<img src="img/mix3-320.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/200.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/201.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/202.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+
+								</li>
+								<li>
+									<a href="">
+										<img src="img/203.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/204.jpg" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/205.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/201.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/200.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/201.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/202.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/203.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/204.jpg" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/205.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/202.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/200.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/mix3-320.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/mix3-320.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									
+								</li>
+								<li>
+									
+								</li>
+								<li>
+									<a href="">
+										<img src="img/mix3-320.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="img/mix3-320.png" alt="" />
+										<span>小米MIX 3</span>
+									</a>
+								</li>
+								<li>
+									
+								</li>
+								<li>
+									
+								</li>
+							</ul>
+						</div>
+					</li>
+				<li class="hhh">
+						<span>电视</span>
+						<span>盒子</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh">
+						<span>笔记本</span>
+						<span>平板</span>
+						<div class="twoNav"><img src="img/sss.jpg" alt="" /></div>
+					</li>
+					<li  class="hhh">
+						<span>家电</span>
+						<span>插线板</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh">
+						<span>出行</span>
+						<span>穿戴</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh">
+						<span>智能</span>
+						<span>路由器</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh">
+						<span>电源</span>
+						<span>配件</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh">
+						<span>健康</span>
+						<span>儿童</span>
+					</li>
+					<li class="hhh">
+						<span>耳机</span>
+						<span>音箱</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+					<li class="hhh" >
+						<span>生活</span>
+						<span>箱包</span>
+						<div class="twoNav"><img src="img/hhh.jpg" alt="" /></div>
+					</li>
+				</ul>
+				<div class="right"><img src="img/xmad_15419444592813_JwZlv.gif" alt="" width="992" height="460" /></div>
+			</div>
+		</div>
+		<!-- 头部 -->
+		<!-- 身体 -->
+		<div class="banner2">
+			<div class="content">
+				<div class="box1">
+					<ul class="list">
+						<li>
+							<img src="img/2.jpg" alt="" />
+							<a href="#">选购手机</a>
+						</li>
+						<li>
+							<img src="img/3.jpg" alt="" />
+							<a  href="#">企业团购</a>
+						</li>
+						<li>
+							<img src="img/4.jpg" alt="" />
+							<a  href="#">F码通道</a>
+						</li>
+						<li>
+							<img src="img/5.jpg" alt="" />
+							<a  href="#">米粉卡</a>
+						</li>
+						<li>
+							<img src="img/6.jpg" alt="" />
+							<a  href="#">以旧换新</a>
+						</li>
+						<li>
+							<img src="img/7.jpg" alt="" />
+							<a  href="#">花费充值</a>
+						</li>
+					</ul>
+				</div>
+				<div class="box box2"><img src="img/8.jpg" alt="" /></div>
+				<div class="box box3"><img src="img/9.jpg" alt="" /></div>
+				<div class="box box4"><img src="img/10.jpg" alt="" /></div>
+			</div>
+		</div>
+		<!-- 身体 -->
+		<div class="shop-sg clear">
+			<div class="content">
+				<p>小米闪购</p>
+				<div class="box shop-box1"></div>
+				<div class="box shop-box2"></div>
+				<div class="box shop-box3"></div>
+				<div class="box shop-box4"></div>
+				<div class="box shop-box5"></div>
+			</div>
+		</div>
+		<!-- 手机专区 -->
+		<div class="phone-zq clear">
+		<div class="logo-hs">
+						<a href="">
+							<img src="img/hs.jpg" alt="" />
+						</a>
+					</div>
+			<div class="content clear">
+				<p class="title">手机</p>
+				<div class="phone-left">
+					<a href="">
+						<img src="img/xmad_15407792204208_jtrJc.jpg" alt="" />
+					</a>
+				</div>
+				<div class="phone-right">
+					<div class="box box1">
+						<a href="">
+							<img src="img/box1.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>3599元</b>
+						</a>
+						<div class="xp">新品</div>
+					</div>
+					<div class="box box2">
+						<a href="">
+							<img src="img/box2.png" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>1399元</b>
+						</a>
+						<div class="xp">新品</div>
+					</div>
+					<div class="box box3">
+						<a href="">
+							<img src="img/box3.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>4000元</b>
+						</a>
+						<div class="zq">减350元</div>
+					</div>
+					<div class="box box4">
+						<a href="">
+							<img src="img/box4.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>5000元</b>
+						</a>
+						<div class="zq">减1000元</div>
+					</div>
+					<div class="box box5">
+						<a href="">
+							<img src="img/box5.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>3200元</b>
+						</a>
+						<div class="zq">减666元</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/box6.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>3500元</b>
+						</a>
+						<div class="zq">减666元</div>
+					</div>
+					<div class="box box7">
+						<a href="">
+							<img src="img/box7.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>3600元</b>
+						</a>
+						<div class="zq">减666元</div>
+					</div>
+					<div class="box box8">
+						<a href="">
+							<img src="img/box8.jpg" alt="" />
+							<span>小米8青春版 4GB+8GB</span>
+							<span class="a1">潮流镜面渐变色，2400万自拍旗舰</span>
+							<b>1800元</b>
+						</a>
+						<div class="zq">减666元</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 家电专区 -->
+		<div class="tv-zq clear">
+				<div class="logo-tv clear">
+						<a href="">
+							<img src="img/xmad_1543655204955_LtcUW.jpg" alt="" />
+						</a>
+				</div>
+				<div class="content clear">
+					<p class="title">家电</p>
+					<div class="box box11 box1">
+						<a href="">
+							<img src="img/xmad_15232433421155_vCzhJ.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box11 box2">
+						<a href="" class="tv">
+							<img src="img/40.png" alt="" />
+							<span>小米电视4A 55英寸</span>
+							<span class="a1">4K高清HDR/真四核64位高性能处理器</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box3">
+						<a href="" class="tv">
+							<img src="img/42.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+							</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box4">
+						<a href="" class="tv">
+							<img src="img/43.jpg" alt="" />
+							<span>小米电视4A 32英寸</span>
+							<span class="a1">64位四核处理器 / 1GB+4GB大内存 </span>
+							<b>8888元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box5">
+						<a href="" class="tv">
+							<img src="img/44.jpg" alt="" />
+							<span>小米电视4C 50英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>9999元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/xmad_15123939053142_dFlAw.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box7">
+						<a href="" class="tv">
+							<img src="img/45.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>2222元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box8">
+						<a href="" class="tv">
+							<img src="img/46.jpg" alt="" />
+							<span>小米盒子3 增强版</span>
+							<span class="a1">流畅的线条设计</span>
+							<b>1111元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box9">
+						<a href="" class="tv">
+							<img src="img/43.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box10">
+						<a href="" class="tv">
+							<img src="img/41.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 智能 -->
+			<div class="tv-zq clear">
+				<div class="logo-tv">
+						<a href="">
+							<img src="img/xmad_15438386061965_LaDUt.jpg" alt="" />
+						</a>
+				</div>
+				<div class="content clear">
+					<p class="title">智能</p>
+					<div class="box box11 box1">
+						<a href="">
+							<img src="img/50.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box11 box2">
+						<a href="" class="tv">
+							<img src="img/51.png" alt="" />
+							<span>小米电视4A 55英寸</span>
+							<span class="a1">4K高清HDR/真四核64位高性能处理器</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box3">
+						<a href="" class="tv">
+							<img src="img/58.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+							</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box4">
+						<a href="" class="tv">
+							<img src="img/53.jpg" alt="" />
+							<span>小米电视4A 32英寸</span>
+							<span class="a1">64位四核处理器 / 1GB+4GB大内存 </span>
+							<b>8888元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box5">
+						<a href="" class="tv">
+							<img src="img/58.jpg" alt="" />
+							<span>小米电视4C 50英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>9999元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/56.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box7">
+						<a href="" class="tv">
+							<img src="img/58.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>2222元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box8">
+						<a href="" class="tv">
+							<img src="img/57.jpg" alt="" />
+							<span>小米盒子3 增强版</span>
+							<span class="a1">流畅的线条设计</span>
+							<b>1111元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box9">
+						<a href="" class="tv">
+							<img src="img/59.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box10 zz">
+						<div class="small-box hh">
+							<a href="">
+								<span>小米净水器</span>
+								<img src="img/shh.jpg" alt="" />
+							</a>
+						</div>
+						<div class="small-box">
+							<a href="">
+								<span class="a1">浏览更多</span>
+								<span>热门</span>
+								<img src="img/hh.jpg" alt="" />
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 搭配 -->
+		<div class="tv-zq">
+				<div class="logo-tv">
+						<a href="">
+							<img src="img/xmad_15399539193035_YORhp.jpg" alt="" />
+						</a>
+				</div>
+				<div class="content clear">
+					<p class="title">搭配</p>
+					<div class="box box11 box1">
+						<a href="">
+							<img src="img/60.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box11 box2">
+						<a href="" class="tv">
+							<img src="img/61.jpg" alt="" />
+							<span>小米电视4A 55英寸</span>
+							<span class="a1">4K高清HDR/真四核64位高性能处理器</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box3">
+						<a href="" class="tv">
+							<img src="img/62.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+							</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box4">
+						<a href="" class="tv">
+							<img src="img/63.jpg" alt="" />
+							<span>小米电视4A 32英寸</span>
+							<span class="a1">64位四核处理器 / 1GB+4GB大内存 </span>
+							<b>8888元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box5">
+						<a href="" class="tv">
+							<img src="img/64.jpg" alt="" />
+							<span>小米电视4C 50英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>9999元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/65.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box7">
+						<a href="" class="tv">
+							<img src="img/66.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>2222元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box8">
+						<a href="" class="tv">
+							<img src="img/67.jpg" alt="" />
+							<span>小米盒子3 增强版</span>
+							<span class="a1">流畅的线条设计</span>
+							<b>1111元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box9">
+						<a href="" class="tv">
+							<img src="img/68.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box10 zz">
+						<div class="small-box hh">
+							<a href="">
+								<span>小米净水器</span>
+								<img src="img/shh.jpg" alt="" />
+							</a>
+						</div>
+						<div class="small-box">
+							<a href="">
+								<span class="a1">浏览更多</span>
+								<span>热门</span>
+								<img src="img/hh.jpg" alt="" />
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 配件 -->
+		<div class="tv-zq">
+				<div class="logo-tv">
+						<a href="">
+							<img src="img/80.jpg" alt="" />
+						</a>
+				</div>
+				<div class="content clear">
+					<p class="title">配件</p>
+					<div class="box box11 box1">
+						<a href="">
+							<img src="img/81.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box11 box2">
+						<a href="" class="tv">
+							<img src="img/82.jpg" alt="" />
+							<span>小米电视4A 55英寸</span>
+							<span class="a1">4K高清HDR/真四核64位高性能处理器</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box3">
+						<a href="" class="tv">
+							<img src="img/83.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+							</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box4">
+						<a href="" class="tv">
+							<img src="img/84.jpg" alt="" />
+							<span>小米电视4A 32英寸</span>
+							<span class="a1">64位四核处理器 / 1GB+4GB大内存 </span>
+							<b>8888元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box5">
+						<a href="" class="tv">
+							<img src="img/85.jpg" alt="" />
+							<span>小米电视4C 50英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>9999元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/86.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box7">
+						<a href="" class="tv">
+							<img src="img/87.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>2222元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box8">
+						<a href="" class="tv">
+							<img src="img/88.jpg" alt="" />
+							<span>小米盒子3 增强版</span>
+							<span class="a1">流畅的线条设计</span>
+							<b>1111元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box9">
+						<a href="" class="tv">
+							<img src="img/89.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box10 zz">
+						<div class="small-box hh">
+							<a href="">
+								<span>小米净水器</span>
+								<img src="img/shh.jpg" alt="" />
+							</a>
+						</div>
+						<div class="small-box">
+							<a href="">
+								<span class="a1">浏览更多</span>
+								<span>热门</span>
+								<img src="img/hh.jpg" alt="" />
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 周边 -->
+		<div class="tv-zq">
+				<div class="logo-tv">
+						<a href="">
+							<img src="img/90.jpg" alt="" />
+						</a>
+				</div>
+				<div class="content clear">
+					<p class="title">周边</p>
+					<div class="box box11 box1">
+						<a href="">
+							<img src="img/91.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box11 box2">
+						<a href="" class="tv">
+							<img src="img/92.jpg" alt="" />
+							<span>小米电视4A 55英寸</span>
+							<span class="a1">4K高清HDR/真四核64位高性能处理器</span>
+							<b>4000元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box3">
+						<a href="" class="tv">
+							<img src="img/93.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+							</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box4">
+						<a href="" class="tv">
+							<img src="img/94.jpg" alt="" />
+							<span>小米电视4A 32英寸</span>
+							<span class="a1">64位四核处理器 / 1GB+4GB大内存 </span>
+							<b>8888元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box11 box5">
+						<a href="" class="tv">
+							<img src="img/95.jpg" alt="" />
+							<span>小米电视4C 50英寸</span>
+							<span class="a1">4K HDR / 人工智能语音</span>
+							<b>9999元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box6">
+						<a href="">
+							<img src="img/96.jpg" alt="" />
+						</a>
+					</div>
+					<div class="box box7">
+						<a href="" class="tv">
+							<img src="img/97.jpg" alt="" />
+							<span>小米电视4A 58英寸</span>
+							<span class="a1">超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>2222元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box8">
+						<a href="" class="tv">
+							<img src="img/98.jpg" alt="" />
+							<span>小米盒子3 增强版</span>
+							<span class="a1">流畅的线条设计</span>
+							<b>1111元</b>
+						</a>
+						<div class="xp">新品</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box9">
+						<a href="" class="tv">
+							<img src="img/99.jpg" alt="" />
+							<span>小米电视4 55英寸</span>
+							<span class="a1">极超薄机身 / 2GB+8GB 大内存空间</span>
+							<b>6666元</b>
+						</a>
+						<div class="zk">减6666元</div>
+						<div class="buzz">
+							<a href="">
+								<span>我爱小米，就像老鼠爱大米.</span>
+								<span>来自哈文彗星的评价...</span>
+							</a>
+						</div>
+					</div>
+					<div class="box box10 zz">
+						<div class="small-box hh">
+							<a href="">
+								<span>小米净水器</span>
+								<img src="img/shh.jpg" alt="" />
+							</a>
+						</div>
+						<div class="small-box">
+							<a href="">
+								<span class="a1">浏览更多</span>
+								<span>热门</span>
+								<img src="img/hh.jpg" alt="" />
+							</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 为你推荐 -->
+		<div class="footer clear">
+			<div class="content clear">
+				<p class="title1">为你推荐</p>
+				<div class="foot box1">
+					<a href="">
+						<img class="bg1" src="img/140.jpg" alt="" />
+						<span class="character">90分智能金属旅行箱 20寸</span>
+						<span class="character2">1999元</span>
+						<span class="character3">666人好评</span>
+					</a>
+				</div>
+				<div class="foot box2">
+						<img class="bg1" src="img/141.jpg" alt="" />
+						<span class="character">90分智能金属旅行箱 20寸</span>
+						<span class="character2">1999元</span>
+						<span class="character3">666人好评</span>
+				</div>
+				<div class="foot box3">
+						<img class="bg1" src="img/142.jpg" alt="" />
+						<span class="character">90分智能金属旅行箱 20寸</span>
+						<span class="character2">1999元</span>
+						<span class="character3">666人好评</span>
+				</div>
+				<div class="foot box4">
+						<img class="bg1" src="img/143.jpg" alt="" />
+						<span class="character">90分智能金属旅行箱 20寸</span>
+						<span class="character2">1999元</span>
+						<span class="character3">666人好评</span>
+				</div>
+				<div class="foot box5">
+						<img class="bg1" src="img/144.jpg" alt="" />
+						<span class="character">90分智能金属旅行箱 20寸</span>
+						<span class="character2">1999元</span>
+						<span class="character3">666人好评</span>
+				</div>
+			</div>
+		</div>
+		<!-- 热品产品 -->
+		<div class="footer2 clear">
+			<div class="content clear">
+				<p class="title2">热品产品</p>
+				<div class="foot2 box1">
+					<img class="bg one" src="img/150.jpg" alt="" />
+					<p class="character clear">
+						<a href="">
+							外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...
+						</a>
+					</p>
+					<span class="character2">
+						来自于 17605924386 的评价
+					</span>
+					<span class="character3">
+						米兔定位电话| <b>169元</b>
+					</span>
+				</div>
+				<div class="foot2 box2">
+					<img class="bg two" src="img/151.jpg" alt="" />
+					<p class="character clear">
+						<a href="">
+							外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...
+						</a>
+					</p>
+					<span class="character2">
+						来自于 17605924386 的评价
+					</span>
+					<span class="character3">
+						米兔定位电话| <b>169元</b>
+					</span>
+				</div>
+				<div class="foot2 box3">
+					<img class="bg three" src="img/152.jpg" alt="" />
+					<p class="character clear">
+						<a href="">
+							外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...
+						</a>
+					</p>
+					<span class="character2">
+						来自于 17605924386 的评价
+					</span>
+					<span class="character3">
+						米兔定位电话| <b>169元</b>
+					</span>
+				</div>
+				<div class="foot2 box4">
+					<img class="bg four" src="img/153.jpg" alt="" />
+					<p class="character clear">
+						<a href="">
+							外形简洁大方，大爱小米！全家人都在用小米的产品，真心不错，最主要的是性价比高。附图，给客服妹子一个大...
+						</a>
+					</p>
+					<span class="character2">
+						来自于 17605924386 的评价
+					</span>
+					<span class="character3">
+						米兔定位电话| <b>169元</b>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		<div class="footer3 clear">
+			<div class="content clear">
+				<p class="title3">内容</p>
+				<div class="foot3 box1">
+					<h2>图书</h2>
+					<h4><a href="">哈利·波特与被诅咒的孩子</a></h4>
+					<p class="clear">
+						<a href="">“哈利·波特”第八个故事中文版震撼来<br />袭！特别彩排版剧本！ </a>
+					</p>
+					<span>29.37元</span>
+					<div class="frame">
+					</div>
+						<a href="">
+							<img class="bg6" src="img/180.png" alt="" />
+						</a>
+						<img class="bg2" src="img/160.jpg" alt="" />
+						<img class="bg3" src="img/161.jpg" alt="" />
+						<div class="case-box">
+							<div class="case box1"></div>
+							<div class="case box2"></div>
+							<div class="case box10"></div>
+						</div>
+				</div>
+				<div class="foot3 box2 clear">
+					<h2>图书</h2>
+					<h4><a href="">哈利·波特与被诅咒的孩子</a></h4>
+					<p class="clear">
+						<a href="">“哈利·波特”第八个故事中文版震撼来<br />袭！特别彩排版剧本！ </a>
+					</p>
+					<span>29.37元</span>
+					<div class="frame">
+					</div>
+						<a href="">
+							<img class="bg6" src="img/181.jpg" alt="" />
+						</a>
+						<img class="bg2" src="img/160.jpg" alt="" />
+						<img class="bg3" src="img/161.jpg" alt="" />
+						<div class="case-box">
+							<div class="case box1"></div>
+							<div class="case box2"></div>
+							<div class="case box10"></div>
+						</div>
+				</div>
+				<div class="foot3 box3 clear">
+					<h2>图书</h2>
+					<h4><a href="">哈利·波特与被诅咒的孩子</a></h4>
+					<p class="clear">
+						<a href="">“哈利·波特”第八个故事中文版震撼来<br />袭！特别彩排版剧本！ </a>
+					</p>
+					<span>29.37元</span>
+					<div class="frame">
+					</div>
+						<a href="">
+							<img class="bg6" src="img/182.png" alt="" />
+						</a>
+						<img class="bg2" src="img/160.jpg" alt="" />
+						<img class="bg3" src="img/161.jpg" alt="" />
+						<div class="case-box">
+							<div class="case box1"></div>
+							<div class="case box2"></div>
+							<div class="case box10"></div>
+						</div>
+				</div>
+				<div class="foot3 box4 clear">
+					<h2>图书</h2>
+					<h4><a href="">哈利·波特与被诅咒的孩子</a></h4>
+					<p class="clear">
+						<a href="">“哈利·波特”第八个故事中文版震撼来<br />袭！特别彩排版剧本！ </a>
+					</p>
+					<span>29.37元</span>
+					<div class="frame">
+					</div>
+						<a href="">
+							<img class="bg6" src="img/183.png" alt="" />
+						</a>
+						<img class="bg2" src="img/160.jpg" alt="" />
+						<img class="bg3" src="img/161.jpg" alt="" />
+						<div class="case-box">
+							<div class="case box1"></div>
+							<div class="case box2"></div>
+							<div class="case box10"></div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<!-- 最后页面 -->
+		<div class="finally clear">
+				<div class="content clear">
+					<ul class="list-finally clear">
+						<li class="li-finally">预约维修服务</li>
+						<li class="li-finally">7天无理由退货</li>
+						<li class="li-finally">15天免费换货</li>
+						<li class="li-finally">满150元包邮</li>
+						<li class="li-finally">520余家后网点</li>
+					</ul>
+					<div class="finally-box">
+						<dl class="finally-box2">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<dl class="finally-box2">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<dl class="finally-box2">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<dl class="finally-box2">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<dl class="finally-box2">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<dl class="finally-box2 hhs">
+							<dt class="shh">帮助中心</dt>
+								<dd>账户管理</dd>
+								<dd>购物指南</dd>
+								<dd>订单操作</dd>
+						</dl>
+						<div class="finally-box3">
+							<p class="hh66">400-100-5678</p>
+							<p class="ssss">周一至周日 8:00-18:00<br />（仅收市话费）</p>
+							<a class="sshh" href="">联系客服</a>
+						</div>
+					</div>
+					<div class="qwer"><img src="img/123456.jpg" alt="" /></div>
+				</div>
+		</div>
+		<!-- 侧边栏 -->
+		<ul class="sidebar-list">
+			<li class="sidebar sidebar-1">
+				<a href="#">
+					<img class="bg1" src="img/sidebar-1.png" alt="" />
+					<img class="bg2" src="img/sidebar-5.png" alt="" />
+				</a>
+				<div class="box1">
+					<span class="zxc"></span>
+					<img src="img/weweima.png" alt="" />
+					<p>手机扫一扫<br />一分赢好礼</p>
+				</div>
+			</li>
+			<li class="sidebar sidebar-2">
+			<a href="#">
+					<img class="bg1" src="img/sidebar-2.png" alt="" />
+					<img class="bg2" src="img/sidebar-6.png" alt="" />
+				</a>
+				<div class="placeholder-1">
+					个人信息
+					<span class="sj"></span>
+				</div>
+			</li>
+			<li class="sidebar sidebar-3">
+				<a href="#">
+					<img class="bg1" src="img/sidebar-3.png" alt="" />
+					<img class="bg2" src="img/sidebar-7.png" alt="" />
+				</a>
+			</li>
+			<li class="sidebar sidebar-4">
+				<a href="#">
+					<img class="bg1" src="img/sidebar-4.png" alt="" />
+					<img class="bg2" src="img/sidebar-8.png" alt="" />
+				</a>
+			</li>
+			<li class="sidebar sidebar-5">
+				<a href="#one">
+					<img class="bg1" src="img/one.png" alt="" />
+					<img class="bg2" src="img/sidebar-9.png" alt="" />
+				</a>
+			</li>
+		</ul>
+ </body>
+</html>
