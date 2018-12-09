@@ -27,7 +27,6 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	border-radius:20%;
 }
 .guding1_2 input{
 	width:135px;

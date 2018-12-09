@@ -451,7 +451,7 @@
 .ct5_right2 img:hover{
 	transform:translate(0,-2px);
 	box-shadow:0 0 20px rgba(0,0,0,0.6);
-	transition:0.6s;
+	transition:1s;
 }
 .ct5_right2 .ct5_img2{
 	/* margin-bottom:none;

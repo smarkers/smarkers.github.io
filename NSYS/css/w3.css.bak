@@ -30,11 +30,11 @@
 	border:none;
 }
 .fotTxt{
-	padding-left:100px;
-	padding-bottom:20px;
-	margin-top:38px;
-	line-height:30px;
-	font-size:13px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	margin-top: 38px;
+	line-height: 30px;
+	font-size: 13px;
 	color: #fff;
 	display:inline-block;
 }
