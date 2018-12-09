@@ -1,0 +1,236 @@
+.guding1{
+	width:140px;
+	height:220px;
+	background:red;
+	position:fixed;
+	top:250px;
+	left:-140px;
+}
+
+.gb1_1{
+	background:url("../img/btn-show-bg1.png") no-repeat #018de2 ;
+	width:40px;
+	height:88px;
+	border-radius:50%;
+	position:absolute;
+	left:140px;
+	top:0;
+}
+.guding1:hover .guding1_2{
+	left:140px;
+	transition:.8s;
+}
+.guding1_2{
+	width:140px;
+	height:220px;
+	background:url("../img/10483062.jpg");
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-radius:20%;
+}
+.guding1_2 input{
+	width:135px;
+	height:24px;
+	margin-top:140px;
+	background:#85dcf7;
+	border-radius:20%;
+}
+.guding1_2 a{
+	font-size:14px;
+	color:#fff;
+	line-height:30px;
+	margin-left:30px;
+}
+
+.guding2{
+	width:112px;
+	height:566px;
+	position:fixed;
+	top:150px;
+	right:-80px;
+	transition:.8s;
+}
+.guding2:hover{
+	right:0px;
+}
+.guding2 .gd2{
+	background:url("../img/kefu1.png") no-repeat;
+	width:32px;
+	height:168px;
+	float:left;
+}
+.guding2 .guding2_1{
+	width:80px;
+	height:566px;
+	float:left;
+}
+.guding2 .guding2_1 li{
+	width:80px;
+	height:80px;
+	margin-top:1px;
+}
+.guding2_1 .gb1{
+	background:url("../img/kefu2.png") no-repeat;
+}
+.guding2_1 .gb1:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+.guding2_1 .gb2{
+	background:url("../img/kefu3.png") no-repeat;
+}
+.guding2_1 .gb2:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+.guding2_1 .gb3{
+	background:url("../img/kefu4.png") no-repeat;
+}
+.guding2_1 .gb3:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+.guding2_1 .gb4{
+	background:url("../img/kefu5.png") no-repeat;
+	}
+.guding2_1 .gb4:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+.guding2_1 .gb5{
+	background:url("../img/kefu6.png") no-repeat;
+}
+.guding2_1 .gb5:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+/* head */
+.head{
+	width:100%;
+	height:217px;
+	margin:0px auto;
+	background:#fff;
+}
+.headtop{
+	width:1000px;
+	height:37px;
+	margin:0px auto;
+	font-size:14px;
+	position:relative;
+}
+.headtop p{
+	line-height:37px;
+	color:#8d888f;
+	float:left;
+}
+.headtop a{
+	display:inline-block;
+	padding-right:15px;
+	padding-left:15px;
+	line-height:37px;
+	color:#8d888f;
+	float:right;
+}
+.headtop_sp1{
+	color:#ccc;
+	position:absolute;
+	right:80px;
+	top:8px;
+}
+.headtop_sp2{
+	color:#ccc;
+	position:absolute;
+	right:164px;
+	top:8px;
+}
+.headtop a:hover{
+	color:#018de2;
+	transition:1s;
+	text-decoration:underline;
+}
+
+.headbady{
+	width:1000px;
+	height:122px;
+	margin:0px auto;
+}
+.hb_li1 img{
+	width:255px;
+	height:90px;
+	float:left;
+	margin-top:20px;
+}
+.hb_li1 img:hover{
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(250,250,250,0.3);
+}
+.hb_li2 h3{
+	font-size:20px;
+	line-height:30px;
+	margin-top:46px;
+	margin-left:30px;
+	color:#676968;
+	float:left;
+}
+.hb_dl{
+	width:192px;
+	height:61px;
+	float:right;
+	padding-top:40px;
+	background:url("../img/hdphoen_ico.png") no-repeat left 55px;
+}
+.hb_dt{
+	font-size:13px;
+	color:#c0a2ae;
+	margin-left:40px;
+}
+.hb_dd1{
+	font-size:22px;
+	color:#5d7081;
+	margin-left:40px;
+}
+.hb_dd2{
+	font-weight:bold;
+	font-size:13px;
+	color:#010500;
+	margin-left:40px;
+}
+
+.headfoot{
+	width:100%;
+	height:58px;
+	background:#008DE2;
+}
+.hf_ul{
+	width:1000px;
+	height:58px;
+	margin:0px auto;
+}
+.hf_ul li a{
+	font-size:14px;
+	color:#fff;
+	float:left;
+	line-height:58px;
+	padding-left:32px;
+	padding-right:32px;
+	transition:1s;
+	border-right:1px solid #49ade8;
+	transform:translate(0,-2px);
+	box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+}
+.hf_ul li:hover a{
+	background: url("../img/hover.png") repeat-x center bottom;
+}
+/* headend */
+/*headbox*/
+.headbox{
+	width:100%;
+	height:420px;
+	margin:0px auto;
+	background:url("../img/banner1.gif") no-repeat;
+	background-size:cover;
+}
+
+/* headboxend */

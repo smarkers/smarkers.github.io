@@ -1,0 +1,86 @@
+.foot{
+	width:100%;
+	height:408px;
+	background:#434343;
+}
+.ft1{
+	width:1000px;
+	height:282px;
+	margin:0px auto;
+	padding-top:26px;
+}
+.ft1_top{
+	width:1000px;
+	height:52px;
+	background:#626262;
+}
+.ft1_top a{
+	padding:0 31px;
+	font-size:14px;
+	color:#fff;
+	line-height: 52px;
+	background:url("../img/fotnavbr.png") no-repeat right center;
+}
+.ft1_top a:hover{
+	text-decoration:underline;
+	
+}
+.ft1_top #ft1_top1{
+	border:none;
+}
+.fotTxt{
+	padding-left: 100px;
+	padding-bottom: 20px;
+	margin-top: 38px;
+	line-height: 30px;
+	font-size: 13px;
+	color: #fff;
+	display:inline-block;
+}
+.fotTxt a{
+	color:#fff;
+}
+.fotTxt a:hover{
+	color: #0f91ed;
+	text-decoration:underline;
+}
+.fotPhone {
+    font-size: 13px;
+    color: #fff;
+	background:url("../img/hdphoen_ico.png") no-repeat 760px 65px;
+}
+.fotPhone dt{
+	margin-left:800px;
+	margin-top:-170px;
+}
+.fotPhone dd{
+	margin-left:800px;
+	margin-top:0px;
+	line-height: 26px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ffbe2c;
+}
+.ewmImg{
+	display:inline-block;
+}
+.yqlj{
+	width:1000px;
+	height:100px;
+	margin:0px auto;
+}
+.yqlj .f1{
+	display:inline-block;
+	float:left;
+}
+.yqlj a{
+	padding:0 31px;
+	font-size:14px;
+	line-height:52px;
+	color:#fff;
+	background:url("../img/fotnavbr.png") no-repeat right center;
+	float:left;
+}
+.yqlj a:hover{
+	text-decoration:underline;	
+}
