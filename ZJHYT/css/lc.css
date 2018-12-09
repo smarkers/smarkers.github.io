@@ -1,0 +1,269 @@
+/*楼层区域*/
+
+/*<!--  品牌特卖 -->*/
+.pptm{
+	width:1220px;
+	height:121px;
+	background:#e3dfdf;
+	margin:0 auto;
+}
+.pptm i {
+	display:inline-block;
+	height:53px;
+	border-bottom:2px solid #F00;
+	width:455px;
+	position:relative;
+	top:-10px;
+}
+.pptm-nr{
+	display:inline-block;
+	width:295px;
+	height:120px;
+	text-align:center;
+}
+.pptm-nr .tm{
+	font-family:"华文行楷";
+	font-weight:700;
+	font-size:35px;
+	color:#fb3434;
+	padding-top:26px;
+}
+.pptm-nr .sx{
+	font-family:"华文行楷";
+	font-size:18px;
+}
+.pptm-nr a{
+	display:block;
+	height:32px;
+	line-height:32px;
+}
+
+
+/*<!-- 品牌特卖end -->*/
+/*第一个楼层*/
+.floor{
+	width:1220px;
+	height:1000px;
+	margin:0 auto;
+	background:green;
+}
+.list-li{
+	width:1220px;
+	height:241px;
+	background:#fff;
+	padding-bottom: 20px;
+}
+.list-left{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/11.jpg) no-repeat -3px 0;
+	background-size:558px;
+	float:left;
+}
+.list-logo{
+	width:81px;
+	height:82px;
+	margin:0px auto;
+}
+.list-logo img{
+	width:81px;
+	height:82px;
+	margin-top:25px;
+	border-radius:100px;
+}
+.p1{
+	text-align:center;
+	font-size:24px;
+	font-weight:800;
+	color:#ffffff;
+	margin-top:40px;
+}
+.p2{
+	text-align:center;
+	margin-top:40px;
+	font-size:12px;
+	color:#ffffff;
+}
+.list-right{
+	width:610px;
+	height:241px;
+	padding-left:28px;
+	background:#fff;
+	float:left;
+}
+.list-right h3{
+	height:23px;
+	line-height:23px;
+	display:inline-block;
+	margin-top:23px;
+}
+.list-right span{
+	display:inline-block;
+	/*width:70px;*/
+	height:23px;
+	background:#fb3434;
+	font-size:12px;
+	border-radius:7px;
+	margin:9px;
+	line-height:23px;
+}
+.list-right span:hover{
+	color:#fff;
+
+}
+.list-right1{
+	display:inline-block;
+	width:70px;
+	height:24px;
+	float:right;
+	border-radius:9px;
+	background:#fff;
+	margin:13px;
+	padding-top:4px;
+	border:red 1px solid;
+	
+}
+.list-right1 a{
+	color:#fb3434;
+	
+	font-size:12px;
+}
+.list-right1 a:hover{
+	color:#fff;
+}
+.list-right1:hover{
+	border-radius:9px;
+	background:#fb3434;
+	color:#fff;
+}
+.right-box1{
+	width:633px;
+	height:165px;	
+}
+.right-bg{
+	width:211px;
+	height:190px;
+	float:left;
+}
+.right-bg img{
+	width:200px;
+	height:150px;
+}
+.right-bg a{
+	font-size:14px;	
+}
+.right-bg a b{
+	margin-left:30px;
+	padding:9px;
+}
+.right-bg1{
+	width:211px;
+	height:190px;
+	float:left;
+}
+.right-bg1 img{
+	width:200px;
+	height:150px;
+}
+.right-bg1 a{
+	font-size:14px;	
+}
+.right-bg1 a b{
+	margin-left:30px;
+	padding:9px;
+}
+
+
+
+.right-bg2{
+	width:211px;
+	height:190px;
+	float:left;
+}
+.right-bg2 img{
+	width:200px;
+	height:150px;
+}
+.right-bg2 a{
+	font-size:14px;	
+}
+.right-bg2 a b{
+	margin-left:30px;
+	padding:9px;
+}
+/*第一个楼层end*/
+
+.list-left1{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/21.jpg) no-repeat 0 0;
+	background-size:558px;
+}
+.list-left1 .list-logo img{
+	 width:85px;
+	 height:82px;
+}
+/*.list-left1 {
+	width:544px;
+	height:233px;
+	background-size:630px 250px;
+}*/
+.list-left2{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/TB1T62WszTpK1RjSZKPSuu3UpXa.jpg_q100.jpg) no-repeat 0 0;
+	background-size:558px 250px;
+
+}
+.list-left2 .list-logo img{
+	 width:85px;
+	 height:82px;
+}
+.list-left3{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/TB1j3zxtZbpK1RjSZFySut_qFXa.jpg_q100.jpg) no-repeat 0 0;
+	background-size:558px 250px;
+}
+.list-left3 .list-logo img{
+	 width:85px;
+	 height:82px;
+}
+.list-left4{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/TB1E8jutYrpK1RjSZTESuwWAVXa.jpg_q100.jpg) no-repeat 0 0;
+	background-size:558px 250px;
+}
+.list-left4 .list-logo img{
+	 width:80px;
+	 height:85px;
+}
+.list-left5{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/TB1WB2xt7zoK1RjSZFlSuui4VXa.jpg_q100.jpg) no-repeat 0 0;
+	background-size:558px 250px;
+}
+.list-left5 .list-logo img{
+	 width:80px;
+	 height:85px;
+}
+.list-left6{
+	width:558px;
+	height:241px;
+	float:left;
+	background:url(../img/TB171fjt9rqK1RjSZK9SutyypXa.jpg_q100.jpg) no-repeat 0 0;
+	background-size:558px 250px;
+}
+.list-left6 .list-logo img{
+	 width:80px;
+	 height:85px;
+}
+/*楼层区域end

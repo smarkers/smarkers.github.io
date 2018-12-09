@@ -1,0 +1,981 @@
+#body {
+	margin:0 auto;
+	padding:0;
+	width:/* 1366px */100%;
+	background:#f5f5f5;
+	}
+.c1center {
+	margin:0 auto;
+	width:200px;
+	height:40px;
+	display:inline-block;
+	 
+	overflow:hidden;
+	font-size:14px;
+	color:black;
+	line-height:20px;
+}
+.second-pg {
+	width:70px;
+	height:25px;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:1px;
+	right:35px;
+	opacity:0;
+	transition:1s;
+}
+.second-pg1 {
+	color:#fff;
+	font-size:12px;
+	line-height:25px;
+}
+.second1:hover .second-pg {
+	opacity:1;
+}
+ 
+div.first {
+	width:36px;
+	height:369px;
+
+	background-position:left top;
+	position:fixed;
+	left:10px;
+	top:200px;
+}
+.first1 {
+	width:36px;
+	height:36px;
+	background:rgba(0,0,0,0.8);
+	float:left;
+	margin-bottom:1px;
+}
+.first2 {
+	background:#ff0036;
+}
+.first3:hover {
+	background:#64c333;
+}
+.first5:hover {
+	background:black;
+}
+.first6:hover {
+	background:#fc7eda;
+}
+.first7:hover {
+	background:#990066;
+}
+.first8:hover {
+	background:#6600cc;
+}
+.first9:hover {
+	background:#ff3333;
+}
+.first10:hover {
+	background:#cc3333;
+}
+.first4 {
+	background:rgba(0,0,0,0.5);
+}
+.daohang {
+	color:#fff;
+	font-size:11px;
+	line-height:12px;
+	padding:7px 6px 6px 5px;
+	display:block;
+}
+.dh1 {
+	padding-top:13px;
+}
+ div.second {
+	width:35px;
+	height:630px;
+	background:rgba(0,0,0,0.8);
+	background-position:right top;
+	position:fixed;
+	right:0px;
+	top:0px;
+}
+.second1{
+	width:36px;
+	height:36px;
+	position:relative; 
+	float:left;
+	border-bottom:1px solid #e5e5e5;
+	margin-top:130px;
+	 
+} 
+.second2 {
+	width:36px;
+	height:120px;
+	 
+	float:left;
+	border-bottom:1px solid #e5e5e5;
+	margin-top:0px;
+	 
+} 
+.second3 {
+	width:35px;
+	height:35px;
+	/* background:red;  */
+	float:left;
+	/* border-bottom:1px solid #e5e5e5; */
+	margin-top:4px;
+	
+	 
+} 
+.second2box {
+	width:35px;
+	height:35px;
+	float:left;
+} 
+.second2box {
+	width:35px;
+	height:35px;
+	float:left;
+	
+} 
+.second3box {
+	width:35px;
+	height:35px;
+	float:left;
+	 
+} 
+.spg1center {
+	width:20px;
+	height:50px;
+	float:left;
+	 
+	 
+	margin-left:12px;
+} 
+.shop-spg {
+	color:#fff;
+	font-size:11px;
+	line-height:10px;
+	 
+}
+span.secondpg {
+	width:35px;
+	height:35px;
+	background:url("../img/index.png") no-repeat ;
+	display:block;
+ 
+}
+span.secondpg1 {
+	width:35px;
+	height:35px;
+	background:url("../img/index.1png.png") no-repeat;
+	display:block;
+	 
+}
+span.secondpg3 {
+	width:35px;
+	height:35px;
+	background:url("../img/index.2png.png") no-repeat;
+	display:block;
+	 
+}
+span.secondpg4 {
+	width:35px;
+	height:35px;
+	background:url("../img/index3.png") no-repeat;
+	display:block;
+	 
+}
+span.secondpg5 {
+	width:35px;
+	height:35px;
+	background:url("../img/index4.png") no-repeat;
+	display:block;
+	 
+}
+span.secondpg6 {
+	width:35px;
+	height:35px;
+	background:url("../img/index.8.png ") no-repeat;
+	display:block;
+	margin-left:9px; 
+	margin-top:9px; 
+} 
+span.secondpg7 {
+	width:35px;
+	height:35px;
+	background:url("../img/index6.png ") no-repeat;
+	display:block;
+	margin-left:10px;
+	margin-top:10px;
+}  
+span.secondpg8 {
+	width:35px;
+	height:35px;
+	background:url("../img/index7.png ") no-repeat;
+	display:block;
+	margin-left:10px; 
+	margin-top:10px; 
+}  
+span.secondpg9 {
+	width:35px;
+	height:35px;
+	background:url("../img/index10.png ") no-repeat;
+	display:block;
+	margin-left:10px; 
+	margin-top:10px; 
+}  
+.second1:hover {
+	background:red;
+}
+.second2:hover {
+	background:red;
+}
+.second3:hover {
+	background:red;
+} 
+/* 品牌闪购 */
+p {
+	line-height:54px;
+	padding-left:9px;
+	font-size:18px;
+}
+span.pan {
+	margin:0 auto;
+	width:135px;
+	height:40px;
+	display:inline-block;
+	margin-left:50px;
+	overflow:hidden;
+	font-size:14px;
+}
+span {
+	padding-left:11px;
+}
+.img2 {
+	width:234px;
+	height:316px;
+}
+.img3{
+	width:485px;
+	height:316px;
+}
+.img4{
+	width:485px;
+	height:316px;
+}
+.shangou {
+	width:1230px;
+	height:372px;
+	margin:0 auto;
+	background:#f5f5f5;
+	 
+}
+.sgpg1 {
+	width:234px;
+	height:373px;
+	background:green;
+	float:left;
+	 
+}
+.sgpg2 {
+	width:485px;
+	height:373px;
+	background:green;
+	float:left;
+	margin-right:13px; 
+	margin-left:13px; 
+}
+.sgpg3 {
+	width:485px;
+	height:373px;
+	background:green;
+	float:left;
+	 
+}
+.sgtop {
+	width:234px;
+	height:54px;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
+}
+.sgbottom {
+	width:234px;
+	height:317px;
+	background:#f5f5f5;
+	border-bottom:1px solid #e5e5e5;
+}
+.sgtop1 {
+	width:485px;
+	height:54px;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
+}
+.sgbottom1 {
+	width:485px;
+	height:317px;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
+}
+.sgtop2 {
+	width:485px;
+	height:54px;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
+}
+.sgbottom2 {
+	width:485px;
+	height:317px;
+	background:#fff;
+	border-bottom:1px solid #e5e5e5;
+}
+/* 品牌闪购end */
+/* 定位图片 */
+
+.dingwei {
+	width:1230px;
+	height:326px;
+	background:#fff;
+	margin:0 auto;
+	float:left;
+	margin-top:14px;
+ 
+	 
+}
+.dw1 {
+	width:122px;
+	height:108px;
+	border-bottom:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	float:left;
+	position:relative;
+	 
+}
+.dw2 {
+	width:122px;
+	height:108px;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+} 
+.dw1:hover .dw2 {
+	display:block;
+}
+.dw2center {
+	color:#fff;
+	display:inline-block; 
+	margin-left:50px;
+	margin-top:20px;
+}
+.dw3 {
+	width:63px;
+	height:18px;
+	background:red;
+	margin-left:30px;
+	border-radius:10px;
+	  
+}
+.dw3center {
+	width:48px;
+	height:14px;
+	color:#fff;
+	display:inline-block;
+	margin-top:-30px;
+	margin-left:10px;
+	 
+	 
+}
+/* 定位图片end */
+/* 天猫超市 */
+.shoptop img {
+	width:214px;
+	height:25px;
+	 
+}
+.shoppgimg {
+	width:236px;
+	height:618px;
+}
+.jin {
+	height:31px; 
+	color:black;
+	font-size:12px;
+	padding:4px 23px 0 23px;
+}
+.jinpg {
+	 
+	width:800px;
+	height:31px;
+	background:#f5f5f5;
+	float:right;
+	 
+}
+.shop {
+	 
+	width:1230px;
+	height:677px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+}
+div.shoptop {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.shopbottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.shoppg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.btright {
+	width:980px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+.shoppg1 {
+	width:237px;
+	height:303px;
+	background:#fff;
+	float:left;
+	margin-right:10px;
+	margin-bottom:14px;
+}
+ 
+.shoppg1 img{
+	width:185px;
+	height:185px;
+	margin:21px 25px 12px;
+	
+}
+.shoppg4 img{
+	width:185px;
+	height:185px;
+	margin:21px 25px 12px;
+	
+}
+.shoppg5 img{
+	width:185px;
+	height:185px;
+	margin:21px 25px 12px;
+	
+}
+.shoppg6 img{
+	width:185px;
+	height:185px;
+	margin:21px 25px 12px;
+	
+}
+.shoppg4 {
+	width:237px;
+	height:303px;
+	background:#fff;
+	float:left;
+	 
+	margin-bottom:14px;
+}
+.shoppg5 {
+	width:237px;
+	height:303px;
+	background:#fff;
+	float:left;
+	margin-right:10px;
+	 
+}
+.shoppg6 {
+	width:237px;
+	height:303px;
+	background:#fff;
+	float:left;
+	 
+	 
+} 
+ 
+/* 天猫超市end */
+/* 天猫国际 */
+.guojitop img {
+	width:214px;
+	height:25px;
+	 
+}
+.kou {
+	color:black;
+	font-size:12px;
+	padding-right:22px;
+}
+.hong {
+	margin-left:540px;
+}
+ 
+.guoji {
+	 
+	width:1230px;
+	height:677px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+}
+
+div.guojitop {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.guojibottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.guojipg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.gjright {
+	width:980px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+.guojipg1 {
+	width:237px;
+	height:303px;
+	background:#fff;
+	float:left;
+	margin-right:10px;
+	margin-bottom:14px;
+}
+ 
+/* 天猫国际end */
+/* 美丽人生 */
+.reshengtoppg {
+	width:1230px;
+	height:90px;
+}
+.rensheng {
+	 
+	width:1230px;
+	height:786px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+}
+.beautiful {
+	width:400px:
+	height:30px;
+	background:#f5f5f5; 
+	float:left;
+}
+.beautiful1 {
+	height:30px;
+	line-height:30px;
+	color:18px;
+}
+div.renshengtop {
+	width:1230px;
+	height:90px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;
+	
+	 }
+div.renshengtop1 {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.renshengbottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.renshengpg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.rsright {
+	width:980px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+ 
+/* 美丽人生end */
+/*  潮店酷玩 */
+.kuwan {
+	 
+	width:1230px;
+	height:677px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+}
+div.kuwantop {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.kuwanbottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.kuwanpg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.kwright {
+	width:980px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+ 
+/*  潮店酷玩end */
+/* 居家生活 */
+.jinmilk {
+	padding-right:22px;
+	color:black;
+}
+.milk1 {
+	padding-left:153px;
+}
+.shengh {
+	 
+	width:1230px;
+	height:786px;
+	background:#e5e5e5;
+	float:left;
+	margin:0 auto;
+}
+div.shenghtop {
+	width:1230px;
+	height:90px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;
+	
+	 }
+div.shenghtop1 {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.shenghbottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.shenghpg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.shright {
+	width:980px;
+	height:619px;
+	background:#fff;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+.shoppg1:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	box-shadow:0 0 0 2px #fc9a86;
+} 
+.shoppg4:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	box-shadow:0 0 0 2px #fc9a86;
+} 
+.shoppg5:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	box-shadow:0 0 0 2px #fc9a86;
+}
+.shoppg6:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	box-shadow:0 0 0 2px #fc9a86;
+} 
+/* 居家生活end */
+/* 打造爱巢 */
+.aichao {
+	 
+	width:1230px;
+	height:677px;
+	background:#e5e5e5;
+	float:left;
+	margin:0 auto;
+}
+div.aichaotop {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.aichaobottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.aichaopg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.acright {
+	width:980px;
+	height:619px;
+	background:#fff;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+ 
+/* 打造爱巢end */
+/* 户外出行 */
+.che {
+	padding-left:420px;
+}
+.jinpi {
+	padding-right:22px;
+	color:black;
+}
+.chux {
+	 
+	width:1230px;
+	height:786px;
+	background:#e5e5e5;
+	float:left;
+	margin:0 auto;
+}
+div.chuxtop {
+	width:1230px;
+	height:90px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;
+	
+	 }
+div.chuxtop1 {
+	width:1230px;
+	height:25px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+	margin-top:24px;  
+	margin-bottom:10px;  
+}
+div.chuxbottom {
+	width:1230px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	margin:0 auto;
+ 
+}
+.chuxpg {
+	width:236px;
+	height:619px;
+	background:#f5f5f5;
+	float:left;
+	 
+}
+.cxright {
+	width:980px;
+	height:619px;
+	background:#fff;
+	float:left;
+	margin:0 auto;
+	margin-left:13px;
+}
+ 
+/* 户外出行end */
+/* 猜你喜欢 */
+.cain {
+	width:1230px;
+	margin:0 auto;
+	float:left;
+	
+	 
+}
+.caintopcenter {
+	padding-left:550px;
+	padding-top:15px;
+}
+.cainibottom img {
+	width:185px;
+	height:185px;
+	margin:19px 23px 12px;
+}
+.caintop {
+	width:1230px;
+	margin:0 auto;
+	height:82px;
+	float:left;
+	background:#f5f5f5;
+}
+.cainbottom {
+	width:1230px;
+	 
+	margin:0 auto;
+	float:left;
+}
+.c1 {
+	width:238px;
+	height:318px;
+	float:left;
+	background:#fff ;
+	margin-bottom:14px; 
+}
+.c1:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	 
+}
+.c2:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	 
+}
+.c3:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	 
+}
+.c4:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	  
+}
+.c5:hover {
+	transform:scale(0.85);
+	background:rgba(255,255,0,0.5);
+	transition:0.5s;
+	 
+}
+.c2 {
+	width:238px;
+	height:318px;
+	float:left;
+	background:#fff ;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:14px;
+}
+.c3 {
+	width:238px;
+	height:318px;
+	float:left;
+	background:#fff;
+	 margin-bottom:14px;
+}
+.c4 {
+	width:238px;
+	height:318px;
+	float:left;
+	background:#fff;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:14px;
+}
+.c5 {
+	width:238px;
+	height:318px;
+	float:left;
+	background:#fff ;
+	margin-bottom:14px; 
+}
+.cbottom {
+	width:1230px;
+	height:55px;
+	float:left;
+	background:#f5f5f5;
+	border-bottom:1px solid #e5e5e5;
+	 
+}
+ 
+/* 猜你喜欢end */
+ 
+ 

@@ -1,0 +1,191 @@
+/*底部*/
+.protocol{
+	width:1340px;
+	height:446px;
+	background:#fff;
+	margin:20px auto 0;
+}
+.prot  ul{
+	width:1200px;
+	height:109px;
+	border-top:1px solid #ccc;
+	background:#f7f7f7;
+	margin:0 0 0 60px;
+}
+.col li{
+	float:left;
+	width:190px;
+	height:50px;
+	margin-top:30px;
+	margin-left:5px;
+	font-size:12px;
+}
+.col img{
+	width:50px;
+	height:50px;
+	float:left;
+	margin-top:-5px;
+	margin-right:7px;
+}
+.col  p {
+	width:190px;
+	font-size:8px;
+
+}
+.proto {
+	width:1200px;
+	height:180px;
+	background:#f7f7f7;
+	margin:0 0 0 60px;
+}
+.after dt {
+	width:170px;
+	height:33px;
+	
+	margin-left:70px;
+}
+.after p{
+	width:170px;
+	height:28px;
+	color:#7979a0;
+	margin-left:70px;
+	font-size:12px;
+}
+.jop a{
+	margin-left:70px;
+}
+.job dt {
+	width:170px;
+	height:33px;
+	
+	margin-left:70px;
+}
+.job p{
+	width:170px;
+	height:28px;
+	color:#7979a0;
+	margin-left:70px;
+}
+.after {
+	float:left;
+	width:170px;
+	height:112px;
+	margin-top:10px;
+}
+.job{
+	width:170px;
+	height:56px;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+	background:url("../img/footer.png") no-repeat 20px -91px;
+}
+.jop{
+	width:170px;
+	height:56px;
+	float:left;
+	margin-top:10px;
+	margin-left:50px;
+	background:url("../img/footer.png") no-repeat 20px -212px;
+}
+.jop span {
+	display: block;
+	width:90px;
+	height:26px;
+	margin-left:70px;
+	text-align:center;
+	background:#ff3333;
+	color:#fff;
+}
+.jop dt {
+	width:170px;
+	height:33px;
+	
+	margin-left:70px;
+}
+.jop p{
+	width:170px;
+	height:28px;
+	color:#7979a0;
+	margin-left:70px;
+}
+.foot {
+	width:1200px;
+	height:174px;
+	margin:0 0 0 60px;
+	background:#2d2d2d;
+}
+.foot-tp {
+	width:660px;
+	height:179px;
+	font-size:12px;
+	float:left;
+}
+.tpa a{
+	width:660px;
+	height:50px;
+	line-height:50px;
+	margin-left:20px;
+
+	color:#fff;
+}
+.tpm a{
+	width:660px;
+	height:50px;
+	line-height:50px;
+	margin-top:10px;
+	margin-left:20px;
+	color:#ccc;
+}
+.tpm img {
+	width:16px;
+	height:16px;
+	line-height:50px;
+}
+.tpb span {
+	margin-left:20px;
+	color:#ccc;
+}
+.tpb a{
+	width:660px;
+	height:50px;
+	line-height:50px;
+	margin-top:10px;
+	margin-left:10px;
+	color:#ccc;
+}
+.foot-but {
+	width:280px;
+	height:100px;
+	/*background:pink;*/
+	margin-left:200px;
+	margin-top:10px;
+	float:left;
+}
+.foot-but a {
+	display: block;
+	width:125px;
+	background:url("../img/icon.png") no-repeat;
+}
+.foot-but a:hover{
+	text-decoration:underline;
+	color:#fff;
+}
+.foot-but span {
+	margin-left:25px;
+	color:#fff;
+}
+.but img{
+	width:100px;
+	height:100px;
+	float:right;
+	
+}
+.but {
+	width:134px;
+	height:100px;
+	float:right;
+	background:#fff;
+	margin-top:-15px;
+	background:url("../img/icon.png") no-repeat 0 -21px;
+}

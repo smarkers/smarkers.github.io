@@ -1,0 +1,144 @@
+.box{
+	width:1349px;
+	background:#ffffff;
+	margin:0 auto;
+}
+
+/*头部区域*/
+.top-top{
+	width:1349px;
+	height:57px;
+	margin:0 auto;
+}
+.top-top img{
+	width:1349px;
+	margin:0 auto;
+}
+.top-content{
+	height:40px;
+	line-height:40px;
+	background:#f8f8f8;..
+	position:relative;
+	margin:0 auto;
+}
+.top-content a{
+	font-size:12px;
+	
+}
+.top-content span{
+	margin-left:130px;
+	font-size:12px;
+	float:left;
+
+}
+.top-one{
+	float:left;
+}
+.top-content .top-dl{
+	padding-left:200px;
+	color:red;
+	float:left;
+
+}
+.top-content .top-mf{
+	margin-left:8px;
+	float:left;
+
+}
+.top-content .top-js{
+	width:579px;
+	height:40px;
+	line-height:40px;
+	background:#f8f8f8;
+	float:right;
+	display:inline;
+	text-align:center;
+}
+.top-content .top-js li{
+	width:100px;
+	height:40px;
+	float:right;
+}
+.top-content .top-js .li-dd{
+	margin-right:59px;
+
+}
+.top-content .top-js .li-sj{
+	padding-left:19px;
+	border-left:1px solid #ccc;	
+}
+.top-nav{
+	width:1200px;
+	height:110px;
+	background:#ffffff;
+	margin:0 auto;
+}
+.nav-logo{
+	width:255px;
+	height:110px;
+	float:left;
+}
+.nav-logo img{
+	width:255px;
+	height:110px;
+
+}
+.nav-input{
+	width:560px;
+	height:85px;
+	float:left;
+	margin-top:25px;
+	margin-left:35px;
+	position:relative;
+}
+.nav-input input{
+	width:486px;
+	height:32px;
+	padding-left:10px;
+	float:left;
+	line-height:32px;
+	color:#9d9d9d;
+
+	/*float:left;*/
+}
+.nav-border{
+	border:red solid 2px;
+	border-radius:3px;
+	float:right;
+}
+.nav-border button{
+	width:60px;
+	height:35px;
+	float:right;
+	background-image:url(../img/未标题-1.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+.nav-ul{
+	height:42px;
+	width:560px;
+}
+.nav-ul ul{
+	width:460px;
+	height:30px;	
+	line-height:20px; 
+	margin-left:10px;
+	float:left;
+}
+.nav-ul li{
+	font-size:14px;
+	float:left;
+	padding:5px 5px 10px 4px;
+}
+.nav-ul a{color:#9d9d9d;}
+.nav-bg1{
+	width:280px;
+	height:110px;
+	float:right;
+}
+.nav-bg1 img{
+	width:300px;
+	height:110px;
+	float:right;
+}
+/*头部区域end*/

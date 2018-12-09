@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+		body{margin:0;}
+		ul,li{list-style:none;margin:0;padding:0}
+		a{text-decoration:none}
+		.clearfix:after{
+			content:"";
+			display:block;
+			clear:both;
+		}
+		.head,.top,.navBox,.searchBox{
+			width:100%;
+			margin:0 auto;
+		}
+		.top{
+			background:#CCC;
+		}
+		.topCenter{
+			width:1230px;
+			margin:0 auto;
+			height:40px;
+		}
+
+		.searchCenter{
+			width:1230px;
+			margin:0 auto;
+			height:100px;
+			background:#333;
+		}
+
+		.navCenter{
+			width:1230px;
+			margin:0 auto;
+			background:#cc0000;
+		}
+		.menuBox{
+			float:left;
+			width:200px;
+			position:relative;
+		}
+		.menuBox span{
+			display:block;
+			height:35px;
+			background:#ff0036;
+			line-height:35px;
+			text-align:center;
+		}
+
+		.menuList{
+			width:200px;
+			background:#696969;
+			position:absolute;
+			top:35px;
+			left:0;
+		}
+		.menu{
+			width:800px;
+			height:400px;
+			background:#DDD;
+			position:absolute;
+			top:0px;
+			left:200px;
+			display:none;
+		}
+		.menuList li{
+			height:40px;
+			line-height:40px;
+			background:#696969;
+		}
+
+		.menuList li:hover{
+			background:#fff;
+		}
+
+		.menuList li:hover .menu{
+			display:block;
+		}
+	
+
+		.nav{ 
+			float:left;
+			width:790px;
+		}
+		.navList li{
+			float:left;
+			height:35px;
+			line-height:35px;
+		}
+		.navList li a{
+			margin:0 8px;
+			font-size:12px;
+			color:#333;
+		}
+
+		.floor1{
+			height:300px;
+			background:pink;
+			width:1230px;
+			margin:30px auto;
+		}
+		.floor2{
+			height:300px;
+			background:deeppink;
+			width:1230px;
+			margin:50px auto;
+			/* padding-top:10px;   方法一*/
+			overflow:hidden;   /*方法一*/
+		}
+
+		.floorTop{
+			height:200px;
+			background:#000;
+			margin-top:10px;
+		}
+
+		/*在使用margin外边距  注意margin 水平向的重叠
+			
+			子元素会影响父元素的margin 优先使用margin-bottom 来代替 margin-top 或者父级加padding-top
+			
+		*/
+
+		
+		
+  </style>
+ </head>
+ <body>
+	<!-- 头部 -->
+		<div class="head">
+			<div class="top">
+				<div class="topCenter clearfix"></div>
+			</div>
+			<div class="searchBox">
+				<div class="searchCenter"></div>
+			</div>
+			<div class="navBox">
+				<div class="navCenter clearfix">
+					<div class="menuBox">
+						<span>所有商品分类</span>
+						<!-- 菜单 脱离原来的位置 不占位 绝对定位-->
+						<ul class="menuList">
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu1</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu3</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu4</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu5</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu6</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu7</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu1</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu8</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu9</div>
+							</li>
+							<li>
+								<a href="#">手机</a>
+								<a href="#">手机</a>
+								<div class="menu">menu10</div>
+							</li>
+						</ul>
+						<!-- 菜单 end-->
+					</div>
+					<div class="nav">
+						<ul class="navList">
+							<li><a href="#">天猫国际</a></li>
+							<li><a href="#">天猫超市</a></li>
+							<li><a href="#">天猫会员</a></li>
+							<li><a href="#">猫商城</a></li>
+							<li><a href="#">猫鲜生</a></li>
+							<li><a href="#">医药馆</a></li>
+							<li><a href="#">营业厅</a></li>
+							<li><a href="#">魅力惠</a></li>
+							<li><a href="#">苏宁易购</a></li>
+							<li><a href="#">飞猪旅行</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- 头部end -->
+	<div class="floor1"></div>
+	<div class="floor2">
+		<div class="floorTop"></div>
+	</div>
+ </body>
+</html>

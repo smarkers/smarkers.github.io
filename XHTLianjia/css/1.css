@@ -1,0 +1,11 @@
+body,h1,h2,h3,h4,h5,h6,p {margin:0;font-size:12px;}
+ul,ol,dl,dt,dd,li {margin:0;padding:0; list-style:none;}
+a {text-decoration:none; color:#fff;}
+input,button {padding:0;outline:none;}
+img {vertical-align:middle;}
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.clearfix{zoom:1;}

@@ -1,0 +1,516 @@
+/*头部*/
+/*首导航栏*/
+.box {
+	width:1349px;
+	margin:0 auto;
+}
+.navigate {
+	width:1349px;
+	height:589px;
+	margin:0 auto;
+	/*position: relative;*/
+	/*background:#27e7e5;*/
+	/*z-index: 2;*/
+}
+.navtop {
+	width:1349px;
+	height:29px;
+	background:#f5f5f5;
+	font-size:12px;
+	border:1px solid #ccc;
+}
+.navleft {
+	width:320px;
+	height:29px;
+	float:left;
+	/*background:#fb036c;*/
+	margin-left:62px;
+}
+.nav_tp {
+	width:49px;
+	height:29px;
+	line-height:29px;
+}
+.nav_mid {
+	width:146px;
+	height:29px;
+	margin-left:23px;
+}
+.nav_btm {
+	width:49px;
+	height:29px;
+	margin-left:22px;
+}
+.nav_mid a:link {
+	color:#3366cc;
+}
+ .nav_btm a:link {
+	color:#3366cc;
+}
+.navleft a:hover {
+	color:red;
+	text-decoration:underline;
+}
+.navright{
+	width:720px;
+	height:29px;
+	float:left;
+	/*background:pink;*/
+	margin-left:240px;
+	line-height:29px;
+}
+.listnav li {
+	float:left;
+	margin-right:19px;
+}
+.listnav a:hover {
+	color:red;
+	text-decoration:underline;
+}
+.lis1 {
+	width:55px;
+}
+.lis2 {
+	width:70px;
+	position: relative;
+}
+.lis2 #pic1 { 
+	position: absolute;
+	top:14px;
+	right:4px;
+}
+.lisnav{
+	width:100px;
+	height:64px;
+	padding-left:6px;
+	background:#fff;
+	display:none;
+	border-top:0 solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.lis2:hover {
+	color:red;
+	background:#fff;
+	text-decoration:none;
+}
+.lis2:hover .lisnav {
+	display:block;
+}
+.lisnav span {
+	color:#ff5a33;
+}
+#nav_top {
+	width:70px;
+	height:28px;
+	line-height:28px;
+}
+#nav_butm {
+	width:70px;
+	height:28px;
+	line-height:28px;
+}
+.lis3{
+	width:65px;
+}
+.lis4 {
+	width:60px;
+	padding-right:21px;
+	border-right:1px solid #d9ccd9;
+}
+.lis5 {
+	width:80px;
+	padding-left:4px;
+	position: relative;
+	z-index: 9;
+}
+.lis5 img{
+	position: absolute;
+	left:-7px;
+	top:7px;
+	}
+.lis5 #pic {
+	position: absolute;
+	left:56px;
+	top:14px;
+}
+.code {
+	width:170px;
+	height:170px;
+	position: relative;
+	display: none;
+	background:#fff;
+}
+.code img{
+	width:130px;
+	height:130px;
+	position: absolute;
+	top:15px;
+	left:10px;
+}
+.lis5:hover {
+	background:#fff;
+
+}
+.lis5:hover .code {
+	display: block;
+}
+.lis6 {
+	width:69px;
+}
+.lis7 {
+	width:55px;
+}
+.lis8 {
+	width:60px;
+	position: relative;
+	margin-left:10px;
+	margin-right:25px;
+}
+.lis8 #pic2 {
+	position: absolute;
+	left:52px;
+	top:14px;
+}
+.phone {
+	width:98px;
+	height:34px;
+	display:none;
+	background:#fff;
+}
+.lis8:hover {
+	background:#fff;
+}
+.lis8:hover .phone {
+	display:block;
+}
+/*搜索框*/
+.seek {
+	width:100%;
+	height:120px;
+	margin:0 auto;
+	background:#fff;
+
+	/*position: fixed;
+	top: 0;
+	left: 0;*/
+	/*position: relative;
+	z-index: 1;*/
+}
+.logo {
+	width:130px;
+	height:60px;
+	margin-left:75px;
+	line-height:150px;
+	float:left;
+}
+.city {
+	float:left;
+	margin:40px 0 0 20px;
+	position: relative;
+	z-index: 3;
+}
+.citytop {
+	width:66px;
+	height:26px;
+	display:block;
+	text-align:center;
+	line-height:26px;
+	font-size:12px;
+	border:1px solid #ccc;
+}
+.city_list {
+	width:182px;
+	height:228px;
+	float:left;
+	background:#fff;
+	border:1px solid #ccc;
+	position: absolute;
+	left:0px;
+	top:29px;
+	display:none;
+}
+
+.city:hover .city_list {
+	display:block;
+}
+.city_list li {
+	height:30px;
+	font-size:12px;
+	color:#000;
+	line-height:30px;
+	margin-left:10px;
+}
+.cit1 a,.cit2 a,.cit3 a,.cit4 a,.cit5 a,.cit6 a,.cit7 a{
+	padding:10px 15px 10px 15px;
+}
+.city_list li a:hover{
+	color:red;
+	text-decoration:underline;
+	background:#ede7e7;
+}
+#city1:hover{
+	background:#ce1a1b;
+	color:#fff;
+}
+.search{
+	float:left;
+	margin:37px 0 0 70px;
+
+}
+
+.search span{
+	width:540px;
+	height:36px;
+	display:block;
+	background:#f5f5f5;
+	/*float:left;
+
+	position: absolute;
+	left:370px;
+	top:40px;*/
+	border:2px solid #ec3639;
+}
+.search input{
+	width:459px;
+	height:32px;
+	border:0;
+}
+.search button{
+	width:81px;
+	height:36px;
+	background:#ec3639;
+	color:#fff;
+	border: 0;
+}
+.ico{
+	width:320px;
+	height:43px;
+	float:left;
+	margin:50px 0 0 0;	
+	position: relative;
+}
+.ico div { 
+	width:20px;
+	height:20px;
+	float:left;
+	margin-left:65px;
+}
+#ico1 {
+	display: block;
+	width:84px;
+	height:36px;
+	float:left;
+}
+.dida {
+	width:20px;
+	height:20px;
+	float:left;
+	padding: 0 0 0 22px;
+	background:url("../img/header.png") no-repeat 0 0;
+}
+.dida:hover{
+	padding: 0 0 0 22px;
+	background:url("../img/head.png") no-repeat -30px -167px;
+}
+#ico2 {
+	display: block;
+	width:97px;
+	height:36px;
+	float:left;
+}
+.yoh {
+	width:20px;
+	height:20px;
+	float:left;
+	padding: 0 0 0 22px;
+	background:url("../img/header.png") no-repeat 0 -21px;
+}
+.yoh:hover{
+	padding: 0 0 0 22px;
+	background:url("../img/head.png") no-repeat -28px -188px;
+}
+#ico3{
+	display: block;
+	width:66px;
+	height:36px;
+	float:left;
+}
+.gwce {
+	width:20px;
+	height:20px;
+	float:left;
+	padding: 0 0 0 20px;
+	background:url("../img/header.png") no-repeat 0 -41px;
+}
+.gwce:hover{
+	padding: 0 0 0 20px;
+	background:url("../img/head.png") no-repeat -32px -208px;
+}
+.ico a:hover{
+		color:red;
+} 
+/*导航栏*/
+.bar{
+	width:100%;
+	height:39px;
+	margin-left:75px;
+	background:#fff;
+}
+.heatop {
+	height:39px;
+	position:relative;
+}
+.classify{
+	width:160px;
+	height:39px;
+	font-size:16px;
+	line-height:39px;
+	color:#fff;
+	text-align:center;
+	float:left;
+	background:#ec3639;
+	position: relative;
+
+}
+.headlist{
+	width:160px;
+	height:400px;
+	color:#fff;
+	background:#454545;
+
+	position: absolute;
+	left:75px;
+	top:190px;
+	/*position: relative;*/
+}
+.headlist li{
+	width:160px;
+	text-align:center;
+	height:54px;
+	line-height:54px;
+	font-size:16px;
+}
+.hea1,.hea2,.hea3,.hea4,.hea5,.hea6{
+	border-bottom:1px solid #4d4d4d;
+}
+ li.hea6 {
+	border-bottom:0;
+}
+.classify img{
+	margin-right:15px;
+}
+.headlist img {
+	margin: 0 15px 0  -15px;
+	padding-top:10px;
+}
+.headlist li:hover{
+	background:#fff;
+	color:#000;
+}
+/*.headlist li img:hover{
+	background:url("img/16.png") no-repeat;
+}*/
+.listbox{
+	width:680px;
+	height:400px;
+	background:#fff;
+	display:none;
+
+	position: absolute;
+	left:160px;
+	top:0px;
+}
+.box7 {
+	width:620px;
+	height:35px;
+	padding: 0 30px;
+	margin-left:15px;
+}
+.box7 a {
+	margin-left:30px;
+}
+.box7 a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.headlist li:hover .listbox{
+		display:block;
+} 
+.header {
+	width:1000px;
+	height:39px;
+	background:#fff;
+}
+.healist li{
+	height:39px;
+	line-height:39px;
+	float:left;
+	padding:0 50px 0 30px;
+
+}
+.heli a{
+	color:red;
+}
+.healist a:hover {
+		color:red;
+}
+.photo {
+	width:100%;
+	height:400px;
+}
+/*侧边栏*/
+.dohan {
+	width:37px;
+	height:600px;
+	background:#2d2d2d;
+	position: fixed;
+	right:0;
+	top:0;
+}
+.cvb {
+	width:37px;
+	height:226px;
+}
+.hui{
+	width:37px;
+	height:37px;
+	margin-top:15px;
+	background:url("../img/bar_ico.png") no-repeat 0 0;
+}
+.ail{
+	width:37px;
+	height:37px;
+	margin-top:15px;
+	background:url("../img/bar_ico.png") no-repeat 0 -74px;
+}
+.pma{
+	width:37px;
+	height:37px;
+	margin-top:15px;
+	background:url("../img/bar_ico.png") no-repeat 0 -110px;
+}
+.ubc{
+	width:37px;
+	height:37px;
+	margin-top:15px;
+	background:url("../img/bar_ico.png") no-repeat 0 -692px;
+}
+.fhdb {
+	width:37px;
+	height:37px;
+	margin-top: 301px;
+	background:url("../img/bar_ico.png") no-repeat 0 -186px;
+}
+.fhdb a{
+		display: block;
+		width:37px;
+		height:37px;
+} 
+.cdd {
+	width:37px;
+	height:37px;
+}
+.cdd:hover{
+	background:red;
+}

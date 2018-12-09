@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>北京房产网</title>
+	<link href="css/1.css" rel="stylesheet" />
+	<link href="css/2.css" rel="stylesheet" />
+	<style>
+	</style>
+</head>
+<body>
+<!-- 头部区域 -->
+	<div id="center">
+		<div id="top-Box">
+			<div class="box">
+				<div class="logo"></div>
+				<div class="logo-right"><span class="dz">北京</span></div>
+				<ul class="nav clear">
+					<div class="DengLu">
+						<a href="#" class="DL DL-1">登录</a><a href="#" class="DL DL-2">立即注册</a>
+					</div>
+					<li><a href="#">二手房</a></li>
+					<li><a href="#">新房</a></li>
+					<li><a href="#">租房</a></li>
+					<li><a href="#">海外</a></li>
+					<li><a href="#">小区</a></li>
+					<li><a href="#">经纪人</a></li>
+					<li class="lis">
+						<a href="#">指南
+							<div class="ZN">
+								<img src="img/zhengsanjiao.png" class="img2" />
+								<div class="ZN-1">问答</div>
+								<div class="ZN-2">百科</div>
+							</div>
+						</a>
+					</li>
+					<li><a href="#">房价</a></li>
+					<li><a href="#">工具</a></li>
+					<li><a href="#">经验</a></li>
+					<img src="img/dian1.png" class="img1">
+					<li class="list1"><a href="#">发布房源</a></li>
+					<li><a href="#">企业汇</a></li>
+				</ul>
+
+			</div>
+			<div class="searchBox">
+				<h1 class="h">连接每个家的故事</h1>
+				<h2 class="h2">北京链家真实租房14273套</h2>
+
+				<div class="secarch">
+					<div class="secarch-top clear">
+						<img src="img/zhengsanjiao.png" class="img3">
+						<ul class="se-top-list">
+							<li><a href="#" class="se-list1">找二手房</a></li>
+							<li><a href="#">找新房</a></li>
+							<li><a href="#">找租房</a></li>
+							<li><a href="#">找小区</a></li>
+							<li><a href="#">搜问答</a></li>
+						</ul>
+					</div>
+					<div class="secarch-bottom">
+						<form action="url" method="get" class="SE">
+							<input type="text" name="SE" class="SE-1" placeholder="请输入区域、商圈和小区名开始找房">
+							<button type="button" class="SE-2">开始找房</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="stat">
+					<span class="stat1">
+						<img src="img/shengming1.png">
+						关于仿冒我公司进行不正当竞争行为的郑重声明
+					</span>
+					<span class="stat2">
+						<img src="img/shengming2.png">
+						房地产中介诚信服务承诺及保证书
+					</span>
+					<span class="stat3">
+						<img src="img/shengming3.png">
+						致广大用户
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 头部区域end -->
+
+<!-- 身体区域1 -->
+	<div class="body">
+		<div class="body-box1"></div>
+		<div class="body-box2"></div>
+		<div class="body-box3"></div>
+	</div>
+<!-- 身体区域1end -->
+
+<!-- 身体区域2 -->
+	<div class="body2">
+		
+	</div>
+<!-- 身体区域2end -->
+
+<!-- 身体区域3 -->
+	<div class="body3">
+		
+	</div>
+<!-- 身体区域3end -->
+
+<!-- 身体区域4 -->
+	<div class="body4">
+		
+	</div>
+<!-- 身体区域4end -->
+
+<!-- 身体区域5 -->
+	<div class="body5">
+		
+	</div>
+<!-- 身体区域5end -->
+
+<!-- 身体区域6 -->
+	<div class="body6">
+		
+	</div>
+<!-- 身体区域6end -->
+
+<!-- 结束部分 -->
+	<div class="foot">
+
+	</div>
+<!-- 结束部分end -->
+</div>
+</body>
+</html>
