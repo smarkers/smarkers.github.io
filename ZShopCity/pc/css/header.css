@@ -459,6 +459,12 @@
 	width:100%;
 	height:400px;
 }
+
+.photo img{
+	width:100%;
+	height:400px;
+	display:block;
+}
 /*侧边栏*/
 .dohan {
 	width:37px;

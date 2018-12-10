@@ -1,0 +1,325 @@
+/*京东头部*/
+/*#head{
+	width:100%;
+	margin:0 auto;
+}*/
+.header{
+	width:1349px;
+	margin:0 auto;
+	height:651px;
+	position:relative;
+}
+
+.header-center{
+	width:1190px;
+	margin:0 auto;
+	display:inline-block;
+}
+
+.head-top{
+	height:30px;
+	width:100%;
+	margin:0 auto;
+	background:#e3e4e5;
+	border-bottom:1px solid #dddddd;
+}
+
+.head-top>div{
+	float:left;
+	height:30px;
+	line-height:30px;
+	margin-left:289px;
+	font-size:11px;
+	color:#999999;
+	position:relative;
+}
+
+.head-top>div>span{
+	width:24px;
+	position:absolute;
+	left:17px;
+}
+
+.head-top>p{
+	line-height:30px;
+	height:30px;
+	font-size:11px;
+	color:#999999;
+	float:left;
+}
+
+.head-top>.p1{
+	margin-left:250px;
+}
+.head-top>.p2{
+	margin-left:6px;
+}
+
+.head-top>ul{
+	float:left;
+	margin-left:14px;
+}
+.head-top>ul>li{
+	line-height:30px;
+	float:left;
+	text-align:center;
+	/*padding:0 11px;*/
+	color:#999999;
+	font-size:11px;
+}
+
+.head-top>ul>.er{
+	position:relative;
+}
+.head-top>ul>.er>img{
+	position:absolute;
+	left:0;top:30px;
+	display:none;
+}
+.head-top>ul>.er:hover img{
+	display:block;
+}
+
+
+.head-top>ul>li>a{
+	padding:0 11px;
+
+	border-left:1px solid #cccccc;
+}
+
+
+.logo{
+	width:190px;
+	height:651px;
+	display:inline-block;
+	background:#ffffff;
+	position:absolute;
+	left:80px;top:0;
+	/*margin-left:80px;*/
+}
+.logo .logo-top{
+	width:190px;
+	height:170px;
+	border-bottom:1px solid #ededed;
+	background:url("../img/");
+}
+.logo .list{
+	width:190px;
+	height:480px;
+}
+.logo .list li{
+	width:190px;
+	height:26px;
+	line-height:26px;
+	font-size:12px;
+	color:#626262;
+	/*margin-left:18px;*/
+}
+.logo>.list>li>a{
+	margin-left:18px;
+}
+.logo .list li:hover{
+	background:#ccc;
+}
+
+.search{
+	width:867px;
+	height:82px;
+	/*margin-left:34px;
+	margin-top:25px;*/
+	/*background:red;*/
+	position:absolute;
+	left:304px;top:56px;
+	display:inline-block;
+
+}
+
+.sah-left{
+	width:550px;
+	height:35px;
+	background:#ffffff;
+	float:left;
+	margin-left:96px;
+}
+
+.sah-left input{
+	width:250px;
+	height:35px;
+	float:left;
+	outline:none;
+	padding-left:10px;
+}
+
+.sah-left button{
+	height:35px;
+	width:50px;
+	float:right;
+	background:#f10215;
+}
+.sah-left span{
+	float:right;
+	height:15px;
+	width:19px;
+	margin-top:10px;
+	margin-right:15px;
+	background:url("../img/sprite-photo-search.png") no-repeat 0 0;
+}
+.sah-left span:hover{
+	background-position:-30px 0;
+}
+
+
+.sah-right{
+	width:188px;
+	height:33px;
+	border:1px solid #cccccc;
+	background:#ffffff;
+	float:right;
+	background:url("../img/search-right.jpg") no-repeat;
+}
+.search .font{
+	height:31px;
+	line-height:31px;
+	margin-left:96px;
+}
+.search .font span{
+	float:left;
+	height:31px;
+	line-height:31px;
+	margin-right:10px;
+	font-size:11px;
+	color:#999999;
+}
+.search .font .span1{
+	margin-right:20px;
+}
+
+.image{
+	width:1079px;
+	height:514px;
+	position:absolute;
+	left:270px;top:140px;
+	display:inline-block;
+}
+.image .img-top{
+	height:30px;width:716px;
+	padding-left:34px;
+}
+.img-top span{
+	float:left;
+	line-height:30px;
+	float:left;
+	font-size:13px;
+	color:#333333;
+}
+.img-top .span-border{
+	width:1px;
+	height:10px;
+	margin-top:9px;
+	margin-right:15px;
+	background:#cccccc;
+}
+.img-top .span1{
+	margin-right:24px;
+	}
+.img-top .span2{
+	margin-right:25px;
+}
+.img-top .span3{
+	margin-right:26px;
+}
+.img-top .span4{
+	margin-right:20px;
+}
+.img-top .span5{
+	margin-right:25px;
+}
+.img-top .span6{margin-right:26px;}
+.img-top .span7{margin-right:25px;}
+.img-top .span8{margin-right:20px;}
+.img-top .span10{margin-right:25px;}
+
+.head-bottom{
+
+	width:1000px;
+	height:470px;
+
+}
+.banner,.img-center,.img-right{
+	float:left;
+}
+.banner{
+	width:590px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.img-center{
+	width:190px;
+	height:470px;
+	font-size:0;
+	margin-left:10px;
+	margin-top:10px;
+}
+.img-center img{
+	margin-top:10px;
+}
+.img-center .img-ctr-img{
+	margin-top:0;
+}
+.img-right{
+	width:190px;
+	height:470px;
+	margin-left:10px;
+	margin-top:10px;
+
+	background:#ffffff;
+}
+
+.img-right .top{
+	height:150px;
+	
+}
+.img-right>.top>p{
+	font-size:11px;
+	text-align:center;
+}
+.img-right>.top>img{
+	margin-left:56px;
+}
+.img-right>div>.p1{
+	color:#8d8d8d;
+
+}
+.img-right>div>.p2{
+	color:#666666;
+}
+.img-right>div>span{
+	font-size:11px;
+	display:block;
+	line-height:25px;
+	text-align:center;
+	width:70px;height:25px;
+	background:#363634;
+	color:#e5d790;
+	border:1px solid #f3f3f3;
+	border-radius:10px 10px;
+	margin-left:20px;
+}
+.img-right>div>.span{
+	margin-left:10px;
+}
+
+.img-right>.center{
+	height:130px;
+}
+.img-right>.center>p{
+	height:22px;
+	margin-left:15px;
+	font-size:11px;
+	color:#666666;
+}
+.img-right>.img6>img{
+	margin-left:16px;
+	border-top:1px solid #ccc;
+}
+/*京东头部end*/

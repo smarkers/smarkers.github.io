@@ -1,0 +1,138 @@
+.footer {
+	width:100%;
+}
+.serve {
+	width:1226px;
+	height:25px;
+	border-bottom:1px solid #e0e0e0;
+	margin:0 auto;
+	padding:27px 0;
+}
+.serveList {
+	width:1226px;
+	height:25px;
+}
+.serveLi {
+	width:19.8%;
+	height:25px;
+	float:left;
+	text-align:center;
+	border-left:1px solid #ccc;
+}
+.serve .serveLi a {
+	text-align:center;
+	color:#616161;
+	font-size:16px;
+}
+.serve .serveLi a:hover {
+	color:#ff6700;
+}
+.footerHelp {
+	width:100%;
+}
+.footerHelpBox {
+	width:1226px;
+	height:112px;
+	padding:40px 0;
+	margin:0 auto;
+}
+.footerHelpDl {
+	width:160px;
+	float:left;
+}
+.footerHelpDl dt {
+	font-size:14px;
+	margin-bottom:26px;
+}
+.footerHelpDl dd {
+	margin-top:10px;
+}
+.footerHelpDl dd a {
+	color:#757575;
+}
+.footerHelpDl dd a:hover {
+	color:#ff6700;
+}
+.tel {
+	width:251px;
+	height:122px;
+	text-align:center;
+	float:right;
+	border-left:1px solid #e0e0e0;
+}
+.tel p {
+	font-size:22px;
+	color:#ff6700;
+	line-height:22px;
+	margin:0 0 5px;
+	text-align:center;
+}
+.tel p+p {
+	font-size:12px;
+	color:#616161;
+	margin:0 0 16px;
+}
+.tel a {
+	display:inline-block;
+	width:118px;
+	height:28px;
+	color:#ff6700;
+	line-height:28px;
+	text-align:center;
+	border:1px solid #ff6700;
+}
+.tel a:hover {
+	background:#ff6700;
+	color:#fff;
+}
+.company {
+	width:100%;
+	height:122px;
+	padding:30px 0;
+	background:#f5f5f5;
+}
+.companyBox {
+	width:1226px;
+	margin:0 auto;
+}
+.companyBox .footerImg{
+	width:57px;
+	height:57px;
+	float: left;
+	background:url(../img/logo-footer.png) no-repeat;
+	margin-right:10px;
+}
+.companyBox .fuwu {
+	color:#b0b0b0;
+	line-height:18px;
+	display:inline;
+}
+.companyBox .fuwu a {
+	color:#757575;
+}
+.company-text,.company-text a {
+	color:#b0b0b0;
+}
+.fuwu a:hover {
+	color:#ff6700;
+}
+.company-text {
+	display:inline-block;
+}
+.company-text a:hover {
+	color:#ff6700;
+}
+.companyRight {
+	width:280px;
+	height:28px;
+	float:right;
+}
+.companyRight a {
+	float:right;
+}
+.footerLogo {
+	width:267px;
+	height:19px;
+	margin:30px auto 0;
+	background:url(../img/slogan2016.png) no-repeat;
+}

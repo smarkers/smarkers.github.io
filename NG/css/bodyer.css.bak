@@ -67,7 +67,7 @@
 
 /* 身体1 */
 .body {
-	width:100%
+	width:100%;
 	background:#f5f5f5;
 }
 .body-1{

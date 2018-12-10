@@ -1,0 +1,128 @@
+.longpic {
+	display: block;
+	width: 1226px;
+	height: 120px;
+}
+
+/* flash */
+.flash {
+	width: 1226px;
+	height: 397px;
+	margin: 0 auto;
+}
+
+h2 {
+	width: 100%;
+	height: 58px;
+	display: inline-block;
+	margin: 0 auto;
+	line-height: 58px;
+	font-size: 22px;
+	font-weight: 200;
+
+}
+
+.flashImg {
+	width: 234px;
+	height: 339px;
+	margin-right: 14px;
+	float: left;
+	transition: 0.6s;
+}
+
+.flashImg:hover {
+	transform: translate(0, -2px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.bg1 {
+	background: url(../img/flashimg.png);
+	border-top: 1px solid #f00;
+}
+
+.bg2 {
+	background: url(../img/bg1.png);
+	border-top: 1px solid #ffac13;
+}
+
+.bg3 {
+	background: url(../img/bg2.png);
+	border-top: 1px solid #83c44e;
+}
+
+.bg4 {
+	background: url(../img/bg3.png);
+	border-top: 1px solid #2196f3;
+}
+
+.bg5 {
+	margin-right: 0;
+	background: url(../img/bg4.png);
+	border-top: 1px solid #e53935;
+}
+
+.long {
+	width: 1226px;
+	height: 148px;
+	margin: 28px auto 0;
+}
+
+/* store */
+#store {
+	width: 100%;
+	padding-top: 22px;
+	background: #f5f5f5;
+}
+
+#store .phone {
+	width: 1226px;
+	height: 736px;
+	margin: 0 auto;
+}
+
+.miMax3 {
+	width: 234px;
+	height: 614px;
+	float: left;
+}
+
+.phoneList .phoneLi {
+	width: 234px;
+	height: 260px;
+	background: #fff;
+	padding: 20px 0;
+	margin: 0 0 14px 14px;
+	float: left;
+}
+
+.phoneLi:hover {
+	transform: translate(0, -2px);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.phoneLi .phoneLiBox {
+	width: 64px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	background: #e53935;
+	position: relative;
+	left: 85px;
+	top: -20px;
+}
+
+.phoneImg {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+.phoneImg a {
+	width: 160px;
+	height: 160px;
+}
+
+.phoneImg img {
+	width: 160px;
+	height: 160px;
+}

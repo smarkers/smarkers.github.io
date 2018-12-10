@@ -75,13 +75,18 @@
 .rightBg .li:hover  .li-show1{
 	background:url("../img1/index.png") no-repeat 0 -67px #ff7f02;
 }
-
+.rightBg .li:hover {
+	background:#ff7f02;
+}
 .rightBg .li-show2{
 	width:32px;
 	height:36px;
 	background:url("../img1/index.png") no-repeat 0 -135px;
 	display:block;
 	margin-top:5px;
+}
+.rightBg li{
+	z-index:10;
 }
 .menu-2{
 	position:absolute;
@@ -91,7 +96,7 @@
 	height:34px;
 	background:#666;
 	display:none;
-	z-index:10;
+	/* z-index:10; */
 }
 
 .rightBg li:hover .menu-2{
@@ -113,7 +118,7 @@
 	background:#666;
 	display:none;
 	text-align:center;
-	z-index:10;
+	/* z-index:10; */
 }
 
 .rightBg li:hover .menu-3{
@@ -135,7 +140,7 @@
 	background:#666;
 	display:none;
 	text-align:center;
-	z-index:10;
+	/* z-index:10; */
 }
 
 .rightBg li:hover .menu-4{
@@ -168,7 +173,7 @@
 	height:100px;
 	display:none;
 	text-align:center;
-	z-index:10;
+	/* z-index:10; */
 }
 .menu-5 a img{
 	float:left;
@@ -192,7 +197,7 @@
 	height:34px;
 	display:none;
 	text-align:center;
-	z-index:10;
+	/* z-index:10; */
 	background:url("../img1/index.png") no-repeat -1px -238px #ff7f02;
 }
 .menu-6 a{
@@ -252,7 +257,7 @@
 	top:0px;
 	left:0px;
 }
-.top3 span {
+.top3>span {
 	color:#bbbbbb;
 	margin-right:4px;
 }
@@ -284,13 +289,13 @@
 	color:#666;
 	border-bottom:1px dotted #ccc;
 }
-.list .lis{
+.list>.lis{
 	display:inline-block;
 	width:330px;
 	height:36px;
 	line-height:36px;
 	color:#666;
-	margin:0 15px;
+	/* margin:0 15px; */
 	text-align:left;
 }
 .list .lis1{
@@ -1135,13 +1140,7 @@
 	color:#ff7f02;
 	float:left;
 }
-/* .right-top .span1 {
-	width:259px;
-	height:20px;
-	display:block;
-	background:#fff9f4;
-	margin-bottom:20px;
-} */
+
 .right-top .submit4{
 	width:96px;
 	margin:24px 0 8px 0;

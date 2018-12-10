@@ -75,6 +75,8 @@
 	height:608px;
 	margin:0 auto;
 	background:#fff;
+	position:relative;
+	z-index:1;
 }
 .body-1-top{
 	width:1200px;
