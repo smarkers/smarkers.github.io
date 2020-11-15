@@ -1,0 +1,403 @@
+@import url("清除标签自带样式.css");
+.box{
+	width:100%;
+	margin:0 auto;
+	background: #333;
+}
+.center,.center2{
+	width:1080px;
+	margin:0 auto;
+}
+.head{
+	width:1080px;
+	height:48px;
+	line-height:48px;
+}
+.fr{
+	float:right;
+	font-size:14px;
+}
+.fr li{
+	float:left;
+	padding:0 15px;
+	color:#e7e7e7;
+}
+.ul-1 li a{
+	color:#e7e7e7;
+}
+.ul-1 .div-1-a{
+	color: #e7e7e7;
+}
+.ul-1 li:hover .div-1-a{
+	color:#fff;
+}
+.x{
+	height:16px;
+	float:left;
+	border-left:1px solid #666;
+	margin-top:17px;
+}
+.liji .shouji{
+	float:left;
+	background:url(../img/1.png) no-repeat 0 -964px;
+}
+.xlk,.shouji{
+	float:right;
+	width:30px;
+	height:30px;
+	background:url(../img/1.png) no-repeat 0 -1678px;
+	margin-top:10px;
+}
+.lid{
+	position:relative;
+}
+.div1{
+	width:160px;
+	position:absolute;
+	left:0;
+	font-size:14px;
+	box-shadow: 0 3px 28px rgba(0,0,0,.1);
+	height: 0;
+	overflow: hidden;
+	transition: all .3s;
+}
+.div-1{
+	width:160px;
+	height:35px;
+	box-sizing: border-box;
+	line-height:35px;
+	text-align:center;
+	background:#fff;
+}
+.ul-1 .div-1 a{
+	color:#000;
+}
+.div1 .div-1:hover{
+	background: #845f3f;
+}
+.div-1:hover a{
+	color:#fff;
+}
+.lid:hover .div1{
+	height:70px;
+}
+.box2{
+	width:100%;
+	margin:0 auto;
+}
+.d2{
+	height:51px;
+	padding-top: 20px;
+	margin-bottom: 5px;
+}
+.left-1,.logol,.s-1 a{
+	height:51px;
+	color:#ccc;
+	font:18px/51px "宋体";
+	float:left;
+}
+.left1{
+	width:750px;
+}
+.logo{
+	width:123px;
+	height:51px;
+	background:url(../img/2.png) no-repeat 15px 0;
+	background-size:100%;
+	float:left;
+}
+.logol{
+	width:450px;
+	margin-left:140px;
+}
+.s-1 a{
+	color:#666;
+	margin-right: 32px;
+	font-weight:600;
+	transition: color .2s ease;
+}
+.s-1 a:hover{
+	color: #845f3f;
+}
+.right1{
+	width:330px;
+}
+.gwc{
+	float:right;
+	width:30px;
+	height:30px;
+	margin-top:10.5px;
+	background:url(../img/1.png) no-repeat 0 -1202px;
+}
+.gwc:hover{
+	background-position:0 -1168px;
+}
+.ssk,.ssk input{
+	width:296px;
+	height:42px;
+	float:right;
+	margin-top:5px;
+	margin-left:-10px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.ssk .fdj{
+	float:left;
+	background:url(../img/1.png) no-repeat 0 -1474px;
+}
+.fdj:hover{
+	background-position:0 -1440px;
+}
+.ssk input{
+	width:245px;
+	height:32px;
+	outline: none;
+	border:none;
+	background:none;
+	font-size:14px;
+	color:#333;
+}
+.box3{
+	width:100%;
+	background-color: #f5f4ed;
+	margin-bottom:70px;
+	padding-top: 30px;
+}
+.center3{
+	width:1080px;
+	height: 510px;
+	
+	margin:0 auto;
+	background: url(../img/5.jpg) no-repeat;
+	background-size:100%;
+	position:relative;
+}
+.center3 .center-img{
+	width: 455px;
+	height: 542px;
+	position: absolute;
+	left: 40px;
+	top: 65px;
+}
+.box-rig{
+	width:520px;
+	height:510px;
+	margin-left:560px;
+	margin-top: 35px;
+	text-align: center;
+}
+.box-xz{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 400;
+	color: #333;
+}
+.xr{
+	width:108px;
+	margin: 0 24px;
+	text-align: center;
+	float:left;
+}
+.xr1{
+	margin-left:140px;
+}
+.xr-p1{
+	color: #fd862f;
+	font-size:0;
+}
+.xr-sp{
+	font-size:15px;
+}
+.xr-sp1{
+	font-size: 44px;
+}
+.xr-p2{
+	font-size: 18px;
+	color: #666;
+} 
+.saoma{
+	padding: 10px 10px 5px;
+	width: 152px;
+	margin: 44px 0 0;
+	background-color: #fff;
+	float:left;
+	margin-left:34%;
+}
+.saoma .sao-img{
+	width:152px;
+	height:152px;
+}
+.saoma p{
+	text-align:center;
+	color:#333;
+	font-size:14px;
+	margin-top:10px;
+}
+
+/* 固定定位 */
+.guding{
+	width: 71px;
+	padding: 0 5px;
+	position:fixed;
+	right:10px;
+	top:220px;
+	box-shadow: 0 0 18px rgba(0,0,0,.1);
+	background:#fff;
+	z-index: 10;
+}
+.guding-li{
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+	border-bottom: 1px solid #e7e7e7;
+	position:relative;
+}
+.guding-li .ermai{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url("../img/1.png") no-repeat 0 -1644px;
+}
+.gd-li-p{
+	font-size:12px;
+	text-align:center;
+	color:#333;
+}
+.gd-1 .ermai{
+	background:url("../img/1.png") no-repeat 0 -1270px;
+}
+.gd-2 .ermai{
+	background:url("../img/1.png") no-repeat 0 -794px;
+}
+.gd-3 .ermai{
+	background:url("../img/1.png") no-repeat 0 -998px;
+}
+.gd-4 .ermai{
+	background:url("../img/1.png") no-repeat 0 -1304px;
+}
+.guding-li:hover .gd-li-p{
+	color: #845f3f;
+}
+.guding-li:hover .ermai{
+	background-position:0 -1610px;
+}
+.guding-li:hover .ermai1{
+	background-position:0 -1236px;
+}
+.guding-li:hover .ermai2{
+	background-position:0 -760px;
+}
+.guding-li:hover .ermai3{
+	background-position:0 -1780px;
+}
+.guding-li:hover .ermai4{
+	background-position:0 -1340px;
+}
+.fix-lxkf{
+	width: 230px;
+	position:absolute;
+	left:-245px;
+	top:0;
+	padding-right: 20px;
+	display: none;
+}
+.guding-li:hover .fix-lxkf{
+	display: block;
+}
+.fix-content{
+	padding: 10px 18px;
+	border: 1px solid #dfdfdf;
+	background:#fff;
+	position:relative;
+}
+.fix-lxkf a{
+	width:6px;
+	height:12px;
+	position:absolute;
+	background: url("../img/1.png") no-repeat 0 -38px;
+	right:15px;
+	top:15px;
+	z-index:10;
+}
+.xmfk{
+	margin-top: 8px;
+	color: #333;
+	font-size: 12px;
+}
+.haoma{
+	margin-top: 15px;
+	color: #845f3f;
+	font-size: 20px;
+}
+.sj{
+	margin-top: 1px;
+	color: #666;
+	font-size: 12px;
+}
+.pinpai{
+	margin-top: 18px;
+	color: #333;
+	font-size: 12px;
+}
+.fix-content img{
+	display: block;
+	width: 88px;
+	height: 88px;
+	margin: 0 auto 10px;
+}
+.fix-lxkf-2{
+	width:130px;
+	left:-144px;
+}
+.fix-lxkf-3{
+	height:328px;
+}
+.fix-content .img-1{
+	width: 190px;
+	height: 152px;
+	margin-bottom: 20px;
+	background: url(../img/7.png) 50% no-repeat;
+	background-size: 100%;
+}
+.fix-lxkf-5{
+	width:210px;
+	left:-224px;
+}
+.footer{
+	width:100%;
+	height:45px;
+	padding: 45px 0;
+	border-top: 1px solid #e7e7e7;
+	background-color: #fff;
+	margin-top:60px;
+}
+.d8{
+	height: 45px;
+	line-height: 23px;
+	color: #666;
+}
+.mowei{
+	width: 1080px;
+	height:90px;
+	margin:0 auto;
+}
+.mowei .left-1{
+	float:left;
+}
+.mowei .left-1 img{
+	width:123px;
+	height:45px;
+}
+.mowei .right-1{
+	float:right;
+	width:521px;
+	padding-right:138px;
+}
+.mowei p{
+	color:#666;
+	font-size:12px;
+}
+.mowei img{
+	float:right;
+	width:100px;
+	height:36px;
+}
