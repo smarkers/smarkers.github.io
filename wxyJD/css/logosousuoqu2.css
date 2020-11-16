@@ -1,0 +1,139 @@
+#logo{
+				height:140px;
+				background-color:#ffffff;
+				border-bottom:1px solid #ddd;
+		}
+		.logo-box{
+					width:1190px;
+					height:140px;
+					margin:0 auto;
+					
+		}
+		.gif-dog{
+				width:190px;
+				height:120px;
+				float:left;
+				margin-top:10px;
+		}
+		.sousuoqu{
+					width:1190px;
+					height:60px;
+					display:block;
+		}
+		.form form{
+				width:546px;
+				height:32px;
+				float:left;
+				position:relative;
+				top:25px;
+				left:65px;
+				border:2px solid #e2231a;
+				
+		}
+		.input{
+				width:425px;
+				height:26px;
+				padding:4px 0px 0 17px;
+				border:0;
+				outline:0;
+				line-height:26px;
+				font-size:12px;
+				vertical-align:middle;
+
+		}
+		.xiangji{
+				/* margin-left:-32px; */
+				
+				
+		}
+		.button1{
+				width:58px;
+				height:34px;
+				background-color:red;
+				border:0;
+				outline:0;
+				
+				vertical-align:middle;
+		}
+		/* ============logo搜索区结束============ */
+		.float{float:left}
+		.butto{float:right;margin-top:-1px;margin-right:-1px;}
+		.xiang{margin-top:8px;margin-left:5px;}
+		.button1 img{
+					margin-top:3px;
+		}
+		.button1:hover{background-color:#cc0033;}
+		.logo-right{float:right;margin-top:-25px;}
+		.button2{
+				width:132px;
+				height:36px;
+				position:relative;
+				top:25px;
+				left:90px;
+				border:1px solid #eee;
+				outline:0;
+		}
+		.gouwu-img{
+					width:130px;
+					height:34px;
+					margin:-1px 0 0 -6px;
+		}
+		.button2:hover{border-color:red;}
+
+		.logo-a1{
+				width:550px;
+				height:20px;
+				margin-top:5px;
+				margin-left:255px;
+				line-height:20px;
+				font-size:12px;
+		}
+		.aa1{margin-right:10px;}
+		.aa1:link{color:#999}
+		.aa1:visited{color:#999}
+		.aa1:hover{color:red}
+		.aa1:active{color:#999}
+		.aa:link{color:red}
+		.aa:visited{color:red}
+		.aa:hover{color:#cc3333}
+		.aa:active{color:red}
+
+		.logo-b1{
+				width:762px;
+				height:40px;
+				padding-top:15px;
+				margin:0 0 0 220px;
+				
+		}
+		.logo-b1 ul,li{
+						margin:0;
+						padding:0;
+						list-style:none;
+		}
+		.logo-b1 li{
+					float:left;
+					height:40px;
+					line-height:40px;
+					text-align:center;
+					font-size:14px;
+		}
+		.logo-li1{
+				width:52px;
+		}
+		.logo-li2{
+				width:67px;
+		}
+		.logo-li3{
+				width:88.8px;
+		}
+		.logo-li4{
+				width:82px;
+		}
+		.miaosha1 a:link{color:red}
+		.miaosha1 a:visited{color:red}
+		.miaosha1 a:hover{color:#cc3333}
+		.miaosha1 a:active{color:#cc3333}
+		.hui a:link{color:#333}
+		.hui a:visited{color:#333}
+		.hui a:hover{color:#cc3333}
+		.hui a:active{color:#cc3333}
