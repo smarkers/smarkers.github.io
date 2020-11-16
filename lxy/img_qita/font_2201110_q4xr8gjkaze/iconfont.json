@@ -1,0 +1,16 @@
+{
+  "id": "2201110",
+  "name": "家装2",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14095250",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e77b",
+      "unicode_decimal": 59259
+    }
+  ]
+}

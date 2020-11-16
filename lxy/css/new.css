@@ -1,0 +1,222 @@
+@import url("resetStyle.css");
+.box{width:100%;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*顶部导航栏*/
+.nav{
+	width:100%;
+	height:80px;
+	background:#fff;
+	margin:0 auto;
+}
+.divnav{
+	width:1190px;
+	height:80px;
+	margin:0 auto;
+}
+.nav_1{
+	width:198px;
+	height:80px;
+}
+.nav_1 img{
+	width:126px;
+	height:57px;
+	margin:10px 2px;
+}
+.nav_2{
+	width:650px;
+	height:80px;	
+	margin-left:40px;
+}
+.nav_2 .a1{
+	color:#686868;
+}
+.nav_2 .a2{
+	color:#fff;
+}
+.nav_2 .a1:hover{
+	color:#3ec9ad;
+}
+.left{
+	float:left;
+}
+.nav_2 .li1{
+	color:#3ec9ad;
+	margin-right:-15px;
+}
+.nav_2 li{
+	width:80px;
+	height:30px;
+	margin-left:18px;
+	float:left;
+	margin-top:28px;
+	font-size:14px;
+	line-height:30px;
+	position:relative;
+}
+.none{
+	position:absolute;
+	width:168px;
+	height:54px;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.20);
+	transition:0.8s;
+	top:30px;
+	color:#fff;
+	font-size:14px;
+	background:#848484;
+	display:none;
+}
+.nav_2 li p{
+	width:168px;
+	height:26px;
+	text-align:left;
+}
+.nav_2 p:hover{
+	background:#A5A5A5;
+	cursor:pointer;
+}
+.nav_2 li:hover .none{
+	display:block;
+	transition:0.8s;
+	z-index:1;
+}
+.nav_2 li:hover{
+	cursor:pointer;
+	color:#3ec9ad;;
+}
+.nav_3{
+	width:282px;
+	height:80px;
+	position:relative;
+}
+.nav_3 input{
+	position:absolute;
+	width:275px;
+	height:30px;
+	border:1px solid #3ec9ad;
+	top:25px;
+	font-size:13px;
+	padding-left:10px;
+	color:#c9c9c9;
+	margin-left:15px;
+}
+.icon-fangdajing_huaban1:before{
+	display:inline-block;
+	width:48px;
+	height:31px;
+	color:#fff;
+	text-align:center;
+	line-height:31px;
+	font-size:22px;
+	background:#3ec9ad;
+	position:absolute;
+	left:253px;
+	top:25px;
+}
+/*顶部导航栏结束*/
+
+/*2-内容列表 区域*/
+.new-content{
+	width:1190px;
+	height:1290px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.new-ul{
+	width:890px;
+	height:1228px;
+	margin-top:20px;
+}
+.new-lis{
+	width:878px;
+	height:163px;
+	padding:0 5px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+.new-lis img{
+	width:100%;
+	height:100%;
+}
+.list{
+	border-bottom:1px dotted #e5e5e5;
+}
+.new-img{
+	width:200px;
+	height:137px;
+	padding-right:30px;
+}
+.new-wenzi{
+	width:640px;
+	height:137px;
+	padding-right:5px;
+	font-size:12px;
+}
+.new-wenzi .p1{
+	font-size:16px;
+	color:#3a3a3a;
+}
+.new-wenzi .p2{
+	font-size:12px;
+	color:#686868;
+	margin-top:10px;
+}
+.new-wenzi .p3{
+	font-size:12px;
+	margin-top:10px;
+	color:#afafaf;
+}
+.new-tab{
+	width:800px;
+	height:25px;
+	margin-right:8px;
+}
+.new-tab .pp1{
+	font-size:12px;
+	color:#3ec9ad;
+	text-align:right;
+}
+.new-tab .pp1:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+/*2-内容列表 区域结束*/
+
+/*3-底部区域*/
+.btm{
+	width:100%;
+	height:117px;
+	background:#c1c1c1;
+}
+.btm p{
+	padding-top:15px;
+ 	text-align:center;
+ 	font-size:12px;
+ 	color:#666;
+}
+.zuihou{
+  	width:1190px;
+  	height:117px;
+  	background:#c1c1c1;
+  	position:relative;
+  	margin:0 auto;
+ }
+ .top-on{
+ 	text-decoration:none;
+ 	color:#fff;
+ 	display:block;
+ 	width:34px;
+ 	height:34px;
+ 	position:absolute;
+ 	top:60px;
+ 	left:1300px;
+ }
+ .icon-xiangshang:before{
+ 	font-size:20px;
+ 	color:#fff;
+ 	margin-left:8px;
+ 	line-height:34px;
+ 	font-weight:bold;
+ }
+ /*3-底部 结束*/

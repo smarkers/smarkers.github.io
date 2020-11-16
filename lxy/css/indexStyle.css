@@ -1,0 +1,878 @@
+@import url("resetStyle.css");
+.box{width:100%;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*轮播图区域开始*/
+.lunbo{
+	width:100%;
+	height:722px;
+}
+.tu{
+	width:100%;
+	height:722px;
+}
+.tu li{
+	width:100%;
+	height:722px;
+	position:relative;
+	display:none;
+}
+.tu .li1{
+	display:block;
+}
+.tu img{
+	width:100%;
+	height:100%;
+	background:no-repeat;
+}
+.round{
+	width:55px;
+	height:20px;
+	position:absolute;
+	top:765px;
+	left:735px;
+}
+.round .act2{
+	margin-left:5px;
+}
+.round .content{
+	width:20px;
+	height:20px;
+	background-image:url("../img_lunbotu/heidian.png");
+}
+.round .content:hover{
+	cursor:pointer;
+	background-image:url("../img_lunbotu/biankuang .png");
+}
+.lunbo-lef{
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:330px;
+	left:25px;
+	background-image:url("../img_lunbotu/left.png");
+	background-position:0 160px;
+}
+.lunbo-rig{
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:330px;
+	left:1455px;
+	background-image:url("../img_lunbotu/right.png");
+}
+/*轮播图 区域结束*/
+
+/*3-装修流程1 区域*/
+.body-content{
+	width:100%;
+	height:195px;
+	background:#fff;
+	margin:0 auto;
+	padding-top:74px;
+}
+.content1{
+	width:1190px;
+	height:95px;
+	background:#fff;
+	margin:0 auto;
+	text-align:center;
+}
+.content1 .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.content1 .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.body-content .content2{
+	width:100%;
+	height:221px;
+}
+.content2 .content2_1{
+	width:1190px;
+	height:122px;
+	margin:0 auto;
+}
+.dd{
+	width:178px;
+	height:120px;
+	padding-left:2px;
+	border: 1px solid rgba(221,221,221,1);
+	color: rgb(136, 136, 136);
+	background-image: linear-gradient(-150deg, rgba(62,201,173,0.1), rgba(255,255,255,1));
+}
+.d2{
+	padding-left:2px;
+	margin-left:19px;
+}
+.d3{
+	padding-left:2px;
+	margin-left:19px;
+}
+.d4{
+	margin-left:19px;
+	padding-left:2px;
+}
+.d5{
+	padding-left:2px;
+	margin-left:19px;
+}
+.d6{
+	padding-left:2px;
+	margin-left:19px;
+}
+.dd:hover{
+	background:#3ec9ad;
+	color:#fff;
+	transition:all 0.8s;
+	cursor:pointer;
+}
+.icon-home:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.icon-qianbi:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.icon-biaoqian:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.icon-banshou:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.icon-link:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.icon-shopping-cart:before{
+	display:block;
+	width:40px;
+	height:40px;
+	font-size:35px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.dd span{
+	margin-left:58px;
+	font-size:14px;
+}
+/*3-装修流程1 区域结束*/
+
+/*4-装修案例区域*/
+.zuida{
+	width:100%;
+	height:1300px;
+}
+.body1-content{
+	width:100%;
+	height:195px;
+	background:#fff;
+	margin:0 auto;
+	padding-top:74px;
+}
+.content1_con{
+	width:1190px;
+	height:95px;
+	background:#fff;
+	margin:0 auto;
+	text-align:center;
+}
+.content1_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.content1_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.big{
+	width:1190px;
+	height:1163px;
+	background:#fff;
+	margin:0 auto;
+}
+.big_content1{
+	width:1190px;
+	height:1005px;
+}
+.content_ul{
+	width:1190px;
+	height:1005px;
+}
+.content_ul li{
+	width:373px;
+	height:449px;
+	margin-bottom:45px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+	position:relative;
+	overflow:hidden;
+}
+.img1{
+	width:373px;
+	height:225px;
+	padding-bottom:10px;
+}
+.img1_1{
+	background:url(../img_qita/n1.webp);
+}
+.img1_2{
+	background:url(../img_qita/n2.webp);
+}
+.img1_3{
+	background:url(../img_qita/n3.webp);
+}
+.img1_4{
+	background:url(../img_qita/n4.webp);
+}
+.img1_5{
+	background:url(../img_qita/n5.webp);
+}
+.img1_6{
+	background:url(../img_qita/n6.webp);
+}
+.ff{
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+}
+.fdj{
+	top:-140px;
+	left:10px;
+	position:absolute;
+    opacity:0;
+	width:373px;
+	height:225px;
+	transition:1s;
+}
+.fdj img{
+	margin:0 auto;
+	margin-top:100px;
+}
+.img1:hover .fdj{
+	top:0px;
+	opacity:0.6;
+	cursor:pointer;
+}
+.img1:hover .zi{
+	width:309px;
+	padding-left:50px;
+	border-bottom:1px solid #ffd3d3;
+	transition:0.8s;
+	color:#333;
+	cursor:pointer;
+}
+.zi{
+	width:309px;
+	height:30px;
+	position:absolute;
+	top:250px;
+	color: #999999;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    line-height:30px;
+    border-bottom:1px solid transparent;
+}
+.zi_2{
+	position:absolute;
+	width:319px;
+	height:75px;
+	top:300px;
+	color: #b7b7b7;
+    font-size: 12px;
+    padding:0 20px;
+}
+.zi_2 p{
+	margin-top:5px;
+}
+.zi_2,.zi_3 p:hover{
+	cursor:pointer;
+}
+.zi_3{
+	position:absolute;
+	top:400px;
+	left:170px;
+	width:50px;
+	height:20px;
+	color:#ff9191;
+	font-size:12px;
+	line-height:20px;
+	text-align:center;
+}
+.big_content2{
+	width:1188px;
+	height:156px;
+	border:1px solid transparent;
+}
+.big_content2 p{
+	width:194px;
+	height:37px;
+	font-size: 14px;
+    text-align:center;
+    border-width: 1px;
+    line-height:37px;
+    border:1px solid rgb(209, 209, 209);
+    color: rgb(188, 188, 188);
+    margin:0 auto;
+    font-size:14px;
+    margin-top:55px;
+}
+.big_content2 p:hover{
+  	border:1px solid rgb(136,136,136);
+  	color: rgb(136,136,136);
+  	cursor:pointer;
+  	transition:0.5s;
+}
+.dd3-btm p:hover{
+  	border:1px solid rgb(136,136,136);
+  	color: rgb(136,136,136);
+  	cursor:pointer;
+  	transition:0.5s;
+}
+.dd2-btm p:hover{
+	border:1px solid rgb(136,136,136);
+  	color: rgb(136,136,136);
+  	cursor:pointer;
+  	transition:0.5s;
+}
+  /*4-装修案例 区域结束*/
+
+  /*5-装修咨询 区域*/
+.zuida2{
+  	width:100%;
+  	height:800px;
+  	background:#f4f4f4;
+  	margin-top:85px;
+ }
+.sed-content{
+	width:100%;
+	height:195px;
+	margin:0 auto;
+	padding-top:20px;
+}
+.sed-content_con{
+	width:1190px;
+	height:95px;
+	background:#f4f4f4;
+	margin:0 auto;
+	text-align:center;
+	margin-top:20px;
+}
+.sed-content_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.sed-content_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.trd-content_con{
+	width:1190px;
+	height:280px;
+	background:#fff;
+	margin:0 auto;
+	margin-top:80px;
+	position:relative;
+	border:1px solid transparent;
+}
+.trd-content_con:hover .wenzi{
+	margin-left:165px;
+	transition:0.8s;
+	cursor:pointer;
+}
+.wenzi{
+	width:800px;
+	height:20px;
+	margin:0 auto;
+	margin-top:80px;
+	margin-left:100px;
+	transition:0.6s;
+	font-size:12px;
+}
+.wenzi .span1{
+	display:block;
+	width:150px;
+	height:1px;
+	margin-left:20px;
+	float:left;
+	margin-top:10px;
+	border-top:1px solid #000;
+}
+.wenzi .span2{
+	display:block;
+	margin:0 auto;
+	float:right;
+	margin-left:200px;
+	margin-top:-10px;
+	color:#a5a5a5;
+}
+.dd1{
+	position:absolute;
+	width:220px;
+	height:300px;
+	background:pink;
+	top:-18px;
+	left:50px;
+	background:url("../img_qita/n7.webp");
+}
+.dd2{
+	position:absolute;
+	width:220px;
+	height:81px;
+	background:#e8e8e8;
+	top:282px;
+	left:50px;
+	text-align:center;
+}
+.dd2 .da{
+	margin-top:20px;
+	font-size:16px;
+	color:#444;
+}
+.dd2 .xiao{
+	font-size:12px;
+	margin-top:3px;
+	color:#ccc;
+}
+.dd2-lef{
+	width:40px;
+	height:40px;
+	background-color: #cccccc;
+	opacity:0.7;
+	top:165px;
+	left:0;
+	position:absolute;
+}
+.dd2-rig{
+	width:40px;
+	height:40px;
+	background-color: #cccccc;
+	opacity:0.7;
+	top:166px;
+	left:1151px;
+	position:absolute;
+}
+.icon-left:before{
+	font-size:28px;
+	color:#fff;
+	line-height:40px;
+	margin-left:5px;
+}
+.icon-right:before{
+	font-size:28px;
+	color:#fff;
+	line-height:40px;
+	margin-left:8px;
+}
+.dd2-btm{
+	width:1188px;
+	height:156px;
+	border:1px solid transparent;
+	margin-top:300px;
+}
+.dd2-btm p{
+	width:194px;
+	height:37px;
+	font-size: 14px;
+    text-align:center;
+    border-width: 1px;
+    line-height:37px;
+    border:1px solid rgb(209, 209, 209);
+    color: rgb(188, 188, 188);
+    margin:0 auto;
+    font-size:14px;
+    margin-top:55px;
+}
+ /*5-装修咨询 区域结束*/
+
+/*6-装修案例图片*/
+.zuida3{
+  	width:100%;
+  	height:760px;
+  	background:#fff;
+  	padding-top:85px;
+ }
+.tid-content{
+	width:100%;
+	height:95px;
+	margin:0 auto;
+}
+.tid-content_con{
+	width:1190px;
+	height:95px;
+	background:#fff;
+	margin:0 auto;
+	text-align:center;
+}
+.tid-content_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.tid-content_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.picture{
+	width:1190px;
+	height:448px;
+	margin:0 auto;
+}
+.picture img{
+	width:100%;
+	height:100%;
+}
+.picture .ul1,.picture .ul2{
+	width:1190px;
+	height:210px;
+	margin-top:18px;
+}
+.picture .ul1 li,.picture .ul2 li{
+	width:282px;
+	height:210px;
+	padding:0 8px 0 0;
+}
+.picture .ul1 .ll,.picture .ul2 .ll{
+	margin-left:10px;
+}
+.dd3-btm{
+	width:1188px;
+	height:100px;
+	border:1px solid transparent;
+	margin-top:15px;
+}
+.dd3-btm p{
+	width:194px;
+	height:37px;
+	font-size: 14px;
+    text-align:center;
+    border-width: 1px;
+    line-height:37px;
+    border:1px solid rgb(209, 209, 209);
+    color: rgb(188, 188, 188);
+    margin:0 auto;
+    font-size:14px;
+    margin-top:55px;
+}
+/*6-装修案例图片 区域结束*/
+
+/*7-设计师团队 区域*/
+.zuida4{
+  	width:100%;
+  	height:1550px;
+  	background:#f4f4f4;
+  	padding-top:20px;
+ }
+.for-content{
+	width:100%;
+	height:95px;
+	margin:0 auto;
+}
+.for-content_con{
+	width:1190px;
+	height:95px;
+	background:#f4f4f4;
+	margin:0 auto;
+	text-align:center;
+}
+.for-content_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.for-content_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.fornr{
+	width:1190px;
+	height:1360px;
+	margin:0 auto;
+}
+.fornr_1,.fornr_2{
+	width:1190px;
+	height:668px;
+}
+.fornr_2{
+	margin-top:20px;
+}
+.fornr_1 li,.fornr_2 li{
+	width:390px;
+	height:668px;
+}
+.rr{
+	margin-left:10px;
+}
+.divimg{
+	width:390px;
+	height:536px;
+}
+.divimg img{
+	width:100%;
+	height:100%;
+}
+.divzi{
+	width:390px;
+	height:125px;
+	margin-top:10px;
+	text-align:center;
+}
+.pu1{
+	font-size:18px;
+	color:#000;
+}
+.pu1 span{
+	font-size:13px;
+	color:#696969;
+}
+.pu2{
+	font-size:12px;
+	color:#696969;
+	margin-top:20px;
+}
+.pu2 span{
+	color:#3EC9AD;
+}
+.pu3{
+	width:390px;
+	height:46px;
+	background:#3ec9ad;
+	color:#fff;
+	text-align:center;
+	font-size:15px;
+	margin-top:18px;
+	line-height:46px;
+	transition:0.3s;
+}
+.pu3:hover{
+	transition:0.3s;
+	cursor:pointer;
+	background:#99dbca;
+}
+/*7-设计师团队 区域结束*/
+
+/*8-业主评论区域*/
+.zuida5{
+  	width:100%;
+  	height:550px;
+  	background:#fff;
+ }
+.five-content{
+	width:100%;
+	height:195px;
+	margin:0 auto;
+}
+.five-content_con{
+	width:1190px;
+	height:95px;
+	background:#fff;
+	margin:0 auto;
+	text-align:center;
+}
+.five-content_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.five-content_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.content-auto{
+	width:1190px;
+	height:436px;
+	margin:0 auto;
+}
+.content-auto1{
+	height:406px;
+}
+.imgtu{
+	width:72px;
+	height:406px;
+}
+.imgtu img{
+	width:62px;
+	height:62px;
+	padding-bottom:24px;
+}
+.img-wenzi{
+	width:727px;
+	height:406px;
+	font-size:13px;
+	color: #808080;
+}
+.content-wz{
+	width:718px;
+	height:57px;
+}
+.zz{
+	margin-top:30px;
+}
+.bd{
+	width:389px;
+	height:406px;
+}
+.bd-top{
+	width:389px;
+	height:50px;
+	background:#3ec9ad;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	line-height:50px;
+}
+.bd-btm{
+	width:389px;
+	height:320px;
+	background-color: rgba(137,137,137,0.1);
+	position:relative;
+	padding-top:20px;
+}
+.bd-btm input{
+	width:349px;
+	height:40px;
+	background:#dedede;
+	color:#a8a8a8;
+	border:0 none;
+	margin:8px 20px;
+}
+.btm-zi{
+	width:148px;
+	height:38px;
+	color:#fff;
+	font-size:16px;
+	font-weight:500;
+	background:#3ec9ad;
+	text-align:center;
+	line-height:38px;
+	margin:15px 120px;
+}
+/*8-业主评论区域 结束*/
+
+/*9-合作品牌 区域*/
+.zuida6{
+  	width:100%;
+  	height:350px;
+  	background:#f7f7f7;
+ }
+.six-content{
+	width:100%;
+	height:195px;
+	margin:0 auto;
+}
+.six-content_con{
+	width:1190px;
+	height:95px;
+	margin:0 auto;
+	text-align:center;
+}
+.six-content_con .p1{
+	font-size:26px;
+	color:#333;
+	margin:0 auto;
+}
+.six-content_con .p2{
+	margin-top:10px;
+	color:#bababa;
+	font-size:13px;
+}
+.neirong{
+	width:991px;
+	height:134px;
+	margin:0 auto;
+	margin-top:60px;
+}
+.neirong-ul{
+	width:991px;
+	height:65px;
+}
+.neirong-ul li{
+	width:114px;
+	height:56px;
+	float:left;
+	padding:0 24px;
+	margin-left:3px;
+}
+.neirong-ul li img{
+	width:100%;
+	height:100%;
+	transition: all .6s ease;
+	filter: grayscale(100%);
+}
+.neirong-ul li img:hover{
+	filter: grayscale(0);
+	cursor:pointer;
+}
+/*9-合作品牌 区域结束*/
+
+/*10-底部*/
+.zuida7{
+  	width:100%;
+  	height:117px;
+  	background:#c1c1c1;
+ }
+ .zuida7 p{
+ 	padding-top:15px;
+ 	text-align:center;
+ 	font-size:12px;
+ 	color:#666;
+ }
+ .zuihou{
+  	width:1190px;
+  	height:117px;
+  	background:#c1c1c1;
+  	position:relative;
+  	margin:0 auto;
+ }
+ .top-on{
+ 	text-decoration:none;
+ 	color:#fff;
+ 	display:block;
+ 	width:34px;
+ 	height:34px;
+ 	position:absolute;
+ 	top:60px;
+ 	left:1300px;
+ }
+ .icon-xiangshang:before{
+ 	font-size:20px;
+ 	color:#fff;
+ 	margin-left:8px;
+ 	line-height:34px;
+ 	font-weight:bold;
+ }
+  /*10-底部结束*/

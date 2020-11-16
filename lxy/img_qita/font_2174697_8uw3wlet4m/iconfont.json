@@ -1,0 +1,79 @@
+{
+  "id": "2174697",
+  "name": "家装公司",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "902029",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1261803",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "1261894",
+      "name": "link",
+      "font_class": "link",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "1898874",
+      "name": "long-arrow-right",
+      "font_class": "long-arrow-right",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "4472461",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "4472462",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "5327334",
+      "name": "扳手",
+      "font_class": "banshou",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "5330172",
+      "name": "铅笔",
+      "font_class": "qianbi",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "12578952",
+      "name": "shopping-cart",
+      "font_class": "shopping-cart",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "14421735",
+      "name": "放大镜",
+      "font_class": "fangdajing_huaban1",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}
