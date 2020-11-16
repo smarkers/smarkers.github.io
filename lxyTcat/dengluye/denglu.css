@@ -1,0 +1,97 @@
+body{
+	margin:0;
+	padding:0;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.box1{
+	width:100%;
+	height:88px;
+	background:#fff;
+}
+.box2{
+	width:1190px;
+	height:88px;
+	margin:0 auto;
+	/* background:#ffccff; */
+}
+.box1 .tm-logo{
+	display:inline-block;
+	width:380px;
+	height:54px;
+	background:url('https://img.alicdn.com/tfs/TB1_Gn8RXXXXXXqaFXXXXXXXXXX-380-54.png');
+	margin-top:12px;
+}
+.box3{
+	width:100%;
+	background:rgb(245, 19, 72);
+}
+.box4{
+	width:1190px;
+	height:600px;
+	background:url('https://gw.alicdn.com/tfs/TB1GWty1xz1gK0jSZSgXXavwpXa-1190-600.png');
+	margin:0 auto;
+}
+.login-box{
+	width:350px;
+	height:350px;
+	background:#fff;
+	float:right;
+	margin-top:60px;
+	margin-right:60px;
+	padding:25px 25px 23px;
+}
+.password-login,.sms-login{
+	color:#3c3c3c;
+	font-size:16px;
+	margin:9px 10px 20px 0;
+	border-bottom:solid 2px transparent;
+}
+.password-login,.sms-login:hover{
+	border-bottom:solid 2px #000;
+}
+.input-plain-wrap{
+	height:40px;
+	width:300px;
+	border:solid 1px #000;
+}
+.input-plain-wrap:hover{
+	border:solid 1px red;
+}
+.fm-text{
+	height:35px;
+	width:250px;
+	border:0;
+	font-size:16px;
+	margin:2px 0 0 4px;
+}
+.input-wrap-password{
+	margin-top:30px;
+}
+.fm-btn{
+	height:40px;
+	width:300px;
+	margin-top:30px;
+	background:#f40;
+	border:solid 1px #ff9000;
+	text-align:center;
+	line-height:40px;
+	display:block;
+	color:#fff;
+	border-radius:4px;
+	margin-bottom:20px;
+}
+.login-blocks{
+	width:300px;
+	height:20px;
+	text-align:right;
+}
+.login-blocks a{
+	font-size:14px;
+	color:#000;
+	margin-left:10px;
+}

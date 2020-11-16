@@ -1,0 +1,133 @@
+#a7{
+	width:1230px;
+	height:326px;
+	margin:14px auto 0;
+	border-left:solid 1px #fff;
+	
+}
+#a7 ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#a7 .a7-1{
+	width:122px;
+	height:326px;
+	float:left;
+}
+#a7 .a7-2{
+	margin-left:1px;
+}
+#a7 .boxul-li{
+	width:122px;
+	height:108px;
+	border-bottom:solid 1px transparent;
+	
+}
+#a7 .ulli-a1{
+	width:122px;
+	height:108px;
+	
+	float:left;
+}
+#a7 .li-a1{
+	width:122px;
+	height:108px;
+	background:url('zizhitu/tubiao.png') 0px 0px;
+	float:left;
+}
+#a7 .li-a2{
+	background:url('zizhitu/tubiao.png') -1px -109px;
+}
+#a7 .li-a3{
+	background:url('zizhitu/tubiao.png') -1px -218px;
+}
+#a7 .li-a4{
+	background:url('zizhitu/tubiao.png') -124px 0px;
+}
+#a7 .li-a5{
+	background:url('zizhitu/tubiao.png') -124px -109px;
+}
+#a7 .li-a6{
+	background:url('zizhitu/tubiao.png') -124px -218px;
+}
+#a7 .li-a7{
+	background:url('zizhitu/tubiao.png') -247px 0px;
+}
+#a7 .li-a8{
+	background:url('zizhitu/tubiao.png') -247px -109px;
+}
+#a7 .li-a9{
+	background:url('zizhitu/tubiao.png') -247px -218px;
+}
+#a7 .li-a10{
+	background:url('zizhitu/tubiao.png') -370px 0px;
+}
+#a7 .li-a11{
+	background:url('zizhitu/tubiao.png') -370px -109px;
+}
+#a7 .li-a12{
+	background:url('zizhitu/tubiao.png') -370px -218px;
+}
+#a7 .li-a13{
+	background:url('zizhitu/tubiao.png') -493px 0px;
+}
+#a7 .li-a14{
+	background:url('zizhitu/tubiao.png') -493px -109px;
+}
+#a7 .li-a15{
+	background:url('zizhitu/tubiao.png') -493px -218px;
+}
+#a7 .li-a16{
+	background:url('zizhitu/tubiao.png') -616px 0px;
+}
+#a7 .li-a17{
+	background:url('zizhitu/tubiao.png') -616px -109px;
+}
+#a7 .li-a18{
+	background:url('zizhitu/tubiao.png') -616px -218px;
+}
+#a7 .li-a19{
+	background:url('zizhitu/tubiao.png') -739px 0px;
+}
+#a7 .li-a20{
+	background:url('zizhitu/tubiao.png') -739px -109px;
+}
+#a7 .li-a21{
+	background:url('zizhitu/tubiao.png') -739px -218px;
+}
+#a7 .li-a22{
+	background:url('zizhitu/tubiao.png') -862px 0px;
+}
+#a7 .li-a23{
+	background:url('zizhitu/tubiao.png') -862px -109px;
+}
+#a7 .li-a24{
+	background:url('zizhitu/tubiao.png') -862px -218px;
+}
+#a7 .li-a25{
+	background:url('zizhitu/tubiao.png') -985px 0px;
+}
+#a7 .li-a26{
+	background:url('zizhitu/tubiao.png') -985px -109px;
+}
+#a7 .li-a27{
+	background:url('zizhitu/tubiao.png') -985px -218px;
+}
+#a7 .li-a28{
+	background:url('zizhitu/tubiao.png') -1108px 0px;
+}
+#a7 .li-a29{
+	background:url('zizhitu/tubiao.png') -1108px -109px;
+}
+#a7 .li-a30{
+	background:url('zizhitu/tubiao.png') -1108px -218px;
+}
+#a7 .li-a1:hover{
+	background:url('zizhitu/hoveryouhui.png') no-repeat;
+	width:122px;
+	height:108px;
+	float:left;
+	background-color:rgba(59,31,49,0.8);
+	/* transition:0.2s; */
+}

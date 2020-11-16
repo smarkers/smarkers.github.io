@@ -1,0 +1,59 @@
+#a1{
+	height:41px;
+	background:#f2f2f2;
+	color:#999999;
+	font-size:12px;
+	border-bottom:solid 1px #c8c8c8;
+}
+#a1 .topa{
+	width:1230px;
+	height:41px;
+	margin:0 auto;
+	line-height:35px;
+}
+#a1 .topa-1{
+	margin-left:18px;
+	text-decoration:none;
+}
+#a1 .topa-1:link{
+	color:#999999;
+}
+#a1 .topa-1:visited{
+	color:#999999;
+}
+#a1 .topa-1:hover{
+	color:#ff0036;
+}
+#a1 .topa-2{
+	width:85px;
+	height:25px;
+	float:right;
+}
+#a1 .topimg1{
+	margin-right:5px;
+}
+#a1 .border0{
+	width:0px;
+	height:0px;
+	border:solid 3px transparent;
+	border-top-color:#999999;
+	margin:0;
+	padding:0;
+	float:right;
+	margin-top:15px;
+}
+#a1 .topa-3{
+	margin:0 auto;
+}
+#a1 .border1{
+	margin-right:20px;
+}
+#a1 .topa-a{
+	margin-top:5px;
+	margin-right:10px;
+	line-height:25px;
+	border-right:solid 1px #999999;
+}
+#a1 .border2{
+	margin:10px 25px 0 0;
+}

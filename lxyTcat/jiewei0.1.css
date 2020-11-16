@@ -1,0 +1,171 @@
+body{
+	margin:0;
+	padding:0;
+}
+#c1{
+	width:1190px;
+	height:100px;
+	padding-top:25px;
+	margin:0 auto;
+	border-bottom:solid 1px #ededed;
+}
+#c1 .end-01{
+	background:url('zizhitu/jiewei3/jiewei0.2.jpg');
+	width:1190px;
+	height:100px;
+	display:block;
+}
+#c2{
+	width:1702px;
+	height:546px;
+	margin:0 auto;
+	background:url('zizhitu/jiewei3/jiewei0.3.png');
+}
+#c2 .ula-1{
+	width:1145px;
+	height:184px;
+	margin:0 auto;
+	padding-left:45px;
+	padding-top:28px;
+	border-bottom:solid 2px #ff0036;
+	background:url('zizhitu/bottom/bottom1.png');
+}
+#c2 ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#c2 a{
+	text-decoration:none;
+}
+#c2 .ulc1{
+	width:220px;
+	height:180px;
+	float:left;
+}
+#c2 .lic1{
+	font-size:17px;
+	color:#646464;
+	margin-bottom:10px;
+}
+
+
+
+/* 问题 */
+#c2 .lic2{
+	font-size:12px;
+	line-height:20px;
+	color:#8b8b8b;
+}
+.lica:link{
+	color:#8b8b8b;
+}
+.lica:visited{
+	color:#8b8b8b;
+}
+.lica:hover{
+	color:red;
+}
+.lica:active{
+	color:#8b8b8b;
+}
+/* 问题 */
+.licb{
+	width:90px;
+	height:90px;
+	display:block;
+}
+.licc{
+	background:url('zizhitu/bottom/erweima.png');
+	width:90px;
+	height:90px;
+	display:block;
+}
+.tmend1{
+	width:1190px;
+	height:325px;
+	padding-top:10px;
+	/* float:left; */
+	margin:0 auto;
+	background:#000000;
+}
+.tmend-a{
+	width:700px;
+	height:35px;
+	float:left;
+	font-size:13px;
+}
+.tmend-a1{
+	display:block;
+	float:left;
+	margin-right:6px;
+}
+.tmend-a1:link{
+	color:#fff;
+}
+.tmend-a1:visited{
+	color:#fff;
+}
+.tmend-a1:hover{
+	color:#fff;
+}
+.tmend-a1:active{
+	color:#fff;
+}
+.tmend-b{
+	width:1100px;
+}
+.tmend-c{
+	height:30px;
+	color:#a4a4a4
+}
+.tmend-c1{
+	font-size:13px;
+	margin-right:40px;
+	float:left;
+}
+.tmend-e{
+	height:20px;
+}
+.tmend-c2{
+	margin-right:20px;
+}
+.tmend-c3{
+	display:block;
+	background:url('zizhitu/jiewei3/jinghui.png');
+	width:18px;
+	height:20px;
+	float:left;
+}
+.tmend-ca{
+	float:right;
+}
+#c2 .c2-aa:link{
+	color:#a4a4a4;
+}
+#c2 .c2-aa:hover{
+	color:#a4a4a4;
+}
+.boos1{
+	height:30px;
+	width:700px;
+	float:left;
+	margin-top:35px;
+}
+.boos2{
+	display:block;
+	width:30px;
+	height:30px;
+	float:left;
+	background:url('zizhitu/jiewei3/boos2.png') no-repeat;
+	margin-left:20px;
+}
+.boos3{
+	display:block;
+	width:80px;
+	height:30px;
+	float:left;
+	background:url('zizhitu/jiewei3/boos3.png');
+	margin-left:20px;
+}
+/* 做完了 */

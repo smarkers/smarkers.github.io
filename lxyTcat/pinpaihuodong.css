@@ -1,0 +1,85 @@
+#a6{
+	width:1230px;
+	height:371px;
+	margin:20px auto 0;
+
+}
+#a6 .hdbox1{
+	width:234px;
+	height:371px;
+	float:left;
+}
+#a6 .hdh1-1{
+	width:229px;
+	height:35px;
+	background:#fff;
+	padding-top:19px;
+	padding-left:5px;
+	border-bottom:solid 1px #eeeeee;
+}
+#a6 .hdid-1{
+	font-size:18px;
+}
+#a6 .hdimg-1{
+	width:18px;
+	height:18px;
+	float:right;
+	
+	margin-right:13px;
+}
+#a6 .hdimg-a{
+	background:url('zizhitu/gengduo1.png');
+	width:18px;
+	height:18px;
+	float:right;
+}
+#a6 .a6-a1{
+	width:234px;
+	height:316px;
+	float:right;
+	background:url('zizhitu/huodong1.png');
+}
+#a6 .hdbox2{
+	width:485px;
+	height:371px;
+	float:left;
+	margin-left:13px;
+}
+#a6 .hdh1-2{
+	width:480px;
+}
+#a6 .hdimg-2{
+	width:80px;
+	height:30px;
+	
+	color:#666666;
+	font-size:16px;
+	
+}
+#a6 a{
+	text-decoration:none;
+}
+#a6 .hdimg-3{
+	background:url('zizhitu/gengduo1.png') no-repeat;
+	width:18px;
+	height:18px;
+	float:right;
+}
+#a6 .a6-a2{
+	width:485px;
+	height:316px;
+	float:right;
+	background:url('zizhitu/huodong2.png');
+}
+#a6 .a6-a3{
+	background:url('zizhitu/huodong3.png');
+}
+#a6 .a6-a1:hover{
+	background:url('zizhitu/huodong1-1.png');
+}
+#a6 .a6-a2:hover{
+	background:url('zizhitu/huodong2-2.png');
+}
+#a6 .a6-a3:hover{
+	background:url('zizhitu/huodong3-3.png');
+}

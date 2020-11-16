@@ -1,0 +1,167 @@
+#a3{
+	width:1702px;
+	height:947px;
+	margin:0 auto;
+	background:url('zizhitu/lunbotu0.1.png') no-repeat 0px -207px;
+}
+#a3 .tupiana{
+	width:1230px;
+	height:500px;
+	margin:0 auto;
+	background:url('zizhitu/lunbotu1.jpg') 10px 0px;
+	
+}
+#a3 .tupiana-1{
+	width:200px;
+	height:471px;
+	background:#434040;
+	float:left;
+	padding-top:29px
+}
+#a3 .tupiana-2{
+	width:1030px;
+	height:500px;
+	float:left;
+}
+/* #a3 .abeijing{
+	background:url('zizhitu/lunbotu1.jpg') 10px 0px;
+	width:1230px;
+	height:500px;
+	margin:0 auto;
+	float:left;
+} */
+#a3 .xialaliebiao{
+	width:150px;
+	height:29px;
+	border:solid 1px #cb0c10;
+	margin:0 auto 14px;
+	border-radius:7px;
+	line-height:29px;
+	font-size:12px;
+	text-align:center;
+	
+}
+.tupiana-1 a{
+	text-decoration:none;
+}
+#a3 .xialaimg{
+	vertical-align:middle;
+}
+#a3 .xialawenzi{
+	margin-left:8px;
+}
+#a3 .hove1:link{
+	color:#fff;
+}
+#a3 .hove1:visited{
+	color:#fff;
+}
+#a3 .xialaliebiao:hover{
+	background:#cb0c10;
+	
+}
+
+
+#a4{
+	width:1230px;
+	height:105px;
+	margin:0 auto;
+}
+#a4 .shuang11-2{
+	margin:36px 0 0 550px;
+}
+#a5{
+	width:1230px;
+	height:330px;
+	margin:0 auto;
+}
+#a5 .ms-left{
+	float:left;
+	width:620px;
+	height:330px;
+}
+#a5 .ms-right{
+	float:left;
+	width:610px;
+	height:330px;
+}
+#a5 a{
+	text-decoration:none;
+}
+#a5 .msqq1{
+	width:250px;
+	height:330px;
+	float:left;
+	border-radius:5px;
+}
+#a5 .msa1{
+	background:url('zizhitu/lb-1.png');
+	width:250px;
+	height:330px;
+	float:left;
+	border-radius:5px;
+}
+#a5 .msa11{
+	background:url('zizhitu/lb-4.png');
+}
+#a5 .msa2{
+	background:url('zizhitu/lb-2.png');
+	width:350px;
+	height:160px;
+	float:left;
+	border-radius:5px;
+	margin-left:10px;
+}
+#a5 .msa22{
+	background:url('zizhitu/lb-5.png');
+}
+#a5 .msa3{
+	background:url('zizhitu/lb-3.png');
+	margin-top:10px;
+}
+#a5 .msa33{
+	background:url('zizhitu/lb-6.png');
+}
+
+
+/* 轮播图实验 */
+
+
+/* .sy-lunbo .sy-ul,.sy-li {
+    padding: 0;
+    margin: 0;
+}
+.sy-lunbo {
+    width: 1230px;
+    height: 500px;
+    margin:0 auto;
+    overflow: hidden;
+    border: 2px solid red;
+}
+.sy-lunbo > .sy-ul {
+   设置ul的宽度为2倍div的宽度
+	width: 2460px;
+	list-style: none;
+	动画属性
+	animation: imgMove  10s linear infinite ; 
+}
+.sy-lunbo > .sy-ul > .sy-li {
+    width: 1230px;
+    float: left;
+}
+.sy-ul .sy-li img{
+   	width: 1230px;
+   	height: 500px;
+}
+       创建动画
+@keyframes imgMove {
+	from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-1230px);
+    }
+}
+.sy-ul:hover{
+	animation-play-state: paused;
+} */

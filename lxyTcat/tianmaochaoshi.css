@@ -1,0 +1,368 @@
+.a8-01{
+	width:1230px;
+	margin:23px auto 10px;
+	height:25px;
+}
+.a8-01 .a8-02{
+	width:214px;
+	height:25px;
+	background:url('zizhitu/tianmaochaoshi1.png') no-repeat;
+	float:left;
+}
+.a8{
+	width:1230px;
+	height:618px;
+	margin:10px auto 0;
+}
+.a8 .tmcs1{
+	width:235px;
+	height:618px;
+	float:left;
+}
+.a8 .tmcs1-1{
+	width:235px;
+	height:618px;
+	float:left;
+}
+.a8 .tmcs1-2{
+	background:url('zizhitu/tmcs1.png');
+	width:235px;
+	height:618px;
+	float:left;
+}
+.a8 .tmcs1-2:hover {
+	background:url('zizhitu/tmcs1-1.png');
+}
+.a8 .tmcs2{
+	width:484px;
+	height:301px;
+	float:left;
+	margin-left:13px;
+	background:#f9f9f9;
+}
+.a8 .tmcs2-a{
+	width:462px;
+	height:282px;
+	margin:10px 0 0 10px;
+}
+.a8 a{
+	text-decoration:none;
+}
+.a8 .tmcs2-1a{
+	width:231px;
+	height:57px;
+	float:left;
+	font-size:17px;
+	line-height:57px;
+	text-align:center;
+	background:#f1f1f1;
+	color:#000;
+}
+.a8 .tmcs2-2a{
+	/* width:231px;
+	height:57px;
+	float:left;
+	font-size:17px;
+	line-height:57px;
+	text-align:center;
+	background:#f1f1f1;
+	color:#000; */
+}
+.a8 .tmcs2-3b{
+	width:462px;
+	height:225px;
+	float:left;
+	background:url('zizhitu/tmcs2-1.png');
+}
+.a8 .tmcs2-1a:hover{
+	background:#00b262;
+	color:#fff;
+}
+.a8 .tmcs2-3b:hover{
+	width:462px;
+	height:225px;
+	float:left;
+	background:url('zizhitu/tmcs2-2.png');
+}
+.a8 .tmcs3{
+	width:236px;
+	height:302px;
+	margin-left:10px;
+	float:left;
+	border:solid 1px #fff;
+}
+.a8 .tmcs3-a{
+	background:url('zizhitu/tmcsa1.png');
+	width:236px;
+	height:302px;
+	float:left;
+}
+.a8 .tmcs3-a:hover{
+	background:url('zizhitu/tmcsa1-1.png');
+	
+	/* width:234px;
+	height:300px; */
+}
+.a8 .tmcs3:hover{
+	border:solid 1px red;
+}
+.a8 .tmcs4-a{
+	background:url('zizhitu/tmcsa2.png');
+}
+.a8 .tmcs4-a:hover{
+	background:url('zizhitu/tmcsa2-2.png');
+}
+.a8 .tmcs4{
+	margin-top:10px;
+}
+.a8 .tmcs5-a{
+	background:url('zizhitu/tmcsa3.png');
+}
+.a8 .tmcs5-a:hover{
+	background:url('zizhitu/tmcsa3-3.png');
+}
+.a8 .tmcs6-a{
+	background:url('zizhitu/tmcsa4.png');
+}
+.a8 .tmcs6-a:hover{
+	background:url('zizhitu/tmcsa4-4.png');
+}
+.a8 .tmcs7-a{
+	background:url('zizhitu/tmcsa5.png');
+}
+.a8 .tmcs7-a:hover{
+	background:url('zizhitu/tmcsa5-5.png');
+}
+.a8 .tmcs8-a{
+	background:url('zizhitu/tmcsa6.png');
+}
+.a8 .tmcs8-a:hover{
+	background:url('zizhitu/tmcsa6-6.png');
+}
+
+
+
+
+.a8-03 .a8-04{
+	background:url('zizhitu/a8-03.png') no-repeat;
+}
+.a8 .end1{
+	width:235px;
+	height:300px;
+	float:left;
+	border:solid 1px #fff;
+	
+}
+.a8 .end1a{
+	background:url('zizhitu/end1.png');
+	width:235px;
+	height:300px;
+	float:left;
+}
+.a8 .end1a:hover{
+	background:url('zizhitu/end1-1.png');
+}
+.a8 .end1-1{
+	width:234px;
+	height:300px;
+	float:left;
+	border:solid 1px #fff;
+	margin-left:10px;
+}
+.a8 .end1a-1{
+	background:url('zizhitu/end2.png');
+	width:234px;
+	height:300px;
+	float:left;
+	border:solid 1px #fff;
+}
+.a8 .end1a-1:hover{
+	background:url('zizhitu/end2-2.png');
+	border:solid 1px red;
+}
+.a8 .end1a-2{
+	background:url('zizhitu/end3.png');
+}
+.a8 .end1a-2:hover{
+	background:url('zizhitu/end3-3.png');
+}
+.a8 .end1a-3{
+	background:url('zizhitu/end4.png');
+}
+.a8 .end1a-3:hover{
+	background:url('zizhitu/end4-4.png');
+}
+.a8 .end1a-4{
+	background:url('zizhitu/end5.png');
+}
+.a8 .end1a-4:hover{
+	background:url('zizhitu/end5-5.png');
+}
+.a8 .end1-a{
+	margin-top:15px;
+}
+.a8 .end1a-5{
+	background:url('zizhitu/end6.png');
+}
+.a8 .end1a-5:hover{
+	background:url('zizhitu/end6-6.png');
+}
+.a8 .end1a-6{
+	background:url('zizhitu/end7.png');
+}
+.a8 .end1a-6:hover{
+	background:url('zizhitu/end7-7.png');
+}
+.a8 .end1a-7{
+	background:url('zizhitu/end8.png');
+}
+.a8 .end1a-7:hover{
+	background:url('zizhitu/end8-8.png');
+}
+.a8 .end1a-8{
+	background:url('zizhitu/end9.png');
+}
+.a8 .end1a-8:hover{
+	background:url('zizhitu/end9-9.png');
+}
+.box-boxa1{
+	width:1230px;
+	height:90px;
+	margin:19px auto 0;
+}
+.box-hidden{
+	width:1230px;
+	height:90px;
+	display:block;
+	background:url('zizhitu/tmcsbottom1.png')
+}
+.a8-01 .fz-1{
+	width:5px;
+	height:18px;
+	background:#000;
+	float:left;
+	margin-top:4px;
+}
+.a8-01 .fz-2{
+	font-size:18px;
+	color:#000;
+	margin-left:15px;
+}
+/* 美丽人生 */
+
+.a8 .fza-1{
+	background:url('zizhitu/fza1.png')
+}
+.a8 .fza-1:hover{
+	background:url('zizhitu/fza1-1.png')
+}
+.a8 .fza-2{
+	background:url('zizhitu/weibu/001.png')
+}
+.a8 .fza-2:hover{
+	background:url('zizhitu/weibu/001a.png')
+}
+.a8 .fza-3{
+	background:url('zizhitu/weibu/002.png')
+}
+.a8 .fza-3:hover{
+	background:url('zizhitu/weibu/002a.png')
+}
+.a8 .fza-4{
+	background:url('zizhitu/weibu/003.png')
+}
+.a8 .fza-4:hover{
+	background:url('zizhitu/weibu/003a.png')
+}
+.a8 .fza-5{
+	background:url('zizhitu/weibu/004.png')
+}
+.a8 .fza-5:hover{
+	background:url('zizhitu/weibu/004a.png')
+}
+.a8 .fza-6{
+	background:url('zizhitu/weibu/005.png')
+}
+.a8 .fza-6:hover{
+	background:url('zizhitu/weibu/005a.png')
+}
+.a8 .fza-7{
+	background:url('zizhitu/weibu/006.png')
+}
+.a8 .fza-7:hover{
+	background:url('zizhitu/weibu/006a.png')
+}
+.a8 .fza-8{
+	background:url('zizhitu/weibu/007.png')
+}
+.a8 .fza-8:hover{
+	background:url('zizhitu/weibu/007a.png')
+}
+.a8 .fza-9{
+	background:url('zizhitu/weibu/008.png')
+}
+.a8 .fza-9:hover{
+	background:url('zizhitu/weibu/008a.png')
+}
+/* 美丽人生end */
+
+.a8 .fzb-1{
+	background:url('zizhitu/weibu2/00a.png')
+}
+.a8 .fzb-1:hover{
+	background:url('zizhitu/weibu2/00aa.png')
+}
+.a8 .fzb-2{
+	background:url('zizhitu/weibu2/001.png')
+}
+.a8 .fzb-2:hover{
+	background:url('zizhitu/weibu2/001a.png')
+}
+.a8 .fzb-3{
+	background:url('zizhitu/weibu2/002.png')
+}
+.a8 .fzb-3:hover{
+	background:url('zizhitu/weibu2/002a.png')
+}
+.a8 .fzb-4{
+	background:url('zizhitu/weibu2/003.png')
+}
+.a8 .fzb-4:hover{
+	background:url('zizhitu/weibu2/003a.png')
+}
+.a8 .fzb-5{
+	background:url('zizhitu/weibu2/004.png')
+}
+.a8 .fzb-5:hover{
+	background:url('zizhitu/weibu2/004a.png')
+}
+.a8 .fzb-6{
+	background:url('zizhitu/weibu2/005.png')
+}
+.a8 .fzb-6:hover{
+	background:url('zizhitu/weibu2/005a.png')
+}
+.a8 .fzb-7{
+	background:url('zizhitu/weibu2/006.png')
+}
+.a8 .fzb-7:hover{
+	background:url('zizhitu/weibu2/006a.png')
+}
+.a8 .fzb-8{
+	background:url('zizhitu/weibu2/007.png')
+}
+.a8 .fzb-8:hover{
+	background:url('zizhitu/weibu2/007a.png')
+}
+.a8 .fzb-9{
+	background:url('zizhitu/weibu2/008.png')
+}
+.a8 .fzb-9:hover{
+	background:url('zizhitu/weibu2/008a.png')
+}
+.zk{
+	width:62px;
+	height:35px;
+	margin:20px auto 0;
+	background:url('zizhitu/weibu2/jiewei0.1.png')
+}
