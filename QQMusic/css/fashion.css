@@ -1,0 +1,207 @@
+/*排行榜标签样式表*/
+
+.fash{
+	width:100%;
+	padding:60px 0;
+	background:#f9f9f9;
+}
+.fash_lt{
+	width:178px;
+	height:1694px;
+	border:1px solid #ebebeb;
+}
+.lt_div1{
+	height:276px;
+	text-indent:2em;
+}
+.lt_div1 p{
+	font-size:25px;
+	margin-top:19px;
+}
+.lt_on{
+	width:145px;
+	height:0; 
+	border:1px solid #ebebeb;
+	margin:19px auto;
+}
+.lt_ul{
+	line-height:37px;
+}
+.lt_ul_li:hover{
+	color:#31c27c;
+}
+.fash_ul_on{
+	color:#fff;
+	background:#31c27c;
+}
+
+.fash_rt{
+	width:990px;
+	height:1908px;
+
+
+	/*background:blue;*/
+}
+.rt_h{
+	height:74px;
+	line-height:74px;
+
+
+	/*background:red;*/
+}
+.rt_h h1{
+	font-weight:400;
+}
+.rt_h p{
+	font-size:14px;
+	text-indent:10px;
+}
+.rt_h_p{
+	color:#999;
+}
+
+
+.rt_top{
+	height:58px;
+}
+.rt_ul{
+	text-align:center;
+	line-height:36px;
+}
+.rt_li{
+	height:36px;
+	padding:0 23px;
+	border:1px solid #ededed;
+	border-radius:3px;
+}
+.rt_li1:hover{
+	background:rgba(0,0,0,.05);
+}
+.rt_li1{margin-left:6px;}
+.rt_li2{
+	color:#fff;
+	background-color: #31c27c;
+}
+.rt_li_on{
+	width:16px;
+	height:16px;
+	margin-top:10px;
+	margin-right:5px;
+}
+.rt_li_on1{
+	background:url(../images/list/icon_sprite.png) no-repeat -79px -220px;
+}
+.rt_li_on2{
+	background:url(../images/list/icon_sprite.png) no-repeat -20px 0;
+}
+.rt_li_on3{
+	background:url(../images/list/icon_sprite.png) no-repeat -39px -220px;
+}
+.rt_li_on4{
+	background:url(../images/list/icon_sprite.png) no-repeat -120px 0;
+}
+.rt_li_on5{
+	background:url(../images/list/icon_sprite.png) no-repeat -140px -120px;
+}
+
+
+.rt_cnt{
+	height:1649px;
+	/*background:green;*/
+}
+.rt_cnt_div1{
+	height:50px;
+	/*background:#f7f7f7;*/
+}
+.div1_li{
+	color:#999999;
+	font-size:14px;
+	line-height:50px;
+	/*border:1px solid red;*/
+}
+.div1_li2{
+	width:570px;
+	margin-left:122px;
+}
+.div1_li3{width:205px;}
+.div1_li4{width:86px;}
+
+.rt_cnt_div2{
+	height:80px;
+	line-height:80px;
+	/*border:1px solid blue;*/
+}
+.rt_cnt_div2 p{
+	
+}
+.div2_nu{
+	width:70px;
+	text-align:center;
+	line-height:80px;
+	font-size:24px;
+	color:red;
+}
+p.div2_nu2{color:#333333;}
+.div2_on{
+	width:52px;
+}
+.div2_hv:hover{color:#31c27c; cursor:pointer;}
+.div2_on_on{
+	width:15px;
+	height:14px;
+	margin-top:22.5px;
+	margin-left:5px;
+	background:url(../images/list/icon_rank.png) no-repeat 0 -61px;
+}
+p.div2_on_p{
+	color:#9c9c9c;
+	line-height:30px;
+}
+.div2_img{
+	width:70px;
+	height:70px;
+	margin: 5px 0;
+}
+.div2_p{
+	width:500px;
+	font-size:14px;
+	margin-left:5px;
+}
+.div2_p_p1{
+	height:16px;
+	color:#31c27c;
+	font-size:12px;
+	line-height:14px;
+	padding:0 3px;
+	margin-top:30px;
+	margin-left:5px;
+	border:1px solid #31c27c;
+	border-radius:3px;
+}
+.div2_p2{
+	width:207px;
+}
+.div2_p3{
+	width:86px;
+	color:#9c9c9c;
+}
+
+.rt_cnt_div3{
+	background:#fcfcfc;
+}
+
+.rt_bot{
+	height:127px;
+	font-size:20px;
+	text-align:center;
+}
+.rt_bot div{
+	width:175px;
+	height:41px;
+	color:#fff;
+	line-height:41px;
+	background-color: #31c27c;
+	border-radius:20px;
+	margin: 25px auto;
+	cursor:pointer;
+}

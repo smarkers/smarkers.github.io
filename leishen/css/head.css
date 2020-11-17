@@ -1,0 +1,406 @@
+@import url("reststyle.css");
+body{
+	background: #F0F3EF;
+}
+.head{
+	width: 100%;
+	background: #f2f2f2;
+	line-height: 40px;
+}
+.head-z{
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.head-z ul{
+	float: left;
+}
+.head-z ul li{
+	float: left;
+	position: relative;
+	padding: 0 12px;
+	transition: .2s;
+	cursor: pointer;
+}
+.head-z ul .gun::after{	
+	content: '';
+	height: 10px;
+	border-left: 1px solid #b7b7b7;
+	position: absolute;
+	top: 40%;
+	right: 0;
+}
+.head-z ul li:hover{
+	color: #00eef3;
+}
+.head-z ul .chu:hover{
+	background: white;
+}
+.head-z ul .chu:hover .xian{
+	display: block;
+}
+.head-z ul .chu .xian{
+	width: 118px;
+	height: 123px;
+	border: 1px solid;
+	border-color: transparent #e5e5e5 #e5e5e5 #e5e5e5;
+	position: absolute;
+	top: 39px;
+	left: 0;
+	display: none;
+	z-index: 10;
+}
+.head-z ul .chu .xian img{
+	width: 100%;
+	height: 100%;
+}
+.head-z .you{
+	width: 300px;
+	height: 40px;
+	float: right;
+}
+.head-z .you a:hover{
+	color: #00EEF3;
+}
+.head-z .you .yinghao{
+	margin-right: 5px;
+	color: #333;
+}
+.head-z .you .denglu{
+	color: #00EEF3;
+}
+.head-z .you .icon-gouwuche{
+	
+}
+.head-z .you .chu2{
+	font-size: 14px;
+	color: #333;
+	display: inline-block;
+	position: relative;
+	padding: 0 30px;
+}
+.head-z .you .chu2:hover{
+	background: white;
+}
+.head-z .you .chu2 .gai{
+	width: 150px;
+	height: 1px;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background: #fff;
+	z-index: 11;
+}
+.head-z .you .chu2:hover .xian2{
+	display: block;
+}
+.head-z .you .xian2{
+	width: 340px;
+	height: 80px;
+	border: 1px solid #e5e5e5;
+	position: absolute;
+	top: 40px;
+	right: -1px;
+	background-color: #fff;
+	display: none;
+	z-index: 10;
+}
+
+.head-z .you .chu2 .xian2 span{
+	display: inline-block;
+	font-size: 12px;
+	padding-right: 20px;
+	float: right;
+	position: relative;
+	color: #898989;
+	line-height: 80px;
+}
+.head-z .you .chu2 .xian2 span::after{
+	content: '';
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background: url(../img/904.png) no-repeat;
+	position: absolute;
+	top: 50%;
+	left: -50px;
+	vertical-align: middle;
+	margin-top: -16px;
+	color: #898989;
+}
+.sousuo{
+	width: 100%;
+	background: #fff;
+	padding-bottom: 20px;
+}
+.sousuo .sousuo2{
+	width: 1200px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.sousuo .sousuo2 .img1{
+	height: 70px;
+	margin-left: 35px;
+	float: left;
+}
+.sousuo .sousuo2 .img2{
+	height: 70px;
+	float: left;
+	margin-left: 65px;
+}
+.sousuo .sousuo2 .sousuolan{
+	width: 500px;
+	float: right;
+	margin-top: 10px;
+	position: relative;
+}
+.sousuo .sousuo2 .sousuolan:hover .sousuo3{
+	border-color: #00EEF3;
+}
+.sousuo .sousuo2 .sousuolan:hover button{
+	border-color: #00EEF3;
+	background: #00EEF3;
+}
+.sousuo .sousuo2 .sousuolan .sousuo3{
+	background: #fff;
+	border:2px solid #EBEBEB;
+	color: #00EEF3;
+	width: 231px;
+	height: 36px;
+	line-height: 40px;
+	padding: 0 10px;
+	padding-right: 200px;
+	font-size: 14px;
+	float: left;
+}
+.sousuo .sousuo2 .sousuolan button{
+	width: 55px;
+	height: 40px;
+	border:2px solid #EBEBEB;
+	border-left: 0px;
+	float: left;
+	background-color: #fff;
+}
+.sousuo .sousuo2 .sousuolan button .icon-fangdajing01::before{
+	font-size: 25px;
+	font-weight: 700;
+}
+.sousuo .sousuo2 .sousuolan .zi{
+	padding-top: 4px;
+	position: absolute;
+	right: 60px;
+	top: 3.5px;
+	
+}
+.sousuo .sousuo2 .sousuolan .zi span{
+	float: left;
+	line-height: 24px;
+	margin-right: 15px;
+	font-size: 12px;
+	color: #999;
+	background: #ebebeb;
+	padding: 0 5px;
+}
+.nav{
+	width: 100%;
+	background: #fff;
+}
+.nav1{
+	height: 40px;
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+}
+.nav .nav-left{
+	width: 210px;
+	height: 40px;
+	float: left;
+	background: #00EEF3;
+	position: relative;
+}
+.nav .nav-left .zi{
+	width: 180px;
+	padding-left: 30px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+.nav .nav-left .zi .icon-mulu{
+	font-weight: 700;
+	color: #141414;
+}
+.nav .nav-left .zi mulu{
+	color: #141414;
+}
+.nav .nav1 .nav-left .divxian{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background: rgba(46,46,46,.5);
+	z-index: 99;
+}
+
+
+.nav .nav1 .nav-left .divxian .divxian1{
+	padding: 6px 10px 6px 25px;
+	
+}
+.nav .nav1 .nav-left .divxian .divxian1:hover{
+	background: #00EEF3;
+}
+.nav .nav1 .nav-left .divxian .divxian1:hover a{
+	color: #000;
+}
+.nav .nav1 .nav-left .divxian .divxian1 a{
+	display: block;
+	vertical-align: top;
+	margin-right: 5px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #fff;
+	width: 170px;
+}
+.nav .nav1 .nav-left .divxian .divxian1 a .icon-dayuhao1{
+	float: right;
+}
+.nav .nav1 .nav-left .divxian .divxian1:hover .divxian2{
+	display: block;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2{
+	position: absolute;
+	top: 0;
+	left: 210px;
+	width: 600px;
+	height: 460px;
+	overflow: hidden;
+	display: none;
+	background: #fff;
+	z-index: 0;
+	overflow-y: scroll;
+	
+}
+.divxian2::-webkit-scrollbar-button{
+	display: none;
+}
+.divxian2::-webkit-scrollbar-track{
+	background: #E5E5E5;
+}
+.divxian2::-webkit-scrollbar-thumb{
+	background: #E23435;
+}
+.divxian2::-webkit-scrollbar{
+	width: 2px;
+	height: 100%;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li{
+	    overflow: hidden;
+	    float: none;
+	    width: initial;
+	    height: initial;
+	    padding: 12px 20px 0;
+		color: #333;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li a{
+	color: #333;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	font-weight: 700;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li a:hover{
+	color: #00EEF3;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li a:hover i{
+	color: #00EEF3;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li ul li{
+	width: 251px;
+	height: 42px;
+	float: left;
+	padding: 12px 10px;
+	line-height: 40px;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li ul li img{
+	width: 40px;
+	float: left;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li ul li span{
+	margin-left: 5px;
+	overflow: hidden;
+	display: inline-block;
+	text-overflow: ellipsis;
+}
+.nav .nav1 .nav-left .divxian .divxian1 .divxian2 .xian2li ul li:hover span{color: #00EEF3;}
+.nav .nav-right{
+	float: left;
+	margin-left: 22px;
+	height: 40px;
+}
+.nav .nav-right li{ 	
+	float: left;
+	margin: 0 3px;
+	color: #333;
+}
+.nav .nav-right li a{
+	display: inline-block;
+	padding: 0 6px;
+	line-height: 38px;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: .1s;
+}
+.nav .nav-right li a:hover{
+	border-color: #00EEF3;
+	color: #00EEF3;
+}
+.nav .nav-right li:hover .navchu{
+	display: block;
+}
+.nav .nav-right li .navchu{
+	display: none;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 100%;
+	height: 229px;
+	background: #fff;
+	z-index: 100;
+}
+
+.nav .nav-right li .navchu .navchu2{
+	width: 1160px;
+	height: 100%;
+	margin: 0 auto;
+}
+.nav .nav-right li .navchu .navchu2 ul{
+	font-size: 12px;
+}
+.nav .nav-right li .navchu .navchu2 ul li{
+	float: left;
+	color: #333;
+	padding: 35px 12px 0;
+	width: 169px;
+	text-align: center;
+	margin: 0;
+}
+.nav .nav-right li .navchu .navchu2 ul li img{
+	width: 110px;
+	height: 110px;
+	margin: 0 auto 16px;
+	
+}
+.nav .nav-right li .navchu .navchu2 ul li .p1{
+	line-height: 20px;
+	margin-bottom: 18px;
+	transition: .3s;
+}
+.nav .nav-right li .navchu .navchu2 ul li .p1:hover{
+	color: #00EEF3;
+}
+.nav .nav-right li .navchu .navchu2 ul li .p1:hover{
+	color: #00EEF3;
+}
+.nav .nav-right li .navchu .navchu2 ul li .p2{
+	color: #00EEF3;
+}

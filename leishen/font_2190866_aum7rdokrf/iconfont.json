@@ -1,0 +1,44 @@
+{
+  "id": "2190866",
+  "name": "39",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "25167",
+      "name": "伞",
+      "font_class": "san",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5754198",
+      "name": "定位",
+      "font_class": "location",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6306926",
+      "name": "货车 (1)",
+      "font_class": "huoche",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12582684",
+      "name": "扳手",
+      "font_class": "banshou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "13189410",
+      "name": "7天",
+      "font_class": "tian",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+/* 头部 */
+#a{
+	height:98px;margin:0 auto 20px;background-color:#fff;
+}
+.a-1{
+	float:left;margin:26px 0;
+}
+.a-2{
+	width:900px;height:98px;float:right;
+}
+.a2-1{
+	width:96px;height:98px;float:left;border:1px solid #000000;
+}
+.a2-1-1{padding:30px 32px;background-color:#fff;}
+.a2-3{width:790px;height:98px;float:right;}
+.a2-2{padding:38px 26px;font-size:22px;line-height:98px;text-decoration:none;color:#000000;}
+.aa{font-size:24px;background-color:#ff9900;color:#fff;}
+.ab:hover{font-size:26px;background-color:#e7e7e7;color:#ff9900;}
+.aa:hover{font-size:30px;background-color:#99ffcc;color:#ff9900;transition:1s;}
+
+/* 头部结束 */
+
+
+
+/* 第二部分 */
+#b{
+height:110px;background-color:#9c58e8;margin:0 auto;
+}
+
+.b-1{float:left;margin:10px;}
+.b-2{float:left;width:418px;height:110px;color:#fff;}
+.b-3{font-size:24px;line-height:25px;text-align:center;}
+.b-4{width:1020px;height:110px;float:left;margin:0 200px;}
+
+.b-4-1-1{float:left;color:#fff;font-size:20px;line-height:110px;}
+.b-4-1-2{float:right;color:#fff;font-size:20px;line-height:110px;}
+.b-5{width:600px;text-align:center;float:left;height:10px;color:#ffcc33;font-size:20px;}
+.b-5-1{width:600px;float:left;margin:0 160px 0;}
+.b-6{float:right;width:418px;height:110px;color:#fff;}
+/* 第二部分 结束*/
+
+
+/* 第三部分 开始*/
+#c{height:701px;background-color:#420d8a;margin:0 auto;background-image:url("4.jpg");}
+.c-1{display:block;margin:0 auto 250px;transition:3s;margin:0 auto}
+.c1{width:1996px;height:260px;overflow:hidden;margin:0 auto}
+.c1-1{width:484px;height:180px;background-color:#6239f9;color:#fff; opacity: 0.9;overflow:hidden;margin:80px 7px 0;float:left;}
+.c1-1-1{font-size:25px;text-align:center;line-height:25px;margin:25px 0px 0px 30px;transition:3s;}
+.c1-1-2{font-size:17px;text-align:center;line-height:17px;margin:17px 0px 0px 30px;transition:3s;}
+.c1-1-3{padding:10px 28px 10px 28px;line-height:18px;font-size:18px;background-color:#fd8a2b;text-decoration:none;color:#fff;} 
+.c1-1-4{margin:37px 0px 0px 37px;text-align:center;transition:3s;}
+.c1-1-1 span{color:yellow;}
+.c1-1:hover{width:484px;height:250px;background-color:#b83ff5;color:#fff; opacity: 0.9;overflow:hidden;margin:40px 7px 0px;float:left;transition:1s;font-size:50px;}
+
+/* 第三部分 结束*/
+
+
+
+
+
+/* 第四部分 开始*/
+#d{height:247px;background-color:#3a118e;color:#fff;margin:0 auto;}
+.d-1{text-align:center;margin:0 auto;padding:89px 0 0;}
+.d-2{text-align:center;}
+.d-3{color:#74e0ff;text-align:center;}
+/* 第四部分 结束*/
+
+
+/* 第五部分 开始*/
+#e{height:91px;background-color:#341493;margin:0 auto;color:#fff;}
+.e1{width:993px;height:85px;float:left;font-size:30px;line-height:85px;text-align:center;border-bottom:5px solid red;}
+.e2{width:993px;height:85px;float:right;font-size:30px;line-height:85px;text-align:center;border-bottom:5px solid yellow;}
+.e1:hover{background-color:red;}
+.e2:hover{background-color:#1490e7;}
+/* 第五部分 结束*/
+
+
+/* 第六部分 开始*/
+#f{height:1231px;background-color:#1527a9;margin:0 auto;}
+.f1{width:990px;height:1231px;background-color:#1527a9;float:left;overflow:hidden;}
+.f2{width:990px;height:1231px;background-color:#1527a9;float:right;}
+.f1-1{width:455px;height:603px;background-color:green;float:left;}
+.f1-1-1{width:455px;height:185px;background-color:#2584fc;overflow:hidden;}
+.f1-1-2{width:455px;height:71px;background-color:#ffffff;overflow:hidden;}
+.f1-1-3{width:455px;height:119px;background-color:#fff;overflow:hidden;border-bottom:5px solid #f2f2f2;}
+.f1-1-4{width:455px;height:223px;background-color:#ffffff;}
+.f1-1-a{width:181px;height:31px;font-size:24px;color:#ffffff;line-height:24px;margin:35px 0 0 29px;}
+.f1-1-b{width:400px;height:61px;font-size:22px;color:#ffffff;line-height:30px;margin:28px auto 0;}
+.f1-1-c{width:83px;height:28px;font-size:19px;color:#000000;line-height:19px;margin:28px 0 0 29px;float:left;}
+.f1-1-d{width:28px;height:25px;font-size:15px;color:#99a2c2;line-height:15px;margin:28px 0 0 154px;float:left;}
+.f1-1-e{width:21px;height:13px;font-size:13px;color:#000000;line-height:13px;margin:28px 28px 0 0;float:right;}
+.f1-1-2:hover{background-color:#f7f7f7;}
+.f1-3a{width:42px;height:124px;font-size:21px;line-height:50px;margin:0 0 0 29px;float:left;}
+.f1-3b{width:91px;height:124px;font-size:21px;line-height:50px;margin:0 0 0 192px;float:left;}
+.f1-1-4{height:221px;background-color:#fff;overflow:hidden;}
+.f1-4-1{width:80px;height:35px;background-color:red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 29px;color:#fff;float:left;}
+.f1-4-2{width:97px;height:35px;border:1px solid red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 11px;color:red;float:left;}
+.f1-4-3{width:114px;height:35px;border:1px solid red;color:red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 11px;color:red;float:left;}
+.f1-4-4{width:400px;height:42px;margin:86px auto 0;}
+.spa{font-size:21px;line-height:42px;color:#ff6a00}
+.bb1{font-size:34px;line-height:42px;color:#ff6a00}
+.ii{font-size:21px;line-height:42px;color:#ff6a00}
+.f1-4-6{width:400px;height:42px;margin:2px auto;line-height:42px;}
+.f1-4-5{text-align:center;font-size:21px;margin:10px 0 0 0;line-height:40px;background-color:#ff6a00;}
+.f1-2{width:455px;height:603px;background-color:green;float:right;}
+.jia{color:#d2d2cf;}
+.f1-3{width:455px;height:603px;background-color:green;float:left;margin:20px 0 0;}
+.F3{width:209px;}
+.f1-1-2-1{height:70px;line-height:70px;margin:0 auto;font-size:21px;text-align:center;color:#ff6a00;}
+.f1-4{width:455px;height:603px;background-color:green;float:right;margin:20px 0 0 0px;}
+.six{color:#d2d2cf;font-size:16px;}
+.f3aa{height:48px;width:442px;margin:0 auto;float:right;}
+.f3bb{height:48px;width:442px;margin:0 auto;float:right;}
+.f2-1{width:100px}
+.f1-4{width:455px;height:603px;background-color:green;float:right;margin:20px 0 0 0px;}
+.f22{width:455px;height:603px;background-color:green;float:right;}
+.fff{width:250px;}
+.goumai{color:#fff;text-decoration:none;}
+.goumai:hover{color:#fff;font-size:26px;text-decoration:none;}
+/* 第六部分 结束*/
+
+
+/* 第七部分 开始*/
+#g{width:1996px;background-color:#1527a9;height:169px;margin:0 auto;text-align:center;font-size:28px;line-height:169px;}
+.ga{text-decoration:none;color:#79e0ff;}
+.ga:hover{color:#fff;}
+/* 第七部分 结束*/
+
+
+/* 第八部分 开始 */
+#h{width:1996px;height:230px;margin:0 auto;background-color:#0e1071;color:#fff;}
+.h1{height:131px;text-align:center;font-size:45px;line-height:131px;}
+.h2{height:30px;text-align:center;font-size:24px;line-height:30px;}
+.ha{color:#79e0ff;text-decoration:none;}
+/* 第八部分 结束 */
+
+/* 第九部分 开始*/
+#i{width:1995px;height:74px;background-color:#0e0e6d;list-style:none;margin:0 auto 0;}
+.i1{width:214px;float:left;padding:24px 15px;background-color:#0e0e6d;margin:0 auto;font-size:17px;text-align:center;border:2px solid #563eff;color:#fff;}
+.i2:hover{background-color:#563eff;}
+.ia{color:#fff;text-decoration:none}
+
+/* 第九部分 结束*/
+
+/* 第十部分 开始*/
+#j{width:1996px;height:1231px;background-color:#11075f;margin:0 auto;}
+.j1{width:990px;height:1231px;background-color:#11075f;float:left;overflow:hidden;}
+.j2{width:990px;height:1231px;background-color:#11075f;float:right;}
+.j1-1{width:455px;height:603px;background-color:green;float:left;}
+.j1-1-1{width:455px;height:185px;background-color:#944efe;overflow:hidden;}
+.j1-1-2{width:455px;height:71px;background-color:#ffffff;overflow:hidden;}
+.j1-1-3{width:455px;height:119px;background-color:#fff;overflow:hidden;border-bottom:5px solid #f2f2f2;}
+.j1-1-4{width:455px;height:223px;background-color:#ffffff;}
+.j1-1-a{width:181px;height:31px;font-size:24px;color:#ffffff;line-height:24px;margin:35px 0 0 29px;}
+.j1-1-b{width:400px;height:61px;font-size:22px;color:#ffffff;line-height:30px;margin:28px auto 0;}
+.j1-1-c{width:130px;height:28px;font-size:19px;color:#000000;line-height:19px;margin:28px 0 0 29px;float:left;}
+.j1-1-d{width:28px;height:25px;font-size:15px;color:#99a2c2;line-height:15px;margin:28px 0 0 154px;float:left;}
+.j1-1-e{width:21px;height:13px;font-size:13px;color:#000000;line-height:13px;margin:28px 28px 0 0;float:right;}
+.j1-1-2:hover{background-color:#f7f7f7;}
+.j1-3a{width:42px;height:124px;font-size:21px;line-height:50px;margin:0 0 0 29px;float:left;}
+.j1-3b{width:91px;height:124px;font-size:21px;line-height:50px;margin:0 0 0 192px;float:left;}
+.j1-1-4{height:221px;background-color:#fff;overflow:hidden;}
+.j1-4-1{width:80px;height:35px;background-color:red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 29px;color:#fff;float:left;}
+.j1-4-2{width:97px;height:35px;border:1px solid red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 11px;color:red;float:left;}
+.j1-4-3{width:114px;height:35px;border:1px solid red;color:red;text-align:center;font-size:17px;line-height:35px;margin:22px 0 0 11px;color:red;float:left;}
+.j1-4-4{width:400px;height:42px;margin:86px auto 0;}
+.spa{font-size:21px;line-height:42px;color:#ff6a00}
+.bb1{font-size:34px;line-height:42px;color:#ff6a00}
+.ii{font-size:21px;line-height:42px;color:#ff6a00}
+.j1-4-6{width:400px;height:42px;margin:2px auto;line-height:42px;}
+.j1-4-5{text-align:center;font-size:21px;margin:10px 0 0 0;line-height:40px;background-color:#ff6a00;}
+.j1-2{width:455px;height:603px;background-color:green;float:right;}
+.jia{color:#d2d2cf;}
+.j1-3{width:455px;height:603px;background-color:green;float:left;margin:20px 0 0;}
+.J3{width:259px;}
+.j1-1-2-1{height:70px;line-height:70px;margin:0 auto;font-size:21px;text-align:center;color:#ff6a00;}
+.j1-4{width:455px;height:603px;background-color:green;float:right;margin:20px 0 0 0px;}
+.six{color:#d2d2cf;font-size:16px;}
+.j3aa{height:48px;width:442px;margin:0 auto;float:right;}
+.j3bb{height:48px;width:442px;margin:0 auto;float:right;}
+.j2-1{width:100px;}
+.j1-4{width:455px;height:603px;background-color:green;float:right;margin:20px 0 0 0px;}
+.j22{width:455px;height:603px;background-color:green;float:right;}
+.JJJ{width:250px;}
+.goumai{color:#fff;text-decoration:none;}
+.goumai:hover{color:#fff;font-size:26px;text-decoration:none;}
+.jj1{width:85px;}
+.jja{width:200px}
+/* 第十部分 结束*/
+
+
+/* 第十一部分 开始*/
+#k{width:1996px;background-color:#11075f;height:138px;margin:0 auto;overflow:hidden;}
+.k1{width:303px;height:73px;background-color:#6d3df6;margin:33px auto;background-image:url("5.jpg");background-repeat:no-repeat;background-position:95% 50%;font-size:27px;line-height:73px;text-align:center;border-radius:20px;color:#fff;}
+/* 第十一部分 结束*/
+
+/* 第十二开始部分 */
+#l{width:1996px;height:230px;margin:0 auto;background-color:#080f8b;color:#fff;}
+.l1{height:131px;text-align:center;font-size:45px;line-height:131px;}
+.l2{height:30px;text-align:center;font-size:24px;line-height:30px;}
+.la{color:#79e0ff;text-decoration:none;}
+/* 第十二结束部分 */
+
+
+/* 第十三开始部分 */
+#m{width:1995px;height:74px;background-color:#080f8b;list-style:none;margin:0 auto;}
+.m1{width:214px;float:left;padding:24px 47px;background-color:#0e0e6d;margin:0 auto;font-size:17px;text-align:center;border:2px solid #c034e2;color:#fff;}
+.m2:hover{background-color:#c034e2;}
+.ma{color:#fff;text-decoration:none}
+/* 第十三结束部分 */
+
+/* 第十四部分 开始 */
+#n{width:1995px;height:609px;background-color:#101c9b;margin:0 auto;}
+.n1{width:456px;height:609px;background-color:#101c9b;float:left;margin:0 20px 0;}
+.n1-1{width:456px;margin:0 auto;color:#000;}
+.n1-2{width:456px;}
+.n1-1-1{background-color:#cd59fb;}
+#gg{width:1996px;background-color:#0f1b99;height:169px;margin:0 auto;text-align:center;font-size:28px;line-height:169px;}
+/* 第十四部分 结束 */
+
+
+/* 第十七部分 开始*/
+#o{width:1995px;height:277px;background-color:#0d1794;margin:0 auto;}
+.o1{background-color:#17b17d}
+.o2{background-color:#685cfe}
+.o3{background-color:#1088df}
+.o4{background-color:#3754dc}
+/* 第十七部分 结束*/
+
+/* 第十八部分 开始*/
+#p{width:1995px;height:394px;background-color:#c1d4ff;margin:0 auto;}
+.p1{width:990px;height:394px;background-color:#414efe;float:left;}
+.p1-1{width:931px;height:73px;float:right;margin:50px 0 0;color:#fff;}
+.p1-1-1{width:392px;height:73px;float:left;line-height:73px;font-size:41px;text-align:center;}
+.p1-1-2{width:388px;height:73px;background-color:#a67eff;float:left;line-height:73px;font-size:25px;text-align:center;}
+.p1-2{width:931px;height:52px;margin:30px 0 0;float:right;color:#fff;}
+.p1-3{width:931px;height:52px;margin:10px 0 0;float:right;color:#fff;}
+.p1-2-1-1{width:293px;height:52px;line-height:52px;font-size:20px;text-align:center;float:left;margin:0 5px 0;}
+.pp{border-left:#fff solid 2px;border-right:#fff solid 2px;}
+.p1-4{width:931px;height:73px;float:right;margin:30px 0 0;}
+.p1-4-1{width:271px;height:73px;line-height:73px;font-size:40px;text-align:center;border:2px solid #fff;}
+.pa{color:#fff;text-decoration:none}
+.pa:hover{color:blue;text-decoration:underline;}
+.p1-4-1:hover{background-color:#fff;color:blue;}
+
+.p2{width:990px;height:394px;background-color:#c1d4ff;float:left;}
+.p2-1-1-2{width:400px;height:55px;text-align:left;font-size:20px;line-height:55px;margin:10px 10px;}
+.p2-1-1-3{width:40px;height:171px;float:right}
+.p2-1{float:left;}
+.p2-2{float:right;}
+.da{color:blue;font-size:25px}
+/* 第十八部分 结束*/
+
+/* 第十九部分 开始*/
+#q{width:1996px;height:1056px;background-color:#0e1070;margin:0 auto;}
+.q1{width:1996px;height:231px;background-color:#0e1070;margin:0 0 45px;}
+.q1-1{width:661px;height:231px;background-color:#007bf9;overflow:hidden;color:#fff;float:left;}
+.q1-1-1{text-align:center;color:#fff;border:1px solid #fff;width:292px;height:37px;font-size:28px;line-height:37px;margin:5px auto 0;background-color:#1160f0}
+.q1-1-2{width:467px;font-size:20px;margin:50px auto;}
+.q1-1-3{width:661px;font-size:25px;text-align:center;color:#fff;background-color:#4c96ff}
+.q1-1-4{color:#fff;text-decoration:none;}
+.q-1-a{margin:0 6px;}
+.q11-2{margin:63px auto;}
+.q11-1{background-color:#4c2fec}
+.q11{background-color:#7158fa}
+.q11-3{background-color:#8877ff}
+.q111{background-color:#399e10}
+.q11-4{background-color:#108d31}
+.q11-5{background-color:#78cf52}
+.q22-1{background-color:#11998f}
+.q22-2{background-color:#13c398}
+.q22-4{margin:76px auto;background-color:#52d9ad}
+.q23-1{background-color:#243ee0}
+.q23-2{background-color:#2435e5}
+.q23-4{background-color:#5e7ef5}
+
+.q24-1{background-color:#0cacd0}
+.q24-2{background-color:#0098ba}
+.q24-4{background-color:#60c9e3}
+
+.q25-1{background-color:#a83ff3}
+.q25-2{background-color:#9023d8}
+.q25-4{background-color:#ba70f2}
+
+.q26-1{background-color:#1cb3fc}
+.q26-2{background-color:#1181d3}
+.q26-4{background-color:#4eb3f0}
+
+.q27-1{background-color:#9869f7}
+.q27-2{background-color:#8143f4}
+.q27-3{margin:63px auto}
+.q27-4{background-color:#ab83f9}
+
+.q28-1{background-color:#402ef4}
+.q28-2{background-color:#301ee2}
+.q28-4{background-color:#7064f2}
+
+.q29{background-color:#3fbe8b}
+.q29-1{background-color:#0e966e}
+.q29-2{margin:63px auto}
+.q29-3{background-color:#4dcda3}
+.q1-1-3:hover{background-color:#8a8a8a}
+/* 第十九部分 结束*/
+
+/* 第二十部分 开始*/
+#r{width:1996px;height:361px;margin:0 auto;background-color:red;}
+.r1{width:499px;height:361px;background-color:#086bfb;float:left;color:#fff;}
+.r1-1{height:51px;font-size:37px;height:51px;margin:189px 0 0 65px;}
+.r1-2{line-height:61px;font-size:25px;height:61px;margin:30px 0 0 65px;width:266px;border:2px solid #fff;text-align:center}
+.r1-3{text-decoration:none;color:#fff;}
+.r2{width:499px;height:361px;background-color:#eed4fc;float:left;color:#fff;}
+.r3{width:499px;height:361px;background-color:#b5dafd;float:left;color:#fff;}
+.r2-1{color:#245cb1;}
+.r3-1{color:#245cb1;width:400px;line-height:30px}
+.r4{width:499px;height:361px;background-color:#76d8fd;float:left;color:#fff;}
+/* 第二十部分 结束*/
+
+/* 第二十一部分 开始*/
+#bj{width:1996px;height:343px;margin:0 auto;background-color:#050b87;background-image:url("15.jpg");background-repeat:no-repeat;background-position:center center;overflow:hidden;}
+.bj-1{width:271px;height:42px;margin:127px 0 0 25px;font-size:30px;line-height:42px;text-align:center;color:#053793;}
+.bj-2{height:32px;margin:30px 0 0 25px;font-size:16px;line-height:16px;text-align:left;color:#053793;float:left}
+.bj-3{width:271px;height:42px;margin:-14px 20px 0 0;font-size:30px;line-height:42px;text-align:center;color:#fff;float:right;border:3px #fff solid}
+.bj-4{text-decoration:none;color:#fff;}
+.bj-4:hover{text-decoration:underline;color:red;}
+/* 第二十一部分 结束*/
+
+/* 第二十三部分 开始*/
+#s{width:1996px;height:1327px;background-color:#0e1274;margin:0 auto;}
+.s1{width:1996px;height:613px;background-color:#0e1274;margin:0 0 100px 0}
+.s2{width:1996px;height:613px;background-color:blue;}
+.s1-1{width:455px;height:613px;float:left;margin:0 40px 0 25px;background-color:#fff;}
+.s1-1-1{width:455px;height:181px;background-color:#13b15a;overflow:hidden;}
+.s1-1-2{width:250px;height:50px;font-size:28px;line-height:50px;text-align:center;margin:20px auto 10px;}
+.s1-1-3{width:396px;height:63px;font-size:22px;line-height:31px;text-align:center;margin:0 auto;}
+.s1-1-4{width:455px;height:77px;background-color:#fff;overflow:hidden;}
+.s1-1-5{width:100px;height:77px;font-size:25px;line-height:77px;text-align:center;color:#000;margin:0 100px 0 30px;float:left;}
+.s1-1-6{width:55px;height:77px;font-size:20px;line-height:77px;text-align:center;color:#999999;float:left;}
+.s1-1-7{width:50px;height:77px;font-size:30px;line-height:77px;text-align:center;color:#000;float:right;margin:0 30px 0 0;}
+.s1-1-8{width:455px;height:126px;background-color:#f4f4f4}
+.s1-1-9{width:50px;height:126px;font-size:21px;line-height:64px;text-align:center;color:#000;float:left;margin:0 0px 0 40px;}
+.s1-1-10{width:90px;height:126px;font-size:21px;line-height:64px;text-align:center;color:#000;float:right;margin:0 130px 0;}
+.s1-1-11{width:455px;height:80px;background-color:#fff;overflow:hidden;border-bottom:2px solid #999999;}
+.s1-1-12{width:90px;height:31px;font-size:17px;color:#fff;background-color:#ea3a3a;line-height:31px;margin:20px 0 0 30px;float:left;border-radius:5px;}
+.s1-1-13{width:90px;height:29px;font-size:17px;color:red;border:2px solid red;line-height:29px;margin:20px 10px 0 10px;float:left;border-radius:5px;}
+.s1-1-14{width:90px;height:29px;font-size:17px;color:red;border:2px solid red;line-height:29px;margin:20px 0px 0 0;float:left;border-radius:5px;background-color:#fff;}
+.s1-1-15{height:45px;line-height:25px;text-align:left;background-color:#fff;padding-left:22px}
+.ss-1{font-size:20px;color:#ff6a00;}
+.ss-2{font-size:33px;color:#ff6a00}
+.ss-3{font-size:21px;color:#ff6a00}
+.ss-4{font-size:20px;color:#000;}
+.s1-1-16{padding-left:22px;height:45px;line-height:25px;background-color:#fff;}
+.ss-5{font-size:17px;color:#fff;background-color:#ff6a00;line-height:45px;float:left;}
+.ss-6{font-size:17px;color:#999999;line-height:45px;float:left;}
+.s1-1-17{margin:15px 0 0 0;}
+.s1-2{width:455px;height:613px;float:left;background-color:#fff;margin:0 40px 0 0;}
+.s1-3{width:455px;height:613px;float:left;background-color:#fff;margin:0 40px 0 0;}
+.s1-4{width:455px;height:613px;float:left;background-color:#fff;}
+/* 第二十三部分 结束*/
+
+/* 第二十四部分 开始*/
+#t a{text-decoration:none;color:#4b5054;}
+#t a:hover{text-decoration:none;color:#ffe04f;}
+ul,li{list-style-type:none;padding:0;margin:0}
+#t{width:1996px;height:770px;background-color:#000;}
+.t1{width:218px;height:665px;float:left;margin:70px 0 0 40px;font-size:0px;border-right:2px #fff solid}
+.t1-1{font-size:21px;color:#fff;text-align:left;line-height:45px;}
+.t11{font-size:35px;}
+.t2{width:218px;height:665px;float:left;margin:70px 0 0 120px;font-size:0px;border-right:2px #fff solid}
+.t3{width:218px;height:665px;float:left;margin:70px 0 0 120px;font-size:0px;border-right:2px #fff solid}
+.t4{width:218px;height:665px;float:left;margin:70px 0 0 120px;font-size:0px;border-right:2px #fff solid}
+.t5{width:218px;height:665px;float:left;margin:70px 0 0 120px;font-size:0px;border-right:2px #fff solid}
+.t6{width:218px;height:665px;float:left;margin:70px 0 0 120px;font-size:0px;border-right:2px #fff solid}
+.ta{color:#fff;font-size:35px;}
+.tp{display:block;margin:20px auto 0;}
+/* 第二十四部分 结束*/
+
+/* 第二十五部分 开始*/
+#re a{text-decoration:none;color:#4b5054;}
+#re a:hover{text-decoration:none;color:#ffe04f;}
+.re-1{font-size:25px;line-height:28px;}
+#re{width:1996px;height:260px;background-color:#000;border-top:2px solid #4b5054;}
+.re1{width:1996px;height:28px;float:left;font-size:0px;margin:20px 50px 16px;}
+.re1-1{color:#fff;font-size:10px;line-height:28px;text-align:center;}
+.re1-2{font-size:16px;line-height:28px;color:#4b5054;float:left;width:130px;text-align:center;}
+.re1-3{width:250px;}
+.res{width:400px;color:#ffe04f}
+.ress{color:#4b5054}
+.rrr{width:50px;}
+.rrb{width:300px;}
+/* 第二十五部分 结束*/

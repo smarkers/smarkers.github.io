@@ -1,0 +1,663 @@
+@import url("resetstyle.css");
+
+/* 城市选择 */
+.cs{
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 3px 6px rgba(6,0,1,.05);
+	margin-bottom: 30px;
+}
+.cs_center{
+	width: 1184px;
+	margin: 0 auto;
+}
+.cs_ipt{
+	width: 886px;
+	padding-top: 20px;
+	font-size: 13px;
+	position: relative;
+	background: #fff;
+	height: 42px;
+	padding-bottom: 25px;
+}
+.cs_left{
+	width: 794px;
+	float: left;
+	height: 42px;
+	border: 1px solid #53cac3;
+}
+.cs_bj{
+	width: 78px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 15px 0;
+	position: relative;
+}
+.cs_gang{
+	width: 1px;
+	height: 26px;
+	background: #f2f2f5;
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+.cs_zi b{
+	font-weight: 400;
+	font-size: 13px;
+	color: #61687c;
+}
+.cs_zi i{
+	display: inline-block;
+	width: 6px;
+	height: 3px;
+	background: url(../img/header/icons.png) no-repeat 0 -2050px;
+}
+.cs_beij i{
+	margin: 0 0 0 40px;
+}
+.cs_type{
+	width:72px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 15px 0 12px;
+	position: relative;
+	text-align: center;
+}
+.cs_ty_gang{
+	width: 1px;
+	height: 26px;
+	background: #f2f2f5;
+	position: absolute;
+	left: 0;
+	top:8px;
+}
+.cs_type .cs_hy i{
+	margin-left: 10px;
+}
+.cs_ipt1{
+	height: 42px;
+	line-height: 42px;
+	background: #fff;
+}
+.cs_ipt1 input{
+	width: 470px;
+	border: 0;
+	padding: 0 0 0 18px;
+}
+.cs_sousuo{
+	width: 90px;
+	height: 44px;
+	background: #55CBC4;
+	line-height: 44px;
+	border: 1px solid #55CBC4;
+	transition: .3s;
+}
+.cs_sousuo:hover{
+	background: #6adbcf;
+	border: 1px solid #6adbcf;
+}
+.cs_sousuo i{
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	background: url(../img/header/icons.png) no-repeat 0 -148px;
+	margin-top: 10px;
+}
+.cs_txt{
+	width:1184px;
+	margin: 0 auto;
+}
+.cs_ul1{
+	width: 100%;
+	height: 36px;
+	border-bottom: 1px solid #eef0f5;
+	font-size: 12px;
+}
+.cs_ul1 a{
+	color: #414a60;
+	padding: 0 11px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #fff;
+	transition: .3s;
+}
+.cs_ul1 a:hover{
+	color: #FC6C38;
+}
+.cs_ul1 .cs_txt_a1{
+	padding: 0;
+	color: #999;
+}
+.cs_ul1 .cs_txt_a2{
+	width: 36px;
+	height: 36px;
+	border: 1px solid #eef0f5;
+	border-bottom: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 8px;
+	margin:0 15px;
+	color: #fc6c38;
+}
+.cs_jiantou{
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	background: url(../img/header/icons.png) no-repeat -28px -1px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.cs_rm{
+	margin-left: 25px;
+}
+.cs_ul1 .cs_bx{
+	padding: 0 11px 0 0;
+	color: #FC6C38;
+}
+.condition{
+	width: 1184px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.cdt_li1{
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.cdt_li2{
+	color: #8d92a1;
+	line-height: 40px;
+}
+.cdt_jiantou{
+	width: 6px;
+	height: 3px;
+	display: inline-block;
+	background: url(../img/header/icons.png) no-repeat 0 -2050px;
+	margin-left:33px;
+}
+.cdt_select{
+	width: 100%;
+	border: 1px solid #e3e7ed;
+	background: #fff;
+	position: absolute;
+	top:40px;
+	left: 0;
+	display: none;
+}
+.cdt_li1:hover .cdt_select{
+	display: block;
+}
+.cdt_select li a{
+	color: #8d92a1;
+	margin-left:15px;
+}
+.cdt_select li:hover{
+	background: #f2f5f9;
+}
+/* 城市选择end */
+
+/* 3-招聘信息/登录注册 */
+.information{
+	width: 1184px;
+	margin: 0 auto;
+}
+.ifmt_le{
+	width: 885px;
+}
+.ifmt_ri{
+	width: 285px;
+}
+.ifmt_box{
+	width: 885px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.ifmt_center{
+	height: 90px;
+	padding: 0 30px;
+}
+.ifmt_top{
+	width: 100%;
+	padding-top: 20px;
+	height: 70px;
+}
+.ifmt_top_le{
+	width: 460px;
+}
+.ifmt_title,.ifmt_title a{
+	color: #00c2b3;
+	font-size: 16px;
+}
+.tit_zw{
+	margin-right:10px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-break: break-all;
+}
+.limit_le{
+	font-size: 16px;
+	color: #fc703e!important;
+	margin-right: 13px;
+}
+.limit_cen{
+	font-size: 14px;
+	color: #61687c;
+}
+.limit_cen span{
+	margin: 0 10px;
+	background: #e0e0e0;
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	vertical-align: middle;
+}
+.limit_ri{
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid #eee;
+	border-radius: 12px;
+	padding: 0 10px;
+	font-size: 12px;
+	text-align: center;
+	margin: 2px 0 0 13px;
+}
+.limit_ri p{
+	color: #6C7387;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-break: break-all;
+}
+.limit_ri p span{
+	color: #e0e0e0;
+}
+.limit_ri img{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	vertical-align:middle;
+}
+.ifmt_title .top_ri_p{
+	font-size: 12px;
+}
+.ifmt_top_ri{
+	width: 350px;
+}
+.ifmt_pto{
+	width: 54px;
+	height: 54px;
+	display: inline-block;
+}
+.ifmt_pto img{
+	width: 54px;
+	height: 54px;
+	border: 1px solid #f3f5fb;
+	border-radius: 9px;
+}
+.ifmt_btm{
+	width: 100%;
+	height: 40px;
+	background: #f8f9fc;
+	line-height: 40px;
+}
+.ifmt_btm_center{
+	width: 824px;
+	margin: 0 auto;
+	color: #61687c;
+	font-size: 13px;
+}
+.center_left{
+	width: 389px;
+}
+.center_left span{
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	border: 1px solid #eee;
+	text-align: center;
+	padding: 0 8px;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.center_right{
+	width: 350px;
+	height: 40px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: break-all;
+}
+.le_number{
+	text-align: center;
+	padding: 12px 0;
+}
+.le_number a,.le_number span{
+	width: 30px;
+	height: 26px;
+	background: #fff;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 26px;
+	vertical-align: middle;
+	color: #414a60;
+	transition: .3s;
+}
+.le_number a:hover{
+	color: #62d5c8;
+}
+.le_number .cur{
+	background: #62d5c8;
+	color: #fff;
+}
+.le_number .prev,.le_number .next{
+	margin: 0 10px 0 0;
+	height: 24px;
+	line-height: 23px;
+	border: 1px solid #e8e9ed;
+}
+.le_number .prev span{
+	width: 7px;
+	height: 11px;
+	background: url(../img/header/icons.png) no-repeat 0 -836px;
+	background-color: #fff;
+	display: inline-block;
+	transition: 0s;
+}
+.le_number .prev span:hover{
+	background: url(../img/header/icons.png) no-repeat 0 -862px;
+}
+.le_number .next span{
+	width: 7px;
+	height: 11px;
+	background: url(../img/header/icons.png) no-repeat 0 -889px;
+	background-color: #fff;
+	display: inline-block;
+	transition: 0s;
+}
+.le_number .next span:hover{
+	background: url(../img/header/icons.png) no-repeat 0 -918px;
+}
+/* 注册登录模块 */
+.ifmt_ri{
+	width: 284px;
+}
+.ifmt_denglu{
+	width: 284px;
+	height: 310px;
+	background: #5dd5c8;
+	margin: 0 0 15px;
+}
+.ifmt_ri_top{
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	padding: 27px 0 30px 0;
+	font-size: 18px;
+}
+.ipt_tel{
+	position: relative;
+	margin:0 auto 24px;
+	width: 222px;
+	height: 40px;
+	background: #fff;
+}
+.tel_select{
+	height: 40px;
+	line-height: 40px;
+	position:absolute;
+	top: 0;
+	left: 28px;
+}
+.tel_choic{
+	display: inline-block;
+	width: 37px;
+	text-align: right;
+}
+.ipt_jiantou{
+	width: 13px;
+	height: 7px;
+	display: inline-block;
+	background: url(../img/header/icons.png) no-repeat 0 -58px;
+	padding: 2px 0 0 0;
+	margin-left: 3px;
+}
+.ipt_jiantou:hover{
+	background-position: 0 -89px;
+}
+.ifmt_ipt{
+	position: relative;
+	display: block;
+	text-align: right;
+}
+.ipt_phone{
+	display: inline-block;
+	width: 13px;
+	height: 18px;
+	background: url(../img/index/icons-sign.png) no-repeat -2px 0;
+	position: absolute;
+	top: 11px;
+	left: 13px;
+}
+.ipt_text{
+	border: 0;
+	width: 109px;
+	margin: 13px 20px 0 0;
+}
+.ipt_password{
+	display: inline-block;
+	width: 17px;
+	height: 14px;
+	background: url(../img/index/icons-sign.png) no-repeat 0 -144px;
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+.ipt_number{
+	border: 0;
+	width: 88px;
+	margin: 13px 0 10px 0;
+}
+.ipt_sendout{
+	height: 19px;
+	border: 0;
+	text-align: center;
+	border-left: 1px solid #e3e7ed;
+	background: rgba(0,0,0,0);
+	padding: 0 10px 0 10px;
+	color: #5dd5c8;
+}
+.ipt_btm{
+	width: 222px;
+	margin: 0 auto;
+	transition: .3s;
+}
+.ipt_btm:hover{
+	opacity: 0.9;
+}
+.ipt_btm button{
+	width: 222px;
+	height:42px;
+	background: #fff;
+	text-align: center;
+	line-height: 42px;
+	color: #00c2b3;
+	border: #fff;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.check{
+	text-align: center;
+	padding: 10px 0 20px;
+	font-size: 12px;
+	color: rgba(255,255,255,.7);
+}
+.check input{
+	margin: 5px 5px 0 0;
+	vertical-align: top;
+}
+.check a{
+	font-size: 12px;
+	color: rgba(255,255,255,.7);
+}
+.upload{
+	text-align: center;
+	background: #fff;
+	padding: 20px 30px;
+	margin-bottom: 16px;
+}
+.upload a{
+	height:34px;
+	background: #5dd5c8;
+	text-align: center;
+	line-height: 34px;
+	display: block;
+	color: #fff;
+}
+.ri_pto1 img,.ri_pto2 img{
+	width: 100%;
+}
+.ri_pto1{
+	margin-bottom: 16px;
+}
+.feedback{
+	width: 885px;
+	background: #fff;
+	margin-bottom: 33px;
+}
+.feed_center{
+	padding: 20px 30px;
+}
+.feed_top{
+	font-size: 15px;
+	line-height: 15px;
+	color: #414a60;
+	display: block;
+}
+.feed_face{
+	margin: 17px 40px auto 0;
+	width: 40px;
+	height: 32px;
+	text-align: center;
+	font-size: 13px;
+	color: #a8aab7;
+	padding-top:40px;
+	cursor: pointer;
+}
+.feed_pto1{
+	background: url(../img/index/btm_face.png) no-repeat 4px 0;
+}
+.feed_pto1:hover{
+	color: #53cac3;
+	background-position: -44px 0;
+}
+.feed_pto2{
+	background: url(../img/index/btm_face.png) no-repeat -91px 0;
+}
+.feed_pto2:hover{
+	color: #53cac3;
+	background-position: -139px 0;
+}
+.feed_pto3{
+	background: url(../img/index/btm_face.png) no-repeat -188px 0;
+}
+.feed_pto3:hover{
+	color: #53cac3;
+	background-position: -236px 0;
+}
+.feed_center textarea{
+	border: 1px solid #e3e7ed;
+	width: 445px;
+	height: 40px;
+	padding: 10px;
+	margin: 13px 30px 0 -5px;
+	resize: none;
+	color: #414a60;
+}
+.feed_btn{
+	padding: 8px 29px;
+	background: #5dd5c8;
+	border: 1px solid #5DD5C8;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 22px;
+	cursor: pointer;
+}
+.feed_btn:hover{
+	background: #6adbcf;
+}
+/* 注册登录模块end */
+/* 3-招聘信息/登录注册end */
+
+/* 4-招聘介绍区域 */
+.introduce{
+	width: 100%;
+	background:#fff;
+	overflow: hidden;
+}
+.intro_center{
+	width: 1184px;
+	margin: 0 auto;
+}
+.choose{
+	margin-right: -272px;
+	padding-top: 20px;
+	
+}
+.choose span{
+	margin-right:272px;
+	color: #8d92a1;
+	font-size: 14px;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+.intro_center .choose .on::after{
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: #00c2b3;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.choose .on{
+	color: #00c2b3;
+}
+.list{
+	background: url(../img/index/links-bg.png) no-repeat top center;
+	padding-top: 22px;
+}
+.list div{
+	display: none;
+}
+.list a{
+	font-size: 12px;
+	color: #8d92a1;
+	margin-right: 30px;
+	display: inline-block;
+	line-height: 35px;
+	transition: .3s;
+}
+.list a:hover{
+	color:#00c2b3;
+}
+.intro_center_btm{
+	width: 1184px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.intro_center_btm h3{
+	font-weight: 400;
+	font-size: 14px;
+	color: #414a60;
+}
+.intro_center_btm p{
+	font-size: 12px;
+	margin-top:12px;
+	color: rgba(141,146,161,1);
+}
+/* 4-招聘介绍区域end */

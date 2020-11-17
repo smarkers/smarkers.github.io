@@ -1,0 +1,51 @@
+{
+  "id": "2191456",
+  "name": "关于华为",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4152386",
+      "name": "钱",
+      "font_class": "qian1",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "430774",
+      "name": "相互关注",
+      "font_class": "xianghuguanzhu",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "3706326",
+      "name": "网络",
+      "font_class": "wangluo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "4060649",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "7285865",
+      "name": "钱",
+      "font_class": "tubiaozhizuo-",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "13837871",
+      "name": "钱",
+      "font_class": "qian",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

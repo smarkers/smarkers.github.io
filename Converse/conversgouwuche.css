@@ -1,0 +1,23 @@
+body, {margin: 0; padding: 0}
+p {margin: 0}
+a {text-decoration: none; color: white}
+input {outline: 0; padding: 0; border: 0}
+.div1 {width: 100%; height: 122px; background-color: black; margin: 0 auto}
+.div1-1 {width: 424px; height: 122px; background:url('img/logo1.png') no-repeat 150px 50%; float: left}
+.div1 .wh {width: 170px; height: 122px; float: right; color: #fff; line-height: 122px; font-size: 18px}
+.div1-2 {background: url('img/wenhao.png') no-repeat 0 50%}
+.div1-3 {background: url('img/fangdajing.png') no-repeat 50px 50%}
+.div1-4{width: 142px;background: url('img/xinxi.png') no-repeat 74px 50%; margin-left: -50px}
+.div1-5 {background: url('img/gouwuche.png') no-repeat 122px 50%}
+.div1-5 {width: 110px; padding-left: 60px; margin-left: -50px}
+.div1-6 {background: url('img/denglu.png') no-repeat 124px 50%}
+.div1-6 {width: 130px; padding-left: 40px}
+
+.box {width: 100%; height: 800px; overflow: hidden; background: url('img/guc.png') no-repeat 50% 150px}
+.box .inl {display: inline-block; width: 250px; height: 50px; text-align: center; font-size: 22px}
+.box .box1 {width: 760px; margin: 110px auto}
+.box .kong {font-size: 42px; text-align: center}
+.box .btnnow {width: 298px; height: 68px; background: #b63330; margin: 100px auto; 
+	border: 1px solid #b63330; transition: 0.3s}
+.box .btnnow .now {width: 295px; height: 66px; background: rgba(0,0,0,0); color: white; font-size: 24px;
+	font-weight: 600}

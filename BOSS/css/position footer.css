@@ -1,0 +1,19 @@
+@import url("resetstyle.css");
+.link{
+	width: 1184px;
+	margin: 0 auto;
+	padding:32px 0 15px 0;
+}
+.link dl dt,.link dl dd{
+	float:left;
+	margin-right: 26px;
+	font-size: 12px;
+}
+.link dl dd{
+	color: #9fa3b0;
+	transition: .3s;
+}
+.link dl dd:hover{
+	color: #4a4e52;
+	text-decoration: underline;
+}

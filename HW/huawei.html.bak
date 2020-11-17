@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>华为官网</title>
+		<link rel="stylesheet" type="text/css" href="hw-reset.css"/>
+		<link rel="stylesheet" type="text/css" href="huawei.css" />
+	</head>
+	<body>
+		<!-- 1 头部区域 -->
+		<div class="box">
+			<div class="boxa">
+				<div class="boxa-1">
+					<img src="img/b3.png" style="float:left">
+					<div style="float:left;margin:0 0 0 6px">登录</div>
+				</div>
+				<div class="boxa-2">
+					<img src="img/b2.png" style="float:left">
+					<div style="float:left;margin:0 0 0 6px">选择区域/语言</div>
+				</div>
+				<div class="boxa-3">
+					<img src="img/b1.png" style="float:left">
+					<div style="float:left;margin:0 0 0 6px">集团网站</div>
+				</div>
+			</div>
+		</div>
+		<div class="div1">
+			<img src="img/b4.png" style="float:left;">
+			<div style="float:left;" class="dh"><b>HUAWEI</b></div>
+			<div class="div1-1">
+				<a href="#" class="ha">个人及家庭产品</a>
+				<a href="#" class="ha1">商用产品及方案</a>
+				<a href="#" class="ha2">服务支持</a>
+				<a href="#" class="ha3">合作伙伴及开发者</a>
+				<a href="#" class="ha4">关于华为</a>
+			</div>
+			<div class="h-r">
+				<a href="#">
+					<img class="sr"  src="img/b5.png"/>
+					<span class="ad">在线购买</span>
+					<img class="sr2" src="img/b6.png">
+				</a>
+				
+			</div>
+		</div>
+		<!-- 头部区域end -->
+
+		<!-- 2 轮播图区域 -->
+		<div class="box1">
+			<a class="abox1" href="###">
+				<button class="box1a">了解更多</button>
+			</a>
+		</div>
+		
+		<!-- 轮播图区域end -->
+
+		<!-- 3 推荐信息区域 -->
+		<div class="box2">
+			<h2 class="hh">推荐信息</h2>
+			<div class="box2a"></div>
+		</div>
+		<!-- 推荐信息区域end -->
+
+		<!-- 4 推荐信息区域 -->
+		<div class="box3">
+			<div class="box3-1">
+				<a href="#" class="box3a">
+					<p class="box3-1p p1">产品</p>
+					<p class="box3-1p2 p2"><b>HUAWEI Mate 40 Pro</b></p>
+					<p class="box3-1p pp p3">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+			<div class="box3-2">
+				<a href="#" class="box3a">
+					<p class="box3-1p p1">产品</p>
+					<p class="box3-1p2 p2"><b>HUAWEI Mate 40 RS 保时捷设计</b></p>
+					<p class="box3-1p pp p3">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+			<div class="box3-3">
+				<a href="#" class="box3a">
+					<p class="box3-1p p1">产品</p>
+					<p class="box3-1p2 p2"><b>HUAWEI FreeBuds pro</b></p>
+					<p class="box3-1p pp p3">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+			<div class="box3-4">
+				<a href="#" class="box3a">
+					<p class="box3-1p p1">产品</p>
+					<p class="box3-1p2 p2"><b>HUAWEI GT2 Pro</b></p>
+					<p class="box3-1p pp p3">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+
+			<div class="box3-5">
+				<a href="#" class="box3a">
+					<p class="box3-2p ">公益活动</p>
+					<p class="box3-2p2 "><b>我有一片胡杨林</b></p>
+					<p class="box3-2p pp ">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+			<div class="box3-6">
+				<a href="#" class="box3a">
+					<p class="box3-2p " >《智赢》VIP访谈</p>
+					<p class="box3-2p2" ><b>深圳机场：智慧空港,让旅客感受"深圳温度"</b></p>
+					<p class="box3-2p pp" >了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+			<div class="box3-7">
+				<a href="#" class="box3a">
+					<p class="box3-3p ">直播</p>
+					<p class="box3-2p2 "><b>我和我的商标</b></p>
+					<p class="" id="tp">大做名牌不用拼，参与直播互动赢好礼!</p>
+					<p class="" id="tp2">11月4号19:00在线直播</p>		
+
+					<p class="box3-3p pp ">了解更多<span style="color:red">></span></p>
+				</a>
+			</div>
+		</div>
+		<!-- 推荐信息区域end -->
+
+		<!-- 5 动画区域 -->
+		<div class="box4">
+			<h2 class="bx-h2">畅听无碍，让听障人士沟通更容易</h2>
+			<div class="bx4-1"></div>
+			<p class="bx-p">通过科技辅助，为听障朋友们“代言”,让他们的出行和生活不再障碍重重。</p>
+			<button class="bx-bt">了解更多</button>
+		</div>
+		<!-- 动画区域end -->
+
+		<!-- 6 新闻与活动区域 -->
+		<div class="box5">
+			<h2 class="bo-h2">新闻与活动</h2>
+			<div class="bo-d"></div>
+		</div>
+		<div class="box6">
+			<div class="b6 b6-1">
+				<div class="img">
+					<img src="img/h11.jpg" alt="" class="fl"/>
+					<div style=""class="fl img-tet">展会活动</div>
+				</div>
+				<h2 class="b6-h2">华为珠海城市峰会2020</h2>
+				<div class="b6-p1">
+					<img src="img/t1.png" alt="" /> 
+					<span class="spa">中国，珠海</span>
+					<img src="img/t2.png" alt="" style="margin:0 0 0 25px;"/>
+					<span class="spa">2020年11月13日</span>
+					<p class="b6-p2">智造珠海，进而有为</p>
+				</div>
+			</div>
+			<div class="b6 b6-2">
+				<div class="img">
+					<img src="img/h12.png" alt="" class="fl"/>
+					<div class="fl img-tet">展会活动</div> 
+				</div>
+				<h2 class="b6-h2">2020全球宽带论坛</h2>
+				<div class="b6-p1">
+					<img src="img/t1.png" alt="" /> 
+					<span class="spa">中国，上海</span>
+					<img src="img/t2.png" alt="" style="margin:0 0 0 25px;"/>
+					<span class="spa">2020年11月12-13日</span>
+					<p class="b6-p2">5G for Good,Innovate for Now Value</p>
+				</div>
+			</div>
+			<div class="b6 b6-3">
+				<div style=""class=" img-tet1">新闻</div>
+				<a href="#" class="b6-aa">
+					<h2 class="b6-3-h2">华为荣获业界首个TUL南德充电模块专用综合认证证书</h2>
+					<p class="b6-3-p1">2020年11月11日</p>
+				</a>
+				<a href="#" class="b6-aa">
+					<h2 class="b6-3-h2">华为发布业界首款多合一驱动系统DriverONE</h2>
+					<p class="b6-3-p1">2020年11月11日</p>
+				</a>
+				<a href="#" class="b6-aa">
+					<h2 class="b6-3-h2">华为发布《充电基础设施发展趋势白皮书》，畅想充电基础设施可持续发展</h2>
+					<p class="b6-3-p1">2020年11月11日</p>
+				</a>
+				<a href="#" class="b6-aa">
+					<h2 class="b6-3-h2">华为张文林：科技助力艺术，领航全新时代</h2>
+					<p class="b6-3-p1">2020年11月09日</p>
+				</a>
+				<a href="#" class="b6-aa">
+					<h2 class="b6-3-h2">华为ICT大赛2019-2020全球总决赛开幕 39国109支大学生队伍入围</h2>
+					<p class="b6-3-p1">2020年11月07日</p>
+				</a>
+				
+			</div>
+		</div>
+		<!-- 新闻与活动区域end -->
+
+		<!-- 按钮-->
+		<div class="anniu">
+			<a href="#" class="an1-a">
+				<button class="an1">更多活动</button>
+				<button class="an2s">更多新闻</button>
+			</a>
+		</div>
+		<!-- 按钮end-->
+
+		<!-- 7 底部区域 -->	
+		<div class="dibu">
+			<div class="dibu1">
+				<p class="tes fl">首页</p>
+				<a href="#"><img src="img/d1.png" alt="tupia" class="dt fr" /></a>
+
+			</div>
+			<div class="dibu2">
+				<div class="wenz1 fl">
+					<h3 class="wz-h3">关于华为</h3>
+					<p class="wz-p">公司简介</p>
+					<p class="wz-p">公司年报</p>
+					<p class="wz-p">公司治理</p>
+					<p class="wz-p">管理层信息</p>
+					<p class="wz-p">招贤纳士</p>
+					<p class="wz-p">联系我们</p>
+					
+				</div>
+				<div class="wenz1 fl">
+					<h3 class="wz-h3"></h3>
+					<p class="wz-p wz-p1">可持续发展</p>
+					<p class="wz-p">信任中心</p>
+					<p class="wz-p">公共政策</p>
+					<p class="wz-p">债券投资者</p>
+					<p class="wz-p">供应商</p>
+					<p class="wz-p"></p>
+					
+				</div>
+				<div class="wenz1 fl">
+					<h3 class="wz-h3">新闻与活动</h3>
+					<p class="wz-p">新闻</p>
+					<p class="wz-p">展会活动</p>
+					<p class="wz-p">华为直播</p>
+					<p class="wz-p">媒体图库</p>
+					
+					
+				</div>
+				<div class="wenz1 fl">
+					<h3 class="wz-h3">发现</h3>
+					<p class="wz-p">成功故事</p>
+					<p class="wz-p">行业洞察</p>
+					<p class="wz-p">出版物</p>
+					
+					
+				</div>
+				<div class="wenz1 fl">
+					<h3 class="wz-h3">我们的产品</h3>
+					<p class="wz-p">个人及家庭产品</p>
+					<p class="wz-p">企业业务产品</p>
+					<p class="wz-p">运营商网络产品</p>
+					<p class="wz-p">华为云服务</p>
+					
+					
+				</div>
+				<div class="wenz1 fl">
+					<h3 class="wz-h3">技术支持</h3>
+					<p class="wz-p">消费者技术支持</p>
+					<p class="wz-p">华为云技术支持</p>
+					<p class="wz-p">企业技术支持</p>
+					<p class="wz-p">运营商技术支持</p>
+					<p class="wz-p">产品安全通告</p>
+					
+					
+				</div>
+			</div>
+			<div class="dibu3">
+				<div class="di3-z fl">华为商城</div>
+				<div class="di3-z fl dd3">华为云</div>
+				<div class="di3-z fl dd3">华为智能光伏</div>
+				<div class="di3-z fl dd3">产品定义社区</div>
+				<div class="di3-z fl dd3">华为心声社区</div>
+				<div class="di3-z fl dd3">荣耀官网</div>
+
+				<div class="di3-t fr">
+					<a href="#">
+						<img src="img/db1.png" alt="" />
+						<img src="img/db2.png" alt="" />
+						<img src="img/db3.png" alt="" />
+						<img src="img/db4.png" alt="" />
+						<img src="img/db5.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="zuihou">
+			<div class="zh-1">
+				<p class="fl zh-p1 tt">c2020 华为技术有限公司 </p>
+				<a href="#">
+					
+					<p class="fl zh-p2 tt">粤A2-20044005号 粤公网备案 44030702002388号</p>
+					<span class="fl zh-p3 tt">|</span>
+					<p class="fl zh-p4 tt">联系我们 </p>
+					<p class="fl zh-p4 tt">法律声明 </p>
+					<p class="fl zh-p4 tt">隐私保护 </p>
+					<p class="fl zh-p7 tt">除名查询 </p>
+				</a>
+			</div>
+		</div>
+		<!-- 底部区域end -->
+
+		
+
+	
+	</body>
+
+</html> 
+
+
+			<!-- <video >
+				<source src="img/h10.ogg" type="video/ogg"></source>
+				<source src="img/h10.mp4" type="video/mp4"></source>
+			</video> -->

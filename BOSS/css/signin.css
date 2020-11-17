@@ -1,0 +1,275 @@
+@import url("resetstyle.css");
+.bcg{
+	background: #5dd5c8 url(../img/register/newbg.png) no-repeat center bottom;
+}
+.box_top{
+	width: 100%;
+	height: 80px;
+}
+.rig{
+	padding: 60px 60px 0 0;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	opacity: .6;
+}
+.rig_tel{
+	width: 15px;
+	height: 14px;
+	background: url(../img/index/tel.png) no-repeat 0 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+.box{
+	width: 740px;
+	height: 514px;
+	margin: 0 auto;
+	box-shadow: 0 6px 13px 0 rgba(0,0,0,.1);
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.box_le{
+	width: 240px;
+	height: 100%;
+	background: #f8fcff;
+}
+.box_rig{
+	width: 500px;
+	height: 100%;
+	background: #fff;
+}
+.le_first{
+	margin: 88px 0 0 44px;
+	display: block;
+}
+.le_first img{
+	width: 42px;
+	height: 42px;
+	margin-right: 8px;
+}
+.le_first p{
+	height: 22px;
+	line-height: 22px;
+	color: #00c2b3;
+}
+.box_le_title{
+	margin: 50px 0 0 40px;
+}
+.box_le_title li{
+	margin-bottom: 50px;
+}
+.title_bcg1{
+	width: 25px;
+	height: 42px;
+	background: url(../img/index/sign-slide.png) no-repeat 0 0;
+	background-size: 25px 234px;
+	margin: 10px 0 0 7px;
+}
+.title_words{
+	margin-left: 23px;
+}
+.title_word1{
+	font-size: 16px;
+	font-weight: 700;
+	color: #8d92a1;
+	line-height: 22px;
+}
+.title_word2{
+	font-size: 13px;
+	color: #b0b4c1;
+}
+.title_bcg2{
+	width: 23px;
+	height: 30px;
+	background: url(../img/index/sign-slide.png) no-repeat -1px -52px;
+	background-size: 25px 234px;
+	margin: 6px 0 0 7px;
+}
+.box_rig_center{
+	width: 324px;
+	margin: 0 auto;
+	position: relative;
+}
+.box_rig_form{
+	margin-top:68px;
+}
+.signin span{
+	display: inline-block;
+	width: 152px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #e3e7ed;
+	text-align: center;
+}
+.signin span:hover{
+	color: #53cac3;
+	border-color: #53CAC3;
+}
+.signin .signin_special{
+	margin-right: 16px;
+	color: #53cac3;
+	border-color: #53CAC3;
+}
+.rig_number{
+	width: 322px;
+	height: 40px;
+	border: 1px solid #e3e7ed;
+	margin-top: 37px;
+}
+.rig_s1{
+	position: absolute;
+	height: 40px;
+	left: 30px;
+	cursor: pointer;
+	z-index: 100;
+}
+.rig_jt{
+	width: 13px;
+	height: 7px;
+	position: absolute;
+	right: 5px;
+	top:16px;
+	background: url(../img/header/icons.png) no-repeat 0 -58px;
+	vertical-align: middle;
+}
+.rig_number em{
+	display: inline-block;
+	font-size: 14px;
+	font-style: normal;
+	width: 37px;
+	padding: 7px 22px 7px 0;
+	text-align: right;
+}
+.ri_phone{
+	position: absolute;
+	top: 0;
+	left: 9px;
+	background: url(../img/index/icons-sign.png) no-repeat -2px 0;
+	width: 13px;
+	height: 18px;
+}
+.rig_ipt,.rig_ipt2{
+	position: relative;
+}
+.rig_ipt input{
+	border: 0;
+	padding: 13px 0 0 100px;
+}
+.rig_password{
+	width: 322px;
+	height: 40px;
+	border: 1px solid #e3e7ed;
+	margin-top: 24px;
+}
+.rig_ipt2 input{
+	border: 0;
+	padding: 13px 0 0 40px;
+}
+.ri_mima{
+	position: absolute;
+	top: 0;
+	left: 9px;
+	background: url(../img/index/icons-sign.png) no-repeat -2px -92px;
+	width: 13px;
+	height: 18px;
+}
+.anniu{
+	width: 320px;
+	height: 40px;
+	border: 1px solid #cccccc;
+	text-align: center;
+	line-height: 38px;
+	margin-top: 24px;
+	background: #f3f3f3;
+	font-size: 14px;
+	position: relative;
+}
+.blue_radius{
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+	background: #3873ff;
+	border-radius: 50%;
+	position: absolute;
+	top: 12.5px;
+	left: 13px;
+}
+.denglu{
+	width: 100%;
+	height: 40px;
+	margin-top: 30px;
+}
+.denglu button{
+	width: 100%;
+	height: 42px;
+	text-align: center;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	background: #5dd5c8;
+	transition: .3s;
+}
+.denglu button:hover{
+	background: #6adbcf;
+}
+.rig_btm{
+	margin-top: 30px;
+}
+.rig_btm a{
+	display: inline-block;
+	color: #18c3b1;
+	font-size: 14px;
+	width:30%;
+}
+.rig_btm .rig_btm_wx{
+	color: #9fa3b0;
+	background: url(../img/register/weixin.png) no-repeat 0 -35px/20px auto;
+	text-indent: 5px;
+	padding-left: 20px;
+	transition: .3s;
+}
+.rig_btm .rig_btm_wx:hover{
+	color: #18c3b1;
+}
+.rig_btm .rig_btm_zc{
+	text-align: right;
+}
+.rig_btm .rig_btm_sm{
+	text-align: center;
+}
+.top_rig{
+	width: 20px;
+	height: 20px;
+	background: url(../img/register/sign_icon_sprites.png) no-repeat -70px -5px;
+	background-size: 95px 65px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.top_rig:hover{
+	background-position: -40px -5px;
+}
+.top_rig_txt{
+	width: 117px;
+	height: 30px;
+	position: absolute;
+	top:15px;
+	right: 55px;
+	background: #5dd5c8;
+	box-shadow: 0 1px 7px 0 rgba(93,213,200,.2);
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+}
+.top_rig_txt::before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-color: transparent transparent transparent #5dd5c8;
+	border-width: 8px;
+	border-style: solid;
+	position: absolute;
+	top:7px;
+	right: -16px;
+}

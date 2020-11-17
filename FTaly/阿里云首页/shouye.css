@@ -1,0 +1,269 @@
+/* 头部开始 */
+#toubu{width:1380px;height:66px;margin:0 auto;overflow:hidden;}
+#toubu img{display:block;margin:10px 0 0 0;float:left;}
+.toubu-1{width:1150px;height:66px;float:left;}
+.toubu-2{text-decoration:none;font-size:14px;line-height:66px;padding:8px 6px;color:#000;}
+.toubu-2:hover{color:#ff3300;}
+.toubu-3{background-color:#ff6a00;line-height:66px;font-size:18px;text-decoration:none;color:#fff;padding:22px 10px;}
+.toubu-3:hover{background-color:#fff;color:#ff6a00;line-height:66px;transition:2s}
+/* 头部结束 */
+
+/* 背景开始 */
+#beijing{width:1380px;height:431px;background-color:#e1e1e1;margin:0 auto;
+background-image:url("1.jpg");background-repeat:no-repeat;transition:5s;background-position:right center;overflow:hidden}
+#beijing:hover{width:1380px;height:431px;background-color:#e1e1e1;margin:0 auto;
+background-image:url("9.jpg");background-repeat:no-repeat;transition:5s;background-position:right center;overflow:hidden}
+.beijing-1{margin:99px 0 0 35px;}
+.beijing-2{margin:25px 0 0 35px;}
+.beijing-3{margin:50px 0 0 35px;width:138px;height:45px;font-size:19px;line-height:45px;text-align:center;background-color:#ff6a00;color:#fff;}
+.beijing-4{text-decoration:none;color:#fff;}
+.beijing-5{width:50px;height:4px;background-color:#ff6a00;margin:50px 0 0 35px;float:left}
+.beijing-6{width:50px;height:4px;background-color:#f3f3f3;float:left;margin:50px 0 0 5px;}
+.beijing-7{width:50px;height:4px;background-color:#f3f3f3;float:left;margin:50px 0 0 5px;}
+.beijing-8{width:50px;height:4px;background-color:#f3f3f3;float:left;margin:50px 0 0 5px;}
+.beijing-5:hover{background-color:#fff;width:55px;transition:1s}
+.beijing-6:hover{background-color:blue;width:55px;transition:1s}
+.beijing-7:hover{background-color:yellow;width:55px;transition:1s}
+.beijing-8:hover{background-color:green;width:55px;transition:1s}
+.beijing-a{width:100%;height:110px;background-color:rgb(234,234,234,0.3);}
+.beijing-a-1{width:1380px;height:110px;margin:0 auto;}
+.beijing-a-a{width:345px;height:110px;float:left;}
+.bingjing-a-b{height:31px;font-size:18px;text-align:center;line-height:31px;margin:28px 0 0;}
+.bingjing-a-c{height:31px;font-size:15px;text-align:center;line-height:31px;color:#908e90}
+.beijing-1-a{color:#000;}
+.beijing-a-a:hover{background-color:rgb(255,255,255,0.6)}
+.beijing-a-a:hover{color:#ff6500}
+/* 背景结束 */
+
+/* 导航图标开始 */
+#b{width:100%;height:297px;background-color:#fff;}
+.b-1{width:1380px;height:297px;margin:0 auto;overflow:hidden}
+.b-1-a{text-align:center;margin:52px 0 0;}
+.b-1-b{text-align:center;font-size:15px;color:#ff6a00}
+.b-1-b,a{text-decoration:none;color:#000}
+.b-1-c{width:1380px;height:141px;}
+.b-c-1{width:197px;height:138px;float:left;background-image:url("2.jpg");background-repeat:no-repeat;background-position:50% 40%;border-bottom:3px solid #fff;}
+.b-a1:hover{border-bottom:3px solid #ff6a00;color:#ff6a00}
+.b-a2{border-bottom:3px solid #fff;background-image:url("3.jpg");}
+.b-a2:hover{border-bottom:3px solid #ff00f0;color:#ff6a00}
+.b-a3{border-bottom:3px solid #fff;background-image:url("4.jpg");}
+.b-a3:hover{border-bottom:3px solid #4c96ff;color:#ff6a00}
+.b-a4{border-bottom:3px solid #fff;background-image:url("5.jpg");}
+.b-a4:hover{border-bottom:3px solid #09ffbc;color:#ff6a00}
+.b-a5{border-bottom:3px solid #fff;background-image:url("6.jpg");}
+.b-a5:hover{border-bottom:3px solid red;color:#ff6a00}
+.b-a6{border-bottom:3px solid #fff;background-image:url("7.jpg");}
+.b-a6:hover{border-bottom:3px solid #63f800;color:#ff6a00}
+.b-a7{border-bottom:3px solid #fff;background-image:url("8.jpg");}
+.b-a7:hover{border-bottom:3px solid #0c06ff;color:#ff6a00}
+/* 导航图标结束 */
+
+/* 介绍的开始 */
+#jieshao{width:100%;height:402px;background-color:rgb(244,245,247,0.5)}
+.jieshao-1{width:1380px;height:402px;margin:0 auto;}
+.jieshao-zuo{width:345px;height:402px;overflow:hidden;float:left;}
+.jieshao-shang{width:345px;height:121px;margin:50px 0;}
+.shang-a-1:hover{color:#ff6a00}
+.shang-b{width:116px;color:#fff;height:35px;background-color:#ff6a00;float:left;margin:0 10px 0 0;font-size:16px;line-height:35px;text-align:center;}
+.shang-c{width:116px;height:35px;background-color:#f4f5f7;float:left;font-size:16px;line-height:35px;text-align:center;border:2px solid #000;}
+.shang--a{color:#fff;}
+.shangyou-1{width:345px;height:402px;float:left;}
+.shangyou-1-1{width:345px;height:134px;overflow:hidden;}
+.shang-1-1-a{width:62px;height:21px;font-size:14px;text-align:center;line-height:21px;border:1px solid #dfe0e1;color:#dfe0e1;float:left;margin:0 5px 0;}
+.shang-1-1-b{width:62px;height:21px;font-size:14px;text-align:center;line-height:21px;border:1px solid #dfe0e1;color:#dfe0e1;float:left;}
+.shang-1-1-c{width:92px;height:21px;font-size:14px;text-align:center;line-height:21px;border:1px solid #dfe0e1;color:#dfe0e1;float:left;margin:0 5px 0;}
+.shang-1-1-aa{width:92px;}
+.shang-3-a{width:120px;}
+.shang1-1-c{color:#fd7300}
+/* 介绍的结束 */
+
+/* 导航2的开始 */
+.dao2{width:100%}
+.dao2-1{margin:0 auto;}
+.b-1-c{width:1380px;height:141px;}
+.dao-a{width:197px;height:138px;float:left;background-image:url("10.jpg");background-repeat:no-repeat;background-position:50% 40%;border-bottom:3px solid #fff;}
+.dao-a:hover{border-bottom:3px solid #ff6a00;color:#ff6a00}
+.dao-b{border-bottom:3px solid #fff;background-image:url("11.jpg");}
+.dao-b:hover{border-bottom:3px solid #ff00f0;color:#ff6a00}
+.dao-c{border-bottom:3px solid #fff;background-image:url("12.jpg");}
+.dao-c:hover{border-bottom:3px solid #4c96ff;color:#ff6a00}
+.dao-d{border-bottom:3px solid #fff;background-image:url("13.jpg");}
+.dao-d:hover{border-bottom:3px solid #09ffbc;color:#ff6a00}
+.dao-e{border-bottom:3px solid #fff;background-image:url("14.jpg");}
+.dao-e:hover{border-bottom:3px solid red;color:#ff6a00}
+.dao-f{border-bottom:3px solid #fff;background-image:url("15.jpg");}
+.dao-f:hover{border-bottom:3px solid #63f800;color:#ff6a00}
+.dao-g{border-bottom:3px solid #fff;background-image:url("16.jpg");}
+.dao-g:hover{border-bottom:3px solid #0c06ff;color:#ff6a00}
+.dao2-0{color:#ff7c34;}
+/* 导航2的结束 */
+
+/* 小图的开始 */
+#xiaotu{width:100%;background-color:#3d3d3d;height:235px;}
+.xiaotu-1{width:1380px;height:235px;margin:0 auto;}
+.xiaotu-a-1{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("17.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-2{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("18.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-3{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("19.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-4{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("20.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-5{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("21.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-6{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("22.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-7{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("23.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-8{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("24.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-9{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("25.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-10{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("26.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-11{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("27.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-12{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("28.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-13{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("29.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-14{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("30.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-15{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("31.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+.xiaotu-a-16{width:170px;height:117.5px;float:left;color:#fff;font-size:16px;line-height:50px;background-image:url("32.jpg");background-repeat:no-repeat;background-position:50% 50%;text-align:center;}
+/* 小图的结束 */
+
+/* 文字1的开始 */
+#wenzi{width:100%;height:44px;}
+.wenzi-1{width:1370px;height:44px;margin:0 auto;}
+.wenzi-1-a{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;border-bottom:2px solid #000;}
+.wenzi-1-b{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;}
+.wenzi-1-c{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;}
+.wenzi-1-d{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;}
+.wenzi-1-e{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;}
+.wenzi-1-f{width:220px;height:42px;text-align:center;font-size:14px;color:#000;line-height:42px;list-style:none;float:left;}
+.wenzi-aa:hover{border-bottom:2px solid red;color:red}
+.wenzi-bb:hover{border-bottom:2px solid yellow;color:yellow}
+.wenzi-cc:hover{border-bottom:2px solid blue;color:blue}
+.wenzi-dd:hover{border-bottom:2px solid purple;color:purple}
+.wenzi-ee:hover{border-bottom:2px solid brown;color:brown}
+.wenzi-ff:hover{border-bottom:2px solid green;color:green;}
+.wenzi-aaa:hover{color:red}
+.wenzi-bbb:hover{color:yellow}
+.wenzi-ccc:hover{color:blue}
+.wenzi-ddd:hover{color:purple}
+.wenzi-eee:hover{color:brown}
+.wenzi-fff:hover{color:green;}
+/* 文字1的结束 */
+
+/* 创建公司的开始 */
+#cj{width:100%;height:634px;background-color:#f0f1f2;margin:20px 0;}
+.cj-1{width:1380px;height:634px;margin:0 auto;}
+.cj-zuo{width:338px;height:634px;background-color:#f7f8fa;overflow:hidden;float:left;}
+.cj-1-a{font-size:25px;margin:40px 20px 0;}
+.cj-1-b{width:255px;height:67px;font-size:15px;margin:40px 20px; 0;}
+.cj-1-c{width:150px;margin:10px 20px;}
+.cj-1-cc{color:#fda66b}
+.cj-1-d{width:100px;margin:50px 20px;}
+.cj-1-dd{color:#fda66b}
+.cj-you{width:1000px;height:634px;float:left}
+.cj-2{font-size:20px;height:40px;line-height:40px;width:1000px;/* text-align:center; */}
+.cj-2-1{text-align:left;margin:0 0 0 20px;}
+.cj-2-2{text-align:right;margin:0 0 0 700px;color:#fda66b}
+.cj-2-a{height:360px;background-color:#fff;}
+.cj-2-a1{width:303px;height:180px;float:left;}
+.cj-2-a1-1{font-size:16px;margin:20px 20px;width:100px;}
+.cj-2-a1-1-aa:hover{color:#fe810f;}
+.cj-2-a1-2{font-size:15px;margin:10px 20px;width:280px;}
+.cj-2-a1-3{width:80px;height:21px;font-size:10px;line-height:21px;text-align:center;;margin:0px 5px 0 0px;border:1px solid #b5a499;color:#b5a499;float:left;}
+.cj-2-a1-4{width:80px;height:21px;font-size:10px;line-height:21px;text-align:center;;margin:0px 5px 0 0;border:1px solid #b5a499;color:#b5a499;float:left;}
+.cj-2-a1-5{width:280px;height:25px;margin:0 20px 0;}
+.cj-2-a1-6{font-size:20px;color:#fe810f;margin:10px 20px;}
+.cj-22{height:200px;}
+.cjj{width:280px;}
+.cjjj{width:120px;}
+/* 结束 */
+
+/* 开始 */
+#g{width:100%;height:297px;background-color:#fff;}
+.b-1{width:1380px;height:297px;margin:0 auto;overflow:hidden}
+.b-1-a{text-align:center;margin:52px 0 0;}
+.b-1-b{text-align:center;font-size:15px;color:#ff6a00}
+.b-1-b,a{text-decoration:none;color:#000}
+.b-1-c{width:1380px;height:141px;}
+.zhong-1{width:197px;height:138px;float:left;background-image:url("34.jpg");background-repeat:no-repeat;background-position:50% 40%;border-bottom:3px solid #fff;}
+.zhong-1:hover{border-bottom:3px solid #ff6a00;color:#ff6a00}
+.zhong-2{border-bottom:3px solid #fff;background-image:url("35.jpg");}
+.zhong-2:hover{border-bottom:3px solid #ff00f0;color:#ff6a00}
+.zhong-3{border-bottom:3px solid #fff;background-image:url("36.jpg");}
+.zhong-3:hover{border-bottom:3px solid #4c96ff;color:#ff6a00}
+.zhong-4{border-bottom:3px solid #fff;background-image:url("37.jpg");}
+.zhong-4:hover{border-bottom:3px solid #09ffbc;color:#ff6a00}
+.zhong-5{border-bottom:3px solid #fff;background-image:url("38.jpg");}
+.zhong-5:hover{border-bottom:3px solid red;color:#ff6a00}
+.zhong-6{border-bottom:3px solid #fff;background-image:url("39.jpg");}
+.zhong-6:hover{border-bottom:3px solid #63f800;color:#ff6a00}
+/* 结束 */
+
+/* 四个开始 */
+#sg{width:100%;height:429px;}
+.sg-1{width:1380px;height:429px;margin:0 auto;}
+.sg-1-1{width:690px;height:214px;overflow:hidden;float:left;}
+.sg-1-a{width:200px;font-size:20px;height:25px;line-height:25px;text-align:center;margin:20px 10px;}
+.sg-1-b{width:450px;font-size:15px;color:#b3c4e0;margin:20px 20px 30px;}
+.sg-1-c{padding:10px;color:#ff7d0a}
+.sg-1-c:hover{border-bottom:1px solid #ff7d0a;}
+.sg-1-1:hover{background-image:url("40.jpg");background-position:right center;transition:5s}
+/* 四个结束 */
+
+/* 左右开始 */
+#zuoyou{width:100%;height:384px;margin:20px 0 0px;background-color:#e0e0e0}
+.zy-1{width:1380px;height:384px;margin:0 auto;}
+.zuo-tu{width:690px;height:384px;background-color:#fff;float:left;}
+.zuotu-1{width:690px;height:288px}
+.zuotu-2{width:172px;height:80px;background-image:url("42.jpg");background-repeat:no-repeat;background-position:center center;float:left;}
+.zuotu-3{width:172px;height:80px;background-image:url("43.jpg");background-repeat:no-repeat;background-position:center center;float:left;}
+.zuotu-4{width:172px;height:80px;background-image:url("44.jpg");background-repeat:no-repeat;background-position:center center;float:left;}
+.zuotu-5{width:172px;height:80px;background-image:url("45.jpg");background-repeat:no-repeat;background-position:center center;float:left;}
+.youtu-2{width:690px;height:384px;float:left;background-color:#fdaa76;font-size:20px;line-height:130px;text-align:center;}
+/* 左右结束 */
+
+/* 大图开始 */
+#datu{width:100%;height:743px;background-color:#e0e0e0}
+.datu-1{width:1380px;height:734px;background-image:url("50.jpg");background-repeat:no-repeat;background-position:center center;margin:0 auto;}
+/* 大图结束 */
+
+
+/* 黑块的开始 */
+#heikuai{width:100%;background-color:#000;height:118px;}
+.heikuai-1{width:1380px;height:118px;margin:0 auto;}
+.heikuai-1-a{width:340px;height:118px;overflow:hidden;border-left:1px solid #e2ebe6;float:left;}
+.heikuai-1-a1{width:250px;font-size:14px;margin:20px 20px;color:#f0f1f2}
+.heikuai-1-a2{width:200px;margin:20px 20px;color:#fff;}
+/* 黑块的结束 */
+
+/* 圆圈图标的开始 */
+#yb{width:100%;height:118px;background-color:#f4f5f7;overflow:hidden;}
+.yb-1{width:1380px;height:118px;margin:0 auto;}
+.yb-1-a{width:230px;height:118px;overflow:hidden;float:left;}
+.yb-1-b{text-align:center;color:#b9aaa7;font-size:12px;}
+.yb-1-a img{display:block;margin:10px auto 0;}
+.yb-1-b:hover{color:blue;}
+/* 圆圈图标的结束 */
+
+/* 倒数的开始 */
+#daoshu{width:100%;height:124px;}
+.daoshu-1{width:1380px;height:124px;margin:0 auto;}
+.daoshu-1-a{width:345px;height:124px;background-image:url("46.jpg");background-repeat:no-repeat;background-position:25% center;font-size:16px;text-align:center;line-height:124px;float:left;}
+.daoshu-1-b{width:345px;height:124px;background-image:url("47.jpg");background-repeat:no-repeat;background-position:30% center;font-size:16px;text-align:center;line-height:124px;float:left;}
+.daoshu-1-c{width:345px;height:124px;background-image:url("48.jpg");background-repeat:no-repeat;background-position:30% center;font-size:16px;text-align:center;line-height:124px;float:left;}
+.daoshu-1-d{width:345px;height:124px;background-image:url("49.jpg");background-repeat:no-repeat;background-position:20% center;font-size:16px;text-align:center;line-height:124px;float:left;}
+/* 倒数的结束 */
+
+/* 倒数第二的开始  免费试用*/
+#my{width:100%;height:275px;background-color:#242424;}
+.my-1{width:1380px;height:275px;background-image:url("56.jpg");margin:0 auto;overflow:hidden;}
+.my-1-a{color:#fff;margin:25px;}
+.my-1-b{width:150px;height:45px;font-size:20px;line-height::45px;margin:25px;background-color:#ff6a00;color:#fff;}
+/* 倒数第二的结束  免费试用*/
+
+#jiewei{width:100%;height:382px;background-color:#000;overflow:hidden;}
+.jiewei-1{width:1380px;height:382px;margin:0 auto;overflow:hidden;}
+.jiewei-1-a{width:230px;height:382px;list-style:none;padding:0px;float:left;}
+.jiwei-1-aa{font-size:18px;color:#fff;margin:5px 5px 5px;}
+.jiewei-1-bb{color:#9ca1a6;}
+.jiewei-1-bb:hover{color:#ff6a00;}
+.jiewei-1-cc{overflow:hidden;margin:0 5px;}
+.jiewei-1-bb{font-size:10px;}
+#tt{width:100%;height:132px;background-color:#000;}
+.ttt{width:1380px;height:132px;margin:0 auto;}
+.ee{width:1380px;height:33px;;margin:0 auto;}
+.li{width:100px;float:left;}
+.llii{width:200px;}
+.llliii{width:500px;}

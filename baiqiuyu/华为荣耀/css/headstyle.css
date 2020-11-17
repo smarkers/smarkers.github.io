@@ -1,0 +1,216 @@
+@import url("resetstyle.css");
+body {
+	background: #f9f2ef;
+	overflow-x: hidden;
+}
+.nav {
+	width: 100%;
+	height: 74px;
+	background: #fff;
+}
+.nav .content {
+	width: 1366px;
+	margin: 0 auto;
+}
+.nav li {
+	float: left;
+}
+
+.nav .lnav {
+	margin: 19px 16px 0 76px;
+}
+
+.lnav>span {
+	margin: 5px 6px;
+	float: left;
+	font-size: 18px;
+	font-weight: 300;
+	/*line-height: 74px;*/
+}
+.nav .lnav img {
+	height: 36px;
+	float: left;
+
+}
+.cnav {
+	margin-top: 24px;
+}
+.cnav>div {
+	position: relative;
+	float: left;
+	margin: 0 10px;
+}
+.cnav a {
+	/*padding: 0 8px;*/
+	line-height: 30px;
+	font-size: 16px;
+	font-family:  "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.cnav>div:hover {
+	border-bottom: 2px solid #00b5e4;
+}
+.cnav>div:hover a {
+	color: #00b5e4;
+}
+.cnav>div>p {
+	position: absolute;
+	z-index: 1;
+	top: 47px;
+	width: 1400px;
+	height: 0px;
+	transition: height 0.3s;
+	/*margin-top: 15px;*/
+	background: #fff;
+	overflow: hidden;
+	/*border-top: 1px solid #ebebeb;*/
+}
+.nav>.content>.cnav>div>p>a:hover {
+	color: #00bcea !important;
+}
+.cnav>div>.phone {
+	left: -353px;
+	
+}
+.cnav>div:hover .phone {
+	height: 51px;
+	border-top: 1px solid #ebebeb;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+
+}
+.pad {
+	left: -405px;
+}
+.cnav>div:hover .pad {
+	height: 51px;
+	border-top: 1px solid #ebebeb;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+}
+.watch {
+	left: -517px;
+}
+.cnav>div:hover .watch {
+	height: 51px;
+	border-top: 1px solid #ebebeb;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+}
+.furni {
+	left: -568px;
+}
+.cnav>div:hover .furni {
+	height: 51px;
+	border-top: 1px solid #ebebeb;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+}
+.fitting {
+	left: -652px;
+}
+.cnav>div:hover .fitting {
+	height: 51px;
+	border-top: 1px solid #ebebeb;
+	box-shadow: 0 3px 3px 0 rgba(0,0,0,.3);
+}
+.nav .rnav {
+	margin: 21px 90px 0 0;
+	float: right;
+}
+.rnav>.text {
+	text-indent: 15px;
+	float: right;
+	width: 285px;
+	height: 30px;
+	border: 1px solid transparent;
+	background-color: #f0f0f0;
+	border-radius: 15px 0 0 15px;
+}
+.rnav>.rtext {
+	position: relative;
+	float: right;
+	width: 35px;
+	height: 30px;
+	border: 1px solid transparent;
+	background-color: #f0f0f0;
+	border-radius: 0 15px 15px 0;
+}
+.rnav>.rtext>.search2 {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	width: 18px;
+	height: 17px;
+	background: url("../img/search.png") no-repeat 0 0;
+}
+.rnav:hover .search2 {
+	background: url("../img/search2.png") no-repeat 0 0;
+}
+.rnav:hover .text {
+	border: 1px solid #c9c9c9;
+	border-right: 0;
+}
+.rnav:hover .rtext {
+	border: 1px solid #c9c9c9;
+	border-left: 0;
+}
+.t1,
+.t2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	color: #999;
+}
+.t1 {
+	position: absolute;
+	top: 0;
+	left: -192px;
+}
+.t2 {
+	position: absolute;
+	top: 0;
+	left: -81px;
+}
+.t1:hover {
+	color: #43c6e6;
+}
+.t2:hover {
+	color: #43c6e6;
+}
+
+
+
+/*.rnav:focus .t1 {
+	display: none;
+}*/
+
+
+.cnav .title::after {
+	/*display: inline-block;*/
+	width: 7px;
+	height: 13px;
+	position: absolute;
+	top: 19px;
+	right: -23px;
+	content: "";
+	background: url("../img/yes.gif") no-repeat 0 -210px;
+}
+
+.cnav>div>p>a {
+	float: left;
+	font-size: 14px;
+	height: 51px;
+	line-height: 51px;
+	color: #717171 !important;
+	margin-right: 32px;
+}
+.cnav>div>p>a:hover {
+	color: #00b5e2;
+}
+
+.cnav>div>p>.title {
+	position: relative;
+	margin-left: 75px;
+	margin-right: 38px;
+	color: black !important;
+}
+.nav>div>p>.title:hover {
+	color: #00b5e2;
+}

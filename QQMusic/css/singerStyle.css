@@ -1,0 +1,133 @@
+/*歌手标签样式*/
+body{
+	font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+}
+
+
+.mage{
+	width:100%;
+	height:376px;
+	overflow:hidden;
+	background:url(../images/singer-list/bg_singer.jpg) no-repeat center center;
+}
+.mage_center{
+	width:493px;
+	height:220px;
+	color:#fff;
+	text-align:center;
+	line-height:80px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.p_h{
+	font-size:50px;
+}
+.p_p{
+	font-size:23px;
+}
+.btn{
+	width:172px;
+	height:46px;
+	line-height:46px;
+	margin:0 auto;
+	border:1px solid #595959;
+}
+.top_ul1{
+	width:1100px;
+	height:26px;
+	line-height:26px;
+	margin:0 auto;
+	
+}
+.top_ul2{
+	margin-top:64px;
+}
+.top_ul3{
+	margin-top:17px;
+}
+.top_ul1 li{
+	float:left;
+}
+.top_li1{
+	width:44px;
+	height:26px;
+	font-size:16px;
+	color:#fff;
+	text-align:center;
+	background:#31c27c;
+}
+.top_li2{
+	margin-left:28px;
+}
+.top_ul1 .top_li2:hover{
+	color:#31c27c;
+}
+
+/*主体中间部分*/
+.subject{
+	padding-bottom:30px;
+}
+.subject_content{
+	width:1100px;
+	margin:0 auto;
+}
+.sub_center{
+	margin-top:77px;
+}
+.sub_div1{
+	width:140px;
+	height:180px;
+	text-align:center;
+}
+.sub_div1 p:hover{color:#31c27c;cursor:pointer;}
+.sub_img{
+	width:140px;
+	height:140px;
+	border-radius:50%;
+}
+.img_p{
+	font-size:16px;
+	margin-top:10px;
+}
+.sub_div2{
+	margin-left:100px;
+}
+.sub_div3{
+	margin-top:80px;
+}
+
+/*主体底部*/
+.sub_ul1{
+	margin-top:80px;
+}
+.sub_ul1 li{
+	float:left;
+	width:220px;
+	height:35px;
+	line-height:35px;
+}
+.sub_ul1 a:hover{color:#31c27c;}
+
+.sub_ul2{
+	width:490px;
+	height:50px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.sub_ul2 li{
+	float:left;
+	width:47px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:#a8a8a8;
+}
+li.ul2_li1{
+	color:#fff;
+	background-color: #31c27c;
+}
+.ul2_li2{margin-left:15px;}
+.sub_ul2 li:hover{
+	color:#fff;
+	background-color: #31c27c;
+}

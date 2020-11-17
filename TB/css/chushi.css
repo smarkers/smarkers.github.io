@@ -1,0 +1,30 @@
+body,html{
+	height:100%;
+	width:100%;
+	font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+}
+body,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+ul,li,ol,dl,dt,dd{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+from,input,button,textarea{
+	margin:0;
+	padding:0;
+	ontline:none;
+}
+img{
+    display:block;
+}
+.clearfix:after{
+    content:;
+    display:block;
+    clear:both;
+}

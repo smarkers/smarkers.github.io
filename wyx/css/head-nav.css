@@ -1,0 +1,259 @@
+
+.head1{
+	height:30px;
+	width:100%;
+	background: #f5f5f5;
+	
+}
+.head-nav{
+	width:1200px;
+	height:100%;
+	margin:0 auto;	
+}
+.head-nav-left{
+	float:left;
+	width:80px;
+	height:100%;
+}
+.head-nav-right{
+	float:right;
+	width:370px;
+	height:100%;
+}
+.a1{
+	font-size:12px;
+    line-height:30px;
+    margin-right:8px;
+    width: 43px;
+    color: #00b388;
+    display: inline-block;	
+}
+.head-nav-left .a2{
+	font-size:12px;
+    line-height:30px;
+    color: #7f7f7f;
+    display: inline-block;	
+}
+.head-nav-right-ul li{
+	float:left;
+	font-size:12px;
+	color:#7f7f7f;
+	height:30px;
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;
+	line-height:30px;
+	padding:0px 15px 0px 8px;
+	position: relative;
+}
+.head-nav-right-ul li .sp1{
+	height:6px;
+	width:10px;
+	position: absolute;
+	top:13px;
+	right:0px;
+	background-image:url("../img/xiala.png");
+	background-repeat: no-repeat;
+}
+.sp1-2{
+	height:6px;
+	width:10px;
+	position: absolute;
+	top:10px;
+	right:3px;
+	background-image:url("../img/xiala.png");
+	background-repeat: no-repeat;
+	transform:rotate(180deg);
+	display: none;
+}
+
+.head-nav-right-ul li:hover .sp1{
+	display: none;
+}
+.head-nav-right-ul li:hover .sp1-2{
+	display:block;
+}
+.head-nav-right-ul li .sp2{
+		background-image:url("../img/index_bg.png");
+		position: 0px 0px;
+	
+}
+ .head-nav-right-ul li .sp2-2{
+	height:6px;
+	width:10px;
+	position: absolute;
+	top:10px;
+	right:3px;
+	background-image:url("../img/index_bg.png");
+	background-repeat: no-repeat;
+	transform:rotate(180deg);
+	display:none;
+}
+.head-nav-right-ul li:hover .sp2-2{
+	display:block;
+}
+.head-nav-right-ul li i{
+	height:11px;
+	width:14px;
+	position: absolute;
+	top:9px;
+	left:4px;
+	background-image:url("../img/gwc2.png");
+	background-repeat: no-repeat;
+}
+
+.head-nav-right-ul li:nth-child(5){
+	
+	padding-left:25px;
+}
+.head-nav-right-ul li:nth-child(1){
+	color:#00b388;
+}
+.head-nav-right-ul li:nth-child(5){
+	color:#00b388;
+}
+.head-nav-right-ul .li1:hover{
+	border-left:1px solid #ccc5c2;
+	border-right:1px solid #ccc5c2;
+	 background: white;
+	 z-index:10;
+}
+ .head-nav-right-ul li .sp2-3{
+	height:6px;
+	width:10px;
+	position: absolute;
+	top:10px;
+	right:3px;
+	background-image:url("../img/index_bg.png");
+	background-repeat: no-repeat;
+	transform:rotate(180deg);
+	display:none;
+}
+.head-nav-right-ul li:hover .sp2-3{
+	display:block;
+}
+.head-nav-school{
+	height:347px;
+	width:700px;
+	background: white;
+	border-left:1px solid #ccc5c2;
+	border-right:1px solid #ccc5c2;
+	border-bottom:1px solid #ccc5c2;
+	position:absolute;
+	top:30px;
+	left:-333px;
+	padding:10px;
+	display:none;
+}
+.head-nav-school-left{
+	height:100%;
+	width:340px;
+	float:left;
+}
+.head-nav-school-right{
+	height:100%;
+	width:337px;
+	float:left;
+}
+.school-left{
+	width:100%;
+	
+	font-size:12px;
+	color:#7f7f7f;
+}
+.school-left .sp3{
+	color:#00b388;
+	width:10px;
+	display: inline-block;
+	margin:0px 2px 0px 7px;
+}
+.school-left a{	
+	margin:0px 8px 0px 4px;
+	display: inline-block;
+	padding:0px 3px;
+	height:20px;
+	line-height: 20px;
+
+}
+.school-left a:hover{
+	background:#00b388;
+	color:white;
+	border-radius: 5px;
+}
+.head-nav-right-ul li:hover .head-nav-school{
+	display: block;
+}
+.zijigou{
+	height:318px;
+	width:400px;
+	background: white;
+	border-left:1px solid #ccc5c2;
+	border-right:1px solid #ccc5c2;
+	border-bottom:1px solid #ccc5c2;
+	position:absolute;
+	top:30px;	
+	left:-105px;
+	padding:10px;
+	display:none;
+}
+.zijigou .ul1{
+	width:126px;
+	height:100%;
+	float:left;
+}
+.zijigou .ul1 li{
+	width:100%;
+	font-size:12px;
+	color:#999;
+	padding:0px 0px 10px 10px;
+	
+}
+.zijigou .ul1 li a{
+	color:#999;
+}
+.zijigou .ul1 li:hover a{
+	color:#00b388;
+}
+.head-nav-right-ul li:hover .zijigou{
+	display: block;
+}
+.head-nav-right-ul li:hover .gouwuche{
+	display: block;
+}
+.gouwuche{
+	height:90px;
+	width:346px;
+	background: white;
+	border-left:1px solid #ccc5c2;
+	border-right:1px solid #ccc5c2;
+	border-bottom:1px solid #ccc5c2;
+	position:absolute;
+	top:30px;	
+	left:-269px;
+	display:none;
+	padding-top:35px;
+	overflow: hidden;
+}
+.gouwuche-d1{
+	height:28px;
+	width:100%;
+	background: #f1f1f1;
+	text-align:right;
+	color:#666;
+	font-size:12px;
+}
+.gouwuche-d1 input{
+	background:#ff8111 ;
+	float: right;
+	color:white;
+	font-size:12px;
+	text-align: center;
+	line-height:25px;
+	height:25px;
+	outline:none;
+	border:none;
+	width:122px;
+	
+}
+.head-nav-right-ul li:hover{
+	color:#00b388;
+}

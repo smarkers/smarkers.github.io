@@ -1,0 +1,234 @@
+/* 主页样式 */
+@import url("resetstyle.css");
+
+/* 热招职位区域 */
+.rezhao{
+	width: 1184px;
+	margin: 30px auto;
+}
+.rezhao_top{
+	width: 1184px;
+	margin: 0 auto 24px;
+	font-size: 24px;
+	text-align: center;
+}
+.rezhao_top::after{
+	content: "";
+	width: 50px;
+	height: 1px;
+	background: #d1d4db;
+	display: inline-block;
+	vertical-align: 8px;
+	margin: 0 0 0 10px;
+}
+.rezhao_top::before{
+	content: "";
+	width: 50px;
+	height: 1px;
+	background: #d1d4db;
+	display: inline-block;
+	vertical-align: 8px;
+	margin: 0 10px 0 0;
+}
+.rezhao_ul{
+	width: 1184px;
+	margin: 0 auto;
+	background: #fff;
+}
+.rezhao_ul ul{
+	height: 50px;
+}
+.rezhao_ul li{
+	float: left;
+	font-size: 14px;
+	line-height: 50px;
+	color: #8d92a1;
+	margin: 0 37px 0;
+	height: 50px;
+}
+.rezhao_ul .on{
+	color: #00c2b3;
+	font-weight: bold;
+	position: relative;
+}
+.rezhao_ul .on::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: #00C2B3;
+	bottom: 0;
+	left: 0;
+	
+}
+.rezhao_btm{
+	width: 1184px;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.rezhao_btm li{
+	width: 384px;
+	height: 130px;
+	background: #fff;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+.rezhao_btm .rezhao_li1{
+	margin-right: 0;
+}
+.rez_btm{
+	width: 344px;
+	height: 98px;
+	padding: 16px 20px;
+	font-size: 14px;
+}
+.rezhao_btm li:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,.05);
+}
+.rezhao_btm li:hover .first_left{
+	color: #00c2b3;
+}
+.first_left{
+	float: left;
+	font-size: 15px;
+	color: #414a60;
+}
+.first_left span{
+	width: 15px;
+	height: 12px;
+	background: url(../img/index/guide-add-download-icon.png) no-repeat;
+	display: inline-block;
+	background-size: 15px 12px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.first_right{
+	float: right;
+	color: #fd7240;
+	font-size: 15px;
+}
+.rezhao_second{
+	color: #8d92a1;
+	height: 35px;
+	border-bottom: 1px solid #eef0f5;
+}
+.rezhao_second span{
+	padding: 0 10px;
+	color: #e0e0e0;
+}
+.rezhao_third{
+	padding: 13px 0 0 0;
+}
+.rezhao_third img{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 11px 0 0;
+}
+.rezhao_third p{
+	font-size: 15px;
+}
+.rezhao_third span{
+	font-size: 13px;
+}
+.third_s1{
+	color: #61687c;
+}
+.third_s2{
+	color: #8d92a1;
+	margin-left: 20px;
+}
+.third_gang{
+	padding: 0 11px;
+}
+.rezhao_chakan{
+	width: 1184px;
+	text-align: center;
+}
+.rezhao_btn{
+	width: 218px;
+	height: 34px;
+	line-height: 34px;
+	color: #fff;
+	margin: 10px 0 35px 0;
+	font-size: 16px;
+	background: #5dd5c8;
+	border:1px solid #5DD5C8;
+	transition: .3s;
+}
+.rezhao_btn:hover{
+	background:#00c2b3;
+}
+/* 热招职位区域end */
+
+/* 热门企业区域 */
+.remen,.remen ul{
+	width: 1184px;
+	margin: 0 auto;
+}
+.remen ul li{
+	width: 284px;
+	height: 238px;
+	background: #fff;
+	float: left;
+	margin: 0 16px 16px 0;
+}
+.remen .remen_li1{
+	margin-right:0;
+}
+.remen li:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,.05);
+}
+.remen li:hover .remen_p1{
+	color: #5DD5C8;
+}
+.remen_content{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.remen_pto{
+	text-align: center;
+}
+.remen_content img,.remen_content a{
+	width: 58px;
+	height: 58px;
+	border: 1px solid #f3f5fb;
+	display: inline-block;
+	margin: 30px 0 18px 0;
+	border-radius: 6px;
+}
+.remen_p1{
+	font-size: 16px;
+	height: 22px;
+	line-height: 22px;
+	margin-bottom:10px;
+	transition: .3s;
+}
+.remen_p2{
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	color: #898e9d;
+}
+.remen_p2 span{
+	color: #e0e0e0;
+	padding: 0 10px;
+}
+.remen_p3{
+	width: 180px;
+	height: 34px;
+	line-height: 34px;
+	border: 1px solid #e3e7ed;
+	background: #fff;
+	margin: 15px auto;
+	transition: .2s;
+}
+.remen_p3:hover{
+	border: 1px solid #5dd5c8;
+}
+.remen_p3 span{
+	color: #00c2b3;
+}
+/* 热门企业区域end */

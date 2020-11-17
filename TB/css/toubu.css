@@ -1,0 +1,272 @@
+body{
+	overflow-x:hidden;
+}
+.box{
+	width:100%;
+	background:#f4f4f4;
+	/* overflow: hidden; */
+}
+.tou{
+	width:100%;
+	background:#e3e4e5;
+}
+.div-1{
+	width:1190px;
+	height:35px;
+	margin:0 auto;
+	line-height:35px;
+	font-size:12px;
+	color:#6c6c6c;
+}
+.left-1{
+	width:296px;
+	float:left;
+	cursor: pointer;
+}
+.left-1 li{
+	float:left;
+}
+.left-1 .denglu{
+	color:#f22e00;
+	margin:0px 7px 0px 6px;
+}
+.left-1 .zuce{
+	margin-right:7px;
+}
+.left-1 .shouji{
+	color:#f22e00;
+	padding:0px 6px;
+}
+.left-1 .li-1:hover{
+	color:#f22e00;
+}
+.icon-tianchongxing-:before{
+	color:#ff4400;
+}
+.icon-caidan{
+	color:#ff4400;
+}
+
+.right-1{
+	width:700px;
+	height:35px;
+	float:right;
+	cursor: pointer;
+}
+.right-1 li{
+	float:left;
+	height:35px;
+	border:1px solid #e3e4e5;
+	box-sizing:border-box;
+	padding:0px 6px;
+}
+.right-1 li:hover{
+	color:#FF4400;
+}
+.right-1 li:hover .span-1{
+	color:#6c6c6c;
+}
+.right-1 .tb{
+	
+}
+.right-1 .tb:hover{
+	border:solid 1px #eee;
+	border-bottom:white;
+	background:white;
+}
+
+
+
+/* 狂欢季 */
+.kuanghuan{
+	width:100%;
+	height:100px;
+	background:#D10502;
+}
+.kuan-1{
+	width:1190px;
+	height:100px;
+	margin:0 auto;
+}
+.kuan-1 .img-1{
+	padding:10px 10px 10px 15px;
+	float:left;
+}
+.yiyang{
+	width:209px;
+	height:75px;
+	margin-right:6px;
+	float:left;
+	margin-top:13px;
+	position:relative;
+}
+.zise{
+	background:url(../kuanghuan/tian-2.png);
+}
+.chengse{
+	background:url(../kuanghuan/tian-3.png);
+}
+.lanse{
+	background:url(../kuanghuan/tian-4.png);
+}
+.lvse{
+	background:url(../kuanghuan/tian-5.png);
+}
+.zilan{
+	background:url(../kuanghuan/tian-6.png);
+}
+.yiyang h4{
+	width:90px;
+	height:28px;
+	color:white;
+	font-size:20px;
+	margin-top:13px;
+	margin-left:15px;
+}
+.yiyang .p-1{
+	width:90px;
+	height:16px;
+	font-size:14px;
+	color:white;
+	margin-left:15px;
+}
+.yiyang img{
+	width:50px;
+	height:50px;
+	position: absolute;
+	right:15px;
+	top:13px;
+}
+
+
+/* 左边图和右边图 */
+.shuangtu{
+	width:1190px;
+	/* height:800px; */
+	/* overflow: hidden; */
+	margin:0 auto;
+	position: relative;
+}
+.zuobian .youbian{
+	width:359px;
+	height:800px;
+	margin:0 auto;
+}
+.zuobian{
+	position: absolute;
+	top:0;
+	left:-359px;
+}
+.youbian{
+	position: absolute;
+	top:0;
+	right:-359px;
+}
+.zuobian img,.youbian img{
+	width:359px;
+	height:800px;
+}
+
+
+/* 导航栏 */
+.daohang{
+	width:1190px;
+	height:130px;
+	padding-top:10px;
+	margin:0 auto;
+	background:white;
+}
+.dd-1{
+	width:190px;
+	height:121px;
+	float: left;
+}
+.dd-2{
+	width:630px;
+	height:88px;
+	margin:0 auto;
+	float: left;
+	margin-left:50px;
+	margin-top:30px;
+}
+.ull-1{
+	width:200px;
+	height:22px;
+	margin-left:17px;
+}
+.dd-2 .ull-1 li{
+	width:36px;
+	color:#ff4400;
+	float: left;
+	margin-right:4px;
+	text-align: center;
+	line-height:22px;
+}
+.dd-2 .ull-1 .lii-1{
+	background:#FF4400;
+	color:#ffffff;
+	border-radius:5px 5px 0 0;
+}
+.dd-2 .in-1{
+	width:630px;
+	height:40px;
+	overflow: hidden;
+	border:2px solid #FF4200;
+	border-radius:20px;
+}
+.in-1 input{
+	width:470px;
+	height:36px;
+	margin-left:10px;
+	border:none;
+	outline: none;
+	float:left;
+}
+.in-2{
+	width:74px;
+	height:40px;
+	background:#FF4200;
+	text-align: center;
+	line-height: 40px;
+	font-size:18px;
+	color:white;
+	float:right;
+}
+.ull-2{
+	width:630px;
+	height:25px;
+}
+.ull-2 li{
+	float:left;
+	margin-right:5px;
+}
+.ull-2 .lii-2{
+	color:#ff5000;
+}
+
+.dd-3{
+	width:76px;
+	height:90px;
+	float:right;
+	margin-top:20px;
+	margin-right:120px;
+	text-align: center;
+	color:#FF5000;
+	border:1px solid #CCCCCC;
+	background:white;
+	position: relative;
+}
+.dd-3 img{
+	width:62px;
+	height:62px;
+	margin:0px 6px;
+}
+.dd-3 .cha{
+	width:14px;
+	height:14px;
+	border:1px solid #CCCCCC;
+	color:#CCCCCC;
+	position:absolute;
+	left:-17px;
+	top:-1px;
+}

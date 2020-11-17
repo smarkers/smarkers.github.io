@@ -1,0 +1,163 @@
+body{
+	width: 1903px;
+	height: 852px;
+	/* background: red; */
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	    text-decoration: none;
+}
+#header{
+	width: 990px;
+	height: 120px;
+	/* background: pink; */
+	margin: 0 auto;
+	/* border-bottom: 1px solid pink; */
+}
+#logo{
+	width: 300px;
+	height: 75px;
+	float: left;
+}
+.i{
+	width: 284px;
+	height: 56px;
+	margin-top: 30px;
+	background: url(../img2/registerlogo.png) no-repeat -2px -0px;
+	display: inline-block;
+}
+.body{
+	width: 1903px;
+	height: 443px;
+	border-top: 1px solid #dd00a7;
+	background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+	width: 1903px;
+	height: 207px;
+	/* background: red; */
+	margin-top: 30px;
+}
+.foot-1{
+	width: 990px;
+	height: 207px;
+	/* background: ##666; */
+	margin: 0 auto;
+}
+.foot-1-ul{
+	
+}
+.foot-1-ul li{
+	float: left;
+	margin-left: 12px;
+	font-size: 12px;
+	color: #666;
+}
+.foot-1 p{
+	font-size: 12px;
+	margin-left: 12px;
+	margin-top: 5px;
+	color: #999;
+}
+.i4{
+	width: 18px;
+	height: 20px;
+	background: url(../img1/ui.png) no-repeat 0 -1712px;
+	display: inline-block;
+	
+}
+.foot-2{
+	width: 990px;
+	height: 72px;
+	/* background: yellowgreen; */
+	margin-top: 10px;
+}
+.foot-2 a{
+	font-size: 12px;
+	color: #999;
+	margin-left: 18px;
+	float: left;
+	margin-top: 20px;
+}
+.ai{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -4px -182px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai1{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -38px -182px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai2{
+	width: 33px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -71px -182px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai3{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -106px -181px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai4{
+	width: 26px;
+	height: 26px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -145px -181px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai5{
+	width: 31px;
+	height: 30px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -175px -182px;
+	margin: 0 0 0 0;
+	float: left;
+}
+.ai6{
+	width: 31px;
+	height: 28px;
+	display: inline-block;
+	background: url(../img1/ui.png) no-repeat -238px -184px;
+	margin: 0 0 0 0;
+	float: left;
+}

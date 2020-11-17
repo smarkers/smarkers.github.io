@@ -1,0 +1,172 @@
+.box {width: 1900px; height: 8400px; margin: 0 auto}
+body {margin: 0 0 0 -4px}
+a {text-decoration: none; color: #fff}
+
+/* 1、顶部导航 */
+.backtop {position:fixed;right:50px;bottom:50px; color: #000; display: block; width: 60px;
+	height:60px; border: solid 1px black; text-align: center; line-height: 60px;
+	transition: 0.3s}
+.div1 {width: 1900px; height: 122px; background-color: black; position: fixed}
+.div1-1 {width: 424px; height: 122px; background:url('img/logo1.png') no-repeat 150px 50%; float: left}
+.div1 .wh {width: 170px; height: 122px; float: right; color: #fff; line-height: 122px; font-size: 18px}
+.div1-2 {background: url('img/wenhao.png') no-repeat 0 50%}
+.div1-3 {background: url('img/fangdajing.png') no-repeat 50px 50%}
+.box .div1 .div1-4{width: 142px;background: url('img/xinxi.png') no-repeat 74px 50% }
+.div1-5 {background: url('img/gouwuche.png') no-repeat 122px 50%}
+.box .div1 .div1-5 {width: 110px; padding-left: 60px}
+.div1-6 {background: url('img/denglu.png') no-repeat 124px 50%}
+.box .div1 .div1-6 {width: 130px; padding-left: 40px}
+
+.div2 {width: 1900px; height: 77px; background: #464646; overflow: hidden;position: fixed;
+	top: 122px}
+.box1 {width:1240px; height: 77px; margin: 0 auto;}
+ul {list-style: none; color: #fff; line-height: 77px; margin-left: 150px}
+.list li {float: left; width: 200px; height: 77px; font-size: 22px; margin-top: -20px
+	; transition: 2s}
+
+
+
+.div3 {text-align: center; padding-top: 215px}
+
+
+/* 2、轮播图 */
+.konghang {height: 12px}
+.div4 {width:1900px; height: 742px; background: url('img/tubage.gif')}
+.div5 {width:1200px; height: 60px; margin: 0 auto; overflow: hidden; text-align: center}
+.list1 li {float: left; width: 200px;  font-weight: bold; margin-top: -10px; font-size: 24px
+	;color: #9999a3; }
+.lis2 {border-top: 2px solid #fff;transition: 0.5s}
+
+/* 中间区域 */
+.box1 {width:1500px; height: 1660px; margin: 0 auto; overflow: hidden}
+	/* 3、热卖单品 */
+	.div6 {width: 1900px; height: 60px; background: url('img/baitiao.png') no-repeat 50% 50%; 
+		text-align: center; font-size: 48px; margin-top: 50px; overflow: hidden}
+	.div7 {width: 1500px; height: 468px;border-bottom: 2px solid #b7b7b7; margin-top: 20px}
+	.div7-1 {width: 372px; height: 450px;float: left; text-align: center; font-size: 38px; 
+		border: 1px solid #fff; transition: 0.5s}
+	.i7-1 {background: url('img/repin1.png')  no-repeat 50px 100px}
+	.i7-2 {background: url('img/repin2.png')  no-repeat 50px 100px}
+	.i7-3 {background: url('img/repin3.png')  no-repeat -20px 100px}
+	.i7-4 {background: url('img/repin4.png')  no-repeat 0px 100px}
+
+	.p2-1 {font-size: 22px; text-align: center}
+	.div7-1-1 {margin-top: 260px}
+	.i7-5 {background: url('img/repin5.png')  no-repeat 0px -80px}
+	.i7-6 {background: url('img/repin6.png')  no-repeat 0px -80px}
+	.i7-7 {background: url('img/repin7.png')  no-repeat 0px -80px}
+	.i7-8 {background: url('img/repin8.png')  no-repeat 0px -80px}
+	.div7-1-1 p {font-size: 22px}
+	.div7 .div7-1 .p2-2 span {color: red; font-size: 22px}
+
+	.i7-9 {background: url('img/maozi1.png')  no-repeat 0px -80px}
+	.i7-10 {background: url('img/maozi2.png')  no-repeat 0px -80px}
+	.i7-11 {background: url('img/maozi3.png')  no-repeat 0px -80px}
+	.i7-12 {background: url('img/maozi4.png')  no-repeat 0px -80px}
+	
+	.div8 {width: 618px; height: 68px; margin: 80px auto; background: black; color: #fff;
+	border: 1px solid #000}
+	.div8-p {width:616px;height: 66px;line-height: 70px; text-align: center;font-size: 32px; color: #fff;
+	margin: 1px auto; transition: 0.5s}
+	.div8-1 {width: 26px; height: 38px; background: rgba(0,0,0,0) url('img/youjiantou.png') no-repeat -26px 0px;
+			margin-top: -48px; margin-left: 470px; transition: 0.5s}
+
+	
+	/* 4、新品热荐 */
+	.box2 {width:1500px; height: 2000px; margin: 0 auto; overflow: hidden}
+	.id-1 {background: url('img/xinpin1.png')  no-repeat 0px -80px}
+	.id-2 {background: url('img/xinpin2.png')  no-repeat 0px -80px}
+	.id-3 {background: url('img/xinpin3.png')  no-repeat 0px -80px}
+	.id-4 {background: url('img/xinpin4.png')  no-repeat 0px -80px}
+	.id-5 {background: url('img/xinpin5.png')  no-repeat 0px -40px}
+	.id-6 {background: url('img/xinpin6.png')  no-repeat 0px -40px}
+	.id-7 {background: url('img/xinpin7.png')  no-repeat 0px -40px}
+	.id-8 {background: url('img/xinpin8.png')  no-repeat 0px -40px}
+	.id-9 {background: url('img/xinpin9.png')  no-repeat 0px -40px}
+	.id-10 {background: url('img/xinpin10.png')  no-repeat 0px -40px}
+	.id-11 {background: url('img/xinpin11.png')  no-repeat 0px -40px}
+	.id-12 {background: url('img/xinpin12.png')  no-repeat 0px -40px}
+	.id-13 {background: url('img/xinpin13.png')  no-repeat 0px -40px}
+	.id-14 {background: url('img/xinpin14.png')  no-repeat 0px -40px}
+	.id-15 {background: url('img/xinpin15.png')  no-repeat 0px -40px}
+	.id-16 {background: url('img/xinpin16.png')  no-repeat 0px -40px}
+
+
+	/* 5、街头先型 */
+	.box3 {width:1500px; height: 900px; margin: 0 auto; overflow: hidden}
+	.div9 {height: 60px; background: #464646 url('img/logo2.png') no-repeat 30px 50%; color: #fff;
+		font-size: 24px; line-height: 60px;}
+	.div10 {width: 730px; height: 550px; float: left; background: url('img/jietou1.png') no-repeat;
+		margin-top: 40px}
+		.div10-1 {width: 730px; height: 550px; background: rgba(0,0,0,0); transition: 0.3s}
+	.div11 {width: 730px; height: 550px; float: right; background: url('img/jietou2.png') no-repeat;
+		margin-top: 40px}
+		.div11-1 {width: 730px; height: 550px; background: rgba(0,0,0,0); transition: 0.3s}
+	.div12 {width:730px; height: 50px; color: #000; line-height: 50px; font-size: 28px; float: left;
+		margin-top: 20px}
+	.div13 {width:730px; height: 50px; color: #000; line-height: 50px; font-size: 28px; float: right;
+		margin-top: 20px}
+	.div14 {width: 730px; height: 80px; float: left; margin-top: 40px;}
+		.div14-1 {width: 298px; height: 78px; color: #fff; line-height: 80px; ;
+		font-size: 34px; background: #000; border: 1px solid #000; transition: 0.3s}
+		.div14-2 {width:26px; height: 38px; background: url('img/youjiantou.png') no-repeat -26px 0px;
+			margin-top: -56px; margin-left: 210px}
+	.div15 {width: 730px; height: 80px; float: right; margin-top: 40px;}
+		.div15-1 {width: 298px; height: 78px; color: #fff; line-height: 80px; ;
+		font-size: 34px; background: #000; border: 1px solid #000; transition: 0.3s}
+		.div15-2 {width:26px; height: 38px; background: url('img/youjiantou.png') no-repeat -26px 0px;
+			margin-top: -56px; margin-left: 210px}
+	
+
+	/* 6、致酷精选 */
+	.box4 {width: 1500px; height: 700px; margin: 0 auto; overflow: hidden;}
+	.zhiku1 {width: 1500px; height: 550px; margin-top: 30px;}
+	.zhiku1-2 {width:480px; height: 550px; background: url('img/zhiku1.png') no-repeat; 
+		overflow: hidden; float: left;}
+	.touming {width:483px; height: 363px; background: rgba(0,0,0,0); transition: 0.3s}
+	.zhikup1 {margin-top: 0; font-size: 34px;}
+	.zhiku2 {color: #333333; font-size: 22px; margin-top: -10px; width: 100px}
+	.zhikui {width: 21px; height: 33px; background: url('img/youjiantou3.png') no-repeat -21px 0px;
+		margin-top: -28px; margin-left: 100px; transition: 0.3s}
+	.zhiku1-3 {width:480px; height: 550px; background: url('img/zhiku3.png') no-repeat; 
+		overflow: hidden; float: right;}
+	.zhiku1-4 {width:480px; height: 550px; background: url('img/zhiku2.png') no-repeat; 
+		overflow: hidden; margin-left: 510px;}
+/* 中间区域end */
+
+
+/* 7、关注 */
+	.guanzhu {width: 1900px; height: 540px; background: #464646 ; overflow: hidden}
+	.pguan {text-align: center; font-size: 46px; color: #fff; margin-top: 70px}
+	.pc {text-align: center; font-size: 22px; color: #fff;}
+	.weibo {width: 112px; height: 112px; background: url('img/weibo.png') no-repeat 0px 0px;
+		margin-left: 830px; margin-top: 80px; transition: 0.3s}
+	.weixin {width: 112px; height: 112px; background: url('img/weixin.png') no-repeat 0px 0px;
+		margin-left: 970px; margin-top: -112px; transition: 0.3s}
+
+
+/* 8、男女儿童 */
+	.mulu {width: 1500px; height: 898px; overflow: hidden; margin: 0 auto;
+		border-top: 2px solid #b7b7b7; margin-top: 120px;}
+	.mulu dl {text-align: center; float: left; overflow: hidden;margin-top: 100px;
+		transition: 0.3s}
+	.mulu .title {font-size: 24px; color: #333333}
+	.mulu .boy1 {font-weight: bold; color: #333333}
+	.mulu .boy2 {font-size: 18px; font-weight: bold; color: #333333}
+	.mulu .mar {margin-top: 20px}
+	.mulu .bottomtit {margin-top: 20px;}
+	.mulu .boy3 {font-size: 18px; color: #333333}
+	.mulu .ch {margin-top: 70px}
+	.divshop {width: 880px; margin: 0 auto; overflow: hidden}
+	.boy .v {margin-top: 20px}
+/* 9、网页底部 */
+	.bottom {width: 1900px; height: 300px; background-color: #000; color: white; overflow: hidden}
+	.about {text-align: center; margin-top: 30px}
+	.bottom .bg {height:60px; background: url('img/biglogo.png') no-repeat 50% 50%; 
+		margin-top: 30px}
+	.bottom .bg1 {width: 24px; height: 24px; background: url('img/gongan.png') no-repeat ; 
+		margin-left: 980px; margin-top: -20px}
+	.bottom .bg2 {width: 24px; height: 24px; background: url('img/gongan2.png') no-repeat ; 
+		margin-left: 1260px; margin-top: -25px}
+	.bottom .bg3 {height: 51px; background: url('img/962110.png') no-repeat 50% 50%; 
+		margin-top: 30px}

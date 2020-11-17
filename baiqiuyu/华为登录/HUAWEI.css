@@ -1,0 +1,222 @@
+@import url("reset.css");
+.head {
+	width: 100%;
+	background: #f2f2f2;
+}
+.head .content {
+	width: 960px;
+	margin: 0 auto;
+	height: 38.39px;
+}
+.head .content img {
+	margin-top: 10px;
+	float: left;
+	width: 86.4px;
+	height: 19.2px;
+}
+.head .content span {
+	float: left;
+	width: 1px;
+	height: 16px;
+	margin: 11.2px 12.8px;
+	background: rgba(0,0,0,0.2);
+}
+.head .content p {
+	line-height: 38.39px;
+	font-size: 12.8px;
+	font-weight: 700;
+}
+
+
+.body {
+	width: 100%;
+	height: 480px;
+}
+.body .content {
+	width: 720px;
+	margin: 0 auto;
+	height: 420px;
+	margin-top: 79px;
+}
+.body .content h1{
+	text-align: center;
+	font-size: 25.6px;
+	font-weight: 400;
+	margin-bottom: 64px;
+}
+.body .content .lbody {
+	float: left;
+	width: 340px;
+	height: 276px;
+	/*background: yellow;*/
+	margin-left: 19px;
+}
+.body .content .cbody {
+	float: left;
+	width: 1px;
+	height: 240px;
+	background: #e5e5e5;
+}
+.body .content .rbody {
+	float: left;
+	margin-left: 53px;
+	width: 300px;
+	position: relative;
+}
+.body .content .rbody b {
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	right: 28px;
+	top: 72px;
+	background: url("img/eye.svg") no-repeat center center/19px 19px;
+}
+.body .content .lbody div {
+	margin-left: 64px;
+	width: 160px;
+	height: 160px;
+	background: #f7f7f7;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.body .content .lbody div img {
+	width: 128px;
+	height: 128px;
+	margin-top: 16px;
+	margin-left: 16px;
+}
+.body .content .lbody p {
+	margin-left: 1px;
+	margin-top: 40px;
+	font-size: 12px;
+	color: #838383;
+}
+
+.input1,
+.input2 {
+	width: 260px;
+	height: 37px;
+	background-color: #f2f2f2;
+	padding: 0 12.8px;
+	color: #191919;
+	border: 1px solid transparent;
+	border-radius: 6.4px;
+	font-size: 11px;
+}
+.input2 {
+	margin-top: 23px;
+}
+.input1:focus {
+	border: 1px solid #007dff;
+}
+.input2:focus {
+	border: 1px solid #007dff;
+}
+.input3 {
+	margin-top: 32px;
+	width: 287.6px;
+	height: 37px;
+	background-color: #ca141d;
+	border-radius: 6.4px;
+	border: 0;
+	color: #fff;
+	font-weight: 700;
+}
+.rbody a {
+	display: block;
+	margin-top: 12px;
+	font-size: 12.8px;
+	color: #007dff;
+}
+.body .content .rbody a:hover {
+	color: #0064cc;
+}
+.rbody p {
+	margin-top: 31px;
+	margin-left: 55px;
+}
+
+.rbody p a {
+	float: left;
+	margin-top: 0;
+
+}
+.rbody p i {
+	float: left;
+	width: 1px;
+	height: 15px;
+	background: #e5e5e5;
+	margin: 0 12px;
+	margin-top: 1px;
+} 
+
+
+.rbody div {
+	margin-top: 24px;
+	margin-left: 15px;
+	/*background: pink;*/
+}
+
+.rbody div a {
+	float: left;
+	margin-left: 40px;
+	margin-top: 0;
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+	background: #f7f7f7;
+}
+.rbody div .qq {
+	background: url("img/qq.svg") no-repeat center center/32px 32px;
+}
+.rbody div .wx {
+	background: url("img/wx.svg") no-repeat center center/32px 32px;
+}
+.rbody div .zfb {
+	background: url("img/zfb.svg") no-repeat center center/32px 32px;
+}
+.rbody div .qq:hover {
+	background: url("img/qq1.svg") no-repeat center center/32px 32px;
+}
+.rbody div .wx:hover {
+	background: url("img/wx1.svg") no-repeat center center/32px 32px;
+}
+
+.rbody div .zfb:hover {
+	background: url("img/zfb1.svg") no-repeat center center/32px 32px;
+}
+
+
+.foot {
+	width: 100%;
+	height: 88px;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.foot .content {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 22px;
+}
+.foot .content a {
+	font-size: 12px;
+	color: #000;
+}
+.foot .content a:hover {
+	text-decoration: underline;
+}
+.foot .content i {
+	vertical-align: middle;
+	display: inline-block;
+	/*width: 2px;*/
+	height: 17px;
+	border-left: 1px solid #ece6d9;
+	border-right: 1px solid #d9e6ec;
+	margin: 0 15px;
+}
+.foot .content p {
+	color: #000;
+	font-size: 12px;
+	margin-top: 7px;
+	opacity: .3;
+}

@@ -1,0 +1,52 @@
+body, {margin: 0; padding: 0}
+p {margin: 0}
+a {text-decoration: none; color: #fff}
+input {outline: 0; padding: 0; border: 0}
+.div1 {width: 1900px; height: 122px; background-color: black; margin: 0 auto}
+.div1-1 {width: 424px; height: 122px; background:url('img/logo1.png') no-repeat 150px 50%; float: left}
+.div1 .wh {width: 170px; height: 122px; float: right; color: #fff; line-height: 122px; font-size: 18px}
+.div1-2 {background: url('img/wenhao.png') no-repeat 0 50%}
+.div1-3 {background: url('img/fangdajing.png') no-repeat 50px 50%}
+.div1-4{width: 142px;background: url('img/xinxi.png') no-repeat 74px 50%; margin-left: -50px}
+.div1-5 {background: url('img/gouwuche.png') no-repeat 122px 50%}
+.div1-5 {width: 110px; padding-left: 60px; margin-left: -50px}
+.div1-6 {background: url('img/denglu.png') no-repeat 124px 50%}
+.div1-6 {width: 130px; padding-left: 40px}
+
+
+.box {width: 1900px; height: 800px; overflow: hidden; 
+	background: url('img/xiasanjiao.png') no-repeat 1180px 0px}
+.leftbox {width: 850px; height: 530px; float: left; margin-top: 100px;
+	border-right: 2px solid #999999}
+.leftbox .p1 {width: 350px; height: 60px;font-size: 42px; line-height: 60px; float: right;}
+.zhuce1 {width: 298px; height: 78px; color: #fff; line-height: 80px;
+	font-size: 34px; background: #000; border: 1px solid #000; transition: 0.3s; 
+	margin-left: 500px; margin-top: 100px}
+.zhuce2 {width:26px; height: 38px; background: url('img/youjiantou.png') no-repeat -26px 0px;
+	margin-top: -56px; margin-left: 210px}
+
+.rightbox {width: 946px; height: 800px; float: right; margin-top: 100px; overflow: hidden}
+.rightbox .p2 {font-size: 42px}
+.rightbox .center {width: 602px; overflow: hidden;}
+.inp1 {width: 600px; height: 70px; border: 1px solid #999999}
+.inp2 {width: 600px; height: 70px; border: 1px solid #999999}
+.rightbox .mar {margin: 20px 0px; border-radius: 5px}
+.inp1 .tel {width: 550px; height: 66px; font-size: 22px; float: right}
+.inp2 .pass {width: 550px; height: 66px; font-size: 22px; float: right}
+.inp3 {width: 300px; height: 70px; border: 1px solid #999999}
+.inp3 .yanzheng {width: 250px; height: 66px; font-size: 22px; float: right}
+.rightbox .yanzhengma {width: 280px; height: 70px; 
+	background: url('img/yanzhengma.png') no-repeat 0 50%; margin-left: 330px; margin-top: -90px;
+	background-size: 250px 68px}
+.center .p3 {text-decoration: underline #5e5e5e solid ; font-size: 22px; float: right;
+	margin: 20px 0px}
+.center .check {margin-top: 90px; width: 20px; height: 20px}
+.center span {font-size: 18px}
+.center .href1 {text-decoration: underline #5e5e5e solid}
+.center .inp4 {width: 598px; height: 68px; border: 1px solid #999999; border: 1px solid black; 
+	background: #cccccc}
+.center .btn {width:599px; height: 66px; background: rgba(0,0,0,0); color: #fff; font-size: 22px}
+.center .check1 {width: 180px; float: left; font-size: 18px}
+.center .rem {width: 20px; height: 20px}
+.center .forget {float: right;margin-top: 3px}
+.center .href2 {color: black; font-size: 18px ; text-decoration: underline black solid; }

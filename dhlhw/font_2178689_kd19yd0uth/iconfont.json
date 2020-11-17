@@ -1,0 +1,107 @@
+{
+  "id": "2178689",
+  "name": "华为公司",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "978354",
+      "name": "微信",
+      "font_class": "gongzhonghao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "1239417",
+      "name": "in",
+      "font_class": "in",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "3488598",
+      "name": "toutiao",
+      "font_class": "toutiao",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "6756291",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "13853436",
+      "name": "知乎",
+      "font_class": "zhihu",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "5093345",
+      "name": "上",
+      "font_class": "shang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "356475",
+      "name": "所有",
+      "font_class": "suoyou",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "637811",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1494660",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4294087",
+      "name": "篮子",
+      "font_class": "lanzi",
+      "unicode": "e78d",
+      "unicode_decimal": 59277
+    },
+    {
+      "icon_id": "5208045",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "11810481",
+      "name": "语言",
+      "font_class": "yuyan",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "13332699",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "13604677",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    }
+  ]
+}

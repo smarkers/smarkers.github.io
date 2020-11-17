@@ -1,0 +1,30 @@
+{
+  "id": "2174847",
+  "name": "taobao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "111904",
+      "name": "五角星",
+      "font_class": "star",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6446311",
+      "name": "购物车",
+      "font_class": "tianchongxing-",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "9162725",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    }
+  ]
+}

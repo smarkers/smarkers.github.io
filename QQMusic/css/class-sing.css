@@ -1,0 +1,78 @@
+/*分类歌单标签样式*/
+
+.c_sing{
+	padding-top:60px;
+	background:#f3f3f3;
+}
+.c_sing_top{
+	height:160px;
+}
+.c_div{
+	border-right:1px solid #ededed;
+}
+.c_div1{width:150px;}
+.c_div2{width:225px;}
+.c_div3{margin-left:36px;}
+
+.c_p{color:#9c9c9c;}
+.c_ul{
+	margin-top:10px;
+}
+.c_ul li{
+	float:left;
+	width:75px;
+	line-height:30px;
+}
+.c_ul li a:hover{color:#31c27c;}
+
+.c_sing_cnt{
+	height:1630px;
+}
+.s_top{
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+.h_h{
+	font-size:26px;
+	font-weight:400;
+}
+.s_top{
+	margin-bottom:20px;
+}
+.s_top_div1{
+	width:62px;
+	font-size:14px;
+}
+.s_top_div2{
+	color:#fff;
+	background:#31c27c;
+	border-radius: 3px 0 0 3px;
+}
+.s_top_div3{
+	height:38px;
+	border:1px solid #9c9c9c;
+	border-radius: 0 3px 3px 0 ;
+}
+
+.s_div{
+	width:100%;
+}
+.s_div1{
+	width:224px;
+	height:300px;
+}
+.s_div2{
+	margin-left:20px;
+}
+.s_div3{
+	margin-top:70px;
+}
+.s_p{
+	margin-top:10px;
+}
+.s_p_1:hover{color:#31c27c;cursor:pointer;}
+.s_p_2{color:#7c7c7c;}
+.rt_bot{
+	margin-top:30px;
+}

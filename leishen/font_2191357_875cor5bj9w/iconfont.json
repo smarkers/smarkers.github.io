@@ -1,0 +1,16 @@
+{
+  "id": "2191357",
+  "name": "40",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1955300",
+      "name": "尖头",
+      "font_class": "arrow-up",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    }
+  ]
+}

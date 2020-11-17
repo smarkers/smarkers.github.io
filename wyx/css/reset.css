@@ -1,0 +1,29 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+ul,ol,dl,dt{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+input{
+	border:none;
+	outline:none;	
+}
+a:hover{
+	cursor: pointer;
+}
+.clearfix::after{
+	display: block;
+	content:"";
+	clear:both;
+}
+table{
+border-collapse: collapse;
+
+}

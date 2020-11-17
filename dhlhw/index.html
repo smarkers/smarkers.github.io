@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>华为</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/1.css"/>
+		<link rel="stylesheet" type="text/css" href="font_2178689_kd19yd0uth/iconfont.css"/>
+		<link rel="shortcut icon" type="text/css" href="images/touxiang.ico"/>
+	</head>
+	<script type="text/javascript">
+		window.onload=function(){
+			var box=document.querySelector(".lun");
+			var img=document.querySelectorAll(".lun .uls li");
+			var lis=document.querySelectorAll(".lun .lis li");
+			var left=document.querySelector(".lun .left");
+			var right=document.querySelector(".lun .right");
+			var index=0;
+			var t=setInterval(moveR,5000);
+			
+			box.onmouseover=function(){
+				clearInterval(t);
+			}
+			box.onmouseout=function(){
+				t=setInterval(moveR,5000);
+			}
+			right.onclick=function(){
+				moveR();
+			}
+			left.onclick=function(){
+				moveL();
+			}
+			
+			function moveR(){
+				index++;
+				if(index>=img.length){
+					index=0;
+				}
+			
+				img.forEach(function(value){
+					value.classList.remove("act");
+				})
+				img[index].classList.add("act");
+				lis.forEach(function(value){
+					value.classList.remove("act");
+				})
+				lis[index].classList.add("act");
+			}
+			
+			function moveL(){
+				index--;
+				if(index<0){
+					index=3;
+				}
+				img.forEach(function(value){
+					value.classList.remove("act");
+				})
+				img[index].classList.add("act");
+				lis.forEach(function(value){
+					value.classList.remove("act");
+				})
+				lis[index].classList.add("act");
+			}
+			lis.forEach(function(value,m){
+				value.onclick=function(){
+					lis.forEach(function(value,n){
+						value.classList.remove("act");
+						img[n].classList.remove("act");
+					})
+						value.classList.add("act");
+						img[m].classList.add("act");
+						index=m;
+				}
+			})
+		}
+	</script>
+	<body>
+		<!-- 头部导航开始 -->
+		<div class="box1">
+			<div class="box2">
+				<div class="navr">
+					<div class="d1">
+						<p class="p1">
+							<span class="iconfont icon-suoyou">
+								
+							</span>
+							<span>集团网站</span>
+							<span class="s1">></span>
+						</p>
+						<div class="yin1">
+							<div class="yin2">
+								<ul class="ul1">
+									<li>
+										<p class="p2">
+											<span class="s2">></span>
+											<span class="s3">集团网站</span>
+										</p>
+										<p class="p3">公司介绍、新闻动态、展会活动等信息</p>
+									</li>
+									<li>
+										<p class="p2">
+											<span class="s4">消费者业务网站</span>
+											<span class="s5">></span>
+										</p>
+										<p class="p3">公司介绍、新闻动态、展会活动等信息</p>
+									</li>
+									<li>
+										<p class="p2">
+											<span class="s4">企业业务网站</span>
+											<span class="s5">></span>
+										</p>
+										<p class="p3">公司介绍、新闻动态、展会活动等信息</p>
+									</li>
+									<li>
+										<p class="p2">
+											<span class="s4">运营商网络业务网站</span>
+											<span class="s5">></span>
+										</p>
+										<p class="p3">公司介绍、新闻动态、展会活动等信息</p>
+									</li>
+									<li>
+										<p class="p2">
+											<span class="s4">华为云网站</span>
+											<span class="s5">></span>
+										</p>
+										<p class="p3">公司介绍、新闻动态、展会活动等信息</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="d2">
+						<p class="p1">
+							<span class="iconfont icon-yuyan">
+								
+							</span>
+							<span>选择区域/语言</span>
+							<span class="s1">></span>
+						</p>
+						<div class="yin3">
+							<div class="yin4">
+								<h3>选择区域/语言</h3>
+								<ul class="ul2">
+									<li>Australia - <span>English</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>canada - <span>English</span></li>
+									<li class="li1" style="color:black;"><span class="s6">></span>CHina - <span style="color:black;">简体中文</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Australia - <span>English</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Australia - <span>English</span></li>
+									<li>canada - <span>English</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Australia - <span>English</span></li>
+									<li>canada - <span>English</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+									<li>canada - <span>English</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Australia - <span>English</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+									<li>Australia - <span>English</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>canada - <span>English</span></li>
+									<li>Brazil - <span>Portuguese</span></li>
+									<li>canada - <span>English</span></li>
+									<li>Belarus - <span>Pycckuu</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="d3">
+						<p class="p1">
+							<span>登录</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 头部导航结束 -->
+		<!-- logo区域开始 -->
+		<div class="box3 clearfix">
+			<a href="index.html"><img src="images/1.png"  class="i1"></a>
+			<ul class="ul3">
+				<li style="width:107px;">
+					<span>个人及家庭产品</span>
+					<div class="y1">
+						<img src="images/5.png" class="i2">
+						<img src="images/6.jpg" class="i3">
+						<div class="xia">
+							<div class="box4">
+								<img src="images/7.png">
+								<span>消费者业务网站</span>
+							</div>
+							<div class="box5">
+								<img src="images/8.png" >
+								<span>华为商城</span>
+							</div>
+						</div>
+						<div class="hei"></div>
+					</div>
+				</li>
+				<li style="width:107px;">
+					<span>商用产品及方案</span>
+					<div class="y1">
+						<img src="images/5.png" class="i2">
+						<img src="images/6.jpg" class="i3">
+						<div class="xia">
+							<div class="box4">
+								<img src="images/7.png">
+								<span>消费者业务网站</span>
+							</div>
+							<div class="box5">
+								<img src="images/8.png" >
+								<span>华为商城</span>
+							</div>
+						</div>
+						<div class="hei"></div>
+					</div>
+				</li>
+				<li style="width:61px;">
+					<span>服务支持</span>
+					<div class="y1">
+						<img src="images/5.png" class="i2">
+						<img src="images/6.jpg" class="i3">
+						<div class="xia">
+							<div class="box4">
+								<img src="images/7.png">
+								<span>消费者业务网站</span>
+							</div>
+							<div class="box5">
+								<img src="images/8.png" >
+								<span>华为商城</span>
+							</div>
+						</div>
+						<div class="hei"></div>
+					</div>
+				</li>
+				<li style="width:107px;">
+					<span>合作伙伴开发者</span>
+					<div class="y1">
+						<img src="images/5.png" class="i2">
+						<img src="images/6.jpg" class="i3">
+						<div class="xia">
+							<div class="box4">
+								<img src="images/7.png">
+								<span>消费者业务网站</span>
+							</div>
+							<div class="box5">
+								<img src="images/8.png" >
+								<span>华为商城</span>
+							</div>
+						</div>
+						<div class="hei"></div>
+					</div>
+				</li>
+				<li style="width:61px;">
+					<a href="huawei.html"><span>关于华为</span></a>
+					<div class="y1">
+						<img src="images/5.png" class="i2">
+						<img src="images/6.jpg" class="i3">
+						<div class="xia">
+							<div class="box4">
+								<img src="images/7.png">
+								<span>消费者业务网站</span>
+							</div>
+							<div class="box5">
+								<img src="images/8.png" >
+								<span>华为商城</span>
+							</div>
+						</div>
+						<div class="hei"></div>
+					</div>
+				</li>
+			</ul>
+			<p class="p5">
+				<span class="dai"></span>
+				<span class="s7">在线购买</span>
+				<span class="s8">v</span>
+			</p>
+			<ul class="ul4">
+				<li style="	border:0px solid white;background:transparent;height:24px;"></li>
+				<li style="border-bottom:1px solid #D4D4D4;">华为商城</li>
+				<li>华为云</li>
+			</ul>
+			<span class="iconfont icon-sousuo"></span>
+		</div>
+		<!-- logo区域结束 -->
+		<!-- 轮播图开始 -->
+		<div class="box6">
+			<div class="lun">
+				<ul class="uls">
+					<li class="act">
+						<img src="images/12.jpg" >
+						<p class="p6 p7">了解更多</p>
+					</li>
+					<li>
+						<img src="images/13.jpg" >
+						<p class="p6 p8">了解更多</p>
+					</li>
+					<li>
+						<img src="images/14.jpg" >
+						<p class="p6 p9">了解更多</p>
+					</li>
+					<li>
+						<img src="images/15.jpg" >
+						<p class="p6 p10">了解更多</p>
+					</li>
+				</ul>
+				<ul class="lis">
+					<li class="act">
+						<p></p>
+					</li>
+					<li>
+						<p></p>
+					</li>
+					<li>
+						<p></p>
+					</li>
+					<li>
+						<p></p>
+					</li>
+				</ul>
+				<p class="iconfont icon-zuo left"></p>
+				<p class="iconfont icon-you right"></p>
+			</div>
+		</div>
+		<!-- 轮播图结束 -->
+		<!-- 推荐信息开始 -->
+		<div class="box7">
+			<h2 class="p11">推荐信息</h2>
+			<p class="p12"></p>
+		</div>
+		<div class="box8">
+			<div class="di1">
+				<div class="div1 l">
+					<img src="images/16.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">产品</p>
+							<p class="p14">HUAWEI Mate 40 Pro</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="div2 r">
+					<img src="images/17.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">产品</p>
+							<p class="p14">HUAWEI Mate 40 RS 保时捷设计</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="di1" style="position: relative;top:25px;">
+				<div class="div1 r">
+					<img src="images/19.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">产品</p>
+							<p class="p14">HUAWEI FreeBuds Pro</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="div2 l">
+					<img src="images/18.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">产品</p>
+							<p class="p14">HUAWEI GT2 Pro</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="di1">
+				<div class="div4 l">
+					<img src="images/20.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">公益活动</p>
+							<p class="p14">我有一片胡杨林</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="div3 r" style="position:relative;top:55px;">
+					<img src="images/22.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">《ICT新视界》智慧金融特辑</p>
+							<p class="p14">移动优先，数领未来</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="div5 r">
+					<img src="images/21.jpg" class="i4">
+					<div class="hei2">
+						<div class="zi1">
+							<p class="p13">《营赢》VIP访谈</p>
+							<p class="p14">深圳机场：智慧空港，让旅客感受“<br/>深圳温度”</p>
+							<p style="margin-top:35px;">
+								<span class="p15">了解更多</span>
+								<span class="wangyou">></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- 推荐信息结束 -->
+		<!-- 视频开始 -->
+		<div class="box9">
+			<video width="100%" height="100%" autoplay="autoplay" loop="loop" muted class="position:absolute;z-index:-1;">
+				<source src="images/1.mp4" type="audio/mp4"></source>
+			</video>
+			<div class="box10">
+				<p class="p16">畅听无阻，让听障人士沟通更容易</p>
+				<p class="xian"></p>
+				<p class="p17">通过科技服务，为听障朋友们“代言”让他们的出行和生活不再障碍重重。</p>
+				<p class="p18">了解更多</p>
+				
+			</div>
+			<div class="i5">
+				
+			</div>
+		</div>
+		<!-- 视频结束 -->
+		<!-- 新闻与活动开始 -->
+		<div class="box11">
+			<p class="p19">新闻与活动</p>
+			<p class="xian2"></p>
+		</div>
+		<div class="box12">
+			<ul class="ul5">
+				<li class="li2">
+					<div class="i6">
+						<img src="./images/23.jpg"/>
+					</div>
+					<div class="div6">
+						<p style="font-size:17px;font-weight:bold;">懂行大会2020</p>
+					</div>
+					<p class="zi4">
+						<span>中国·苏州</span>
+						<span>2020年11月06日</span>
+					</p>
+					<p class="zi5">从行业中来，到行业中去</p>
+					<p class="zhan">展会活动</p>
+				</li>
+				<li class="li2">
+					<div class="i6">
+						<img src="./images/24.png"/>
+					</div>
+					<div class="div6">
+						<p style="font-size:17px;font-weight:bold;">2020全球移动宽带论坛</p>
+					</div>
+					<p class="zi4">
+						<span>中国·上海</span>
+						<span>2020年11月12-13日</span>
+					</p>
+					<p class="zi5">5G for good，innovate for New value</p>
+					<p class="zhan">展会活动</p>
+				</li>
+				<li class="hua" style="overflow-y:scroll">
+					<p class="zi6">
+						<span>华为AirEngine Wi-Fi 6荣获无线宽带联盟2020“最佳企业Wi-Fi网络奖”</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zi6">
+						<span>华为与华南理工大学签署战略合作协议，并成立创新人才中心</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zi6">
+						<span>华为侯金龙：开放的智能体生态是实现全场景智慧的关键</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zi6">
+						<span>山西交科集团与华为成立联合创新实验室，共建一流现代化交通企业</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zi6">
+						<span>山西焦煤集团与华为签署深化战略合作协议 共建世界一流炼焦煤和焦化企业</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zi6">
+						<span>华为AirEngine Wi-Fi 6荣获无线宽带联盟2020“最佳企业Wi-Fi网络奖”</span>
+						<span class="zi7">2020年11月03日</span>
+					</p>
+					<p class="zhan">新闻</p>
+				</li>
+			</ul>
+			<div class="box13">
+				<p class="geng1">更多活动</p>
+				<p class="geng2">更多新闻</p>
+			</div>
+		</div>
+		<!-- 新闻与活动结束 -->
+		<!-- 底部开始 -->
+		<div class="box14">
+			<div class="box15">
+				<div class="box16">
+					<span class="zi8" style="margin:0;"><a href="index.html">首页</a></span>
+					<span class="iconfont icon-sousuo fangda"></span>
+				</div>
+				<div class="box17">
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;">关于华为</li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+						<li>管理层信息</li>
+						<li>招贤纳士</li>
+						<li>联系我们</li>
+					</ul>
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;"></li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+						<li>管理层信息</li>
+						<li>招贤纳士</li>
+					</ul>
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;">新闻与活动</li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+						<li>管理层信息</li>
+					</ul>
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;">发现</li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+					</ul>
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;">我们的产品</li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+						<li>管理层信息</li>
+					</ul>
+					<ul class="ul6">
+						<li style="color:#333;font-size: 15px;font-weight:600;">技术支持</li>
+						<li>公司简介</li>
+						<li>公司年报</li>
+						<li>公司治理</li>
+						<li>管理层信息</li>
+						<li>招贤纳士</li>
+						<li>联系我们</li>
+					</ul>
+				</div>
+				<ul class="ul7">
+					<li>华为商城</li>
+					<li>华为云</li>
+					<li>华为智能光伏</li>
+					<li>产品定义社区</li>
+					<li>华为心声社区</li>
+					<li>荣耀官网</li>
+				</ul>
+				<div class="wuge">
+					<span class="iconfont icon-weibo"></span>
+					<span class="iconfont icon-in"></span>
+					<span class="iconfont icon-gongzhonghao"></span>
+					<span class="iconfont icon-toutiao"></span>
+					<span class="iconfont icon-zhihu"></span>
+				</div>
+				<div class="box32">
+					<p class="p20">
+						<span>©2020 华为技术有限公司 </span>
+						<span>粤A2-20044005号 粤公网安备  44030702002388号</span>
+						<span>联系我们</span>
+						<span>法律声明</span>
+						<span>隐私保护</span>
+						<span>除名查询</span>
+					</p>
+				</div>
+				<div class="dibu">
+					
+				</div>
+			</div>
+		</div>
+		
+		<!-- 底部结束 -->
+		<!-- 侧边栏开始 -->
+		<div class="ce">
+			<a href="#top">
+				<span class="iconfont icon-shang"></span>
+			</a>
+		</div>
+		<!-- 侧边栏结束 -->
+	</body>
+	
+</html>
