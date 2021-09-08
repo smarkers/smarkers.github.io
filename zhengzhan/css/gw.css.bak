@@ -1,0 +1,74 @@
+ul,li{margin:0;padding:0;list-style:none}
+	.wrap{
+		width:1000px;
+		margin:30px auto;
+		padding:10px;
+		background-color:#f0f0f0;
+	}
+	.list-car li{
+		margin:30px 0;
+		padding:20px;
+		background-color:;
+		height:100px;
+		margin-top:10px;
+		border-bottom:2px solid #c3c3c3;
+	}
+	.fl{float:left;}
+	.fr{float:right;}
+	.check{
+		width:50px;
+		margin:0 3px;
+	}
+	.info{
+		width:360px;
+		height:100px;
+		margin:0 3px;
+	}
+	.info img{
+		width:80px;
+		height:80px;
+		margin-top:10px;
+	}
+	.info-p-dic{
+		width:250px;
+		margin: 10px 10px 0;
+		height:60px;
+		line-height:30px;
+	}
+	.priceBox,.total{
+		width:100px;
+		height:100px;
+		margin:0 3px;
+		line-height:100px;
+	}
+	.count{
+		width:150px;
+		height:100px;	
+		margin:0 3px;
+	}
+	.cut,.add{
+		width:40px;
+		height:40px;
+		text-align:center;
+		line-height:40px;
+		color:#333;
+		background-color: #f5f5f5;
+	}
+	.count-spa{
+		width:60px;
+		height:40px;
+		text-align:center;
+		line-height:40px;
+		color:#333;
+		margin: 0 2px;
+	}
+
+	.count-box{
+		margin-top:30px;
+	}
+	.del{
+		width:150px;
+		height:100px;
+		line-height:100px;
+		margin:0 3px;
+	}

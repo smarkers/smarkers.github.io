@@ -1,0 +1,208 @@
+ul li{
+	list-style: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a{
+	text-decoration: none;
+}
+.xhx{
+	text-decoration: underline;
+}
+h3{
+	color:#845f3f ;
+	margin-top: 15px;
+}
+/* 导航栏 */
+#nav{
+	width: 1087px;
+	height: 596px;
+	margin: 0 auto;
+	background: white;
+}
+#XD{
+	width:100%;
+	height:45px;
+	margin-top:30px;
+	z-index: 996;
+	background: white;
+}
+#nav_top{
+	width: 1087px;
+	height: 45px;
+	margin: 0 auto;
+}
+#nav_log{
+	width: 240px;
+	height: 37px;
+	float: left;
+	background-image: url(../img/小米优品logo.png);
+	background-repeat: no-repeat;
+}
+#nav_top span{
+	margin-left: 30px;
+	line-height: 37px;
+	color: #666666;
+	font-size: 18px;
+	float: left;
+}
+#nav_top_rig{
+	width:335px;
+	height:37px;
+	float:right;
+}
+/* 表单 */
+#nav_top_bd{
+	width:281px;
+	height:34px;
+	float:left;
+/* 	border-bottom: 1px solid #e7e7e7; */
+}
+.nav_bor{
+	width:281px;
+	height:1px;
+	background-color:#e7e7e7;
+	float: left;
+}
+#nav_top_bd .user{
+	width: 253px;
+	height:33px;
+	outline:none;
+	border:none;
+	float: left;
+	margin-left:5px;
+}
+.nav_topimg{
+	margin-right: 6px;
+}
+/* 导航栏左面 */
+#nav_center{
+	width: 1087px;
+	height:360px;
+	float: left;
+	margin-top:12px;
+}
+#nav_center_left{
+	width:224px;
+	height:360px;
+	float: left;
+	background:#9f8052;
+}
+/* li的设计 */
+#leftList {
+            width:220px;
+            height:360px;
+			margin:0 auto;
+			margin-top:10px;
+			position: relative;
+        }
+#leftList > li {
+            float:left;
+			width:190px;
+            height:34px;
+            line-height:34px;
+            padding-left:30px;
+			color: white;
+			font-size: 13px;
+        }
+#leftList > li > a{color: white;}
+#leftList > li:hover {
+			background-color: #876d46;
+}
+#leftList>li> a:hover {color:#dfaf7e;}
+/* div设置 */
+#leftList div{
+	width: 861px;
+	border: 1px solid #eeeeee;
+	position: absolute;
+	left: 222px;
+	top: -11px;
+	background-color:white;
+	z-index: 2;
+	display: none;
+}
+#leftList>li:hover div{
+	display: block;
+}
+#leftList .p2{
+	margin: 24px 0 0 34px;
+	float: left;
+	width: 861px;
+	color: #805e3f;
+	font-size: 20px;
+	font-weight: bold;
+}
+#leftList .dlef{
+	width:73px ;
+	height:37px ;
+	float: left;
+	margin: 10px 0 0 34px;
+	color: #000000;
+}
+#leftList .dlef img{
+	float: right;
+	margin-top: 12px;
+}
+#leftList .drig{
+	width:675px ;
+	height:37px ;
+	float:left;
+	margin:10px 0 0 30px;
+	border-bottom: 1px dashed #e6e6e6;
+}
+#leftList .drig a{
+	color: #666666;
+	font-size: 13px;
+	margin-right: 8px;
+}
+#leftList .bk{
+	border-bottom: none
+}
+#leftList .jj{
+	letter-spacing:20px;
+}
+#leftList .hg{
+	line-height:15px ;
+}
+#leftList #kb{
+	width: 861px;
+	height: 70px;
+	background-color:white;
+	float: left;
+}
+#leftList #kb_end{
+	width: 861px;
+	height: 110px;
+	background-color:white;
+	float: left;
+}
+#nav_bottom{
+	width:1087px;
+	height:134px;
+	float: left;
+	margin-top:55px;
+	border-bottom: 1px solid #e7e7e7;
+}
+#nav_bottom p{
+	width: 133px;
+	height:134px;
+	position:relative;
+	margin-left:97px;
+	float: left;
+}
+#nav_bottom .nav_ys{
+	margin-left: 31px;
+}
+#nav_bottom img{
+	margin-top: 3px;
+}
+#nav_bottom span{
+	position:absolute;
+	left:7px;
+	bottom:15px;
+	font-size:14px;
+	color: #666666;
+}
+
+

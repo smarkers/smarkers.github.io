@@ -1,0 +1,149 @@
+
+	{
+		"remaidata":[
+					{
+						"title":"热卖单品",
+						"list":[
+									{
+										"one":[
+											{
+												"url":"img/clearfix/xxk/a1.png",
+												"dic":"【男女同款】Chuck 70",
+												"pic":"¥599.00","cid":"xx11",
+												"bigimg":["img/xqing/162050C001_1L_NEW.png","img/xqing/162050C001_2L_NEW.png","img/xqing/162050C001_3L_NEW.png","img/xqing/162050C001_4L_NEW.png","img/xqing/162050C001_5L_NEW.png","img/xqing/162050C001_6L_NEW.png"],
+												"btning":["img/xqing/162050C001_1S_NEW.png","img/xqing/162050C001_2S_NEW.png","img/xqing/162050C001_3S_NEW.png","img/xqing/162050C001_4S_NEW.png","img/xqing/162050C001_5S_NEW.png","img/xqing/162050C001_6S_NEW.png"],
+												"smaling":["img/xqing/162050C001_1H_NEW.png","img/xqing/162050C001_2H_NEW.png","img/xqing/162050C001_3H_NEW.png","img/xqing/162050C001_4H_NEW.png","img/xqing/162050C001_5H_NEW.png","img/xqing/162050C001_6H_NEW.png"]
+											},
+											{"url":"img/clearfix/xxk/a2.png","dic":"【男女同款】Chuck 70","pic":"¥649.00","cid":"xx12"},
+											{"url":"img/clearfix/xxk/a3.png","dic":"【男女同款】Chuck 70","pic":"¥749.00","cid":"xx13"},
+											{"url":"img/clearfix/xxk/a4.png","dic":"【男女同款】Chuck 70","pic":"¥549.00","cid":"xx14"}],
+										"twe":[
+											{"url":"img/clearfix/xxk/a5.png","dic":"【男女同款】One Star","pic":"¥495.00","cid":"xx15"},
+											{"url":"img/clearfix/xxk/a6.png","dic":"【男女同款】Chuck 70","pic":"¥599.00","cid":"xx16"},
+											{"url":"img/clearfix/xxk/a7.png","dic":"【男女同款】Chuck Taylor All Star Core 常青款","pic":"¥359.00","cid":"xx17"},
+											{"url":"img/clearfix/xxk/a8.png","dic":"【男女同款】Chuck 70","pic":"¥549.00","cid":"xx18"}]},
+									{	"one":[
+											{"url":"img/clearfix/xxk/b1.png","dic":"【男女同款】Chuck 70","pic":"¥539.00","cid":"xx21"},
+											{"url":"img/clearfix/xxk/b2.png","dic":"【男女同款】Chuck 70","pic":"¥539.00","cid":"xx22"},
+											{"url":"img/clearfix/xxk/b3.png","dic":"【女的】Chuck Taylor All Star","pic":"¥449.00","cid":"xx23"},
+											{"url":"img/clearfix/xxk/a4.png","dic":"【男女同款】Chuck 70","pic":"¥649.00","cid":"xx24"}],
+										"twe":[
+											{"url":"img/clearfix/xxk/b5.png","dic":"【男女同款】One Star","pic":"¥479.00","cid":"xx25"},
+											{"url":"img/clearfix/xxk/b6.png","dic":"【女的】Chuck Taylor All Star Lift","pic":"¥429.00","cid":"xx26"},
+											{"url":"img/clearfix/xxk/b7.png","dic":"【男女同款】Chuck Taylor All Star Core 常青款","pic":"¥429.00","cid":"xx27"},
+											{"url":"img/clearfix/xxk/b8.png","dic":"【男女同款】Chuck 70","pic":"¥599.00","cid":"xx28"}]},
+									{	"one":[
+											{"url":"img/clearfix/xxk/c1.png","dic":"【男的】Paisley Shirt","pic":"¥449.00","cid":"xx31"},
+											{"url":"img/clearfix/xxk/c2.png","dic":"【男女同款】CONVERSE JACK PURCELL SMILE S/S TEE","pic":"¥219.00","cid":"xx32"},
+											{"url":"img/clearfix/xxk/c3.png","dic":"【女的】Notebook Doodle Oversized Cropped Tee","pic":"¥229.00","cid":"xx33"},
+											{"url":"img/clearfix/xxk/c4.png","dic":"【女的】Strawberry Basket Relaxed Tee","pic":"¥229.00","cid":"xx34"}],
+										"twe":[
+											{"url":"img/clearfix/xxk/c5.png","dic":"【男的】Paneled Jogger","pic":"¥499.00","cid":"xx35"},
+											{"url":"img/clearfix/xxk/c6.png","dic":"【男的】Paneled Jogger","pic":"¥379.00","cid":"xx36"},
+											{"url":"img/clearfix/xxk/c7.png","dic":"【女的】Hike Skirt","pic":"¥349.00","cid":"xx37"},
+											{"url":"img/clearfix/xxk/c8.png","dic":"【女的】Branded Jogger","pic":"¥449.00","cid":"xx38"}]},
+									{	"one":[{"url":"img/clearfix/xxk/d1.png","dic":"【男女同款】GO 2 BACKPACK","pic":"¥299.00","cid":"xx41"},
+											{"url":"img/clearfix/xxk/d2.png","dic":"【男女同款】Cross Body 2","pic":"¥199.00","cid":"xx42"},
+											{"url":"img/clearfix/xxk/d3.png","dic":"【男女同款】Sling Pack","pic":"¥159.00","cid":"xx43"},
+											{"url":"img/clearfix/xxk/d4.png","dic":"【男女同款】Utility Sling Print","pic":"¥249.00","cid":"xx44"}],
+										"twe":[
+											{"url":"img/clearfix/xxk/d5.png","dic":"【男女同款】Tipoff Chuck Patch Baseball HPS","pic":"¥109.00","cid":"xx45"},
+											{"url":"img/clearfix/xxk/d6.png","dic":"【男女同款】Bucket","pic":"¥199.00","cid":"xx46"},
+											{"url":"img/clearfix/xxk/d7.png","dic":"【男女同款】Jack Purcell Baseball Cap Hps","pic":"¥99.00","cid":"xx47"},
+											{"url":"img/clearfix/xxk/d8.png","dic":"【男女同款】Lock Up Baseball HPS","pic":"¥69.00","cid":"xx48"}
+											]
+									}
+								]
+					}
+				],
+		"smalitArr":[
+			{
+				"titie":"第一组",
+				"list":[
+					{"url":"img/clearfix/xptj/min1.png","dic":"【男女同款】Chuck Taylor All Star","pic":"￥459.00","cid":"xinpin001"},
+					{"url":"img/clearfix/xptj/min2.png","dic":"【女的】Chuck Taylor All Star","pic":"￥449.00","cid":"xinpin002"},
+					{"url":"img/clearfix/xptj/min3.png","dic":"【女的】Chuck 70","pic":"￥649.00","cid":"xinpin003"},
+					{"url":"img/clearfix/xptj/min4.png","dic":"【男女同款】Chuck 70","pic":"￥539.00","cid":"xinpin004"}]},
+			{
+				"titie":"第二组",
+				"list":[
+					{"url":"img/clearfix/xptj/min5.png","dic":"【男女同款】Converse Run Star Motion","pic":"￥799.00","cid":"xinpin005"},
+					{"url":"img/clearfix/xptj/min6.png","dic":"【女的】Chuck 70","pic":"￥599.00","cid":"xinpin006"},
+					{"url":"img/clearfix/xptj/min7.png","dic":"【女的】Chuck Taylor All Star","pic":"￥299.00","cid":"xinpin007"},
+					{"url":"img/clearfix/xptj/min8.png","dic":"【女的】Chuck Taylor All Star","pic":"￥449.00","cid":"xinpin008"}
+				]
+			},{
+				"titie":"第三组",
+				"list":[{"url":"img/clearfix/xptj/min9.png","dic":"【男女同款】Run Star Hike","pic":"￥679.00","cid":"xinpin009"},
+					{"url":"img/clearfix/xptj/min10.png","dic":"【男女同款】Converse Run Star Motion","pic":"￥799.00","cid":"xinpin010"},
+					{"url":"img/clearfix/xptj/min11.png","dic":"【女的】Chuck Taylor All Star","pic":"￥269.00","cid":"xinpin011"},
+					{"url":"img/clearfix/xptj/min12.png","dic":"【男女同款】Chuck 70","pic":"￥799.00","cid":"xinpin012"}
+				]
+			},{
+				"titie":"第四组",
+				"list":[
+					{"url":"img/clearfix/xptj/min13.png","dic":"【男女同款】Chuck 70","pic":"￥749.00","cid":"xinpin009"},
+					{"url":"img/clearfix/xptj/min14.png","dic":"【男女同款】Chuck Taylor All Star CX","pic":"￥549.00","cid":"xinpin010"},
+					{"url":"img/clearfix/xptj/min15.png","dic":"【男女同款】Chuck 70","pic":"￥459.00","cid":"xinpin011"},
+					{"url":"img/clearfix/xptj/min16.png","dic":"【男女同款】Chuck 70","pic":"￥599.00","cid":"xinpin012"}
+				]
+			}
+		],
+		"logodata":[
+			{
+				"tag":"男的1",
+				"list":[
+					{"dic":"踩的","url":"img/navimg/男的踩的.jpg","cid":"goods1001"},
+					{"dic":"穿的","url":"img/navimg/男的穿的.jpg","cid":"goods1001"},
+					{"dic":"裤装","url":"img/navimg/男的裤装.jpg","cid":"goods1002"},
+					{"dic":"带的","url":"img/navimg/男的戴的.jpg","cid":"goods1003"},
+					{"dic":"腰果花","url":"img/navimg/人气返场.jpg","cid":"goods1004"},
+					{"dic":"小白鞋","url":"img/navimg/小白鞋.jpg","cid":"goods1005"},
+					{"dic":"川久保玲","url":"img/navimg/CDG.jpg","cid":"goods1006"},
+					{"dic":"经典款","url":"img/navimg/男的经典款.jpg","cid":"goods1007"},
+					{"dic":"CHUCK 70","url":"img/navimg/男的chuck70.jpg","cid":"goods1008"},
+					{"dic":"ALL STAR","url":"img/navimg/男的allstar.jpg","cid":"goods1009"},
+					{"dic":"JACK PURCELL","url":"img/navimg/JP.jpg","cid":"goods1010"},
+					{"dic":"ONE STAR","url":"img/navimg/onestar_20210323222206.jpg","cid":"goods1011"},
+					{"dic":"PRO LEATHER","url":"img/navimg/男的proleather.jpg","cid":"goods1012"},
+					{"dic":"CONS","url":"img/navimg/cons.jpg","cid":"goods1013"}
+				]},{
+				"tag":"女的1",
+				"list":[
+					{"dic":"踩的","url":"img/navimg/woman_ftw_nav_210324.jpg","cid":"goods1014"},
+					{"dic":"穿的","url":"img/navimg/woman_app_nav_210324.jpg","cid":"goods1015"},
+					{"dic":"裤装","url":"img/navimg/woman_bottom_nav_210324_rev.jpg","cid":"goods1016"},
+					{"dic":"戴的","url":"img/navimg/woman_acc_nav_210324.jpg","cid":"goods1017"},
+					{"dic":"ONE STAR","url":"img/navimg/人气返场.jpg","cid":"goods1018"},
+					{"dic":"腰果花","url":"img/navimg/小白鞋.jpg","cid":"goods1019"},
+					{"dic":"川久保玲","url":"img/navimg/CDG.jpg","cid":"goods1020"},
+					{"dic":"经典款","url":"img/navimg/women_core_nav_210324.jpg","cid":"goods1021"},
+					{"dic":"CHUCK 70","url":"img/navimg/women_ct70_nav_210324.jpg","cid":"goods1022"},
+					{"dic":"ALL STAR","url":"img/navimg/women_ctas_nav_210324.jpg","cid":"goods1023"},
+					{"dic":"JACK PURCELL","url":"img/navimg/women_os_nav_210324.jpg","cid":"goods1024"},
+					{"dic":"ONE STAR","url":"img/navimg/women_jp_nav_210324.jpg","cid":"goods1025"},
+					{"dic":"PRO LEATHER","url":"img/navimg/women_pl_nav_210324_20210407112918.jpg","cid":"goods1026"},
+					{"dic":"CONS","url":"img/navimg/women_bb_nav_210324_20210407113000.jpg","cid":"goods1027"}
+				]},{
+					"tag":"儿童",
+					"list":[
+						{"dic":"（1-4岁）","url":"img/navimg/1-4-v2.png","cid":"goods1028"},
+						{"dic":"（4-8岁）","url":"img/navimg/4-8-v1.jpg","cid":"goods1029"},
+						{"dic":"（4-12岁）","url":"img/navimg/4-12-v1.jpg","cid":"goods1030"}
+					]},{
+						"tag":"儿童",
+						"list":[
+							{"dic":"男的","url":"img/navimg/热卖.jpg","cid":"goods1028"},
+							{"dic":"女的","url":"img/navimg/299专区.jpg","cid":"goods1029"},
+							{"dic":"儿童","url":"img/navimg/199专区.jpg","cid":"goods1030"}
+						]},{
+							"tag":"热销榜",
+							"list":[
+								
+							]},{
+								"tag":"店铺分布",
+								"list":[]
+				}
+		],
+		"sliderArr":[{"url":"img/sliderimg/PC小程序.jpg","title":"CONVERSE一键购"},{"url":"img/sliderimg/PC.jpg","title":"腰果花系列"},{"url":"img/sliderimg/KV_PC.jpg","title":"CHUCK 70夏日新色"},{"url":"img/sliderimg/CXKVBS.jpg","title":"CX未来系列"},{"url":"img/sliderimg/colorpoppc.jpg","title":"五彩色块"},{"url":"img/sliderimg/pcsq.jpg","title":"花花夏日"}]
+	}

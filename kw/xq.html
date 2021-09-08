@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/xqindex.css"/>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+		<script type="text/javascript" src="js/ajax.js"></script>
+		<script type="text/javascript">
+			// L为bigimg,S为btnimg,H为smaling;
+			window.onload = function(){
+				get('data/list.json','',function(d){
+					console.log(d)
+				})
+			}
+		</script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<div class="header-content">
+				<div class="header-log"></div>
+				<div class="rft-headerbox">
+					<div class="lft-headerbox">
+						<span class="bz"></span>
+					</div>
+					<div class="lft-headerbox">
+						<span class="ss"></span>
+					</div>
+					<div class="lft-headerbox">
+						<span class="xx"></span>
+					</div>
+					<div class="icon-box">
+						<span></span>
+						<a href="#">购物车</a>
+					</div>
+					<div class="log-button">
+						<span class="der">登录</span>
+						<span>/</span>
+						<span class='register'>注册</span>
+						<span class="log"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 导航栏 -->
+		<div class="nav">
+			<div class="nav-content">
+				<ul class="level1">
+					<li class="nan">
+						<a href="#">
+							男的
+							<i></i>
+						</a>
+					</li>
+					<li class="nv">
+						<a href="#">女的
+							<i></i>
+						</a>
+					</li>
+					<li class="et">
+						<a href="#">儿童
+							<i></i>
+						</a>
+						
+					</li>
+					<li class="qx">
+						<a href="#">七夕秘籍
+							<i></i>
+						</a>
+						
+					</li>
+					<li class="rx">
+						<a href="#">热销榜
+							<i></i>
+						</a>
+						
+					</li>
+					<li class="dp">
+						<a href="#">店铺分布
+							<i></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div >
+			<div class="count-down-wrap count-down"></div>
+			<div class="content clearfix">
+				<div class="datail-product-img">
+					<div class="namewrapper">
+						<h1>
+							<span id="product-name">
+								【男女同款】Chuck 70
+							</span>
+							&nbsp;&nbsp;中性
+						</h1>
+						<div class="product-price">
+							<span>价格</span>
+							<span>¥599.00</span>
+						</div>
+					</div>
+					<div class="product-img">
+						<a href="">
+							<div class="zoomPad">
+								<img src="img/xqimg/162050C001_1L_NEW.png" >
+								<div class="zoomPup"></div>
+								<div class="zoomWindow">
+									<div class="zoomWrapper">
+										<div class="zoomWrapperImage">
+											<img src="img/xqimg/162050C001_1L_NEW.png" >
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="product-thumb-list">
+					</div>
+					<div class="product-description">
+						<h3></h3>
+						<li>
+							高帮帆布鞋面
+						</li>
+						<li>
+							经典星星脚踝贴片
+						</li>
+						<li>
+							带翼鞋舌缝线细节
+						</li>
+						<li>
+							OrthoLite（欧索莱）鞋垫帮助带来全天候舒适体验
+						</li>
+						<h4></h4>
+						<p></p>
+						<h3>
+							价格说明（此说明仅当出现价格比较时有效）
+						</h3>
+						<p>划线价格：划线的价格可能是商品的专柜吊牌价或正品零售价指导价或该商品的曾经展示过的销售价等，仅供您参考。</p>
+						<p>
+							未划线价格：未划线的价格是商品在官网上的销售标价，具体的成交价格可能因为会员使用优惠券发生变化，最终以订单结算页价格为准。
+						</p>
+						<a href="" class="learn-more-btn">
+							Chuck 70
+						</a>
+					</div>
+				</div>
+				<div class="datail-tab-list">
+					<div class="tab-wrap">
+						<div class="tab-title share">
+							<i></i>
+							<span>
+								分享
+							</span>
+						</div>
+					</div>
+					<div class="tab-wrap">
+						<div class="tab-title favorite favorite-btn add-to-favorite">
+							<div class="add-to-favorite">
+								<i></i>
+								<span id="">
+									加入收藏 (999+)
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="tab-wrap">
+						<div class="tab-title comment">
+							<div class="review-rating-stars">
+								<span></span>
+							</div>
+							<div class="commentCount">
+								(1)
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="datail-product-buy-wrap">
+					<div class="other-product-list">
+						<a href="">
+							<img src="img/xqimg/162050C001_1S_NEW.png" >
+						</a>
+					</div>
+					<div class="product-info">
+						<div>
+							色 : 黑色
+							<br>
+							 型号 : 162050C001
+						</div>
+						<div class="popup-btn">
+							<i></i>
+							<span id="size-chart-btn">
+								尺码对照表
+							</span>
+						</div>
+					</div>
+					<div class="product-add-cart">
+						<div class="product-size-wrap noborder">
+							<p>尺码换算器</p>
+						</div>
+						<div class="product-select-msg">
+							<div class="select-line">
+								<div class="text-left">
+									请输入您的尺码
+								</div>
+								<div class="text-right">
+									<span>请选择尺码</span>
+									<i></i>
+									<select name="" id="size-select">
+										<option value="" skusize='35' >35</option>
+										<option value="">36</option>
+										<option value="">37</option>
+										<option value="">38</option>
+										<option value="">39</option>
+										<option value="">40</option>
+										<option value="">41</option>
+										<option value="">42</option>
+										<option value="">43</option>
+										<option value="">44</option>
+										<option value="">45</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="product-select-num">
+							<div class="select-line lineheight14">
+								<div class="text-left">
+									数量
+								</div>
+								<div class="numbox text-right">
+									<input type="text" name="" id="num-select" value="1" />
+									<i></i>
+									<select name="" id="num-box">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<a href="" class="now-buy-btn">
+							<span>立即购买</span>
+						</a>
+						<a href="" class="add-buycart-btn">
+							<span>
+								<i></i>
+								添加到购物车
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="information attention">
+			<h1>关注CONVERSE</h1>
+			<p>Converse同时活跃在各类社交网络平台，点击下列你所喜爱的常用社交平台，密切关注Converse的最新产品与资讯。</p>
+			<div class="information-link clearfix follow">
+				<a href="" class="weibo"></a>
+				<a href="" class="wechat"></a>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		//获取详情页 商品id
+		// var cid = window.location.search.slice(1).split('=')[1];
+		// console.log(cid)
+		var bigArr = null,smallArr =null;
+		var imgBox=document.querySelector('.product-img');
+		var bigpic=document.querySelector('.zoomWindow img');
+		var bigbox=document.querySelector('.zoomWindow');
+		var smallpic=document.querySelector('.zoomPad>img');
+		var btnbox=el('.product-thumb-list');
+		get("data/list.json",'',function(d){
+			console.log(d);
+			var list = d.remaidata[0].list[0].one[0];
+			console.log(list)
+					var tabArr = list.btning;
+					bigArr = list.bigimg;
+					smallArr = list.smaling;
+					for(var j=0;j<tabArr.length;j++){
+						btnbox.innerHTML +=`
+							<a href="#">
+								<img src=${tabArr[j]} alt="">
+							</a>
+						`
+					}
+					tabCart(bigArr,smallArr);
+		});
+		//tabCart()
+		function tabCart(a,b){
+			var aTabImg=document.querySelectorAll('.product-thumb-list a');
+			//console.log(aTabImg)
+			var index=0;
+			console.log(bigArr,smallArr)
+			tab(a,b);
+			function tab(a,b){
+				for(var i=0;i<aTabImg.length;i++){
+					aTabImg[i].style.border='1px solid transparent'
+				}
+				aTabImg[index].style.border='1px solid #b7b7b7';
+				bigpic.src=bigArr[index];
+				smallpic.src=smallArr[index];
+			}
+			for(var i=0;i<aTabImg.length;i++){
+				(function(i){
+					console.log(1)
+					aTabImg[i].onclick=function(){
+						index=i;
+						tab();
+					}
+				}(i))
+			}
+		}
+		bigJ()
+		function bigJ(){
+			var box=el('.product-img'),
+				img=el('.zoomPad>img'),
+				move=el('.zoomPup'),
+				box1=el('.zoomWindow'),
+				pic=el('.zoomWindow img'),
+				btn=els('.product-thumb-list a'),
+				index=0;
+				move.onmousedown=function(e){
+					var ev=event||e;
+					ev.preventDefault();
+					var disX=ev.pageX-move.offsetLeft;
+					var disY=ev.pageY-move.offsetTop;
+					document.onmousemove=function(e){
+						var ev=event||e;
+						ev.preventDefault();
+						var il=ev.pageX-disX;
+						var it=ev.pageY-disY;
+						var ml=box.clientWidth-move.offsetWidth;
+						var mt=box.clientHeight-move.offsetHeight;
+						var Ml=pic.clientWidth-box1.offsetWidth;
+						var Mt=pic.clientHeight-box1.offsetHeight;
+						if(il<=0){il=0}else if(il>=ml){il=ml}
+						if(it<=0){it=0}else if(it>=mt){it=mt}
+						move.style.left=il+'px';
+						move.style.top=it+'px';
+						pic.style.left = -il/ml*Ml+'px';
+						pic.style.top = -it/mt*Mt+'px';
+					}
+					document.onmouseup=function(){
+						document.onmousemove=null;
+						document.onmouseup=null;
+					}
+				}
+				box.onmouseover=function(){
+					move.style.display='block';
+					move.style.cursor='move';
+					box1.style.display='block';
+				}
+				box.onmouseout=function(){
+					move.style.display='none';
+					box1.style.display='none';
+				}
+		}
+		function el(e){
+			return document.querySelector(e);
+		}
+		function els(e){
+			return document.querySelectorAll(e);
+		}
+	</script>
+</html>

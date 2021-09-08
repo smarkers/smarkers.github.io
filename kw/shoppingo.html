@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./css/shopping.css"/>
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+		<script type="text/javascript">
+			window.onload=function(){
+				//获取所需要操作的元素
+				var form=el('#form'),
+				aCheck = form.checkbox,//商品复选框
+				checkAll= form.checkAll,//全选框
+				aAdd = els('.icon-left-plus'),//+ 加按钮
+				aCut = els('.icon-left-minus'),//- 剪按钮
+				aPrice = els('.goods-price_pic'),//单价
+				aCount = els('.input'),//数量
+				allCount= els('.allCount'),//总数
+				money= el('.info'),//总价
+				aDel = els('.removeBtn'),//删除
+				oList= el('.shopcart-list-content'),//总商品栏
+				aLi=els('.shopcart-list'),//单个商品栏
+				sul=el('.cartnum');
+				console.log(aCheck)
+				//设置点击事件
+				 total()
+				for(var i=0;i<aAdd.length;i++){
+					(function(i){
+						//+
+						aAdd[i].onclick=function(){
+							var num=Number(aCount[i].innerHTML);
+							aCount[i].innerHTML=++num;
+							//总价
+							 total()
+						}
+						//-
+						aCut[i].onclick=function(){
+							var num=Number(aCount[i].innerHTML);
+							num=--num;
+							if(num<1){num=1}
+							aCount[i].innerHTML=num;
+							//总价
+							 total()
+						}
+						aDel[i].onclick=function(){
+							aLi[i].remove()
+							//oList.removeChild(aLi[i])
+							total()
+						}
+						aCheck[i].onclick=function(){
+							//获取被选中的商品复选框
+								var checked=els('[name=checkbox]:checked');
+							//改变全选的状态
+								checkAll[0].checked = checkAll[1].checked= checked.length ==  aCheck.length;
+							//重新计算总价格和总数量
+							 total()
+						}
+					}(i))
+				}
+				checkAll[0].onclick=function(){
+					//改变所有复选框的状态
+					for(var i=0;i<aCheck.length;i++){
+						checkAll[1].checked=aCheck[i].checked=checkAll[0].checked;
+					}
+					//计算总价格 和 总数量
+					total()
+				}
+				checkAll[1].onclick=function(){
+					//改变所有复选框的状态
+					for(var i=0;i<aCheck.length;i++){
+						checkAll[0].checked=aCheck[i].checked=checkAll[1].checked;
+					}
+					//计算总价格 和 总数量
+					total()
+				}
+				function total(){
+					var form=el('#form');
+					var aCheck = form.checkbox;
+					var sumCount = 0;
+					var sumMoney = 0;
+					aCount = els('.input');//数量
+					aPrice = els('.goods-price_pic');
+					//计算被选中的li里的小计			
+					for(var j=0;j<aCheck.length;j++){
+						if(aCheck[j].checked){
+							var checked=els('[name=checkbox]:checked');
+							sumCount = checked.length;
+							sumMoney += parseFloat(aPrice[j].innerHTML*aCount[j].innerHTML);
+						}
+					}
+					var aLi=els('.shopcart-list');
+					sul.innerHTML=aLi.length;
+					allCount[0].innerHTML=allCount[1].innerHTML = sumCount;
+					money.innerHTML = sumMoney.toFixed(2);
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<div class="header-content">
+				<div class="header-log"></div>
+				<div class="rft-headerbox">
+					<div class="lft-headerbox">
+						<span class="bz"></span>
+					</div>
+					<div class="lft-headerbox">
+						<span class="ss"></span>
+					</div>
+					<div class="lft-headerbox">
+						<span class="xx"></span>
+						<span class="cartnum">3</span>
+					</div>
+					<div class="icon-box">
+						<a href="#">购物车</a>
+					</div>
+					<div class="log-button">
+						<span class="der">登录</span>
+						<span>/</span>
+						<span class='register'>注册</span>
+						<span class="log"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div>
+			<div class="pagecontent">
+				<div class="public-top">
+					<div class="con-progress con-progress-curval-1">
+						<ul class="list-unstyle float-clearfix">
+							<li class="con-progress-step-1">
+								<a href="">我的购物车</a>   	
+								<i></i>
+							</li>
+							<li class="con-progress-step-2">
+								<a href="">填写订单信息</a>
+								<i></i>
+							</li>
+							<li class="con-progress-step-3">
+								<a href="">成功提交订单</a>
+								<i></i>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="container min-container clearfix">
+					<div class="shopcart-container-left shopcart-content events-check-box">
+						<form action="" method="" id="form">
+							<div class="shopcart-title-box">
+								<p>您的购物车：3件商品</p>
+							</div>
+							<div class="checked-goods-box">
+								<input type="checkbox" name="checkAll" id="check" value="" />
+								<label for="check" class="qx">全选</label>
+								<span>您已选中<em class="allCount">0</em>件商品</span>
+							</div>
+							<div class="shopcart-list-content">
+								<div class="shopcart-list ">
+									<div class="shopcart-info-change">
+										<input type="checkbox" class="checkbox" name="checkbox" id="check" value="" />
+										<div class="removeBtn">
+											<span></span>
+											删除
+										</div>
+										<div class="editBtn  editFun ">
+											<span></span>
+											编辑
+										</div>
+									</div>
+									<div class="goods-box">
+										<div class="goods-img">
+											<a href="">
+												<img src="img/clearfix/xxk/d3.png" >
+											</a>
+											<i></i>
+										</div>
+										<div class="goods-detial">
+											<h4>
+												<a href="">
+													【男女同款】Sling Pack
+												</a>
+											</h4>
+											<p>型号：10019907001</p>
+											<p>颜色：墨黑色</p>
+											<p>尺码：OS</p>
+										</div>
+										<div class="goods-price">
+											<p >￥<span class="goods-price_pic">159</span></p>
+											<div class="shopcart-qty ">
+												<label>数量</label>
+												<div class="calculate-num events-calculateNum">
+													<i class="icon icon-left-minus"></i>
+													<span class="input">1</span>
+													<i class="icon icon-left-plus"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="shopcart-list ">
+									<div class="shopcart-info-change">
+										<input type="checkbox" class="checkbox" name="checkbox" id="check" value="" />
+										<div class="removeBtn">
+											<span></span>
+											删除
+										</div>
+										<div class="editBtn  editFun ">
+											<span></span>
+											编辑
+										</div>
+									</div>
+									<div class="goods-box">
+										<div class="goods-img">
+											<a href="">
+												<img src="img/clearfix/top_01_05.jpg" >
+											</a>
+											<i></i>
+										</div>
+										<div class="goods-detial">
+											<h4>
+												<a href="">
+													【男的】Paisley Shirt
+												</a>
+											</h4>
+											<p>型号：10023155471</p>
+											<p>颜色：深蓝色</p>
+											<p>尺码：165/92A</p>
+										</div>
+										<div class="goods-price">
+											<p >￥<span class="goods-price_pic">239</span></p>
+											<div class="shopcart-qty ">
+												<label>数量</label>
+												<div class="calculate-num events-calculateNum">
+													<i class="icon icon-left-minus"></i>
+													<span class="input">1</span>
+													<i class="icon icon-left-plus"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="shopcart-list" id="nobt">
+									<div class="shopcart-info-change">
+										<input type="checkbox" class="checkbox" name="checkbox" id="check" value="" />
+										<div class="removeBtn">
+											<span></span>
+											删除
+										</div>
+										<div class="editBtn  editFun ">
+											<span></span>
+											编辑
+										</div>
+									</div>
+									<div class="goods-box">
+										<div class="goods-img">
+											<a href="">
+												<img src="img/clearfix/xptj/min16.png" >
+											</a>
+											<i></i>
+										</div>
+										<div class="goods-detial">
+											<h4>
+												<a href="">
+													【男女同款】Chuck 70
+												</a>
+											</h4>
+											<p>型号：162050C001</p>
+											<p>颜色：黑色</p>
+											<p>尺码：40</p>
+										</div>
+										<div class="goods-price">
+											<p >￥<span class="goods-price_pic">599</span></p>
+											<div class="shopcart-qty ">
+												<label>数量</label>
+												<div class="calculate-num events-calculateNum">
+													<i class="icon icon-left-minus"></i>
+													<span class="input">1</span>
+													<i class="icon icon-left-plus"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="checked-goods-box second-checked-all">
+								<input type="checkbox" name="checkAll" id="check" value="" />
+								<label for="check" class="qx">全选</label>
+								<span>您已选中<em class="allCount">0</em>件商品</span>
+							</div>
+							<div class="shopcart-checkout">
+								<div class="shopcart-checkout-left">
+									<div class="help-box">
+										<h4>需要帮助吗？</h4>
+										<a href="">如何确保订单安全？</a>
+										<a href="">我可以使用什么付款方式？</a>
+										<a href="">如何进行退换货？</a>
+										<a href="">更多帮助 </a>
+									</div>
+									<div class="shopping-box">
+										<a href="主页.html">继续购物</a>
+									</div>
+								</div>
+								<div class="shopcart-checkout-right">
+									<div class="summary-info">
+										<div>
+											<div class="tit">
+												总价：
+											</div>
+											<div class="info">
+												¥ 1227.00
+											</div>
+										</div>	
+										<div>
+											<p>
+												<span>*</span>
+												不含运费及优惠券折扣
+											</p>
+											<p>
+												<span>*以会员身份结算可享受免费配送服务</span>
+											</p>
+										</div>
+									</div>
+									<div class="settle-accounts">
+										结算
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="information attention">
+			<h1>关注CONVERSE</h1>
+			<p>Converse同时活跃在各类社交网络平台，点击下列你所喜爱的常用社交平台，密切关注Converse的最新产品与资讯。</p>
+			<div class="information-link clearfix follow">
+				<a href="" class="weibo"></a>
+				<a href="" class="wechat"></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			function el(css){
+				return document.querySelector(css);
+			}
+			function els(css){
+				return document.querySelectorAll(css);
+			}
+		</script>
+	</body>
+</html>

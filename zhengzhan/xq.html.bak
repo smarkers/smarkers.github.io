@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html>	
+<head>
+
+<meta charset="utf-8">
+	
+<title></title>
+<script src="js/ajax.js"></script>
+<link rel="stylesheet" type="text/css" href="css/head.css"/>
+<link rel="stylesheet" type="text/css" href="css/fd.css"/>
+<!-- 主题 -->
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<style type="text/css">
+		.wrap{
+		width:1200px;
+		/* background-color:#666; */
+		margin:50px auto;
+		overflow:hidden;
+	}
+	.box-lef{
+		width:450px;
+		float:left;
+		/* background-color:#eee; */
+	}
+	.box-rig{
+		width:500px;
+		float:left;
+		margin-left:20px;
+	}
+		.box{
+		width:375px;
+		height:375px;
+		position:relative;
+	}
+					.box > img{
+						width:375px;
+						height:375px;
+						display:block;
+					}
+					.bigbox > img{
+						width:1200px;
+						height:900px;
+						position:absolute;
+						left:0px;
+						top:50px;
+					}
+					.on{
+						border-color:greenyellow;
+					}
+					.lis-img{
+						width:60px;
+						height:60px;
+						float:left;
+					}
+					.box .move{
+						position:absolute;
+						display:none;
+						top:100px;
+						left:100px;
+						height:120px;
+						width:120px;
+						background:url('img/dd.png') repeat;
+					}
+					.bigbox{
+						width:370px;
+						height:370px;
+						position:absolute;
+						top:175px;
+						left:840px;
+						overflow:hidden;
+						display:none;
+						z-index: 8;
+					}
+				
+					.bigbox .bigpic{
+		/* 				width:1200px;
+						height:900px; */
+						position:absolute;
+						top:0px;
+						left:0px;
+					}
+					.list-btn{
+						position:absolute;
+						top:570px;
+						left:440px;
+					}
+					.list-btn img{
+						width:60px;
+						height:60px;
+						margin-right:5px;
+					}
+					.box-rig p{
+						float: left;
+					}
+					.box-rig span{
+						float: left;
+					}
+					.p60{
+						color: black;
+						font-size:19px;
+					}
+					.p61{
+						width: 58px;
+						height: 18px;
+						background-color: #b60000;
+						text-align: center;
+						color: white;
+						float: left;
+						margin: 4px 0 0 5px;
+						font-size: 12px;
+					}
+					.p62{
+						width: 500px;
+						height: 18px;
+						color: #b4b5b7;
+						float:left;
+						margin-top:4px;
+						font-size: 12px;
+					}
+					.ga{
+						color:#b4b5b7 ;
+						font-size: 12px;
+					}
+					.bl{
+						color: black;
+						margin-left:3px;
+					}
+					.p63{
+						width: 500px;
+						height: 18px;
+						color: #b4b5b7;
+						float:left;
+						margin-top:4px;
+						font-size: 12px;
+					}
+					.p64{
+						width: 58px;
+						height: 18px;
+						background-color: #b60000;
+						text-align: center;
+						color: white;
+						float: left;
+						margin-left: 5px;
+					}
+					.rig_bom{
+						width: 500px;
+						height: 175px;
+						background-color: #f2f1f1;
+						margin-top: 20px;
+						float:left;
+						position:relative;
+					}
+					.sz{
+						font-size: 12px;
+					}
+					.p65{
+						width:500px;
+						height:40px;
+						float: left;
+						margin-top: 20px;
+					}
+					#fw{
+						margin-left:3px;
+						
+					}
+					.p66{
+						width:43px;
+						height:16px;
+						float: left;
+						margin-top: 5px;
+						
+					}
+					.dh{
+						margin-right: 5px;
+					}
+					.p70{
+						width: 95px;height: 20px;margin-left: 10px;
+						line-height: 20px;
+						font-size: 15px;
+						background-image: url(../8月整站——小米优品/img/对号.png);
+						background-position:left center;
+						background-repeat: no-repeat;
+						text-indent: 18px;
+					}
+					.p71{
+						width: 430px;height: 20px;margin-left:63px;
+						margin-top: 10px;
+						line-height: 20px;
+						font-size: 15px;
+						background-image: url(../8月整站——小米优品/img/对号.png);
+						background-position:left center;
+						background-repeat: no-repeat;
+						text-indent: 18px;
+					}
+					.p72{
+						width:500px;height: 20px;margin-left: 10px;
+						line-height: 20px; margin-top: 20px;
+						font-size: 15px;
+					}
+					.p73{
+						width:60px;height: 20px;margin-left: 10px;
+						line-height: 20px; margin-top: 20px;
+						font-size: 15px;
+					}
+					.p74{
+						width:60px;height: 20px;margin-left: 10px;
+						line-height: 20px; margin-top: 20px;
+						font-size: 15px;
+					}
+					.xq_box{
+						width:280px;
+						float: left;
+						margin:10px 0 0 10px;
+					}
+					.xq_boxU{
+						width:263px;
+						height:400px;
+						float: left;
+					}
+					.xq_box li{
+						width: 260px;
+						height: 30px;
+						border: 1px solid #cfd6dc;
+						text-indent: 15px;
+						color: #283637;
+						line-height: 30px;
+						float: left;
+						font-size: 13px;
+						margin-top: 10px;
+					}
+					.xq_box li:hover{
+						color: #746254;
+						border-color:#746254
+					}
+					.gwc{
+						width: 154px;
+						height: 47px;
+						border: 1px solid #835f3f;
+						text-align:center;
+						line-height: 47px;
+						font-size: 20px;
+						float: left;
+						margin-left: 15px;
+						margin-top: 25px;
+						
+					}
+					button{
+						width: 154px;
+						height: 47px;
+						border:1px solid #835f3f;
+						color: #835f3f;
+						background-color:white;
+						text-align:center;
+						line-height: 47px;
+						font-size: 20px;
+						float: left;
+						margin-left: 15px;
+						margin-top: 25px;
+					}
+					button:hover{
+						background-color:#835f3f ;
+						color: white;
+					}
+					.gwc:hover{background-color:#835f3f ;}
+					.gwc a{color:#835f3f;}
+					.gwc:hover a{color: white;}
+					.btn_ri{
+						float: left;
+						width: 130px ;
+						height: 45px;
+						margin:25px 0 0 20px;
+					}
+					.btn_ri img{
+						float: left;
+						margin:  5px 0 0 14px;
+					}
+					.btn_ri p{
+						width:43px ;
+						height:43px;
+						border:1px solid gray;
+						margin-right: 17px;
+						font-size: 12px;
+						color: #c9c9c9;
+					}
+					.btn_ri span{
+						width: 35px;
+						height:15px;
+						margin: 3px 0 0 10px;
+					}
+					.btn_ri p:hover{
+						background:#835f3f ;
+						color: white;
+					}
+					.fl{
+						float: left;
+					}
+					.count{
+						width:400px;
+						height:100px;	
+						margin:20px 10px;
+					}
+					.cut,.add{
+						width:40px;
+						height:40px;
+						text-align:center;
+						line-height:40px;
+						color:#333;
+						background-color: #f5f5f5;
+					}
+					.count-spa{
+						width:58px;
+						height:38px;
+						text-align:center;
+						line-height:38px;
+						color:#333;
+						/* margin: 0 2px; */
+						border: 1px solid #cfd6dc;
+					}
+
+					.count-box{
+						margin-top:30px;
+					}
+		</style>
+		</head>
+	<body>
+		<!--顶部 -->
+		<div id="head">
+			<div id="head_top">	
+			<ul class="L1">
+				<li><a class="ybk"href="#">登录</a> <a id="toTop"href="#">注册</a></li>
+				<li><a href="#">帮助中心</a></li>
+				<li><a class="ybk" href="#"><img src="img/下载.png" ></a></li>
+				<li><a style="padding-right:10px;margin-left: -14px;" href="#">下载APP</a></li>
+				<li><a class="ybk" href="#">资质证照/协议规则</a>
+				<div id="head_d1">
+					<p class="p1">资质证照</p>
+					<p class="p1">协议规则</p>
+				</div>
+				</li>
+				<li><img src="img/头1.png" ></li>
+			</ul>
+			</div>
+		</div>
+		
+		<div id="XD">
+			<div id="nav_top">
+				<div id="nav_log"></div>
+				<span>限时抢购</span>
+				<span>企业采购</span>
+				<div id="nav_top_rig">
+					<div id="nav_top_bd">
+						<img src="img/搜一搜.png" class="fl">
+				<form action="" method="" id='form'>
+				<input type="text" class="user" name="user" placeholder="搜一搜">
+				</form>	
+					<div class="nav_bor">
+						
+					</div>
+					</div>
+					<img src="img/购物车.png" class="fr nav_topimg">	
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="box-lef">
+				<div class="box">
+					<img src="img/纸巾中1.jpg" alt="" class="small" />
+					<span class="move"></span>
+				</div>
+				<div class="bigbox">
+					<img src="img/纸巾大1.jpg" alt="" class="bigpic" />
+				</div>
+				<!-- 选项卡按钮 -->
+				<div class="list-btn">
+				</div>
+			</div>
+			<div class="box-rig">
+				<p class="p60">阳澄江南大闸蟹礼卡 特惠款798型礼卡（公3.5 母2.5）8只</p>
+				<span class="p61">有品秒杀</span>
+				<span class="p62">产地正宗，防伪溯源，长期有效， 提货便捷，足斤足量，品质好蟹</span>
+				<p class="p63"><span class="ga">促销:</span><span class="p64">有品秒杀</span>&nbsp; <span class="bl">商品限购20件，超出限购数量不可购买</span></p>
+				<p class="p63"><span class="ga">更多:</span><span class="bl">中秋赏味话团圆，饮食酒水部分商品每满300减30，更多爆款商品来袭！<span style="color: brown;float:right;">点击进入>>></span></span></p>
+				<div class="rig_bom">
+					<p class="p65"><span class="sz" style="margin-left: 10px;">售价</span><span style="margin-left: 25px;font-size: 14px; color: #b30415;">￥</span><span style="color: #b30415;font-size: 18px;margin-top: -5px;">198</span ><span style="text-decoration:line-through;color:gray;font-size:12px;margin:3px 0 0 5px;">798</span></p>
+					<div class="sz p66" style="margin-left: 10px">服务<a href=""><img src="img/服务.png" alt=""id="fw"></a></div>
+					<p class="p70">满99包邮</p>	<p class="p70">三方店铺</p><p class="p70">7天无理由</p>
+					<p class="p71">支持7天无理由退货(拆封后不支持)</p>
+					<p class="p71">由苏州钱塘苏小家食品有限公司发货并提供售后<a href="#"style="color: #907f6d;">(查看商家资料)</a></p>
+				</div>
+					<p class="p72">配送区域 : 北京 北京市 海淀区 有货 修改</p>
+					<p class="p73">套餐类型</p>
+					<div class="xq_box"></div>
+					
+					<div class="count fl">
+						<div class="count-box fl">
+							<p class="p74">数量</p>
+							<span class="cut fl">-</span>
+							<span class="count-spa fl">1</span>
+							<span class="add fl">+</span>
+						</div>
+					</div>
+					<div class="gwc"><a href="gwc.html">购物车</a></div>
+					<button type="button" class="qg">立即抢购</button>
+					<!-- 按钮右面 -->
+					<div class="btn_ri">
+						<p><img src="img/收藏.png" alt=""><span >收藏</span></p>
+						<p><img src="img/客服.png" alt=""><span style="margin: 3px 0 0 10px;">客服</span></p>
+					</div>
+					
+			</div>
+		</div>
+	<!-- 尾部 -->
+		<div id="fotter">
+			<div class="bottom">
+			<p class="fotter_left">
+				<a href=""><img src="img/尾部左.png" ></a>
+			</p>
+			<div class="fotter_cen">
+				<ul>
+					<li><a href="">@xiaomiyoupin.com</a>
+						<a href="">苏B2-20180351</a>
+						<a href="">苏ICP备18025642号</a>
+						<a href=""><img src="img/警徽.png" >公网安备32010502010244号</a>
+					</li>
+					<li><a href="">企业名称: 有品信息科技有限公司</a>
+					<a href="">关于我们</a>
+					<a href="">入驻有品</a>
+					<a href="">知识产权侵权投诉</a>
+					</li>
+					<li>
+						<a href="">平台运营资质证照</a>
+						<a href="">医疗器械网络交易服务第三方平台备案凭证</a>
+					</li>
+					<li><a href="">小米有品平台运营主体变更公告</a></li>
+					<li><a href="">南京市建邺区白龙江东街8号3栋9层</a></li>
+				</ul>
+			</div>
+			
+			<p class="fotter_rig">
+				<a href=""><img src="img/尾部右.png" ></a>
+			</p>
+			</div>
+		</div>
+		</body>
+	<script type="text/javascript">
+		var allGoods={
+			title:"所有商品",
+			list:[
+				{
+					"tag":"精华露",
+					"price":"425",
+					"pid":"mi001",
+					"dic":"小棕瓶特润精华露",
+					"btnImg":["img/精华露小1.jpg","img/精华露小2.jpg","img/精华露小3.jpg","img/精华露小4.jpg"],
+					"bigImg":["img/精华露大1.jpg","img/精华露大2.jpg","img/精华露大3.jpg","img/精华露大4.jpg"],
+					"smallImg":["img/精华露中1.jpg","img/精华露中2.jpg","img/精华露中3.jpg","img/精华露中4.jpg"]
+			},
+			{
+					"tag":"大杂蟹",
+					"price":"199",
+					"pid":"mi002",
+					"dic":"大闸蟹提货券",
+					"btnImg":["img/大闸蟹小1.jpg","img/大闸蟹小2.jpg","img/大闸蟹小3.jpg","img/大闸蟹小4.jpg"],
+					"bigImg":["img/大闸蟹大1.jpg","img/大闸蟹大2.jpg","img/大闸蟹大3.jpg","img/大闸蟹大4.jpg"],
+					"smallImg":["img/大闸蟹中1.jpg","img/大闸蟹中2.jpg","img/大闸蟹中3.jpg","img/大闸蟹中4.jpg"]
+			},
+			{
+					"tag":"神仙水",
+					"price":"329",
+					"pid":"mi003",
+					"dic":"SK-II神仙水",
+					"btnImg":["img/神仙水小1.jpg","img/神仙水小2.jpg","img/神仙水小3.jpg","img/神仙水小4.jpg"],
+					"bigImg":["img/神仙水大1.jpg","img/神仙水大2.jpg","img/神仙水大3.jpg","img/神仙水大4.jpg"],
+					"smallImg":["img/神仙水中1.jpg","img/神仙水中2.jpg","img/神仙水中3.jpg","img/神仙水中4.jpg"]
+			},
+			{
+					"tag":"椭圆机",
+					"price":"2526",
+					"pid":"mi004",
+					"dic":"莫比智能椭圆机",
+					"btnImg":["img/椭圆机小1.jpg","img/椭圆机小2.jpg","img/椭圆机小3.jpg","img/椭圆机小4.jpg"],
+					"bigImg":["img/椭圆机大1.jpg","img/椭圆机大2.jpg","img/椭圆机大3.jpg","img/椭圆机大4.jpg"],
+					"smallImg":["img/椭圆机中1.jpg","img/椭圆机中2.jpg","img/椭圆机中3.jpg","img/椭圆机中4.jpg"]
+			},
+			{
+					"tag":"希捷企业级硬盘",
+					"price":"888",
+					"pid":"mi005",
+					"dic":"希捷企业级硬盘",
+					"btnImg":["img/硬盘小1.jpg","img/硬盘小2.jpg","img/硬盘小3.jpg","img/硬盘小4.jpg"],
+					"bigImg":["img/硬盘大1.jpg","img/硬盘大2.jpg","img/硬盘大3.jpg","img/硬盘大4.jpg"],
+					"smallImg":["img/硬盘中1.jpg","img/硬盘中2.jpg","img/硬盘中3.jpg","img/硬盘中4.jpg"]
+			},
+			{
+					"tag":"睿米自清洁吸尘器",
+					"price":"2289",
+					"pid":"mi006",
+					"dic":"睿米自清洁吸尘器",
+					"btnImg":["img/吸尘器小1.jpg","img/吸尘器小2.jpg","img/吸尘器小3.jpg","img/吸尘器小4.jpg"],
+					"bigImg":["img/吸尘器大1.jpg","img/吸尘器大2.jpg","img/吸尘器大3.jpg","img/吸尘器大4.jpg"],
+					"smallImg":["img/吸尘器中1.jpg","img/吸尘器中2.jpg","img/吸尘器中3.jpg","img/吸尘器中4.jpg"]
+			},
+			{
+					"tag":"MIX 4",
+					"price":"2289",
+					"pid":"mi011",
+					"dic":"MIX 4",
+					"btnImg":["img/MIX4小1.jpg","img/MIX4小2.jpg","img/MIX4小3.jpg","img/MIX4小4.jpg"],
+					"bigImg":["img/MIX4大1.jpg","img/MIX4大2.jpg","img/MIX4大3.jpg","img/MIX4大4.jpg"],
+					"smallImg":["img/MIX4中1.jpg","img/MIX4中2.jpg","img/MIX4中3.jpg","img/MIX4中4.jpg"]
+			},
+			{
+					"tag":"就选uwant除螨仪",
+					"price":"2289",
+					"pid":"mi012",
+					"dic":"就选uwant除螨仪",
+					"btnImg":["img/除螨仪小1.jpg","img/除螨仪小2.jpg","img/除螨仪小3.jpg","img/除螨仪小4.jpg"],
+					"bigImg":["img/除螨仪大1.jpg","img/除螨仪大2.jpg","img/除螨仪大3.jpg","img/除螨仪大4.jpg"],
+					"smallImg":["img/除螨仪中1.jpg","img/除螨仪中2.jpg","img/除螨仪中3.jpg","img/除螨仪中4.jpg"]
+			},
+			{
+					"tag":"全屋WiFi6覆盖",
+					"price":"356",
+					"pid":"mi013",
+					"dic":"全屋WiFi6覆盖",
+					"btnImg":["img/WiFi小1.jpg","img/WiFi小2.jpg","img/WiFi小3.jpg","img/WiFi小4.jpg"],
+					"bigImg":["img/WiFi大1.jpg","img/WiFi大2.jpg","img/WiFi大3.jpg","img/WiFi大4.jpg"],
+					"smallImg":["img/WiFi中1.jpg","img/WiFi中2.jpg","img/WiFi中3.jpg","img/WiFi中4.jpg"]
+			},
+			{
+					"tag":"云米净水器400G",
+					"price":"870",
+					"pid":"mi014",
+					"dic":"云米净水器400G",
+					"btnImg":["img/净水器小1.jpg","img/净水器小2.jpg","img/净水器小3.jpg","img/净水器小4.jpg"],
+					"bigImg":["img/净水器大1.jpg","img/净水器大2.jpg","img/净水器大3.jpg","img/净水器大4.jpg"],
+					"smallImg":["img/净水器中1.jpg","img/净水器中2.jpg","img/净水器中3.jpg","img/净水器中4.jpg"]
+			},
+			{
+					"tag":"xiaovv智能摄像机",
+					"price":"110",
+					"pid":"mi017",
+					"dic":"xiaovv智能摄像机",
+					"btnImg":["img/摄像机小1.jpg","img/摄像机小2.jpg","img/摄像机小3.jpg","img/摄像机小4.jpg"],
+					"bigImg":["img/摄像机大1.jpg","img/摄像机大2.jpg","img/摄像机大3.jpg","img/摄像机大4.jpg"],
+					"smallImg":["img/摄像机中1.jpg","img/摄像机中2.jpg","img/摄像机中3.jpg","img/摄像机中4.jpg"]
+			},
+			{
+					"tag":"重動车载支架",
+					"price":"29",
+					"pid":"mi018",
+					"dic":"重動车载支架",
+					"btnImg":["img/车架小1.jpg","img/车架小2.jpg","img/车架小3.jpg","img/车架小4.jpg"],
+					"bigImg":["img/车架大1.jpg","img/车架大2.jpg","img/车架大3.jpg","img/车架大4.jpg"],
+					"smallImg":["img/车架中1.jpg","img/车架中2.jpg","img/车架中3.jpg","img/车架中4.jpg"]
+			},
+			{
+					"tag":"电水壶1A",
+					"price":"78",
+					"pid":"mi019",
+					"dic":"电水壶1A",
+					"btnImg":["img/电水壶小1.jpg","img/电水壶小2.jpg","img/电水壶小3.jpg","img/电水壶小4.jpg"],
+					"bigImg":["img/电水壶大1.jpg","img/电水壶大2.jpg","img/电水壶大3.jpg","img/电水壶大4.jpg"],
+					"smallImg":["img/电水壶中1.jpg","img/电水壶中2.jpg","img/电水壶中3.jpg","img/电水壶中4.jpg"]
+			},
+			{
+					"tag":"Tree简约全实木床",
+					"price":"620",
+					"pid":"mi020",
+					"dic":"Tree简约全实木床",
+					"btnImg":["img/实木床小1.jpg","img/实木床小2.jpg","img/实木床小3.jpg","img/实木床小4.jpg"],
+					"bigImg":["img/实木床大1.jpg","img/实木床大2.jpg","img/实木床大3.jpg","img/实木床大4.jpg"],
+					"smallImg":["img/实木床中1.jpg","img/实木床中2.jpg","img/实木床中3.jpg","img/实木床中4.jpg"]
+			},
+			{
+					"tag":"洁面慕斯",
+					"price":"59",
+					"pid":"mi021",
+					"dic":"洁面慕斯",
+					"btnImg":["img/洁面慕斯小1.jpg","img/洁面慕斯小2.jpg","img/洁面慕斯小3.jpg","img/洁面慕斯小4.jpg"],
+					"bigImg":["img/洁面慕斯大1.jpg","img/洁面慕斯大2.jpg","img/洁面慕斯大3.jpg","img/洁面慕斯大4.jpg"],
+					"smallImg":["img/洁面慕斯中1.jpg","img/洁面慕斯中2.jpg","img/洁面慕斯中3.jpg","img/洁面慕斯中4.jpg"]
+			},
+			{
+					"tag":"青春版抽纸24包",
+					"price":"29.9",
+					"pid":"mi022",
+					"dic":"青春版抽纸24包",
+					"btnImg":["img/青春版抽纸小1.jpg","img/青春版抽纸小2.jpg","img/青春版抽纸小3.jpg","img/青春版抽纸小4.jpg"],
+					"bigImg":["img/青春版抽纸大1.jpg","img/青春版抽纸大2.jpg","img/青春版抽纸大3.jpg","img/青春版抽纸大4.jpg"],
+					"smallImg":["img/青春版抽纸中1.jpg","img/青春版抽纸中2.jpg","img/青春版抽纸中3.jpg","img/青春版抽纸中4.jpg"]
+			},
+			{
+					"tag":"化痰止咳清咽润肺",
+					"price":"21",
+					"pid":"mi023",
+					"dic":"化痰止咳清咽润肺",
+					"btnImg":["img/止咳膏小1.jpg","img/止咳膏小2.jpg","img/止咳膏小3.jpg","img/止咳膏小4.jpg"],
+					"bigImg":["img/止咳膏大1.jpg","img/止咳膏大2.jpg","img/止咳膏大3.jpg","img/止咳膏大4.jpg"],
+					"smallImg":["img/止咳膏中1.jpg","img/止咳膏中2.jpg","img/止咳膏中3.jpg","img/止咳膏中4.jpg"]
+			},
+			{
+					"tag":"小莫划船机Pro",
+					"price":"21",
+					"pid":"mi024",
+					"dic":"小莫划船机Pro",
+					"btnImg":["img/划船机小1.jpg","img/划船机小2.jpg","img/划船机小3.jpg","img/划船机小4.jpg"],
+					"bigImg":["img/划船机大1.jpg","img/划船机大2.jpg","img/划船机大3.jpg","img/划船机大4.jpg"],
+					"smallImg":["img/划船机中1.jpg","img/划船机中2.jpg","img/划船机中3.jpg","img/划船机中4.jpg"]
+			},
+			{
+					"tag":"智能烘干杀菌刀架",
+					"price":"21",
+					"pid":"mi025",
+					"dic":"智能烘干杀菌刀架",
+					"btnImg":["img/杀菌架小1.jpg","img/杀菌架小2.jpg","img/杀菌架小3.jpg","img/杀菌架小4.jpg"],
+					"bigImg":["img/杀菌架大1.jpg","img/杀菌架大2.jpg","img/杀菌架大3.jpg","img/杀菌架大4.jpg"],
+					"smallImg":["img/杀菌架中1.jpg","img/杀菌架中2.jpg","img/杀菌架中3.jpg","img/杀菌架中4.jpg"]
+			},
+			]
+		}
+		var every={
+			"bt":[
+				{
+					"name":"特惠款498型礼卡(公3.0母2.0) 8只",
+				},
+				{
+					"name":"特惠款798型礼卡(公3.5母2.5) 8只",
+				},
+				{
+					"name":"特惠款1188型礼卡(公4.0母2.8) 8只",
+				},
+				{
+					"name":"豪华款1688型礼卡(公4.5 母3.0) 8只",
+				},
+				{
+					"name":"奢华款2588型礼卡(公5.0母3.5) 8只",
+				},
+				{
+					"name":"福利款599型礼卡(公3.0 母2.0) 10只",
+				},
+				{
+					"name":"家宴款999型礼卡(公3.5 母2.5) 10只",
+				},
+				{
+					"name":"商务款1399型礼卡(公4.0 母2.8) 10只",
+				},
+				{
+					"name":"豪华款1999型礼卡(公4.5 母3.0) 10只",
+				},
+				{
+					"name":"特惠款2998型礼卡(公5.0 母3.5) 8只",
+				},
+			]
+		} 
+		//获取地址栏中 商品的信息
+		var smallArr=[]
+		var bigpicArr=[]
+		var gid=location.search.slice(1).split("=")[1]
+		console.log(location.search)
+		// var bigArr[i]=[];
+		var listBtn=document.querySelector('.list-btn')
+		//获取对应的商品信息
+		var lisArr=allGoods.list
+		for(var i=0;i<lisArr.length;i++){
+			if(lisArr[i].pid==gid){
+				console.log(lisArr[i])
+				smallArr=lisArr[i].smallImg
+				bigpicArr=lisArr[i].bigImg
+				//创建放大镜中的选项卡
+				var btnImg=lisArr[i].btnImg
+				for(var j=0;j<btnImg.length;j++){
+					listBtn.innerHTML+=`<img src=${btnImg[j]}>`
+				}
+			}
+		}
+		//实现选项卡 放大镜
+		var aBtn=document.querySelectorAll(".list-btn img")
+		var small=document.querySelector(".small")
+		var bigpic=document.querySelector(".bigpic")
+		var box = document.querySelector('.box')
+		var move = document.querySelector('.move')
+		var aImg = document.querySelectorAll('.lis-img')
+		var bigBox = document.querySelector('.bigbox')
+		var index=0;
+		tab();
+		function tab(){
+			for(var i=0;i<aBtn.length;i++){
+				aBtn[i].style.border="2px solid transparent"
+			}
+			aBtn[index].style.border="2px solid red";
+			small.src=smallArr[index];
+
+			bigpic.src=bigpicArr[index];
+		}
+		//点击选项图片
+		for(var i=0;i<aBtn.length;i++){
+			aBtn[i].xb = i;
+			aBtn[i].onclick = function(){
+				//点击小图片改变 index 的值
+				index =this.xb;
+				tab()
+			}
+		}
+		box.onmouseover = function(){
+			move.style.display = 'block'
+			bigBox.style.display = 'block'
+			move.style.cursor ='move'
+			// move.style.width = bigBox.clientWidth/bigpic.offsetWidth * box.clientWidth +'px'
+			// move.style.height = bigBox.clientHeight/bigpic.offsetHeight * box.clienHeight +'px'
+		}
+		box.onmouseout = function(){
+			move.style.display = 'none'
+			bigBox.style.display = 'none'
+		}
+		//鼠标划入
+		box.onmousemove=function(e){
+			var ev=e||event
+			ev.preventDefault(e)
+			//通过鼠标的位置 计算 小滑块的位置
+			var ilef=ev.pageX-box.offsetLeft-move.clientWidth/2
+			var itop=ev.pageY-box.offsetTop-move.clientHeight/2
+			var maxl=box.clientWidth-move.offsetWidth
+			var maxt=box.clientHeight-move.offsetHeight
+			if(ilef<=0){ilef=0}else if(ilef>=maxl){ilef=maxl}
+			if(itop<=0){itop=0}else if(itop>=maxt){itop=maxt}
+			move.style.left=ilef+"px"
+			move.style.top=itop+"px"
+			var ml=bigpic.offsetWidth-bigBox.clientWidth
+			var mt=bigpic.offsetHeight-bigBox.clientHeight
+			bigpic.style.left=-ilef/maxl*ml+"px"
+			bigpic.style.top=-itop/maxt*mt+"px"
+		}
+				//吸顶
+			var oNavTop=document.querySelector('#XD'); 
+			document.onscroll=function(){
+			var scrollT=document.documentElement.scrollTop||document.body.scrollTop;
+			if(scrollT>500){
+			oNavTop.style.top='0';
+			oNavTop.style.position='fixed'
+			oNavTop.style.border='1px solid #eeeeee'
+			oNavTop.style.marginTop='0'
+			}else if(scrollT<=495){
+			oNavTop.style.top='0';
+			oNavTop.style.position='relative'
+			oNavTop.style.border=null
+			oNavTop.style.marginTop='30px'
+	}
+		}
+		console.log(oNavTop)
+		//表单获取
+		var form=document.querySelector('#form')
+		var user=document.querySelector('.user')
+		var bor=document.querySelector('.nav_bor')
+		var Min=document.querySelector('#main')
+		form.user.onfocus=function(){
+			bor.style.background='#9f8052'
+			bor.style.transform='1s'
+		}
+		form.user.onblur=function(){
+			bor.style.background='#e7e7e7'	
+		}
+	</script>
+	<!-- xq_box -->
+	<script type="text/javascript">
+		var xqB=document.querySelector('.xq_box');
+		console.log(xqB);
+		var xqU=document.createElement('ul');
+		xqU.classList.add('xq_boxU')
+		xqB.appendChild(xqU)
+		// var xqLi=document.createElement('li');
+		// 	xqU.appendChild(xqLi);
+		var bt=every.bt;
+		for(var i in bt){
+			xqU.innerHTML+=`<li>${bt[i].name}</li>`
+		}	
+		//加减
+		var	aAdd=document.querySelector(".add");//+
+		var	aCut=document.querySelector(".cut");//——
+		var aCount=document.querySelector(".count-spa")//数量
+		var index=0;
+		// console.log(aAdd,aCut)
+			aAdd.onclick=function(){
+				index++;
+				if(index>=20){index=20}
+				aCount.innerHTML=index;
+
+			}
+			aCut.onclick=function(){
+				index--;
+				if(index<1){index=1}
+				aCount.innerHTML=index;
+			}
+	</script>
+</html>
