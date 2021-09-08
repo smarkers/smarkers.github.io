@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>苏宁登录页面</title>
+	</head>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.fr{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.clearFloat::after{
+			display: block;
+			content: "";
+			clear: both;
+		}
+		.box2{
+			width: 100%;
+			height: 118px;
+			/* background-color: yellow; */
+			padding-top: 20px;
+		}
+		.box2-pa{
+			width: 1610px;
+			height: 110px;
+			margin: 0 auto;	
+		}
+		.box2-pa img{
+			height: 110px;
+			margin-top: 10px;
+			float: left;
+			margin-left:380px ;
+			margin-top: -0px;
+		}
+		.box2-inp{
+			width: 880px;
+			height: 110px;
+			/* background-color: aqua; */
+			float: left;
+			position: relative;
+			margin-left: 20px;
+		}
+		.inp{
+			width: 602px;
+			height: 52px;
+			outline: none;
+			border: 2px solid #ff8000;
+			border-radius:10px ;
+			margin-top:30px ;
+			font-size: 16px;
+			padding-left: 30px;
+		}
+		.but{
+			width: 135px;
+			height: 56px;
+			border-radius:0px 10px 10px 0;
+			position: absolute;
+			left:550px;
+			top: 30px;
+			border: none;
+			color: #fff;
+			font-size: 22px;
+			background-color: #FF8000;
+			
+		}
+		.main{
+			width: 100%;
+			height: 570px;
+			position: relative;
+		}
+		.main img{
+			width: 1688px;
+			display: block;
+			margin: 0 auto;
+			height: 570px;
+		}
+		.box7{
+			width: 100%;
+			/* height: 227px; */
+			padding-top: 15px;
+			text-align: center
+		}
+		.box7-pd{
+			width: 1290px;
+			height: 210px;
+			margin: 0 auto;
+			font-family: "Microsoft Yahei";
+			/* background-color: #00FFFF; */
+		}
+		.p1,.p2{
+			height: 25px;
+			line-height: 25px;
+			color: #666;
+			font-size: 14px;
+		}
+		.p3,.p4,.p5,.p6,.p7{
+			font-size: 12px;
+			line-height: 25px;
+		    color: #999;
+		    height: 25px;
+		}
+		.img{
+			width: 100%;
+			/* background-color: #970DF7; */
+			margin-top: 5px;
+			/* height: 50px; */
+		}
+		.img img{
+			height: 24px;
+		}
+		.i1,.i2,.i3{
+			width: 76px;
+		}
+		.box2-inp .box2-p{
+			font-size: 12px;
+			margin-top: 45px;
+			padding: 5px;
+			background-color: #fefff1;
+			border: 1px solid #fecd66;
+			width: 750px;
+		}
+		.form-box{
+			width: 360px;
+			height:400px;
+			background-color: #fff;
+			position: absolute;
+			top: 70px;
+			left: 900px;
+			
+		}
+		.form-tab{
+			height: 50px;
+		    line-height: 20px;
+		    font-size: 16px;
+		    overflow: hidden;
+			border-bottom: 1px solid #eee;
+		}
+		.tab-p1,.tab-p2{
+			float: left;
+			width: 180px;
+			height: 50px;
+			/* line-height: 50px; */
+			text-align: center;
+			font-size: 17px;
+		}
+		.tab-p1 span,.tab-p2 span{
+			display: block; margin-top: 15px; height:22px;
+		}
+		.tab-p1 i,.tab-p2 i{
+			width: 70px;
+		    height: 4px;
+			display: block;
+		    margin-left: -35px;
+			background: #f60;
+			margin:10px 0 0 55px;
+		}
+		
+		.tab-p1 span:hover{
+			color: #f60;
+		}
+		.tab-p2 span:hover{
+			color: #f60;
+		}
+		.tab-p2 i{
+			display: none;
+		}
+		.rwm-box{
+			width: 100%;
+			height: 200px;
+			padding-top: 30px;
+		    /* text-align: center; */
+		    position:absolute;
+		}
+		.bottom{
+			width: 100%;
+			height: 70px;
+			background-color: #00FF00;
+		}
+		.inp1,.inp2{
+			width: 328px;
+			height: 21px;
+			border: 1px solid #ccc;
+			/* margin-bottom: 30px; */
+			padding: 10px;
+			outline: none;
+		}
+		.btn{
+			background-color: #f60;
+			border: 0;
+			width: 348px;
+			padding: 10px 0;
+			color: #fff;
+		}
+		.yhsm,.mmsm{
+			margin-left: 0px;
+			margin: 20px 0 20px 0;
+			color: red;
+			/* display: none; */
+			width: 100%;
+			height: 18px;
+		}
+		.btn a{
+			text-decoration: none;
+			color: #fff;
+			font-size: 19px;
+		}
+	</style>
+	<body>
+		<div class="box2 clearFloat">
+			<div class="box2-pa">
+				<img src="img/8.png" >
+				<div class="box2-inp">
+					<p class="box2-p">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号绑定验证！《隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<img src="img/main.jpg" >
+			<div class="form-box">
+				<div class="form-tab">
+					<p class="tab-p1 fl"><span style="  border-right: 1px solid #ccc;"class="spa1">扫码登录</span><i></i></p>
+					<p class="tab-p2 fl"><span class="spa2">账户登录</span><i></i></p>
+				</div>
+				<div class="rwm-box">
+					<img src="img/dly.png" style="width: 141px; height: 141px;">
+					<p style="margin-top: 24px; font-size: 12px; text-align: center;">
+						打开苏宁易购APP扫码登录
+					</p>
+				</div>
+				<div class="rwm-box">
+					<form id="form">
+						<input type="text" name="yhm" class="inp1" placeholder="请输入用户名"/>
+						<p class="yhsm"></p>
+						<input type="password" name="mm" class="inp2" placeholder="请输入密码"/>
+						<p class="mmsm"></p>
+						<button type="button" class="btn"><a href="index.html" class="a1">立即登录</a></button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		<div class="box7">
+			<div class="box7-pd">
+				<p class="p1">苏宁互联 | 苏宁金融 | 苏宁支付 | PP视频 | 红孩子 | 苏宁物流 | 手机苏宁 | 零售云  | 苏宁云 | 知识产权举报 | 投资者关系 | 苏宁智能</p>
+				<p class="p2">联系我们 | 诚聘英才 | 合作招商 | 广告平台 | 苏宁联盟 | 苏宁招标 | 隐私政策 | 用户体验提升计划 | 股东会员认证</p>
+				<p class="p3" style="display: block;">Copyright© 2020-2021深圳市云网万店电子商务有限公司版权所有| 苏公网安备 32010202010078号| 粤ICP备2021027996号</p>
+				<p class="p4" style="display: block;">合字B2-20180025| 合字A1.B1.B2-20180017| 出版物经营许可证新出发苏批字第A-243号| 互联网药品信息服务资格证书（苏）-非经营性-2021-0032</p>
+				<p class="p5" style="display: block;">经营证照| 网络文化经营许可证：苏网文〔2018〕10580-203号| 互联网违法和不良信息举报邮箱：kfpt-yy@cnsuning.com| 举报电话：02566996699-865948</p>
+				<p class="p6">医疗器械网络交易服务第三方平台备案凭证-（苏）网械平台备字（2018）第00052号| 变更公告| 营业执照| 合字B2-20210115</p>
+				<p class="p7">本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</p>
+				<div class="img">
+					<img src="img/img1.png" class="i1 fl" style="margin-left: 60px; display: inline-block;">
+					<img src="img/img2.png" class="i2 fl">
+					<img src="img/img3.jpg" class="i3 fl">
+					<img src="img/img4.png" class="i4 fl">
+					<img src="img/img5.png" class="i5 fl">
+					<img src="img/img6.png" class="i6 fl">
+					<img src="img/img7.png" class="i7 fl">
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		var box=document.querySelectorAll('.rwm-box')
+		console.log(box)
+		var spa1=document.querySelector('.spa1');
+		var spa2=document.querySelector('.spa2');
+		
+		var tabp=document.querySelector('.tab-p2');
+		var tabps=document.querySelector('.tab-p1');
+		var forms=document.querySelector('#form');
+		var yhsm=document.querySelector('.yhsm')
+		var mmsm=document.querySelector('.mmsm')
+		var btn=document.querySelector('.btn')
+		var a=document.querySelector('.a1')
+		// console.log(form)
+		var form=document.querySelectorAll('.form-box span')
+		var tab=document.querySelectorAll('.form-box i')
+		var index=0;
+		ta()
+		function ta(){
+			for(var j=0;j<tab.length;j++){
+				form[j].style.color=''
+				tab[j].style.display='none'
+				box[j].style.display='none'
+			}
+			form[index].style.color='#f60'
+			tab[index].style.display='block'
+			box[index].style.display='block'
+		}
+		for(let i=0;i<tab.length;i++){
+			form[i].onclick=function(){
+				index=i;
+				ta()
+			}
+		}
+		//表单操作
+		forms.yhm.onfocus=function(){
+			forms.yhm.style.border='1px solid lime'
+			yhsm.innerHTML='请输入acop123'
+		}
+		forms.yhm.onblur=function(){
+			forms.yhm.style.border=''
+			yhsm.innerHTML=''
+		}
+		forms.mm.onfocus=function(){
+			forms.mm.style.border='1px solid lime'
+			mmsm.innerHTML='请输入123123'
+		}
+		forms.mm.onblur=function(){
+			forms.mm.style.border=''
+			mmsm.innerHTML=''
+		}
+		
+	</script>
+</html>
